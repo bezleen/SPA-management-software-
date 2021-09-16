@@ -8,3 +8,8 @@ D:\PROJECT\Project Visual Studio\SPA-management-software\quanlyspa_GUI\quanlyspa
 D:\PROJECT\Project Visual Studio\SPA-management-software\quanlyspa_GUI\quanlyspa_BUS\obj\Debug\netcoreapp3.1\quanlyspa_BUS.csproj.CoreCompileInputs.cache
 D:\PROJECT\Project Visual Studio\SPA-management-software\quanlyspa_GUI\quanlyspa_BUS\obj\Debug\netcoreapp3.1\quanlyspa_BUS.dll
 D:\PROJECT\Project Visual Studio\SPA-management-software\quanlyspa_GUI\quanlyspa_BUS\obj\Debug\netcoreapp3.1\quanlyspa_BUS.pdb
+D:\PROJECT\Project Visual Studio\SPA-management-software\quanlyspa_GUI\quanlyspa_BUS\bin\Debug\netcoreapp3.1\quanlyspa_DAL.dll
+D:\PROJECT\Project Visual Studio\SPA-management-software\quanlyspa_GUI\quanlyspa_BUS\bin\Debug\netcoreapp3.1\quanlyspa_DTO.dll
+D:\PROJECT\Project Visual Studio\SPA-management-software\quanlyspa_GUI\quanlyspa_BUS\bin\Debug\netcoreapp3.1\quanlyspa_DAL.pdb
+D:\PROJECT\Project Visual Studio\SPA-management-software\quanlyspa_GUI\quanlyspa_BUS\bin\Debug\netcoreapp3.1\quanlyspa_DTO.pdb
+D:\PROJECT\Project Visual Studio\SPA-management-software\quanlyspa_GUI\quanlyspa_BUS\obj\Debug\netcoreapp3.1\quanlyspa_BUS.csproj.CopyComplete

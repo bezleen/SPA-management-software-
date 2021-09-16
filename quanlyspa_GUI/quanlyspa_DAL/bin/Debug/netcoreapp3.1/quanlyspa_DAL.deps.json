@@ -6,15 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "quanlyspa_BUS/1.0.0": {
-        "dependencies": {
-          "quanlyspa_DAL": "1.0.0",
-          "quanlyspa_DTO": "1.0.0"
-        },
-        "runtime": {
-          "quanlyspa_BUS.dll": {}
-        }
-      },
       "quanlyspa_DAL/1.0.0": {
         "dependencies": {
           "quanlyspa_DTO": "1.0.0"
@@ -31,11 +22,6 @@
     }
   },
   "libraries": {
-    "quanlyspa_BUS/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "quanlyspa_DAL/1.0.0": {
       "type": "project",
       "serviceable": false,

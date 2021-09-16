@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quanlyspa_GUI", "quanlyspa_GUI\quanlyspa_GUI.csproj", "{B9DB0241-2720-40BB-A9CD-2710273320DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quanlyspa_BUS", "quanlyspa_BUS\quanlyspa_BUS.csproj", "{D0ABB0C0-ED7F-411B-B1F5-923072C3490F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "quanlyspa_BUS", "quanlyspa_BUS\quanlyspa_BUS.csproj", "{D0ABB0C0-ED7F-411B-B1F5-923072C3490F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quanlyspa_DAL", "quanlyspa_DAL\quanlyspa_DAL.csproj", "{22BB761D-564E-4BEA-802D-06661C860B86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "quanlyspa_DAL", "quanlyspa_DAL\quanlyspa_DAL.csproj", "{22BB761D-564E-4BEA-802D-06661C860B86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quanlyspa_DTO", "quanlyspa_DTO\quanlyspa_DTO.csproj", "{6B5ECA4A-8497-4AF1-9263-F5444E559EA4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "quanlyspa_DTO", "quanlyspa_DTO\quanlyspa_DTO.csproj", "{6B5ECA4A-8497-4AF1-9263-F5444E559EA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quanlyspa", "quanlyspa\quanlyspa.csproj", "{163ECE90-494D-4C5B-A194-ECC38ADDBDF7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{6B5ECA4A-8497-4AF1-9263-F5444E559EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B5ECA4A-8497-4AF1-9263-F5444E559EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B5ECA4A-8497-4AF1-9263-F5444E559EA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{163ECE90-494D-4C5B-A194-ECC38ADDBDF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{163ECE90-494D-4C5B-A194-ECC38ADDBDF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{163ECE90-494D-4C5B-A194-ECC38ADDBDF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{163ECE90-494D-4C5B-A194-ECC38ADDBDF7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
