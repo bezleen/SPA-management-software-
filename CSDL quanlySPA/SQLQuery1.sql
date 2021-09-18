@@ -30,4 +30,4 @@ CREATE TABLE CTDT(
 	DATHANHTOAN INT,
 	PRIMARY KEY (MABS,MAKH,MALT)
 )
-----
+----con cho nhan
