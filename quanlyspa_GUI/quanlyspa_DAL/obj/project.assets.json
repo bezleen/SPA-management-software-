@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
+    "C:\\Users\\PC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PROJECT\\Project Visual Studio\\SPA-management-software\\quanlyspa_GUI\\quanlyspa_DAL\\quanlyspa_DAL.csproj",
+      "projectUniqueName": "E:\\quanlySPA\\quanlyspa_GUI\\quanlyspa_DAL\\quanlyspa_DAL.csproj",
       "projectName": "quanlyspa_DAL",
-      "projectPath": "D:\\PROJECT\\Project Visual Studio\\SPA-management-software\\quanlyspa_GUI\\quanlyspa_DAL\\quanlyspa_DAL.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\PROJECT\\Project Visual Studio\\SPA-management-software\\quanlyspa_GUI\\quanlyspa_DAL\\obj\\",
+      "projectPath": "E:\\quanlySPA\\quanlyspa_GUI\\quanlyspa_DAL\\quanlyspa_DAL.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "E:\\quanlySPA\\quanlyspa_GUI\\quanlyspa_DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -53,8 +53,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\PROJECT\\Project Visual Studio\\SPA-management-software\\quanlyspa_GUI\\quanlyspa_DTO\\quanlyspa_DTO.csproj": {
-              "projectPath": "D:\\PROJECT\\Project Visual Studio\\SPA-management-software\\quanlyspa_GUI\\quanlyspa_DTO\\quanlyspa_DTO.csproj"
+            "E:\\quanlySPA\\quanlyspa_GUI\\quanlyspa_DTO\\quanlyspa_DTO.csproj": {
+              "projectPath": "E:\\quanlySPA\\quanlyspa_GUI\\quanlyspa_DTO\\quanlyspa_DTO.csproj"
             }
           }
         }
@@ -83,7 +83,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
