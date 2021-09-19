@@ -4,7 +4,7 @@ using System.Text;
 
 namespace quanlyspa_DTO
 {
-    class QLNCC
+    class DTO_QLNCC
     {
         private string _MANCC;
         private string _TENNCC;
