@@ -4,7 +4,7 @@ using System.Text;
 
 namespace quanlyspa_DTO
 {
-    class DTO_MYPHAM
+    public class DTO_MYPHAM
     {
         private string _MAMP;
         private string _TENMP;

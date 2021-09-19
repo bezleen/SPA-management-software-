@@ -4,7 +4,7 @@ using System.Text;
 
 namespace quanlyspa_DTO
 {
-    class DTO_KhachHang
+    public class DTO_KhachHang
     {
         private string _MAKH;
         private string _HOTEN;

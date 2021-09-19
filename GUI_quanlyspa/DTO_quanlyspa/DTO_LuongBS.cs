@@ -4,7 +4,7 @@ using System.Text;
 
 namespace quanlyspa_DTO
 {
-    class DTO_LuongBS
+    public class DTO_LuongBS
     {
         private string _MABS;
         private string _MATT;

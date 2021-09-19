@@ -4,7 +4,7 @@ using System.Text;
 
 namespace quanlyspa_DTO
 {
-    class DTO_NhapMP
+    public class DTO_NhapMP
     {
         private string _MAMP;
         private string _MANCC;

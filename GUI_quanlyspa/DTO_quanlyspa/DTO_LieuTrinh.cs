@@ -4,7 +4,7 @@ using System.Text;
 
 namespace quanlyspa_DTO
 {
-    class DTO_LieuTrinh
+    public class DTO_LieuTrinh
     {
         private string _MALT;
         private string _TENLT;

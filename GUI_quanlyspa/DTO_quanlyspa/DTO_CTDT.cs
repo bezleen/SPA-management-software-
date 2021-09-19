@@ -4,7 +4,7 @@ using System.Text;
 
 namespace quanlyspa_DTO
 {
-    class DTO_CTDT
+    public class DTO_CTDT
     {
         private string _MABS;
         private string _MAKH;
