@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\PROJECT\\Project Visual Studio\\SPA-management-software\\quanlyspa_GUI\\quanlyspa_BUS\\quanlyspa_BUS.csproj": {}
+    "E:\\Project SPA\\quanlyspa_GUI\\quanlyspa_BUS\\quanlyspa_BUS.csproj": {}
   },
   "projects": {
-    "D:\\PROJECT\\Project Visual Studio\\SPA-management-software\\quanlyspa_GUI\\quanlyspa_BUS\\quanlyspa_BUS.csproj": {
+    "E:\\Project SPA\\quanlyspa_GUI\\quanlyspa_BUS\\quanlyspa_BUS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROJECT\\Project Visual Studio\\SPA-management-software\\quanlyspa_GUI\\quanlyspa_BUS\\quanlyspa_BUS.csproj",
+        "projectUniqueName": "E:\\Project SPA\\quanlyspa_GUI\\quanlyspa_BUS\\quanlyspa_BUS.csproj",
         "projectName": "quanlyspa_BUS",
-        "projectPath": "D:\\PROJECT\\Project Visual Studio\\SPA-management-software\\quanlyspa_GUI\\quanlyspa_BUS\\quanlyspa_BUS.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\PROJECT\\Project Visual Studio\\SPA-management-software\\quanlyspa_GUI\\quanlyspa_BUS\\obj\\",
+        "projectPath": "E:\\Project SPA\\quanlyspa_GUI\\quanlyspa_BUS\\quanlyspa_BUS.csproj",
+        "packagesPath": "C:\\Users\\Ulter\\.nuget\\packages\\",
+        "outputPath": "E:\\Project SPA\\quanlyspa_GUI\\quanlyspa_BUS\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ulter\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\PROJECT\\Project Visual Studio\\SPA-management-software\\quanlyspa_GUI\\quanlyspa_DAL\\quanlyspa_DAL.csproj": {
-                "projectPath": "D:\\PROJECT\\Project Visual Studio\\SPA-management-software\\quanlyspa_GUI\\quanlyspa_DAL\\quanlyspa_DAL.csproj"
+              "E:\\Project SPA\\quanlyspa_GUI\\quanlyspa_DAL\\quanlyspa_DAL.csproj": {
+                "projectPath": "E:\\Project SPA\\quanlyspa_GUI\\quanlyspa_DAL\\quanlyspa_DAL.csproj"
               },
-              "D:\\PROJECT\\Project Visual Studio\\SPA-management-software\\quanlyspa_GUI\\quanlyspa_DTO\\quanlyspa_DTO.csproj": {
-                "projectPath": "D:\\PROJECT\\Project Visual Studio\\SPA-management-software\\quanlyspa_GUI\\quanlyspa_DTO\\quanlyspa_DTO.csproj"
+              "E:\\Project SPA\\quanlyspa_GUI\\quanlyspa_DTO\\quanlyspa_DTO.csproj": {
+                "projectPath": "E:\\Project SPA\\quanlyspa_GUI\\quanlyspa_DTO\\quanlyspa_DTO.csproj"
               }
             }
           }
@@ -65,17 +65,17 @@
         }
       }
     },
-    "D:\\PROJECT\\Project Visual Studio\\SPA-management-software\\quanlyspa_GUI\\quanlyspa_DAL\\quanlyspa_DAL.csproj": {
+    "E:\\Project SPA\\quanlyspa_GUI\\quanlyspa_DAL\\quanlyspa_DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROJECT\\Project Visual Studio\\SPA-management-software\\quanlyspa_GUI\\quanlyspa_DAL\\quanlyspa_DAL.csproj",
+        "projectUniqueName": "E:\\Project SPA\\quanlyspa_GUI\\quanlyspa_DAL\\quanlyspa_DAL.csproj",
         "projectName": "quanlyspa_DAL",
-        "projectPath": "D:\\PROJECT\\Project Visual Studio\\SPA-management-software\\quanlyspa_GUI\\quanlyspa_DAL\\quanlyspa_DAL.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\PROJECT\\Project Visual Studio\\SPA-management-software\\quanlyspa_GUI\\quanlyspa_DAL\\obj\\",
+        "projectPath": "E:\\Project SPA\\quanlyspa_GUI\\quanlyspa_DAL\\quanlyspa_DAL.csproj",
+        "packagesPath": "C:\\Users\\Ulter\\.nuget\\packages\\",
+        "outputPath": "E:\\Project SPA\\quanlyspa_GUI\\quanlyspa_DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ulter\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,8 +89,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\PROJECT\\Project Visual Studio\\SPA-management-software\\quanlyspa_GUI\\quanlyspa_DTO\\quanlyspa_DTO.csproj": {
-                "projectPath": "D:\\PROJECT\\Project Visual Studio\\SPA-management-software\\quanlyspa_GUI\\quanlyspa_DTO\\quanlyspa_DTO.csproj"
+              "E:\\Project SPA\\quanlyspa_GUI\\quanlyspa_DTO\\quanlyspa_DTO.csproj": {
+                "projectPath": "E:\\Project SPA\\quanlyspa_GUI\\quanlyspa_DTO\\quanlyspa_DTO.csproj"
               }
             }
           }
@@ -123,17 +123,17 @@
         }
       }
     },
-    "D:\\PROJECT\\Project Visual Studio\\SPA-management-software\\quanlyspa_GUI\\quanlyspa_DTO\\quanlyspa_DTO.csproj": {
+    "E:\\Project SPA\\quanlyspa_GUI\\quanlyspa_DTO\\quanlyspa_DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\PROJECT\\Project Visual Studio\\SPA-management-software\\quanlyspa_GUI\\quanlyspa_DTO\\quanlyspa_DTO.csproj",
+        "projectUniqueName": "E:\\Project SPA\\quanlyspa_GUI\\quanlyspa_DTO\\quanlyspa_DTO.csproj",
         "projectName": "quanlyspa_DTO",
-        "projectPath": "D:\\PROJECT\\Project Visual Studio\\SPA-management-software\\quanlyspa_GUI\\quanlyspa_DTO\\quanlyspa_DTO.csproj",
-        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "D:\\PROJECT\\Project Visual Studio\\SPA-management-software\\quanlyspa_GUI\\quanlyspa_DTO\\obj\\",
+        "projectPath": "E:\\Project SPA\\quanlyspa_GUI\\quanlyspa_DTO\\quanlyspa_DTO.csproj",
+        "packagesPath": "C:\\Users\\Ulter\\.nuget\\packages\\",
+        "outputPath": "E:\\Project SPA\\quanlyspa_GUI\\quanlyspa_DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Ulter\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

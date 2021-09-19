@@ -46,19 +46,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
+    "C:\\Users\\Ulter\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PROJECT\\Project Visual Studio\\SPA-management-software\\quanlyspa_GUI\\quanlyspa_BUS\\quanlyspa_BUS.csproj",
+      "projectUniqueName": "E:\\Project SPA\\quanlyspa_GUI\\quanlyspa_BUS\\quanlyspa_BUS.csproj",
       "projectName": "quanlyspa_BUS",
-      "projectPath": "D:\\PROJECT\\Project Visual Studio\\SPA-management-software\\quanlyspa_GUI\\quanlyspa_BUS\\quanlyspa_BUS.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\PROJECT\\Project Visual Studio\\SPA-management-software\\quanlyspa_GUI\\quanlyspa_BUS\\obj\\",
+      "projectPath": "E:\\Project SPA\\quanlyspa_GUI\\quanlyspa_BUS\\quanlyspa_BUS.csproj",
+      "packagesPath": "C:\\Users\\Ulter\\.nuget\\packages\\",
+      "outputPath": "E:\\Project SPA\\quanlyspa_GUI\\quanlyspa_BUS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ulter\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -72,11 +72,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\PROJECT\\Project Visual Studio\\SPA-management-software\\quanlyspa_GUI\\quanlyspa_DAL\\quanlyspa_DAL.csproj": {
-              "projectPath": "D:\\PROJECT\\Project Visual Studio\\SPA-management-software\\quanlyspa_GUI\\quanlyspa_DAL\\quanlyspa_DAL.csproj"
+            "E:\\Project SPA\\quanlyspa_GUI\\quanlyspa_DAL\\quanlyspa_DAL.csproj": {
+              "projectPath": "E:\\Project SPA\\quanlyspa_GUI\\quanlyspa_DAL\\quanlyspa_DAL.csproj"
             },
-            "D:\\PROJECT\\Project Visual Studio\\SPA-management-software\\quanlyspa_GUI\\quanlyspa_DTO\\quanlyspa_DTO.csproj": {
-              "projectPath": "D:\\PROJECT\\Project Visual Studio\\SPA-management-software\\quanlyspa_GUI\\quanlyspa_DTO\\quanlyspa_DTO.csproj"
+            "E:\\Project SPA\\quanlyspa_GUI\\quanlyspa_DTO\\quanlyspa_DTO.csproj": {
+              "projectPath": "E:\\Project SPA\\quanlyspa_GUI\\quanlyspa_DTO\\quanlyspa_DTO.csproj"
             }
           }
         }
