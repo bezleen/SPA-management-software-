@@ -57,4 +57,5 @@ CREATE TABLE QLBS(
 	NKTHD DATE NOT NULL,
 	PRIMARY KEY (MABS)
 )
------
+-----Bach san
+-----Nhan san
