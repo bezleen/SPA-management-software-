@@ -58,6 +58,10 @@ CREATE TABLE QLBS(
 	PRIMARY KEY (MABS)
 )
 <<<<<<< HEAD
+-----Bach san
+-----Nhan san
+=======
+<<<<<<< HEAD
 -----Bekz
 CREATE TABLE QLNV(
 	MANV NVARCHAR(100),
@@ -140,3 +144,4 @@ CREATE TABLE NHAPMP(
 	PRIMARY KEY (MAMP)
 )
 >>>>>>> 9e2a97540b0d91f6493578a036bd377aee2dde37
+>>>>>>> 69297c4be4c151d14f8b8c2f679a9c383e0903e3
