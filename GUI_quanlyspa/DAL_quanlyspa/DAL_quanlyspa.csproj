@@ -40,7 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAL_KhachHang.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="_connectDataBase.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DTO_quanlyspa\DTO_quanlyspa.csproj">
