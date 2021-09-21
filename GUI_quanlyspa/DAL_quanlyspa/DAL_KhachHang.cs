@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using quanlyspa_DTO;
+using System.Data;
+using System.Data.SqlClient;
 
 namespace DAL_quanlyspa
 {
@@ -26,9 +28,10 @@ namespace DAL_quanlyspa
 
         }
         // ham select
-        public void _selectData(DTO_KhachHang val)
+        public DataTable _selectData(string str)
         {
-
+            DataTable dt = new DataTable();
+            return dt;
         }
     }
 }
