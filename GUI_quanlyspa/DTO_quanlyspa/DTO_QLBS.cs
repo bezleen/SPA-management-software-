@@ -14,7 +14,7 @@ namespace quanlyspa_DTO
         private string _QUEQUAN;
         private string _DIACHI;
         private string _SDT;
-        private string _HESOLUONG;
+        private string _LUONG;
         private string _NBDHD;
         private string _NKTHD;
 
@@ -26,7 +26,7 @@ namespace quanlyspa_DTO
         public string QUEQUAN { get => _QUEQUAN; set => _QUEQUAN = value; }
         public string DIACHI { get => _DIACHI; set => _DIACHI = value; }
         public string SDT { get => _SDT; set => _SDT = value; }
-        public string HESOLUONG { get => _HESOLUONG; set => _HESOLUONG = value; }
+        public string LUONG { get => _LUONG; set => _LUONG = value; }
         public string NBDHD { get => _NBDHD; set => _NBDHD = value; }
         public string NKTHD { get => _NKTHD; set => _NKTHD = value; }
 
