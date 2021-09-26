@@ -71,9 +71,25 @@ namespace DAL_quanlyspa
         }
         public string _value(string str) // thuc thi cau lenh select bang cach truyen lenh sql vao "str" tra ve 1 ket qua . vs lenh count(*) tra ve 5.
         {
-            // nho xai try-catch-finally
-            string kq = null;
-            return kq;
+            try
+            {
+                string kq = null;
+                _KetnoiDB();
+                SqlCommand sqlcmd = new SqlCommand(str, _connect);
+                SqlDataReader sqldr = sqlcmd.ExecuteReader();
+                while (sqldr.Read())
+                    kq = sqldr[0].ToString();
+                return kq;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Someting wrong!" + e);
+                return null;
+            }
+            finally
+            {
+                _NgatketnoiDB();
+            }
         }
     }
 }
