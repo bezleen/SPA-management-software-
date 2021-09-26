@@ -10,31 +10,40 @@ namespace DAL_quanlyspa
     public class _connectDataBase
     {
         public static SqlConnection _connect; // default constructor
-        
+
+
         public void _KetnoiDB()  // mo ket noi toi database
         {
             if (_connectDataBase._connect == null)
                 _connectDataBase._connect = new SqlConnection("Data Source=myServerAddress;Initial Catalog=myDataBase;Integrated Security=SSPI;"); //đoi lai cho phu hop
             if (_connectDataBase._connect.State != ConnectionState.Open)
                 _connectDataBase._connect.Open();
-
-
-
         }
         public void _NgatketnoiDB() // dong ket noi toi database
         {
-            if(_connectDataBase._connect!=null)
-            {
-                if (_connectDataBase._connect.State == ConnectionState.Open)
-                    _connectDataBase._connect.Close();
-            }
+            if (_connectDataBase._connect != null && _connectDataBase._connect.State == ConnectionState.Open)
+                _connectDataBase._connect.Close();
         }
         public void _insert_update_delete(string str) // thuc thi cau lenh them xoa sua bang cach truyen lenh sql vao "str"
         {
-
+            try
+            {
+                _KetnoiDB();
+                SqlCommand _sqlcmd = new SqlCommand(str,_connect);
+                _sqlcmd.ExecuteNonQuery();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Someting wrong!" + e);
+            }
+            finally
+            {
+                _NgatketnoiDB();
+            }
         }
         public DataTable _select(string str) // thuc thi cau lenh select bang cach truyen lenh sql vao "str" tra ve 1 bang du lieu
         {
+<<<<<<< HEAD
             try
             {
                 _KetnoiDB();
@@ -53,9 +62,16 @@ namespace DAL_quanlyspa
             {
                 _NgatketnoiDB();
             }
+=======
+
+            // nho xai try-catch-finally
+            DataTable dt=new DataTable();
+            return dt;
+>>>>>>> 043ef246d618771e09cdfa4542c18da2f36ccbe0
         }
         public string _value(string str) // thuc thi cau lenh select bang cach truyen lenh sql vao "str" tra ve 1 ket qua . vs lenh count(*) tra ve 5.
         {
+            // nho xai try-catch-finally
             string kq = null;
             return kq;
         }
