@@ -16,19 +16,18 @@ namespace GUI_quanlyspa
             InitializeComponent();
         }
 
-        private void button1_MouseHover(object sender, EventArgs e)
+       
+       
+
+
+        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
         {
-            button1.BackColor = Color.Aqua;
+
         }
 
-        private void button1_MouseLeave(object sender, EventArgs e)
+        private void pictureBox9_Click(object sender, EventArgs e)
         {
-            button1.BackColor = Color.Orange;
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Bezleen dep trai vai loz!!!");
+            this.Close();
         }
     }
 }
