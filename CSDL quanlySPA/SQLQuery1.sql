@@ -1,7 +1,7 @@
 --tao CSDL ten la "quanlySPA"
 -- code duoi day --
 
----------
+---------hien_san
 CREATE TABLE KHACHHANG(
 	MAKH NVARCHAR(100),
 	HOTEN NVARCHAR(100) NOT NULL,

@@ -29,7 +29,7 @@ namespace DAL_quanlyspa
             try
             {
                 _KetnoiDB();
-                SqlCommand _sqlcmd = new SqlCommand(str);
+                SqlCommand _sqlcmd = new SqlCommand(str,_connect);
                 _sqlcmd.ExecuteNonQuery();
             }
             catch (Exception e)
