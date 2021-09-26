@@ -35,8 +35,24 @@ namespace DAL_quanlyspa
         }
         public DataTable _select(string str) // thuc thi cau lenh select bang cach truyen lenh sql vao "str" tra ve 1 bang du lieu
         {
-            DataTable dt=new DataTable();
-            return dt;
+            try
+            {
+                _KetnoiDB();
+                DataTable dt = new DataTable();
+                SqlDataAdapter sqlda = new SqlDataAdapter(str, _connect);
+                sqlda.Fill(dt);
+                return dt;
+               
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Someting wrong!" + e);
+                return null;
+            }
+            finally
+            {
+                _NgatketnoiDB();
+            }
         }
         public string _value(string str) // thuc thi cau lenh select bang cach truyen lenh sql vao "str" tra ve 1 ket qua . vs lenh count(*) tra ve 5.
         {
