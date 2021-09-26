@@ -10,14 +10,24 @@ namespace DAL_quanlyspa
     public class _connectDataBase
     {
         public static SqlConnection _connect; // default constructor
-
+        
         public void _KetnoiDB()  // mo ket noi toi database
         {
+            if (_connectDataBase._connect == null)
+                _connectDataBase._connect = new SqlConnection("Data Source=myServerAddress;Initial Catalog=myDataBase;Integrated Security=SSPI;"); //đoi lai cho phu hop
+            if (_connectDataBase._connect.State != ConnectionState.Open)
+                _connectDataBase._connect.Open();
+
+
 
         }
         public void _NgatketnoiDB() // dong ket noi toi database
         {
-
+            if(_connectDataBase._connect!=null)
+            {
+                if (_connectDataBase._connect.State == ConnectionState.Open)
+                    _connectDataBase._connect.Close();
+            }
         }
         public void _insert_update_delete(string str) // thuc thi cau lenh them xoa sua bang cach truyen lenh sql vao "str"
         {
