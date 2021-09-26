@@ -8,22 +8,22 @@ using System.Data.SqlClient;
 
 namespace DAL_quanlyspa
 {
-    public class DAL_KhachHang
+    public class DAL_CTDT
     {
         _connectDataBase con = new _connectDataBase();
 
         // ham insert
-        public void _insertData(DTO_KhachHang val)
+        public void _insertData(DTO_CTDT val)
         {
             con._insert_update_delete("");
         }
         // ham update
-        public void _updateData(DTO_KhachHang val)
+        public void _updateData(DTO_CTDT val)
         {
             con._insert_update_delete("");
         }
         // ham delete
-        public void _deleteData(DTO_KhachHang val)
+        public void _deleteData(DTO_CTDT val)
         {
             con._insert_update_delete("");
         }
