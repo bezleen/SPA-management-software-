@@ -15,7 +15,7 @@ namespace DAL_quanlyspa
         // ham insert
         public void _insertData(DTO_CTDT val)
         {
-            con._insert_update_delete("");
+            con._insert_update_delete(@"INSERT INTO CTDT (MABS, MATT, NGAYTT, TONGTIEN) VALUES (N'" + val.MABS + "',N'" + val.MAKH + "',N'" + val.MALT + "',N'" + val.PHANTRAMDT + "',N'"+ val.TIENTRINH +"')");
         }
         // ham update
         public void _updateData(DTO_CTDT val)
