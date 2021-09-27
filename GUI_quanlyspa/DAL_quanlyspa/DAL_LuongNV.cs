@@ -15,12 +15,12 @@ namespace DAL_quanlyspa
         // ham insert
         public void _insertData(DTO_LuongNV val)
         {
-            con._insert_update_delete(@"INSERT INTO LUONGNV (MANV, MATT, NGAYTT, TONGTIEN) VALUES (N'" + val.MANV + "',N'" + val.MATT + "',N'" + val.NGAYTT + "',N'" + val.TONGTIEN + "')");
+            con._insert_update_delete(@"INSERT INTO LUONGNV (MANV, MATT, NGAYTT) VALUES (N'" + val.MANV + "',N'" + val.MATT + "',N'" + val.NGAYTT + "')");
         }
         // ham update
         public void _updateData(DTO_LuongNV val)
         {
-            con._insert_update_delete(@"UPDATE LUONGNV SET MANV = N'" + val.MANV + "', NGAYTT = N'" + val.NGAYTT + "', TONGTIEN = N'" + val.TONGTIEN + "' WHERE MATT = N'" + val.MATT + "'");
+            con._insert_update_delete(@"UPDATE LUONGNV SET MANV = N'" + val.MANV + "', NGAYTT = N'" + val.NGAYTT + "' WHERE MATT = N'" + val.MATT + "'");
         }
         // ham delete
         public void _deleteData(DTO_LuongNV val)

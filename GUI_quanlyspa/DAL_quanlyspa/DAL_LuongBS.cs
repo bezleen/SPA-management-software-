@@ -15,12 +15,12 @@ namespace DAL_quanlyspa
         // ham insert
         public void _insertData(DTO_LuongBS val)
         {
-            con._insert_update_delete(@"INSERT INTO LUONGBS(MABS, MATT, NGAYTT, TIENTHUONG, TONGTIEN) VALUES (N'"+val.MABS+ "',N'" + val.MATT + "',N'" + val.NGAYTT + "',N'" + val.TIENTHUONG + "',N'" + val.TONGTIEN + "')");
+            con._insert_update_delete(@"INSERT INTO LUONGBS(MABS, MATT, NGAYTT, TONGTIEN) VALUES (N'"+val.MABS+ "',N'" + val.MATT + "',N'" + val.NGAYTT + "',N'" + val.TONGTIEN + "')");
         }
         // ham update
         public void _updateData(DTO_LuongBS val)
         {
-            con._insert_update_delete(@"UPDATE LUONGBS SET MABS = N'" + val.MABS + "', NGAYTT = N'" + val.NGAYTT + "', TIENTHUONG = N'" + val.TIENTHUONG + "', TONGTIEN = N'" + val.TONGTIEN + "' WHERE MATT = N'" + val.MATT + "'");
+            con._insert_update_delete(@"UPDATE LUONGBS SET MABS = N'" + val.MABS + "', NGAYTT = N'" + val.NGAYTT + "', TONGTIEN = N'" + val.TONGTIEN + "' WHERE MATT = N'" + val.MATT + "'");
         }
         // ham delete
         public void _deleteData(DTO_LuongBS val)
