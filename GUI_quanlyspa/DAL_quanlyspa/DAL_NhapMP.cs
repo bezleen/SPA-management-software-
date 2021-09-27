@@ -15,7 +15,7 @@ namespace DAL_quanlyspa
         // ham insert
         public void _insertData(DTO_NhapMP val)
         {
-            con._insert_update_delete(@"INSERT INTO NHAPMP (MAMP, MANCC, NGAYGIAO, DONGIA, NGAYNHAP, SLNHAP, THANHTIENDH, MADH, DVT, MANV) VALUES (N'" + val.MAMP + "',N'" + val.NCC + "',N'" + val.NGAYGIAO + "',N'" + val.DONGIA + "',N'" + val.NGAYNHAP + "',N'" + val.SLNHAP + "',N'" + val.THANHTIENDH + "',N'" + val.MADH + "',N'" + val.DVT + "',N'" + val.MANV + "')");
+            con._insert_update_delete(@"INSERT INTO NHAPMP (MAMP, MANCC, NGAYGIAO, DONGIA, NGAYNHAP, SLNHAP, THANHTIENDH, MADH, DVT, MANV) VALUES (N'" + val.MAMP + "',N'" + val.MANCC + "',N'" + val.NGAYGIAO + "',N'" + val.DONGIA + "',N'" + val.NGAYNHAP + "',N'" + val.SLNHAP + "',N'" + val.THANHTIENDH + "',N'" + val.MADH + "',N'" + val.DVT + "',N'" + val.MANV + "')");
         }
         // ham update
         public void _updateData(DTO_NhapMP val)
