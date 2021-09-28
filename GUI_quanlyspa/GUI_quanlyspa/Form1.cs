@@ -33,9 +33,31 @@ namespace GUI_quanlyspa
 
         private void pictureBox9_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("dịj me m cut!!!!");
             this.Close();
+
         }
 
-     
+        private void panel2_MouseHover(object sender, EventArgs e)
+        {
+            panel2.BackColor = Color.AliceBlue;
+        }
+
+        private void panel2_MouseLeave(object sender, EventArgs e)
+        {
+            panel2.BackColor = Color.Orange;
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("dịj me m cut!!!!");
+        }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("dịj me m cut!!!!");
+        }
+
+
     }
 }
