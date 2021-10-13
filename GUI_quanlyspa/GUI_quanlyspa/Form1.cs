@@ -33,9 +33,9 @@ namespace GUI_quanlyspa
 
         private void pictureBox9_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("dịj me m cut!!!!");
-            this.Close();
-
+            DialogResult resu_lt = MessageBox.Show("Sure???","Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk);
+            if (resu_lt == DialogResult.Yes)
+                this.Close();
         }
 
         private void panel2_MouseHover(object sender, EventArgs e)
