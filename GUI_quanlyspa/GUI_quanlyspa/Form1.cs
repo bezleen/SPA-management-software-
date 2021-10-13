@@ -33,7 +33,7 @@ namespace GUI_quanlyspa
 
         private void pictureBox9_Click(object sender, EventArgs e)
         {
-            DialogResult resu_lt = MessageBox.Show("Sure???","Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk);
+            DialogResult resu_lt = MessageBox.Show("Bạn chắc chắn muốn thoát ?","Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk);
             if (resu_lt == DialogResult.Yes)
                 this.Close();
         }
