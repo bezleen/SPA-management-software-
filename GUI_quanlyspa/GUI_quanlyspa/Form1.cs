@@ -40,7 +40,7 @@ namespace GUI_quanlyspa
 
         private void panel2_MouseHover(object sender, EventArgs e)
         {
-            panel2.BackColor = Color.AliceBlue;
+            panel2.BackColor = Color.YellowGreen;
         }
 
         private void panel2_MouseLeave(object sender, EventArgs e)
@@ -50,14 +50,72 @@ namespace GUI_quanlyspa
 
         private void label9_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("dịj me m cut!!!!");
+            MessageBox.Show("Yo yo whatsup!!!");
         }
 
         private void pictureBox10_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("dịj me m cut!!!!");
+            MessageBox.Show("bye!!!!");
         }
 
+        private void panel3_MouseHover(object sender, EventArgs e)
+        {
+            panel3.BackColor = Color.YellowGreen;
+        }
 
+        private void panel3_MouseLeave(object sender, EventArgs e)
+        {
+            panel3.BackColor = Color.Orange;
+        }
+
+        private void panel4_MouseHover(object sender, EventArgs e)
+        {
+            panel4.BackColor = Color.YellowGreen;
+        }
+
+        private void panel4_MouseLeave(object sender, EventArgs e)
+        {
+            panel4.BackColor = Color.Orange;
+        }
+
+        private void panel5_MouseHover(object sender, EventArgs e)
+        {
+            panel5.BackColor = Color.YellowGreen;
+        }
+
+        private void panel5_MouseLeave(object sender, EventArgs e)
+        {
+            panel5.BackColor = Color.Orange;
+        }
+
+        private void panel6_MouseHover(object sender, EventArgs e)
+        {
+            panel6.BackColor = Color.YellowGreen;
+        }
+
+        private void panel6_MouseLeave(object sender, EventArgs e)
+        {
+            panel6.BackColor = Color.Orange;
+        }
+
+        private void panel7_MouseHover(object sender, EventArgs e)
+        {
+            panel7.BackColor = Color.YellowGreen;
+        }
+
+        private void panel7_MouseLeave(object sender, EventArgs e)
+        {
+            panel7.BackColor = Color.Orange;
+        }
+
+        private void panel8_MouseHover(object sender, EventArgs e)
+        {
+            panel8.BackColor = Color.YellowGreen;
+        }
+
+        private void panel8_MouseLeave(object sender, EventArgs e)
+        {
+            panel8.BackColor = Color.Orange;
+        }
     }
 }

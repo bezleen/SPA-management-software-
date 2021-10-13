@@ -104,5 +104,26 @@
   <ItemGroup>
     <None Include="Resources\user_kids_avatar_user_profile_icon_149314.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-home-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-staff-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-cosmetics-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-treatment-list-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-female-user-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-beauty-120.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-receipt-and-change-128.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
