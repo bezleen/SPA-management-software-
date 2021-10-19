@@ -60,11 +60,35 @@
     <Compile Include="Form_Home.Designer.cs">
       <DependentUpon>Form_Home.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_Khach_hang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Khach_hang.designer.cs">
+      <DependentUpon>Form_Khach_hang.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_Lieu_trinh.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form_Lieu_trinh.Designer.cs">
       <DependentUpon>Form_Lieu_trinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Nhan_vien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Nhan_vien.designer.cs">
+      <DependentUpon>Form_Nhan_vien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Login.Designer.cs">
+      <DependentUpon>Form_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Thiet_Bi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Thiet_Bi.Designer.cs">
+      <DependentUpon>Form_Thiet_Bi.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -74,8 +98,20 @@
     <EmbeddedResource Include="Form_Home.resx">
       <DependentUpon>Form_Home.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form_Khach_hang.resx">
+      <DependentUpon>Form_Khach_hang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_Lieu_trinh.resx">
       <DependentUpon>Form_Lieu_trinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Nhan_vien.resx">
+      <DependentUpon>Form_Nhan_vien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Login.resx">
+      <DependentUpon>Form_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Thiet_Bi.resx">
+      <DependentUpon>Form_Thiet_Bi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -145,6 +181,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftside_panel.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lotus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text_bar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin_key.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1080865.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rsz_11080865.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
