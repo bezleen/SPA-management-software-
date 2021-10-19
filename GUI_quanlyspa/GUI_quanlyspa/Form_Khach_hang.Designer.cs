@@ -136,7 +136,7 @@ namespace GUI_quanlyspa
             this.label2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(53, 14);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(147, 32);
+            this.label2.Size = new System.Drawing.Size(117, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "Nhân viên";
             this.label2.MouseHover += new System.EventHandler(this.label2_MouseHover);
@@ -158,7 +158,7 @@ namespace GUI_quanlyspa
             this.label4.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(53, 14);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(128, 32);
+            this.label4.Size = new System.Drawing.Size(102, 25);
             this.label4.TabIndex = 1;
             this.label4.Text = "Liệu trình";
             // 
@@ -168,7 +168,7 @@ namespace GUI_quanlyspa
             this.label5.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(53, 14);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(175, 32);
+            this.label5.Size = new System.Drawing.Size(138, 25);
             this.label5.TabIndex = 1;
             this.label5.Text = "Khách hàng";
             this.label5.MouseHover += new System.EventHandler(this.label5_MouseHover);
@@ -179,7 +179,7 @@ namespace GUI_quanlyspa
             this.label7.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(53, 14);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(126, 32);
+            this.label7.Size = new System.Drawing.Size(99, 25);
             this.label7.TabIndex = 1;
             this.label7.Text = "Hóa đơn";
             this.label7.MouseHover += new System.EventHandler(this.label7_MouseHover);
@@ -207,7 +207,7 @@ namespace GUI_quanlyspa
             this.label6.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(53, 14);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(105, 32);
+            this.label6.Size = new System.Drawing.Size(84, 25);
             this.label6.TabIndex = 1;
             this.label6.Text = "Thiết bị";
             this.label6.MouseHover += new System.EventHandler(this.label6_MouseHover);
@@ -358,7 +358,7 @@ namespace GUI_quanlyspa
             this.bunifuCustomLabel7.AutoSize = true;
             this.bunifuCustomLabel7.Location = new System.Drawing.Point(681, 181);
             this.bunifuCustomLabel7.Name = "bunifuCustomLabel7";
-            this.bunifuCustomLabel7.Size = new System.Drawing.Size(151, 19);
+            this.bunifuCustomLabel7.Size = new System.Drawing.Size(119, 16);
             this.bunifuCustomLabel7.TabIndex = 13;
             this.bunifuCustomLabel7.Text = "bunifuCustomLabel7";
             // 
@@ -367,7 +367,7 @@ namespace GUI_quanlyspa
             this.bunifuCustomLabel6.AutoSize = true;
             this.bunifuCustomLabel6.Location = new System.Drawing.Point(681, 133);
             this.bunifuCustomLabel6.Name = "bunifuCustomLabel6";
-            this.bunifuCustomLabel6.Size = new System.Drawing.Size(151, 19);
+            this.bunifuCustomLabel6.Size = new System.Drawing.Size(119, 16);
             this.bunifuCustomLabel6.TabIndex = 12;
             this.bunifuCustomLabel6.Text = "bunifuCustomLabel6";
             // 
@@ -376,7 +376,7 @@ namespace GUI_quanlyspa
             this.bunifuCustomLabel5.AutoSize = true;
             this.bunifuCustomLabel5.Location = new System.Drawing.Point(681, 39);
             this.bunifuCustomLabel5.Name = "bunifuCustomLabel5";
-            this.bunifuCustomLabel5.Size = new System.Drawing.Size(151, 19);
+            this.bunifuCustomLabel5.Size = new System.Drawing.Size(119, 16);
             this.bunifuCustomLabel5.TabIndex = 11;
             this.bunifuCustomLabel5.Text = "bunifuCustomLabel5";
             // 
@@ -385,7 +385,7 @@ namespace GUI_quanlyspa
             this.bunifuCustomLabel4.AutoSize = true;
             this.bunifuCustomLabel4.Location = new System.Drawing.Point(93, 197);
             this.bunifuCustomLabel4.Name = "bunifuCustomLabel4";
-            this.bunifuCustomLabel4.Size = new System.Drawing.Size(151, 19);
+            this.bunifuCustomLabel4.Size = new System.Drawing.Size(119, 16);
             this.bunifuCustomLabel4.TabIndex = 10;
             this.bunifuCustomLabel4.Text = "bunifuCustomLabel4";
             // 
@@ -394,7 +394,7 @@ namespace GUI_quanlyspa
             this.bunifuCustomLabel3.AutoSize = true;
             this.bunifuCustomLabel3.Location = new System.Drawing.Point(93, 149);
             this.bunifuCustomLabel3.Name = "bunifuCustomLabel3";
-            this.bunifuCustomLabel3.Size = new System.Drawing.Size(151, 19);
+            this.bunifuCustomLabel3.Size = new System.Drawing.Size(119, 16);
             this.bunifuCustomLabel3.TabIndex = 9;
             this.bunifuCustomLabel3.Text = "bunifuCustomLabel3";
             // 
@@ -403,7 +403,7 @@ namespace GUI_quanlyspa
             this.bunifuCustomLabel2.AutoSize = true;
             this.bunifuCustomLabel2.Location = new System.Drawing.Point(93, 99);
             this.bunifuCustomLabel2.Name = "bunifuCustomLabel2";
-            this.bunifuCustomLabel2.Size = new System.Drawing.Size(151, 19);
+            this.bunifuCustomLabel2.Size = new System.Drawing.Size(119, 16);
             this.bunifuCustomLabel2.TabIndex = 8;
             this.bunifuCustomLabel2.Text = "bunifuCustomLabel2";
             // 
@@ -412,7 +412,7 @@ namespace GUI_quanlyspa
             this.bunifuCustomLabel1.AutoSize = true;
             this.bunifuCustomLabel1.Location = new System.Drawing.Point(93, 39);
             this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-            this.bunifuCustomLabel1.Size = new System.Drawing.Size(151, 19);
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(119, 16);
             this.bunifuCustomLabel1.TabIndex = 7;
             this.bunifuCustomLabel1.Text = "bunifuCustomLabel1";
             // 
@@ -435,7 +435,7 @@ namespace GUI_quanlyspa
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Location = new System.Drawing.Point(277, 194);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 27);
+            this.comboBox1.Size = new System.Drawing.Size(121, 24);
             this.comboBox1.TabIndex = 5;
             // 
             // textBox5
@@ -450,28 +450,28 @@ namespace GUI_quanlyspa
             // 
             this.textBox4.Location = new System.Drawing.Point(831, 133);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(209, 24);
+            this.textBox4.Size = new System.Drawing.Size(209, 21);
             this.textBox4.TabIndex = 3;
             // 
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(277, 144);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(196, 24);
+            this.textBox3.Size = new System.Drawing.Size(196, 21);
             this.textBox3.TabIndex = 2;
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(277, 94);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(196, 24);
+            this.textBox2.Size = new System.Drawing.Size(196, 21);
             this.textBox2.TabIndex = 1;
             // 
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(277, 39);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(196, 24);
+            this.textBox1.Size = new System.Drawing.Size(196, 21);
             this.textBox1.TabIndex = 0;
             // 
             // pnl_Mypham
@@ -492,7 +492,7 @@ namespace GUI_quanlyspa
             this.label3.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(53, 14);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(137, 32);
+            this.label3.Size = new System.Drawing.Size(109, 25);
             this.label3.TabIndex = 1;
             this.label3.Text = "Mỹ phẩm";
             this.label3.MouseHover += new System.EventHandler(this.label3_MouseHover);
@@ -530,7 +530,7 @@ namespace GUI_quanlyspa
             // 
             // pnl_Khachhang
             // 
-            this.pnl_Khachhang.BackColor = System.Drawing.Color.GreenYellow;
+            this.pnl_Khachhang.BackColor = System.Drawing.Color.YellowGreen;
             this.pnl_Khachhang.Controls.Add(this.label5);
             this.pnl_Khachhang.Controls.Add(this.pictureBox6);
             this.pnl_Khachhang.Location = new System.Drawing.Point(20, 534);
@@ -623,7 +623,7 @@ namespace GUI_quanlyspa
             this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(53, 17);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 32);
+            this.label1.Size = new System.Drawing.Size(72, 25);
             this.label1.TabIndex = 1;
             this.label1.Text = "Home";
             this.label1.MouseHover += new System.EventHandler(this.label1_MouseHover);
@@ -766,7 +766,7 @@ namespace GUI_quanlyspa
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(42, 8);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(156, 19);
+            this.label8.Size = new System.Drawing.Size(123, 16);
             this.label8.TabIndex = 26;
             this.label8.Text = "bezleendeptraibodoi";
             // 
@@ -787,7 +787,7 @@ namespace GUI_quanlyspa
             // 
             // Form_Khach_hang
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(179)))), ((int)(((byte)(25)))));
             this.BackgroundImage = global::GUI_quanlyspa.Properties.Resources.background;
