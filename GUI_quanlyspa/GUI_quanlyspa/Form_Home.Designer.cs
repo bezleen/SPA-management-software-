@@ -131,6 +131,7 @@ namespace GUI_quanlyspa
             this.label4.Size = new System.Drawing.Size(102, 25);
             this.label4.TabIndex = 1;
             this.label4.Text = "Liệu trình";
+            this.label4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.label4_MouseClick);
             this.label4.MouseHover += new System.EventHandler(this.label4_MouseHover);
             // 
             // label5
@@ -250,6 +251,7 @@ namespace GUI_quanlyspa
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 0;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pictureBox5_MouseClick);
             this.pictureBox5.MouseHover += new System.EventHandler(this.pictureBox5_MouseHover);
             // 
             // pnl_Khachhang

@@ -151,6 +151,20 @@ namespace GUI_quanlyspa
             obj.Show();
             this.Hide();
         }
+
+        private void pictureBox2_MouseClick(object sender, MouseEventArgs e)
+        {
+            Form_Home obj = new Form_Home();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void label1_MouseClick(object sender, MouseEventArgs e)
+        {
+            Form_Home obj = new Form_Home();
+            obj.Show();
+            this.Hide();
+        }
         //ket thuc
 
     }
