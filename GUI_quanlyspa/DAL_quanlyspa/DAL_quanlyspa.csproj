@@ -50,13 +50,10 @@
     <Compile Include="DAL_MYPHAM.cs" />
     <Compile Include="DAL_NhapMP.cs" />
     <Compile Include="DAL_NhapTB.cs" />
-<<<<<<< HEAD
-    <Compile Include="DAL_QLNV.cs" />
-=======
     <Compile Include="DAL_QLBS.cs" />
->>>>>>> 205653e610d33ed32d10b62882b3b5b94b8c32c7
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DAL_QLNCC.cs" />
+    <Compile Include="DAL_QLNV.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="_connectDataBase.cs" />
   </ItemGroup>
   <ItemGroup>

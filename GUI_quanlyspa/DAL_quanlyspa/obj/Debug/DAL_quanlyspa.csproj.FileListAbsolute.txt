@@ -16,12 +16,3 @@ D:\quanlySPA\GUI_quanlyspa\DAL_quanlyspa\obj\Debug\DAL_quanlyspa.csproj.CoreComp
 D:\quanlySPA\GUI_quanlyspa\DAL_quanlyspa\obj\Debug\DAL_quanlyspa.csproj.CopyComplete
 D:\quanlySPA\GUI_quanlyspa\DAL_quanlyspa\obj\Debug\DAL_quanlyspa.dll
 D:\quanlySPA\GUI_quanlyspa\DAL_quanlyspa\obj\Debug\DAL_quanlyspa.pdb
-E:\quanlySPA\GUI_quanlyspa\DAL_quanlyspa\bin\Debug\DAL_quanlyspa.dll
-E:\quanlySPA\GUI_quanlyspa\DAL_quanlyspa\bin\Debug\DAL_quanlyspa.pdb
-E:\quanlySPA\GUI_quanlyspa\DAL_quanlyspa\bin\Debug\DTO_quanlyspa.dll
-E:\quanlySPA\GUI_quanlyspa\DAL_quanlyspa\bin\Debug\DTO_quanlyspa.pdb
-E:\quanlySPA\GUI_quanlyspa\DAL_quanlyspa\obj\Debug\DAL_quanlyspa.csprojAssemblyReference.cache
-E:\quanlySPA\GUI_quanlyspa\DAL_quanlyspa\obj\Debug\DAL_quanlyspa.csproj.CoreCompileInputs.cache
-E:\quanlySPA\GUI_quanlyspa\DAL_quanlyspa\obj\Debug\DAL_quanlyspa.csproj.CopyComplete
-E:\quanlySPA\GUI_quanlyspa\DAL_quanlyspa\obj\Debug\DAL_quanlyspa.dll
-E:\quanlySPA\GUI_quanlyspa\DAL_quanlyspa\obj\Debug\DAL_quanlyspa.pdb
