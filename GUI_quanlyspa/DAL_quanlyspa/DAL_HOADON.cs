@@ -15,7 +15,7 @@ namespace DAL_quanlyspa
         // ham insert
         public void _insertData(DTO_HOADON val)
         {
-            con._insert_update_delete(@"INSERT INTO HOADON (SOHD, MAKH) VALUES (N'"+val.SOHD +"',N'"+val.MAKH +"')");
+            con._insert_update_delete(@"INSERT INTO HOADON (SOHD, MAKH, MANV) VALUES (N'"+val.SOHD +"',N'"+val.MAKH +"','"+val.MANV+"')");
         }
         // ham update
         public void _updateData(DTO_HOADON val)
@@ -30,7 +30,7 @@ namespace DAL_quanlyspa
         // ham select
         public DataTable _selectData(string str)
         {
-            return con._select("SELECT * FROM HOADON" + str);
+            return con._select("SELECT * FROM HOADON "+str);
         }
     }
 }
