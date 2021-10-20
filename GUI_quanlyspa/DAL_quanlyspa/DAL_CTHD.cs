@@ -8,7 +8,7 @@ using System.Data.SqlClient;
 
 namespace DAL_quanlyspa
 {
-    class DAL_CTHD
+    public class DAL_CTHD
     {
         _connectDataBase con = new _connectDataBase();
 

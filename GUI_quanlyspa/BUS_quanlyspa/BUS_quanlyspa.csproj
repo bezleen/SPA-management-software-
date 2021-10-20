@@ -41,12 +41,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BUS_CTDT.cs" />
+    <Compile Include="BUS_CTHD.cs" />
+    <Compile Include="BUS_HOADON.cs" />
     <Compile Include="BUS_KhachHang.cs" />
     <Compile Include="BUS_LieuTrinh.cs" />
     <Compile Include="BUS_LuongBS.cs" />
     <Compile Include="BUS_LuongNV.cs" />
     <Compile Include="BUS_NhapMP.cs" />
     <Compile Include="BUS_NhapTB.cs" />
+    <Compile Include="BUS_QLBS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

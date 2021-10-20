@@ -9,7 +9,7 @@ using System.Data.SqlClient;
 
 namespace DAL_quanlyspa
 {
-    class DAL_QLBS
+   public class DAL_QLBS
     {
         _connectDataBase con = new _connectDataBase();
 
