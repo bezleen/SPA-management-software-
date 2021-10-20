@@ -41,6 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BUS_CTDT.cs" />
+    <Compile Include="BUS_CTHD.cs" />
+    <Compile Include="BUS_HOADON.cs" />
     <Compile Include="BUS_KhachHang.cs" />
     <Compile Include="BUS_LieuTrinh.cs" />
     <Compile Include="BUS_LuongBS.cs" />
@@ -48,8 +50,12 @@
     <Compile Include="BUS_MYPHAM.cs" />
     <Compile Include="BUS_NhapMP.cs" />
     <Compile Include="BUS_NhapTB.cs" />
+<<<<<<< HEAD
     <Compile Include="BUS_QLNCC.cs" />
     <Compile Include="BUS_QLNV.cs" />
+=======
+    <Compile Include="BUS_QLBS.cs" />
+>>>>>>> 4499778dac205e984544fcf7d06ec34d880ab0ea
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

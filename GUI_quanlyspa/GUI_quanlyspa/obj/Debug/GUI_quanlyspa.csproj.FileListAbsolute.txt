@@ -15,3 +15,9 @@ D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanl
 D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\Bunifu_UI_v1.52.dll
 D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Home.resources
 D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Lieu_trinh.resources
+D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\DAL_quanlyspa.dll
+D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\DAL_quanlyspa.pdb
+D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Khach_hang.resources
+D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Nhan_vien.resources
+D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Login.resources
+D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Thiet_Bi.resources
