@@ -45,9 +45,12 @@
     <Compile Include="DAL_LieuTrinh.cs" />
     <Compile Include="DAL_LuongBS.cs" />
     <Compile Include="DAL_LuongNV.cs" />
+    <Compile Include="DAL_MYPHAM.cs" />
     <Compile Include="DAL_NhapMP.cs" />
     <Compile Include="DAL_NhapTB.cs" />
+    <Compile Include="DAL_QLNV.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DAL_QLNCC.cs" />
     <Compile Include="_connectDataBase.cs" />
   </ItemGroup>
   <ItemGroup>
