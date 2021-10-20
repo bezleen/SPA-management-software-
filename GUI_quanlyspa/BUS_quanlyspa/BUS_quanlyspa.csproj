@@ -43,6 +43,10 @@
     <Compile Include="BUS_CTDT.cs" />
     <Compile Include="BUS_KhachHang.cs" />
     <Compile Include="BUS_LieuTrinh.cs" />
+    <Compile Include="BUS_LuongBS.cs" />
+    <Compile Include="BUS_LuongNV.cs" />
+    <Compile Include="BUS_NhapMP.cs" />
+    <Compile Include="BUS_NhapTB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
