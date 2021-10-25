@@ -15,7 +15,7 @@ namespace DAL_quanlyspa
         public void _KetnoiDB()  // mo ket noi toi database
         {
             if (_connectDataBase._connect == null)
-                _connectDataBase._connect = new SqlConnection("Data Source=myServerAddress;Initial Catalog=myDataBase;Integrated Security=SSPI;"); //đoi lai cho phu hop
+                _connectDataBase._connect = new SqlConnection("Data Source=LAPTOP-A60R360U;Initial Catalog=QuanlySpa;Integrated Security=SSPI;"); //đoi lai cho phu hop
             if (_connectDataBase._connect.State != ConnectionState.Open)
                 _connectDataBase._connect.Open();
         }
@@ -83,6 +83,15 @@ namespace DAL_quanlyspa
             {
                 _NgatketnoiDB();
             }
+        }
+        public string matutang_lieutrinh(string str)
+        {
+            DataTable dt = new DataTable();
+            dt = _select(str);
+            int k = dt.Rows.Count+1;
+            string mlt = "LT";
+            mlt = mlt + k.ToString();
+            return mlt;
         }
     }
 }
