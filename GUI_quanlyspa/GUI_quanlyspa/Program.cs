@@ -15,7 +15,7 @@ namespace GUI_quanlyspa
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form_Lieu_trinh());
+            Application.Run(new Form_Home());
         }
     }
 }
