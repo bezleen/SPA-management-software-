@@ -16,6 +16,8 @@ namespace quanlyspa_DTO
         private string _HESOLUONG;
         private string _NBDHD;
         private string _NKTHD;
+        private string _PASS;
+        private string _ISADMIN;
 
 
 
@@ -29,7 +31,7 @@ namespace quanlyspa_DTO
         public string HESOLUONG { get => _HESOLUONG; set => _HESOLUONG = value; }
         public string NBDHD { get => _NBDHD; set => _NBDHD = value; }
         public string NKTHD { get => _NKTHD; set => _NKTHD = value; }
-
-
+        public string PASS { get => _PASS; set => _PASS = value; }
+        public string ISADMIN { get => _ISADMIN; set => _ISADMIN = value; }
     }
 }
