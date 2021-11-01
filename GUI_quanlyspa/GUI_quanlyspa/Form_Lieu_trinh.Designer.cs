@@ -31,8 +31,8 @@ namespace GUI_quanlyspa
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Lieu_trinh));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnl_Nhanvien = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -44,6 +44,7 @@ namespace GUI_quanlyspa
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pnl_input = new System.Windows.Forms.Panel();
+            this.lb_rs = new System.Windows.Forms.Label();
             this.txtbox_Malt = new System.Windows.Forms.TextBox();
             this.lb_Malt = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.btn_them = new Bunifu.Framework.UI.BunifuThinButton2();
@@ -69,7 +70,7 @@ namespace GUI_quanlyspa
             this.elipse_pnl_Lieutrinh = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.elipse_pnl_Khachhang = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.elipse_pnl_Hoadon = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.elipse_pnl_Nhanvien = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.elipse_pnl_Malieutrinh = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.elipse_pnl_Home = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.pnl_Home = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
@@ -91,7 +92,6 @@ namespace GUI_quanlyspa
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.elipse_pnl_logout = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.elipse_pnl_input = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.lb_rs = new System.Windows.Forms.Label();
             this.pnl_Nhanvien.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.pnl_Thietbi.SuspendLayout();
@@ -240,6 +240,18 @@ namespace GUI_quanlyspa
             this.pnl_input.Name = "pnl_input";
             this.pnl_input.Size = new System.Drawing.Size(1255, 204);
             this.pnl_input.TabIndex = 0;
+            this.pnl_input.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_input_Paint);
+            // 
+            // lb_rs
+            // 
+            this.lb_rs.AutoSize = true;
+            this.lb_rs.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_rs.Location = new System.Drawing.Point(1206, 177);
+            this.lb_rs.Name = "lb_rs";
+            this.lb_rs.Size = new System.Drawing.Size(41, 16);
+            this.lb_rs.TabIndex = 17;
+            this.lb_rs.Text = "Reset";
+            this.lb_rs.Click += new System.EventHandler(this.lb_rs_Click);
             // 
             // txtbox_Malt
             // 
@@ -248,6 +260,7 @@ namespace GUI_quanlyspa
             this.txtbox_Malt.Name = "txtbox_Malt";
             this.txtbox_Malt.Size = new System.Drawing.Size(196, 21);
             this.txtbox_Malt.TabIndex = 16;
+            this.txtbox_Malt.TextChanged += new System.EventHandler(this.txtbox_Malt_TextChanged);
             // 
             // lb_Malt
             // 
@@ -258,6 +271,7 @@ namespace GUI_quanlyspa
             this.lb_Malt.Size = new System.Drawing.Size(137, 25);
             this.lb_Malt.TabIndex = 15;
             this.lb_Malt.Text = "Mã liệu trình";
+            this.lb_Malt.Click += new System.EventHandler(this.lb_Malt_Click);
             // 
             // btn_them
             // 
@@ -534,10 +548,10 @@ namespace GUI_quanlyspa
             this.elipse_pnl_Hoadon.ElipseRadius = 30;
             this.elipse_pnl_Hoadon.TargetControl = this.pnl_Hoadon;
             // 
-            // elipse_pnl_Nhanvien
+            // elipse_pnl_Malieutrinh
             // 
-            this.elipse_pnl_Nhanvien.ElipseRadius = 30;
-            this.elipse_pnl_Nhanvien.TargetControl = this.pnl_Nhanvien;
+            this.elipse_pnl_Malieutrinh.ElipseRadius = 30;
+            this.elipse_pnl_Malieutrinh.TargetControl = this.pnl_Nhanvien;
             // 
             // elipse_pnl_Home
             // 
@@ -609,21 +623,21 @@ namespace GUI_quanlyspa
             // 
             // banglt
             // 
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.banglt.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.banglt.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.banglt.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.banglt.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
             this.banglt.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.banglt.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
             this.banglt.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.banglt.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.banglt.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.banglt.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.banglt.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -741,17 +755,6 @@ namespace GUI_quanlyspa
             this.elipse_pnl_input.ElipseRadius = 15;
             this.elipse_pnl_input.TargetControl = this.pnl_input;
             // 
-            // lb_rs
-            // 
-            this.lb_rs.AutoSize = true;
-            this.lb_rs.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_rs.Location = new System.Drawing.Point(1206, 177);
-            this.lb_rs.Name = "lb_rs";
-            this.lb_rs.Size = new System.Drawing.Size(41, 16);
-            this.lb_rs.TabIndex = 17;
-            this.lb_rs.Text = "Reset";
-            this.lb_rs.Click += new System.EventHandler(this.lb_rs_Click);
-            // 
             // Form_Lieu_trinh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -844,7 +847,7 @@ namespace GUI_quanlyspa
         private Bunifu.Framework.UI.BunifuElipse elipse_pnl_Lieutrinh;
         private Bunifu.Framework.UI.BunifuElipse elipse_pnl_Khachhang;
         private Bunifu.Framework.UI.BunifuElipse elipse_pnl_Hoadon;
-        private Bunifu.Framework.UI.BunifuElipse elipse_pnl_Nhanvien;
+        private Bunifu.Framework.UI.BunifuElipse elipse_pnl_Malieutrinh;
         private System.Windows.Forms.PictureBox picBox_iconExit;
         private Bunifu.Framework.UI.BunifuElipse elipse_pnl_Home;
         private System.Windows.Forms.Panel pnl_Home;

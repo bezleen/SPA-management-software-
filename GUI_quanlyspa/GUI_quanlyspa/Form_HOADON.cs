@@ -11,14 +11,16 @@ using BUS_quanlyspa;
 
 namespace GUI_quanlyspa
 {
-    public partial class Form_Lieu_trinh : Form
+    public partial class Form_HOADON : Form
     {
-        BUS_LieuTrinh bus = new BUS_LieuTrinh();
-        DTO_LieuTrinh dto = new DTO_LieuTrinh();
-        public Form_Lieu_trinh()
+        BUS_HOADON bus = new BUS_HOADON();
+        DTO_HOADON dto = new DTO_HOADON();
+        public Form_HOADON()
         {
             InitializeComponent();
         }
+
+ 
         //code nut exit 
         private void picBox_iconExit_MouseClick(object sender, MouseEventArgs e)
         {
@@ -153,7 +155,7 @@ namespace GUI_quanlyspa
         {
             Form_Home obj = new Form_Home();
             obj.Show();
-            this.Hide(); 
+            this.Hide();
         }
 
         private void pictureBox2_MouseClick(object sender, MouseEventArgs e)
@@ -171,165 +173,15 @@ namespace GUI_quanlyspa
         }
         //ket thuc
         //code chuc nang
-        bool themDL;
-        void set_null()
-        {
-            txtbox_Malt.Text = "";
-            txtbox_tenlt.Text = "";
-            txtbox_tg.Text = "";
-            txtbox_giatien.Text = "";
-        }
-        void taobang(string str)
-        {
-            banglt.DataSource = bus._selectData(str);
-        }
-        void disable_box()
-        {
-            txtbox_tenlt.Enabled = false;
-            txtbox_tg.Enabled = false;
-            txtbox_giatien.Enabled = false;
-
-            btn_luu.Hide();
-            btn_them.Show();
-            btn_sua.Show();
-            btn_xoa.Show();
-        }
-        void enable_box()
-        {
-            txtbox_tenlt.Enabled = true;
-            txtbox_tg.Enabled = true;
-            txtbox_giatien.Enabled = true;
-
-            btn_luu.Show();
-            btn_them.Hide();
-            btn_sua.Hide();
-            btn_xoa.Hide();
-        }
-        private void Form_Lieu_trinh_Load(object sender, EventArgs e)
-        {
-            disable_box();
-            taobang("");
-        }
-
-        private void btn_them_Click(object sender, EventArgs e)
-        {
-            enable_box();
-            set_null();
-            txtbox_Malt.Text = bus.matutang_lieutrinh("");
-            themDL = true;
-        }
-        private void btn_sua_Click(object sender, EventArgs e)
-        {
-            enable_box();
-            set_null();
-
-            themDL = false;
-        }
-
-        private void btn_xoa_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                if (txtbox_Malt.Text=="")
-                {
-                    MessageBox.Show("Vui lòng chọn dữ liệu cần xóa");
-                    return;
-                }
-                dto.MALT = txtbox_Malt.Text;
-                bus._deleteData(dto);
-                MessageBox.Show("Đã xóa thành công");
-                set_null();
-                taobang("");
-            }
-            catch 
-            {
-                MessageBox.Show("Lỗi");
-                return;
-            }
-        }
-
-        private void banglt_CellClick(object sender, DataGridViewCellEventArgs e)
-        {
-            try
-            {
-                txtbox_Malt.Text = banglt.Rows[e.RowIndex].Cells[0].Value.ToString();
-                txtbox_tenlt.Text = banglt.Rows[e.RowIndex].Cells[1].Value.ToString();
-                txtbox_tg.Text = banglt.Rows[e.RowIndex].Cells[2].Value.ToString();
-                txtbox_giatien.Text = banglt.Rows[e.RowIndex].Cells[3].Value.ToString();
-            }
-            catch
-            {
-                MessageBox.Show("Lỗi");
-                return;
-            }
-        }
-
-        private void lb_rs_Click(object sender, EventArgs e)
-        {
-            disable_box();
-            set_null();
-        }
-
-        private void btn_luu_Click(object sender, EventArgs e)
-        {
-            int i = 0;
-            if (txtbox_tenlt.Text==""||txtbox_giatien.Text==""||txtbox_tg.Text=="")
-            {
-                MessageBox.Show("Vui lòng nhập đầy đủ thông tin");
-                return;
-            }
-            else if (int.TryParse(txtbox_tg.Text, out i)==false)
-            {
-                MessageBox.Show("Thời gian phải là số");
-                return;
-            }
-            else if (int.TryParse(txtbox_giatien.Text, out i) == false)
-            {
-                MessageBox.Show("Giá tiền phải là số");
-                return;
-            }
-            try
-            {
-                dto.MALT = txtbox_Malt.Text;
-                dto.TENLT = txtbox_tenlt.Text;
-                dto.THOIGIANDT = txtbox_tg.Text;
-                dto.GIATIEN = txtbox_giatien.Text;
-                if (themDL == true)
-                {
-                    bus._insertData(dto);
-                    MessageBox.Show("Thêm mới thành công");
-                }                
-                else if (themDL == false)
-                {
-                    bus._updateData(dto);
-                    MessageBox.Show("Sửa thành công");
-                }        
-                set_null();
-                disable_box();
-                taobang("");     
-            }
-            catch
-            {
-                MessageBox.Show("Lỗi");
-                return;
-            }
-
-        }
-
-        private void txtbox_Malt_TextChanged(object sender, EventArgs e)
+        private void lb_giatien_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void pnl_input_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void lb_Malt_Click(object sender, EventArgs e)
+        private void bunifuCustomLabel1_Click(object sender, EventArgs e)
         {
 
         }
     }
-    // còn thieu: pnl logout, chuyen tab
+
 }
