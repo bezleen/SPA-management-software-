@@ -22,3 +22,26 @@ D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanl
 D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Login.resources
 D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Thiet_Bi.resources
 D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_MYPHAM.resources
+E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\GUI_quanlyspa.exe
+E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\GUI_quanlyspa.pdb
+E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\BUS_quanlyspa.dll
+E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\DTO_quanlyspa.dll
+E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\DAL_quanlyspa.dll
+E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\BUS_quanlyspa.pdb
+E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\DTO_quanlyspa.pdb
+E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\DAL_quanlyspa.pdb
+E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.csprojAssemblyReference.cache
+E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form1.resources
+E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Home.resources
+E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Khach_hang.resources
+E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Lieu_trinh.resources
+E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_MYPHAM.resources
+E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Nhan_vien.resources
+E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Login.resources
+E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Thiet_Bi.resources
+E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Properties.Resources.resources
+E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.csproj.GenerateResource.cache
+E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.csproj.CoreCompileInputs.cache
+E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.csproj.CopyComplete
+E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.exe
+E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.pdb

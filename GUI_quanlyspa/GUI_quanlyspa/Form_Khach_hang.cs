@@ -151,6 +151,16 @@ namespace GUI_quanlyspa
             obj.Show();
             this.Hide();
         }
+
+        private void Form_Khach_hang_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
         //ket thuc
 
     }
