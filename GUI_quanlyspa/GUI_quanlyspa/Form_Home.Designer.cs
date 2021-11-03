@@ -60,6 +60,14 @@ namespace GUI_quanlyspa
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.elipse_Form_Home = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.pnl_workplace = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.elipse_pnl_workplace = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.elipse_picBox_LogoSpa = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.picBox_LogoSpa = new System.Windows.Forms.PictureBox();
@@ -68,14 +76,6 @@ namespace GUI_quanlyspa
             this.label8 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.elipse_pnl_logout = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
             this.pnl_Nhanvien.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.pnl_Thietbi.SuspendLayout();
@@ -91,17 +91,17 @@ namespace GUI_quanlyspa
             this.pnl_Home.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.pnl_workplace.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_LogoSpa)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_iconExit)).BeginInit();
             this.pnl_logout.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.SuspendLayout();
             // 
             // pnl_Nhanvien
             // 
-            this.pnl_Nhanvien.BackColor = System.Drawing.Color.Orange;
+            this.pnl_Nhanvien.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(93)))), ((int)(((byte)(71)))));
             this.pnl_Nhanvien.Controls.Add(this.label2);
             this.pnl_Nhanvien.Controls.Add(this.pictureBox3);
             this.pnl_Nhanvien.Location = new System.Drawing.Point(20, 293);
@@ -115,6 +115,7 @@ namespace GUI_quanlyspa
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(53, 14);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(117, 25);
@@ -137,6 +138,7 @@ namespace GUI_quanlyspa
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(53, 14);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(102, 25);
@@ -149,6 +151,7 @@ namespace GUI_quanlyspa
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(53, 14);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(138, 25);
@@ -160,6 +163,7 @@ namespace GUI_quanlyspa
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(53, 14);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(99, 25);
@@ -174,7 +178,7 @@ namespace GUI_quanlyspa
             // 
             // pnl_Thietbi
             // 
-            this.pnl_Thietbi.BackColor = System.Drawing.Color.Orange;
+            this.pnl_Thietbi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(93)))), ((int)(((byte)(71)))));
             this.pnl_Thietbi.Controls.Add(this.label6);
             this.pnl_Thietbi.Controls.Add(this.pictureBox7);
             this.pnl_Thietbi.Location = new System.Drawing.Point(20, 613);
@@ -188,6 +192,7 @@ namespace GUI_quanlyspa
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(53, 14);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(84, 25);
@@ -208,7 +213,7 @@ namespace GUI_quanlyspa
             // 
             // pnl_Mypham
             // 
-            this.pnl_Mypham.BackColor = System.Drawing.Color.Orange;
+            this.pnl_Mypham.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(93)))), ((int)(((byte)(71)))));
             this.pnl_Mypham.Controls.Add(this.label3);
             this.pnl_Mypham.Controls.Add(this.pictureBox4);
             this.pnl_Mypham.Location = new System.Drawing.Point(20, 372);
@@ -222,6 +227,7 @@ namespace GUI_quanlyspa
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(53, 14);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(109, 25);
@@ -242,7 +248,7 @@ namespace GUI_quanlyspa
             // 
             // pnl_Lieutrinh
             // 
-            this.pnl_Lieutrinh.BackColor = System.Drawing.Color.Orange;
+            this.pnl_Lieutrinh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(93)))), ((int)(((byte)(71)))));
             this.pnl_Lieutrinh.Controls.Add(this.label4);
             this.pnl_Lieutrinh.Controls.Add(this.pictureBox5);
             this.pnl_Lieutrinh.Location = new System.Drawing.Point(20, 455);
@@ -267,7 +273,7 @@ namespace GUI_quanlyspa
             // 
             // pnl_Khachhang
             // 
-            this.pnl_Khachhang.BackColor = System.Drawing.Color.Orange;
+            this.pnl_Khachhang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(93)))), ((int)(((byte)(71)))));
             this.pnl_Khachhang.Controls.Add(this.label5);
             this.pnl_Khachhang.Controls.Add(this.pictureBox6);
             this.pnl_Khachhang.Location = new System.Drawing.Point(20, 534);
@@ -290,7 +296,7 @@ namespace GUI_quanlyspa
             // 
             // pnl_Hoadon
             // 
-            this.pnl_Hoadon.BackColor = System.Drawing.Color.Orange;
+            this.pnl_Hoadon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(93)))), ((int)(((byte)(71)))));
             this.pnl_Hoadon.Controls.Add(this.label7);
             this.pnl_Hoadon.Controls.Add(this.pictureBox8);
             this.pnl_Hoadon.Location = new System.Drawing.Point(20, 694);
@@ -343,7 +349,7 @@ namespace GUI_quanlyspa
             // 
             // pnl_Home
             // 
-            this.pnl_Home.BackColor = System.Drawing.Color.YellowGreen;
+            this.pnl_Home.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(211)))), ((int)(((byte)(124)))));
             this.pnl_Home.Controls.Add(this.label1);
             this.pnl_Home.Controls.Add(this.pictureBox2);
             this.pnl_Home.Location = new System.Drawing.Point(20, 211);
@@ -355,6 +361,7 @@ namespace GUI_quanlyspa
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(53, 17);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(72, 25);
@@ -378,12 +385,91 @@ namespace GUI_quanlyspa
             // 
             // pnl_workplace
             // 
-            this.pnl_workplace.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(148)))));
+            this.pnl_workplace.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(211)))), ((int)(((byte)(124)))));
             this.pnl_workplace.Controls.Add(this.panel1);
             this.pnl_workplace.Location = new System.Drawing.Point(267, 40);
             this.pnl_workplace.Name = "pnl_workplace";
             this.pnl_workplace.Size = new System.Drawing.Size(1293, 820);
             this.pnl_workplace.TabIndex = 19;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
+            this.panel1.Controls.Add(this.label13);
+            this.panel1.Controls.Add(this.label12);
+            this.panel1.Controls.Add(this.label11);
+            this.panel1.Controls.Add(this.pictureBox9);
+            this.panel1.Controls.Add(this.label10);
+            this.panel1.Controls.Add(this.label9);
+            this.panel1.Controls.Add(this.progressBar1);
+            this.panel1.Location = new System.Drawing.Point(17, 16);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1262, 787);
+            this.panel1.TabIndex = 0;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(154, 251);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(57, 16);
+            this.label13.TabIndex = 29;
+            this.label13.Text = "Năm sinh";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(154, 216);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(45, 16);
+            this.label12.TabIndex = 28;
+            this.label12.Text = "Họ Tên";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(154, 182);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(86, 16);
+            this.label11.TabIndex = 27;
+            this.label11.Text = "Mã Nhân Viên";
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = global::GUI_quanlyspa.Properties.Resources.user_kids_avatar_user_profile_icon_149314;
+            this.pictureBox9.Location = new System.Drawing.Point(50, 182);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(63, 69);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 26;
+            this.pictureBox9.TabStop = false;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Century Gothic", 72F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.SeaGreen;
+            this.label10.Location = new System.Drawing.Point(319, 28);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(619, 118);
+            this.label10.TabIndex = 2;
+            this.label10.Text = "SPA BEZLEEN";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(47, 571);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(111, 16);
+            this.label9.TabIndex = 1;
+            this.label9.Text = "Chỉ tiêu của tháng";
+            // 
+            // progressBar1
+            // 
+            this.progressBar1.Location = new System.Drawing.Point(187, 571);
+            this.progressBar1.Name = "progressBar1";
+            this.progressBar1.Size = new System.Drawing.Size(1019, 23);
+            this.progressBar1.TabIndex = 0;
             // 
             // elipse_pnl_workplace
             // 
@@ -408,7 +494,7 @@ namespace GUI_quanlyspa
             // 
             // picBox_iconExit
             // 
-            this.picBox_iconExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.picBox_iconExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(211)))), ((int)(((byte)(18)))));
             this.picBox_iconExit.Image = global::GUI_quanlyspa.Properties.Resources.delete;
             this.picBox_iconExit.Location = new System.Drawing.Point(1564, 12);
             this.picBox_iconExit.Name = "picBox_iconExit";
@@ -420,6 +506,7 @@ namespace GUI_quanlyspa
             // 
             // pnl_logout
             // 
+            this.pnl_logout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(211)))), ((int)(((byte)(124)))));
             this.pnl_logout.Controls.Add(this.label8);
             this.pnl_logout.Controls.Add(this.pictureBox1);
             this.pnl_logout.Location = new System.Drawing.Point(1363, 4);
@@ -451,91 +538,12 @@ namespace GUI_quanlyspa
             this.elipse_pnl_logout.ElipseRadius = 30;
             this.elipse_pnl_logout.TargetControl = this.pnl_logout;
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
-            this.panel1.Controls.Add(this.label13);
-            this.panel1.Controls.Add(this.label12);
-            this.panel1.Controls.Add(this.label11);
-            this.panel1.Controls.Add(this.pictureBox9);
-            this.panel1.Controls.Add(this.label10);
-            this.panel1.Controls.Add(this.label9);
-            this.panel1.Controls.Add(this.progressBar1);
-            this.panel1.Location = new System.Drawing.Point(17, 16);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1262, 787);
-            this.panel1.TabIndex = 0;
-            // 
-            // progressBar1
-            // 
-            this.progressBar1.Location = new System.Drawing.Point(187, 571);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(1019, 23);
-            this.progressBar1.TabIndex = 0;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(47, 571);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(111, 16);
-            this.label9.TabIndex = 1;
-            this.label9.Text = "Chỉ tiêu của tháng";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Century Gothic", 72F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.SeaGreen;
-            this.label10.Location = new System.Drawing.Point(319, 28);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(619, 118);
-            this.label10.TabIndex = 2;
-            this.label10.Text = "SPA BEZLEEN";
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = global::GUI_quanlyspa.Properties.Resources.user_kids_avatar_user_profile_icon_149314;
-            this.pictureBox9.Location = new System.Drawing.Point(50, 182);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(63, 69);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 26;
-            this.pictureBox9.TabStop = false;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(154, 182);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(86, 16);
-            this.label11.TabIndex = 27;
-            this.label11.Text = "Mã Nhân Viên";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(154, 216);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(45, 16);
-            this.label12.TabIndex = 28;
-            this.label12.Text = "Họ Tên";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(154, 251);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(57, 16);
-            this.label13.TabIndex = 29;
-            this.label13.Text = "Năm sinh";
-            // 
             // Form_Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(179)))), ((int)(((byte)(25)))));
-            this.BackgroundImage = global::GUI_quanlyspa.Properties.Resources.background;
+            this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = global::GUI_quanlyspa.Properties.Resources.Background_green;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1600, 900);
             this.Controls.Add(this.pnl_logout);
@@ -577,14 +585,14 @@ namespace GUI_quanlyspa
             this.pnl_Home.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.pnl_workplace.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_LogoSpa)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_iconExit)).EndInit();
             this.pnl_logout.ResumeLayout(false);
             this.pnl_logout.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.ResumeLayout(false);
 
         }

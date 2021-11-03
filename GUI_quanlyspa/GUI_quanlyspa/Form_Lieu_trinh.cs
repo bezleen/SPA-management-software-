@@ -29,123 +29,123 @@ namespace GUI_quanlyspa
         // code hover cho cac module
         private void pnl_Home_MouseHover(object sender, EventArgs e)
         {
-            pnl_Home.BackColor = Color.YellowGreen;
+            pnl_Home.BackColor = Color.FromArgb(147, 211, 124);
         }
 
         private void pnl_Home_MouseLeave(object sender, EventArgs e)
         {
-            pnl_Home.BackColor = Color.Orange;
+            pnl_Home.BackColor = Color.FromArgb(14, 93, 71);
         }
 
         private void pnl_Nhanvien_MouseHover(object sender, EventArgs e)
         {
-            pnl_Nhanvien.BackColor = Color.YellowGreen;
+            pnl_Nhanvien.BackColor = Color.FromArgb(147, 211, 124);
         }
 
         private void pnl_Nhanvien_MouseLeave(object sender, EventArgs e)
         {
-            pnl_Nhanvien.BackColor = Color.Orange;
+            pnl_Nhanvien.BackColor = Color.FromArgb(14, 93, 71);
         }
 
         private void pnl_Mypham_MouseHover(object sender, EventArgs e)
         {
-            pnl_Mypham.BackColor = Color.YellowGreen;
+            pnl_Mypham.BackColor = Color.FromArgb(147, 211, 124);
         }
 
         private void pnl_Mypham_MouseLeave(object sender, EventArgs e)
         {
-            pnl_Mypham.BackColor = Color.Orange;
+            pnl_Mypham.BackColor = Color.FromArgb(14, 93, 71);
         }
 
         private void pnl_Khachhang_MouseHover(object sender, EventArgs e)
         {
-            pnl_Khachhang.BackColor = Color.YellowGreen;
+            pnl_Khachhang.BackColor = Color.FromArgb(147, 211, 124);
         }
 
         private void pnl_Khachhang_MouseLeave(object sender, EventArgs e)
         {
-            pnl_Khachhang.BackColor = Color.Orange;
+            pnl_Khachhang.BackColor = Color.FromArgb(14, 93, 71);
         }
 
         private void pnl_Thietbi_MouseHover(object sender, EventArgs e)
         {
-            pnl_Thietbi.BackColor = Color.YellowGreen;
+            pnl_Thietbi.BackColor = Color.FromArgb(147, 211, 124);
         }
 
         private void pnl_Thietbi_MouseLeave(object sender, EventArgs e)
         {
-            pnl_Thietbi.BackColor = Color.Orange;
+            pnl_Thietbi.BackColor = Color.FromArgb(14, 93, 71);
         }
 
         private void pnl_Hoadon_MouseHover(object sender, EventArgs e)
         {
-            pnl_Hoadon.BackColor = Color.YellowGreen;
+            pnl_Hoadon.BackColor = Color.FromArgb(147, 211, 124);
         }
 
         private void pnl_Hoadon_MouseLeave(object sender, EventArgs e)
         {
-            pnl_Hoadon.BackColor = Color.Orange;
+            pnl_Hoadon.BackColor = Color.FromArgb(14, 93, 71);
         }
 
         private void label1_MouseHover(object sender, EventArgs e)
         {
-            pnl_Home.BackColor = Color.YellowGreen;
+            pnl_Home.BackColor = Color.FromArgb(147, 211, 124);
         }
 
         private void label2_MouseHover(object sender, EventArgs e)
         {
-            pnl_Nhanvien.BackColor = Color.YellowGreen;
+            pnl_Nhanvien.BackColor = Color.FromArgb(147, 211, 124);
         }
 
         private void label3_MouseHover(object sender, EventArgs e)
         {
-            pnl_Mypham.BackColor = Color.YellowGreen;
+            pnl_Mypham.BackColor = Color.FromArgb(147, 211, 124);
         }
 
 
         private void label5_MouseHover(object sender, EventArgs e)
         {
-            pnl_Khachhang.BackColor = Color.YellowGreen;
+            pnl_Khachhang.BackColor = Color.FromArgb(147, 211, 124);
         }
 
         private void label6_MouseHover(object sender, EventArgs e)
         {
-            pnl_Thietbi.BackColor = Color.YellowGreen;
+            pnl_Thietbi.BackColor = Color.FromArgb(147, 211, 124);
         }
 
         private void label7_MouseHover(object sender, EventArgs e)
         {
-            pnl_Hoadon.BackColor = Color.YellowGreen;
+            pnl_Hoadon.BackColor = Color.FromArgb(147, 211, 124);
         }
 
         private void pictureBox2_MouseHover(object sender, EventArgs e)
         {
-            pnl_Home.BackColor = Color.YellowGreen;
+            pnl_Home.BackColor = Color.FromArgb(147, 211, 124);
         }
 
         private void pictureBox3_MouseHover(object sender, EventArgs e)
         {
-            pnl_Nhanvien.BackColor = Color.YellowGreen;
+            pnl_Nhanvien.BackColor = Color.FromArgb(147, 211, 124);
         }
 
         private void pictureBox4_MouseHover(object sender, EventArgs e)
         {
-            pnl_Mypham.BackColor = Color.YellowGreen;
+            pnl_Mypham.BackColor = Color.FromArgb(147, 211, 124);
         }
 
         private void pictureBox6_MouseHover(object sender, EventArgs e)
         {
-            pnl_Khachhang.BackColor = Color.YellowGreen;
+            pnl_Khachhang.BackColor = Color.FromArgb(147, 211, 124);
         }
 
         private void pictureBox7_MouseHover(object sender, EventArgs e)
         {
-            pnl_Thietbi.BackColor = Color.YellowGreen;
+            pnl_Thietbi.BackColor = Color.FromArgb(147, 211, 124);
         }
 
         private void pictureBox8_MouseHover(object sender, EventArgs e)
         {
-            pnl_Hoadon.BackColor = Color.YellowGreen;
+            pnl_Hoadon.BackColor = Color.FromArgb(147, 211, 124);
         }
         //ketthuc
         //code chuyen tab cho cac module
@@ -166,6 +166,89 @@ namespace GUI_quanlyspa
         private void label1_MouseClick(object sender, MouseEventArgs e)
         {
             Form_Home obj = new Form_Home();
+            obj.Show();
+            this.Hide();
+        }
+        private void pnl_Nhanvien_MouseClick(object sender, MouseEventArgs e)
+        {
+            Form_Nhan_vien obj = new Form_Nhan_vien();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void label2_MouseClick(object sender, MouseEventArgs e)
+        {
+            Form_Nhan_vien obj = new Form_Nhan_vien();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void pictureBox3_MouseClick(object sender, MouseEventArgs e)
+        {
+            Form_Nhan_vien obj = new Form_Nhan_vien();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void pnl_Mypham_MouseClick(object sender, MouseEventArgs e)
+        {
+            Form_MYPHAM obj = new Form_MYPHAM();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void label3_MouseClick(object sender, MouseEventArgs e)
+        {
+            Form_MYPHAM obj = new Form_MYPHAM();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void pictureBox4_MouseClick(object sender, MouseEventArgs e)
+        {
+            Form_MYPHAM obj = new Form_MYPHAM();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void pnl_Khachhang_MouseClick(object sender, MouseEventArgs e)
+        {
+            Form_Khach_hang obj = new Form_Khach_hang();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void label5_MouseClick(object sender, MouseEventArgs e)
+        {
+            Form_Khach_hang obj = new Form_Khach_hang();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void pictureBox6_MouseClick(object sender, MouseEventArgs e)
+        {
+            Form_Khach_hang obj = new Form_Khach_hang();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void pnl_Thietbi_MouseClick(object sender, MouseEventArgs e)
+        {
+            Form_Thiet_Bi obj = new Form_Thiet_Bi();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void label6_MouseClick(object sender, MouseEventArgs e)
+        {
+            Form_Thiet_Bi obj = new Form_Thiet_Bi();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void pictureBox7_MouseClick(object sender, MouseEventArgs e)
+        {
+            Form_Thiet_Bi obj = new Form_Thiet_Bi();
             obj.Show();
             this.Hide();
         }
@@ -210,7 +293,7 @@ namespace GUI_quanlyspa
             disable_box();
             taobang("");
         }
-
+        //code nut them
         private void btn_them_Click(object sender, EventArgs e)
         {
             enable_box();
@@ -225,7 +308,7 @@ namespace GUI_quanlyspa
 
             themDL = false;
         }
-
+        //code nut xoa
         private void btn_xoa_Click(object sender, EventArgs e)
         {
             try
@@ -247,7 +330,7 @@ namespace GUI_quanlyspa
                 return;
             }
         }
-
+        //chọn 1 dòng trong bảng
         private void banglt_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             try
@@ -263,13 +346,13 @@ namespace GUI_quanlyspa
                 return;
             }
         }
-
+        //code nut reset
         private void lb_rs_Click(object sender, EventArgs e)
         {
             disable_box();
             set_null();
         }
-
+        //code but luu
         private void btn_luu_Click(object sender, EventArgs e)
         {
             int i = 0;
@@ -315,21 +398,8 @@ namespace GUI_quanlyspa
             }
 
         }
+        //
 
-        private void txtbox_Malt_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pnl_input_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void lb_Malt_Click(object sender, EventArgs e)
-        {
-
-        }
     }
     // còn thieu: pnl logout, chuyen tab
 }

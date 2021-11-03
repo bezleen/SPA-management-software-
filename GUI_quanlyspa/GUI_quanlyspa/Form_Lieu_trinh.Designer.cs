@@ -31,8 +31,8 @@ namespace GUI_quanlyspa
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Lieu_trinh));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnl_Nhanvien = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -117,13 +117,14 @@ namespace GUI_quanlyspa
             // 
             // pnl_Nhanvien
             // 
-            this.pnl_Nhanvien.BackColor = System.Drawing.Color.Orange;
+            this.pnl_Nhanvien.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(93)))), ((int)(((byte)(71)))));
             this.pnl_Nhanvien.Controls.Add(this.label2);
             this.pnl_Nhanvien.Controls.Add(this.pictureBox3);
             this.pnl_Nhanvien.Location = new System.Drawing.Point(20, 293);
             this.pnl_Nhanvien.Name = "pnl_Nhanvien";
             this.pnl_Nhanvien.Size = new System.Drawing.Size(197, 53);
             this.pnl_Nhanvien.TabIndex = 26;
+            this.pnl_Nhanvien.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pnl_Nhanvien_MouseClick);
             this.pnl_Nhanvien.MouseLeave += new System.EventHandler(this.pnl_Nhanvien_MouseLeave);
             this.pnl_Nhanvien.MouseHover += new System.EventHandler(this.pnl_Nhanvien_MouseHover);
             // 
@@ -131,11 +132,13 @@ namespace GUI_quanlyspa
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(53, 14);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(117, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "Nhân viên";
+            this.label2.MouseClick += new System.Windows.Forms.MouseEventHandler(this.label2_MouseClick);
             this.label2.MouseHover += new System.EventHandler(this.label2_MouseHover);
             // 
             // pictureBox3
@@ -147,12 +150,14 @@ namespace GUI_quanlyspa
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pictureBox3_MouseClick);
             this.pictureBox3.MouseHover += new System.EventHandler(this.pictureBox3_MouseHover);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(53, 14);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(102, 25);
@@ -163,17 +168,20 @@ namespace GUI_quanlyspa
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(53, 14);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(138, 25);
             this.label5.TabIndex = 1;
             this.label5.Text = "Khách hàng";
+            this.label5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.label5_MouseClick);
             this.label5.MouseHover += new System.EventHandler(this.label5_MouseHover);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(53, 14);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(99, 25);
@@ -188,13 +196,14 @@ namespace GUI_quanlyspa
             // 
             // pnl_Thietbi
             // 
-            this.pnl_Thietbi.BackColor = System.Drawing.Color.Orange;
+            this.pnl_Thietbi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(93)))), ((int)(((byte)(71)))));
             this.pnl_Thietbi.Controls.Add(this.label6);
             this.pnl_Thietbi.Controls.Add(this.pictureBox7);
             this.pnl_Thietbi.Location = new System.Drawing.Point(20, 613);
             this.pnl_Thietbi.Name = "pnl_Thietbi";
             this.pnl_Thietbi.Size = new System.Drawing.Size(197, 53);
             this.pnl_Thietbi.TabIndex = 30;
+            this.pnl_Thietbi.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pnl_Thietbi_MouseClick);
             this.pnl_Thietbi.MouseLeave += new System.EventHandler(this.pnl_Thietbi_MouseLeave);
             this.pnl_Thietbi.MouseHover += new System.EventHandler(this.pnl_Thietbi_MouseHover);
             // 
@@ -202,11 +211,13 @@ namespace GUI_quanlyspa
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(53, 14);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(84, 25);
             this.label6.TabIndex = 1;
             this.label6.Text = "Thiết bị";
+            this.label6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.label6_MouseClick);
             this.label6.MouseHover += new System.EventHandler(this.label6_MouseHover);
             // 
             // pictureBox7
@@ -218,6 +229,7 @@ namespace GUI_quanlyspa
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox7.TabIndex = 0;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pictureBox7_MouseClick);
             this.pictureBox7.MouseHover += new System.EventHandler(this.pictureBox7_MouseHover);
             // 
             // pnl_input
@@ -240,7 +252,6 @@ namespace GUI_quanlyspa
             this.pnl_input.Name = "pnl_input";
             this.pnl_input.Size = new System.Drawing.Size(1255, 204);
             this.pnl_input.TabIndex = 0;
-            this.pnl_input.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_input_Paint);
             // 
             // lb_rs
             // 
@@ -260,7 +271,6 @@ namespace GUI_quanlyspa
             this.txtbox_Malt.Name = "txtbox_Malt";
             this.txtbox_Malt.Size = new System.Drawing.Size(196, 21);
             this.txtbox_Malt.TabIndex = 16;
-            this.txtbox_Malt.TextChanged += new System.EventHandler(this.txtbox_Malt_TextChanged);
             // 
             // lb_Malt
             // 
@@ -271,7 +281,6 @@ namespace GUI_quanlyspa
             this.lb_Malt.Size = new System.Drawing.Size(137, 25);
             this.lb_Malt.TabIndex = 15;
             this.lb_Malt.Text = "Mã liệu trình";
-            this.lb_Malt.Click += new System.EventHandler(this.lb_Malt_Click);
             // 
             // btn_them
             // 
@@ -430,13 +439,14 @@ namespace GUI_quanlyspa
             // 
             // pnl_Mypham
             // 
-            this.pnl_Mypham.BackColor = System.Drawing.Color.Orange;
+            this.pnl_Mypham.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(93)))), ((int)(((byte)(71)))));
             this.pnl_Mypham.Controls.Add(this.label3);
             this.pnl_Mypham.Controls.Add(this.pictureBox4);
             this.pnl_Mypham.Location = new System.Drawing.Point(20, 372);
             this.pnl_Mypham.Name = "pnl_Mypham";
             this.pnl_Mypham.Size = new System.Drawing.Size(197, 53);
             this.pnl_Mypham.TabIndex = 27;
+            this.pnl_Mypham.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pnl_Mypham_MouseClick);
             this.pnl_Mypham.MouseLeave += new System.EventHandler(this.pnl_Mypham_MouseLeave);
             this.pnl_Mypham.MouseHover += new System.EventHandler(this.pnl_Mypham_MouseHover);
             // 
@@ -444,11 +454,13 @@ namespace GUI_quanlyspa
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(53, 14);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(109, 25);
             this.label3.TabIndex = 1;
             this.label3.Text = "Mỹ phẩm";
+            this.label3.MouseClick += new System.Windows.Forms.MouseEventHandler(this.label3_MouseClick);
             this.label3.MouseHover += new System.EventHandler(this.label3_MouseHover);
             // 
             // pictureBox4
@@ -460,11 +472,12 @@ namespace GUI_quanlyspa
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pictureBox4_MouseClick);
             this.pictureBox4.MouseHover += new System.EventHandler(this.pictureBox4_MouseHover);
             // 
             // pnl_Lieutrinh
             // 
-            this.pnl_Lieutrinh.BackColor = System.Drawing.Color.YellowGreen;
+            this.pnl_Lieutrinh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(211)))), ((int)(((byte)(124)))));
             this.pnl_Lieutrinh.Controls.Add(this.label4);
             this.pnl_Lieutrinh.Controls.Add(this.pictureBox5);
             this.pnl_Lieutrinh.Location = new System.Drawing.Point(20, 455);
@@ -484,13 +497,14 @@ namespace GUI_quanlyspa
             // 
             // pnl_Khachhang
             // 
-            this.pnl_Khachhang.BackColor = System.Drawing.Color.Orange;
+            this.pnl_Khachhang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(93)))), ((int)(((byte)(71)))));
             this.pnl_Khachhang.Controls.Add(this.label5);
             this.pnl_Khachhang.Controls.Add(this.pictureBox6);
             this.pnl_Khachhang.Location = new System.Drawing.Point(20, 534);
             this.pnl_Khachhang.Name = "pnl_Khachhang";
             this.pnl_Khachhang.Size = new System.Drawing.Size(197, 53);
             this.pnl_Khachhang.TabIndex = 29;
+            this.pnl_Khachhang.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pnl_Khachhang_MouseClick);
             this.pnl_Khachhang.MouseLeave += new System.EventHandler(this.pnl_Khachhang_MouseLeave);
             this.pnl_Khachhang.MouseHover += new System.EventHandler(this.pnl_Khachhang_MouseHover);
             // 
@@ -503,11 +517,12 @@ namespace GUI_quanlyspa
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 0;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pictureBox6_MouseClick);
             this.pictureBox6.MouseHover += new System.EventHandler(this.pictureBox6_MouseHover);
             // 
             // pnl_Hoadon
             // 
-            this.pnl_Hoadon.BackColor = System.Drawing.Color.Orange;
+            this.pnl_Hoadon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(93)))), ((int)(((byte)(71)))));
             this.pnl_Hoadon.Controls.Add(this.label7);
             this.pnl_Hoadon.Controls.Add(this.pictureBox8);
             this.pnl_Hoadon.Location = new System.Drawing.Point(20, 694);
@@ -560,7 +575,7 @@ namespace GUI_quanlyspa
             // 
             // pnl_Home
             // 
-            this.pnl_Home.BackColor = System.Drawing.Color.Orange;
+            this.pnl_Home.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(93)))), ((int)(((byte)(71)))));
             this.pnl_Home.Controls.Add(this.label1);
             this.pnl_Home.Controls.Add(this.pictureBox2);
             this.pnl_Home.Location = new System.Drawing.Point(20, 211);
@@ -575,6 +590,7 @@ namespace GUI_quanlyspa
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(53, 17);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(72, 25);
@@ -602,7 +618,7 @@ namespace GUI_quanlyspa
             // 
             // pnl_workplace
             // 
-            this.pnl_workplace.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(148)))));
+            this.pnl_workplace.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(211)))), ((int)(((byte)(124)))));
             this.pnl_workplace.Controls.Add(this.bunifuCustomLabel1);
             this.pnl_workplace.Controls.Add(this.banglt);
             this.pnl_workplace.Controls.Add(this.pnl_input);
@@ -623,21 +639,21 @@ namespace GUI_quanlyspa
             // 
             // banglt
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.banglt.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.banglt.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle11;
             this.banglt.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.banglt.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
             this.banglt.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.banglt.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
             this.banglt.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.banglt.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.banglt.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle12;
             this.banglt.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.banglt.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -707,7 +723,7 @@ namespace GUI_quanlyspa
             // 
             // picBox_iconExit
             // 
-            this.picBox_iconExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.picBox_iconExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(211)))), ((int)(((byte)(18)))));
             this.picBox_iconExit.Image = global::GUI_quanlyspa.Properties.Resources.delete;
             this.picBox_iconExit.Location = new System.Drawing.Point(1564, 12);
             this.picBox_iconExit.Name = "picBox_iconExit";
@@ -719,6 +735,7 @@ namespace GUI_quanlyspa
             // 
             // pnl_logout
             // 
+            this.pnl_logout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(211)))), ((int)(((byte)(124)))));
             this.pnl_logout.Controls.Add(this.label8);
             this.pnl_logout.Controls.Add(this.pictureBox1);
             this.pnl_logout.Location = new System.Drawing.Point(1363, 4);
@@ -759,8 +776,8 @@ namespace GUI_quanlyspa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(179)))), ((int)(((byte)(25)))));
-            this.BackgroundImage = global::GUI_quanlyspa.Properties.Resources.background;
+            this.BackColor = System.Drawing.Color.White;
+            this.BackgroundImage = global::GUI_quanlyspa.Properties.Resources.Background_green;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1600, 900);
             this.Controls.Add(this.pnl_logout);
