@@ -25,3 +25,12 @@ E:\quanlySPA\GUI_quanlyspa\DAL_quanlyspa\obj\Debug\DAL_quanlyspa.csproj.CoreComp
 E:\quanlySPA\GUI_quanlyspa\DAL_quanlyspa\obj\Debug\DAL_quanlyspa.csproj.CopyComplete
 E:\quanlySPA\GUI_quanlyspa\DAL_quanlyspa\obj\Debug\DAL_quanlyspa.dll
 E:\quanlySPA\GUI_quanlyspa\DAL_quanlyspa\obj\Debug\DAL_quanlyspa.pdb
+E:\Spa Management Software\GUI_quanlyspa\DAL_quanlyspa\bin\Debug\DAL_quanlyspa.dll
+E:\Spa Management Software\GUI_quanlyspa\DAL_quanlyspa\bin\Debug\DAL_quanlyspa.pdb
+E:\Spa Management Software\GUI_quanlyspa\DAL_quanlyspa\bin\Debug\DTO_quanlyspa.dll
+E:\Spa Management Software\GUI_quanlyspa\DAL_quanlyspa\bin\Debug\DTO_quanlyspa.pdb
+E:\Spa Management Software\GUI_quanlyspa\DAL_quanlyspa\obj\Debug\DAL_quanlyspa.csproj.AssemblyReference.cache
+E:\Spa Management Software\GUI_quanlyspa\DAL_quanlyspa\obj\Debug\DAL_quanlyspa.csproj.CoreCompileInputs.cache
+E:\Spa Management Software\GUI_quanlyspa\DAL_quanlyspa\obj\Debug\DAL_quanlyspa.csproj.CopyComplete
+E:\Spa Management Software\GUI_quanlyspa\DAL_quanlyspa\obj\Debug\DAL_quanlyspa.dll
+E:\Spa Management Software\GUI_quanlyspa\DAL_quanlyspa\obj\Debug\DAL_quanlyspa.pdb

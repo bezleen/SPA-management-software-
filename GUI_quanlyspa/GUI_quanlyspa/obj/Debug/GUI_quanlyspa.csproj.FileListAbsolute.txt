@@ -45,3 +45,25 @@ E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.csproj.CoreComp
 E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.csproj.CopyComplete
 E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.exe
 E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.pdb
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.csproj.AssemblyReference.cache
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form1.resources
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Home.resources
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Khach_hang.resources
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Lieu_trinh.resources
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_MYPHAM.resources
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Nhan_vien.resources
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Login.resources
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Thiet_Bi.resources
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Properties.Resources.resources
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.csproj.GenerateResource.cache
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.csproj.CoreCompileInputs.cache
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.exe
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.pdb
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\GUI_quanlyspa.exe
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\GUI_quanlyspa.pdb
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\BUS_quanlyspa.dll
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\DTO_quanlyspa.dll
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\DAL_quanlyspa.dll
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\BUS_quanlyspa.pdb
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\DTO_quanlyspa.pdb
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\DAL_quanlyspa.pdb
