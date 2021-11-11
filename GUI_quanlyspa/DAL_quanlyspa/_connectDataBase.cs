@@ -93,5 +93,14 @@ namespace DAL_quanlyspa
             mlt = mlt + k.ToString();
             return mlt;
         }
+        public string matutang_thietbi(string str)
+        {
+            DataTable dt = new DataTable();
+            dt = _select(str);
+            int k = dt.Rows.Count + 1;
+            string mtb = "TB";
+            mtb = mtb + k.ToString();
+            return mtb;
+        }
     }
 }

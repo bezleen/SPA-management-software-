@@ -32,5 +32,9 @@ namespace DAL_quanlyspa
         {
             return con._select("SELECT * FROM NHAPTB" + str);
         }
+        public string matutang_thietbi(string str)
+        {
+            return con.matutang_thietbi("SELECT * FROM NHAPTB " + str);
+        }
     }
 }
