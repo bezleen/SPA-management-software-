@@ -30,8 +30,8 @@ namespace GUI_quanlyspa
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Khach_hang));
             this.pnl_Nhanvien = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
@@ -44,6 +44,14 @@ namespace GUI_quanlyspa
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.btn_sua = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.btn_xoa = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.btn_them = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.bunifuCustomLabel4 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.pnl_Mypham = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
@@ -65,24 +73,8 @@ namespace GUI_quanlyspa
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.elipse_Form_Lieu_trinh = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.pnl_workplace = new System.Windows.Forms.Panel();
+            this.bunifuCustomLabel6 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomDataGrid1 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
-            this.elipse_pnl_workplace = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.elipse_picBox_LogoSpa = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.picBox_LogoSpa = new System.Windows.Forms.PictureBox();
-            this.picBox_iconExit = new System.Windows.Forms.PictureBox();
-            this.pnl_logout = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.elipse_pnl_logout = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.bunifuCustomLabel4 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.btn_them = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.btn_xoa = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.btn_sua = new Bunifu.Framework.UI.BunifuThinButton2();
             this.MAKH = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.HOTEN = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.GIOITINH = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -92,7 +84,16 @@ namespace GUI_quanlyspa
             this.QUOCTICH = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.DOITUONG = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SDT = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.bunifuCustomLabel6 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.elipse_pnl_workplace = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.elipse_picBox_LogoSpa = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.picBox_LogoSpa = new System.Windows.Forms.PictureBox();
+            this.picBox_iconExit = new System.Windows.Forms.PictureBox();
+            this.pnl_logout = new System.Windows.Forms.Panel();
+            this.label8 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.elipse_pnl_logout = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.bunifuDatepicker1 = new Bunifu.Framework.UI.BunifuDatepicker();
+            this.btn_luu = new Bunifu.Framework.UI.BunifuThinButton2();
             this.pnl_Nhanvien.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.pnl_Thietbi.SuspendLayout();
@@ -118,9 +119,10 @@ namespace GUI_quanlyspa
             // 
             // pnl_Nhanvien
             // 
-            this.pnl_Nhanvien.BackColor = System.Drawing.Color.Orange;
+            this.pnl_Nhanvien.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(93)))), ((int)(((byte)(71)))));
             this.pnl_Nhanvien.Controls.Add(this.label2);
             this.pnl_Nhanvien.Controls.Add(this.pictureBox3);
+            this.pnl_Nhanvien.ForeColor = System.Drawing.Color.White;
             this.pnl_Nhanvien.Location = new System.Drawing.Point(20, 293);
             this.pnl_Nhanvien.Name = "pnl_Nhanvien";
             this.pnl_Nhanvien.Size = new System.Drawing.Size(197, 53);
@@ -190,9 +192,10 @@ namespace GUI_quanlyspa
             // 
             // pnl_Thietbi
             // 
-            this.pnl_Thietbi.BackColor = System.Drawing.Color.Orange;
+            this.pnl_Thietbi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(93)))), ((int)(((byte)(71)))));
             this.pnl_Thietbi.Controls.Add(this.label6);
             this.pnl_Thietbi.Controls.Add(this.pictureBox7);
+            this.pnl_Thietbi.ForeColor = System.Drawing.Color.White;
             this.pnl_Thietbi.Location = new System.Drawing.Point(20, 613);
             this.pnl_Thietbi.Name = "pnl_Thietbi";
             this.pnl_Thietbi.Size = new System.Drawing.Size(197, 53);
@@ -225,6 +228,8 @@ namespace GUI_quanlyspa
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
+            this.panel9.Controls.Add(this.btn_luu);
+            this.panel9.Controls.Add(this.bunifuDatepicker1);
             this.panel9.Controls.Add(this.btn_sua);
             this.panel9.Controls.Add(this.btn_xoa);
             this.panel9.Controls.Add(this.btn_them);
@@ -233,12 +238,130 @@ namespace GUI_quanlyspa
             this.panel9.Controls.Add(this.bunifuCustomLabel1);
             this.panel9.Controls.Add(this.textBox2);
             this.panel9.Controls.Add(this.bunifuCustomLabel2);
-            this.panel9.Controls.Add(this.dateTimePicker1);
             this.panel9.Controls.Add(this.comboBox1);
             this.panel9.Location = new System.Drawing.Point(15, 20);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(1255, 297);
             this.panel9.TabIndex = 0;
+            // 
+            // btn_sua
+            // 
+            this.btn_sua.ActiveBorderThickness = 1;
+            this.btn_sua.ActiveCornerRadius = 20;
+            this.btn_sua.ActiveFillColor = System.Drawing.Color.SeaGreen;
+            this.btn_sua.ActiveForecolor = System.Drawing.Color.White;
+            this.btn_sua.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.btn_sua.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
+            this.btn_sua.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_sua.BackgroundImage")));
+            this.btn_sua.ButtonText = "Sửa";
+            this.btn_sua.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_sua.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_sua.ForeColor = System.Drawing.Color.White;
+            this.btn_sua.IdleBorderThickness = 1;
+            this.btn_sua.IdleCornerRadius = 20;
+            this.btn_sua.IdleFillColor = System.Drawing.Color.SeaGreen;
+            this.btn_sua.IdleForecolor = System.Drawing.Color.White;
+            this.btn_sua.IdleLineColor = System.Drawing.Color.SeaGreen;
+            this.btn_sua.Location = new System.Drawing.Point(871, 212);
+            this.btn_sua.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.btn_sua.Name = "btn_sua";
+            this.btn_sua.Size = new System.Drawing.Size(179, 60);
+            this.btn_sua.TabIndex = 26;
+            this.btn_sua.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btn_xoa
+            // 
+            this.btn_xoa.ActiveBorderThickness = 1;
+            this.btn_xoa.ActiveCornerRadius = 20;
+            this.btn_xoa.ActiveFillColor = System.Drawing.Color.SeaGreen;
+            this.btn_xoa.ActiveForecolor = System.Drawing.Color.White;
+            this.btn_xoa.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.btn_xoa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
+            this.btn_xoa.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_xoa.BackgroundImage")));
+            this.btn_xoa.ButtonText = "Xóa";
+            this.btn_xoa.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_xoa.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_xoa.ForeColor = System.Drawing.Color.White;
+            this.btn_xoa.IdleBorderThickness = 1;
+            this.btn_xoa.IdleCornerRadius = 20;
+            this.btn_xoa.IdleFillColor = System.Drawing.Color.SeaGreen;
+            this.btn_xoa.IdleForecolor = System.Drawing.Color.White;
+            this.btn_xoa.IdleLineColor = System.Drawing.Color.SeaGreen;
+            this.btn_xoa.Location = new System.Drawing.Point(637, 212);
+            this.btn_xoa.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.btn_xoa.Name = "btn_xoa";
+            this.btn_xoa.Size = new System.Drawing.Size(179, 60);
+            this.btn_xoa.TabIndex = 25;
+            this.btn_xoa.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btn_them
+            // 
+            this.btn_them.ActiveBorderThickness = 1;
+            this.btn_them.ActiveCornerRadius = 20;
+            this.btn_them.ActiveFillColor = System.Drawing.Color.SeaGreen;
+            this.btn_them.ActiveForecolor = System.Drawing.Color.White;
+            this.btn_them.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.btn_them.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
+            this.btn_them.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_them.BackgroundImage")));
+            this.btn_them.ButtonText = "Thêm";
+            this.btn_them.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_them.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_them.ForeColor = System.Drawing.Color.White;
+            this.btn_them.IdleBorderThickness = 1;
+            this.btn_them.IdleCornerRadius = 20;
+            this.btn_them.IdleFillColor = System.Drawing.Color.SeaGreen;
+            this.btn_them.IdleForecolor = System.Drawing.Color.White;
+            this.btn_them.IdleLineColor = System.Drawing.Color.SeaGreen;
+            this.btn_them.Location = new System.Drawing.Point(406, 212);
+            this.btn_them.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.btn_them.Name = "btn_them";
+            this.btn_them.Size = new System.Drawing.Size(179, 60);
+            this.btn_them.TabIndex = 23;
+            this.btn_them.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomLabel4
+            // 
+            this.bunifuCustomLabel4.AutoSize = true;
+            this.bunifuCustomLabel4.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
+            this.bunifuCustomLabel4.Location = new System.Drawing.Point(662, 98);
+            this.bunifuCustomLabel4.Name = "bunifuCustomLabel4";
+            this.bunifuCustomLabel4.Size = new System.Drawing.Size(246, 32);
+            this.bunifuCustomLabel4.TabIndex = 22;
+            this.bunifuCustomLabel4.Text = "Liệu Trình Sử Dụng";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(42, 224);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(196, 24);
+            this.textBox3.TabIndex = 21;
+            // 
+            // bunifuCustomLabel1
+            // 
+            this.bunifuCustomLabel1.AutoSize = true;
+            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(37, 172);
+            this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(227, 32);
+            this.bunifuCustomLabel1.TabIndex = 20;
+            this.bunifuCustomLabel1.Text = "Mã Khách Hàng";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(42, 118);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(196, 24);
+            this.textBox2.TabIndex = 19;
+            // 
+            // bunifuCustomLabel2
+            // 
+            this.bunifuCustomLabel2.AutoSize = true;
+            this.bunifuCustomLabel2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
+            this.bunifuCustomLabel2.Location = new System.Drawing.Point(73, 74);
+            this.bunifuCustomLabel2.Name = "bunifuCustomLabel2";
+            this.bunifuCustomLabel2.Size = new System.Drawing.Size(146, 32);
+            this.bunifuCustomLabel2.TabIndex = 18;
+            this.bunifuCustomLabel2.Text = "Họ Và Tên";
             // 
             // comboBox1
             // 
@@ -250,9 +373,10 @@ namespace GUI_quanlyspa
             // 
             // pnl_Mypham
             // 
-            this.pnl_Mypham.BackColor = System.Drawing.Color.Orange;
+            this.pnl_Mypham.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(93)))), ((int)(((byte)(71)))));
             this.pnl_Mypham.Controls.Add(this.label3);
             this.pnl_Mypham.Controls.Add(this.pictureBox4);
+            this.pnl_Mypham.ForeColor = System.Drawing.Color.White;
             this.pnl_Mypham.Location = new System.Drawing.Point(20, 372);
             this.pnl_Mypham.Name = "pnl_Mypham";
             this.pnl_Mypham.Size = new System.Drawing.Size(197, 53);
@@ -284,9 +408,10 @@ namespace GUI_quanlyspa
             // 
             // pnl_Lieutrinh
             // 
-            this.pnl_Lieutrinh.BackColor = System.Drawing.Color.Orange;
+            this.pnl_Lieutrinh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(93)))), ((int)(((byte)(71)))));
             this.pnl_Lieutrinh.Controls.Add(this.label4);
             this.pnl_Lieutrinh.Controls.Add(this.pictureBox5);
+            this.pnl_Lieutrinh.ForeColor = System.Drawing.Color.White;
             this.pnl_Lieutrinh.Location = new System.Drawing.Point(20, 455);
             this.pnl_Lieutrinh.Name = "pnl_Lieutrinh";
             this.pnl_Lieutrinh.Size = new System.Drawing.Size(197, 53);
@@ -304,9 +429,10 @@ namespace GUI_quanlyspa
             // 
             // pnl_Khachhang
             // 
-            this.pnl_Khachhang.BackColor = System.Drawing.Color.YellowGreen;
+            this.pnl_Khachhang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(211)))), ((int)(((byte)(124)))));
             this.pnl_Khachhang.Controls.Add(this.label5);
             this.pnl_Khachhang.Controls.Add(this.pictureBox6);
+            this.pnl_Khachhang.ForeColor = System.Drawing.Color.White;
             this.pnl_Khachhang.Location = new System.Drawing.Point(20, 534);
             this.pnl_Khachhang.Name = "pnl_Khachhang";
             this.pnl_Khachhang.Size = new System.Drawing.Size(197, 53);
@@ -327,9 +453,10 @@ namespace GUI_quanlyspa
             // 
             // pnl_Hoadon
             // 
-            this.pnl_Hoadon.BackColor = System.Drawing.Color.Orange;
+            this.pnl_Hoadon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(93)))), ((int)(((byte)(71)))));
             this.pnl_Hoadon.Controls.Add(this.label7);
             this.pnl_Hoadon.Controls.Add(this.pictureBox8);
+            this.pnl_Hoadon.ForeColor = System.Drawing.Color.White;
             this.pnl_Hoadon.Location = new System.Drawing.Point(20, 694);
             this.pnl_Hoadon.Name = "pnl_Hoadon";
             this.pnl_Hoadon.Size = new System.Drawing.Size(197, 53);
@@ -380,9 +507,10 @@ namespace GUI_quanlyspa
             // 
             // pnl_Home
             // 
-            this.pnl_Home.BackColor = System.Drawing.Color.Orange;
+            this.pnl_Home.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(93)))), ((int)(((byte)(71)))));
             this.pnl_Home.Controls.Add(this.label1);
             this.pnl_Home.Controls.Add(this.pictureBox2);
+            this.pnl_Home.ForeColor = System.Drawing.Color.White;
             this.pnl_Home.Location = new System.Drawing.Point(20, 211);
             this.pnl_Home.Name = "pnl_Home";
             this.pnl_Home.Size = new System.Drawing.Size(197, 53);
@@ -420,7 +548,7 @@ namespace GUI_quanlyspa
             // 
             // pnl_workplace
             // 
-            this.pnl_workplace.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(148)))));
+            this.pnl_workplace.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(211)))), ((int)(((byte)(124)))));
             this.pnl_workplace.Controls.Add(this.bunifuCustomLabel6);
             this.pnl_workplace.Controls.Add(this.bunifuCustomDataGrid1);
             this.pnl_workplace.Controls.Add(this.panel9);
@@ -429,22 +557,33 @@ namespace GUI_quanlyspa
             this.pnl_workplace.Size = new System.Drawing.Size(1293, 820);
             this.pnl_workplace.TabIndex = 19;
             // 
+            // bunifuCustomLabel6
+            // 
+            this.bunifuCustomLabel6.AutoSize = true;
+            this.bunifuCustomLabel6.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel6.Location = new System.Drawing.Point(483, 320);
+            this.bunifuCustomLabel6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.bunifuCustomLabel6.Name = "bunifuCustomLabel6";
+            this.bunifuCustomLabel6.Size = new System.Drawing.Size(339, 37);
+            this.bunifuCustomLabel6.TabIndex = 27;
+            this.bunifuCustomLabel6.Text = "Thông Tin Khách Hàng";
+            // 
             // bunifuCustomDataGrid1
             // 
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bunifuCustomDataGrid1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bunifuCustomDataGrid1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.bunifuCustomDataGrid1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.bunifuCustomDataGrid1.BackgroundColor = System.Drawing.Color.Gainsboro;
             this.bunifuCustomDataGrid1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.bunifuCustomDataGrid1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bunifuCustomDataGrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bunifuCustomDataGrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.bunifuCustomDataGrid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.bunifuCustomDataGrid1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.MAKH,
@@ -467,199 +606,6 @@ namespace GUI_quanlyspa
             this.bunifuCustomDataGrid1.RowHeadersWidth = 51;
             this.bunifuCustomDataGrid1.Size = new System.Drawing.Size(1255, 392);
             this.bunifuCustomDataGrid1.TabIndex = 1;
-            // 
-            // elipse_pnl_workplace
-            // 
-            this.elipse_pnl_workplace.ElipseRadius = 25;
-            this.elipse_pnl_workplace.TargetControl = this.pnl_workplace;
-            // 
-            // elipse_picBox_LogoSpa
-            // 
-            this.elipse_picBox_LogoSpa.ElipseRadius = 120;
-            this.elipse_picBox_LogoSpa.TargetControl = this.picBox_LogoSpa;
-            // 
-            // picBox_LogoSpa
-            // 
-            this.picBox_LogoSpa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
-            this.picBox_LogoSpa.Image = global::GUI_quanlyspa.Properties.Resources.Logo;
-            this.picBox_LogoSpa.Location = new System.Drawing.Point(20, 20);
-            this.picBox_LogoSpa.Name = "picBox_LogoSpa";
-            this.picBox_LogoSpa.Size = new System.Drawing.Size(120, 120);
-            this.picBox_LogoSpa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picBox_LogoSpa.TabIndex = 20;
-            this.picBox_LogoSpa.TabStop = false;
-            // 
-            // picBox_iconExit
-            // 
-            this.picBox_iconExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.picBox_iconExit.Image = global::GUI_quanlyspa.Properties.Resources.delete;
-            this.picBox_iconExit.Location = new System.Drawing.Point(1564, 12);
-            this.picBox_iconExit.Name = "picBox_iconExit";
-            this.picBox_iconExit.Size = new System.Drawing.Size(24, 22);
-            this.picBox_iconExit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picBox_iconExit.TabIndex = 23;
-            this.picBox_iconExit.TabStop = false;
-            this.picBox_iconExit.MouseClick += new System.Windows.Forms.MouseEventHandler(this.picBox_iconExit_MouseClick);
-            // 
-            // pnl_logout
-            // 
-            this.pnl_logout.Controls.Add(this.label8);
-            this.pnl_logout.Controls.Add(this.pictureBox1);
-            this.pnl_logout.Location = new System.Drawing.Point(1363, 4);
-            this.pnl_logout.Name = "pnl_logout";
-            this.pnl_logout.Size = new System.Drawing.Size(174, 34);
-            this.pnl_logout.TabIndex = 31;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(42, 8);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(156, 19);
-            this.label8.TabIndex = 26;
-            this.label8.Text = "bezleendeptraibodoi";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::GUI_quanlyspa.Properties.Resources.user_kids_avatar_user_profile_icon_149314;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(33, 26);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 25;
-            this.pictureBox1.TabStop = false;
-            // 
-            // elipse_pnl_logout
-            // 
-            this.elipse_pnl_logout.ElipseRadius = 30;
-            this.elipse_pnl_logout.TargetControl = this.pnl_logout;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(21, 17);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(271, 24);
-            this.dateTimePicker1.TabIndex = 17;
-            // 
-            // bunifuCustomLabel2
-            // 
-            this.bunifuCustomLabel2.AutoSize = true;
-            this.bunifuCustomLabel2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
-            this.bunifuCustomLabel2.Location = new System.Drawing.Point(73, 74);
-            this.bunifuCustomLabel2.Name = "bunifuCustomLabel2";
-            this.bunifuCustomLabel2.Size = new System.Drawing.Size(146, 32);
-            this.bunifuCustomLabel2.TabIndex = 18;
-            this.bunifuCustomLabel2.Text = "Họ Và Tên";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(42, 118);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(196, 24);
-            this.textBox2.TabIndex = 19;
-            // 
-            // bunifuCustomLabel1
-            // 
-            this.bunifuCustomLabel1.AutoSize = true;
-            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
-            this.bunifuCustomLabel1.Location = new System.Drawing.Point(37, 172);
-            this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-            this.bunifuCustomLabel1.Size = new System.Drawing.Size(227, 32);
-            this.bunifuCustomLabel1.TabIndex = 20;
-            this.bunifuCustomLabel1.Text = "Mã Khách Hàng";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(42, 224);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(196, 24);
-            this.textBox3.TabIndex = 21;
-            // 
-            // bunifuCustomLabel4
-            // 
-            this.bunifuCustomLabel4.AutoSize = true;
-            this.bunifuCustomLabel4.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
-            this.bunifuCustomLabel4.Location = new System.Drawing.Point(662, 98);
-            this.bunifuCustomLabel4.Name = "bunifuCustomLabel4";
-            this.bunifuCustomLabel4.Size = new System.Drawing.Size(246, 32);
-            this.bunifuCustomLabel4.TabIndex = 22;
-            this.bunifuCustomLabel4.Text = "Liệu Trình Sử Dụng";
-            // 
-            // btn_them
-            // 
-            this.btn_them.ActiveBorderThickness = 1;
-            this.btn_them.ActiveCornerRadius = 20;
-            this.btn_them.ActiveFillColor = System.Drawing.Color.SeaGreen;
-            this.btn_them.ActiveForecolor = System.Drawing.Color.White;
-            this.btn_them.ActiveLineColor = System.Drawing.Color.SeaGreen;
-            this.btn_them.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
-            this.btn_them.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_them.BackgroundImage")));
-            this.btn_them.ButtonText = "Thêm";
-            this.btn_them.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_them.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_them.ForeColor = System.Drawing.Color.White;
-            this.btn_them.IdleBorderThickness = 1;
-            this.btn_them.IdleCornerRadius = 20;
-            this.btn_them.IdleFillColor = System.Drawing.Color.SeaGreen;
-            this.btn_them.IdleForecolor = System.Drawing.Color.White;
-            this.btn_them.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.btn_them.Location = new System.Drawing.Point(406, 212);
-            this.btn_them.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.btn_them.Name = "btn_them";
-            this.btn_them.Size = new System.Drawing.Size(179, 60);
-            this.btn_them.TabIndex = 23;
-            this.btn_them.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // btn_xoa
-            // 
-            this.btn_xoa.ActiveBorderThickness = 1;
-            this.btn_xoa.ActiveCornerRadius = 20;
-            this.btn_xoa.ActiveFillColor = System.Drawing.Color.SeaGreen;
-            this.btn_xoa.ActiveForecolor = System.Drawing.Color.White;
-            this.btn_xoa.ActiveLineColor = System.Drawing.Color.SeaGreen;
-            this.btn_xoa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
-            this.btn_xoa.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_xoa.BackgroundImage")));
-            this.btn_xoa.ButtonText = "Xóa";
-            this.btn_xoa.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_xoa.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_xoa.ForeColor = System.Drawing.Color.White;
-            this.btn_xoa.IdleBorderThickness = 1;
-            this.btn_xoa.IdleCornerRadius = 20;
-            this.btn_xoa.IdleFillColor = System.Drawing.Color.SeaGreen;
-            this.btn_xoa.IdleForecolor = System.Drawing.Color.White;
-            this.btn_xoa.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.btn_xoa.Location = new System.Drawing.Point(637, 212);
-            this.btn_xoa.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.btn_xoa.Name = "btn_xoa";
-            this.btn_xoa.Size = new System.Drawing.Size(179, 60);
-            this.btn_xoa.TabIndex = 25;
-            this.btn_xoa.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // btn_sua
-            // 
-            this.btn_sua.ActiveBorderThickness = 1;
-            this.btn_sua.ActiveCornerRadius = 20;
-            this.btn_sua.ActiveFillColor = System.Drawing.Color.SeaGreen;
-            this.btn_sua.ActiveForecolor = System.Drawing.Color.White;
-            this.btn_sua.ActiveLineColor = System.Drawing.Color.SeaGreen;
-            this.btn_sua.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
-            this.btn_sua.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_sua.BackgroundImage")));
-            this.btn_sua.ButtonText = "Sửa";
-            this.btn_sua.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_sua.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_sua.ForeColor = System.Drawing.Color.White;
-            this.btn_sua.IdleBorderThickness = 1;
-            this.btn_sua.IdleCornerRadius = 20;
-            this.btn_sua.IdleFillColor = System.Drawing.Color.SeaGreen;
-            this.btn_sua.IdleForecolor = System.Drawing.Color.White;
-            this.btn_sua.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.btn_sua.Location = new System.Drawing.Point(871, 212);
-            this.btn_sua.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.btn_sua.Name = "btn_sua";
-            this.btn_sua.Size = new System.Drawing.Size(179, 60);
-            this.btn_sua.TabIndex = 26;
-            this.btn_sua.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // MAKH
             // 
@@ -724,23 +670,119 @@ namespace GUI_quanlyspa
             this.SDT.MinimumWidth = 6;
             this.SDT.Name = "SDT";
             // 
-            // bunifuCustomLabel6
+            // elipse_pnl_workplace
             // 
-            this.bunifuCustomLabel6.AutoSize = true;
-            this.bunifuCustomLabel6.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel6.Location = new System.Drawing.Point(483, 320);
-            this.bunifuCustomLabel6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.bunifuCustomLabel6.Name = "bunifuCustomLabel6";
-            this.bunifuCustomLabel6.Size = new System.Drawing.Size(339, 37);
-            this.bunifuCustomLabel6.TabIndex = 27;
-            this.bunifuCustomLabel6.Text = "Thông Tin Khách Hàng";
+            this.elipse_pnl_workplace.ElipseRadius = 25;
+            this.elipse_pnl_workplace.TargetControl = this.pnl_workplace;
+            // 
+            // elipse_picBox_LogoSpa
+            // 
+            this.elipse_picBox_LogoSpa.ElipseRadius = 120;
+            this.elipse_picBox_LogoSpa.TargetControl = this.picBox_LogoSpa;
+            // 
+            // picBox_LogoSpa
+            // 
+            this.picBox_LogoSpa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            this.picBox_LogoSpa.Image = global::GUI_quanlyspa.Properties.Resources.Logo;
+            this.picBox_LogoSpa.Location = new System.Drawing.Point(20, 20);
+            this.picBox_LogoSpa.Name = "picBox_LogoSpa";
+            this.picBox_LogoSpa.Size = new System.Drawing.Size(120, 120);
+            this.picBox_LogoSpa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBox_LogoSpa.TabIndex = 20;
+            this.picBox_LogoSpa.TabStop = false;
+            // 
+            // picBox_iconExit
+            // 
+            this.picBox_iconExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(211)))), ((int)(((byte)(18)))));
+            this.picBox_iconExit.Image = global::GUI_quanlyspa.Properties.Resources.delete;
+            this.picBox_iconExit.Location = new System.Drawing.Point(1564, 12);
+            this.picBox_iconExit.Name = "picBox_iconExit";
+            this.picBox_iconExit.Size = new System.Drawing.Size(24, 22);
+            this.picBox_iconExit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picBox_iconExit.TabIndex = 23;
+            this.picBox_iconExit.TabStop = false;
+            this.picBox_iconExit.MouseClick += new System.Windows.Forms.MouseEventHandler(this.picBox_iconExit_MouseClick);
+            // 
+            // pnl_logout
+            // 
+            this.pnl_logout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(211)))), ((int)(((byte)(124)))));
+            this.pnl_logout.Controls.Add(this.label8);
+            this.pnl_logout.Controls.Add(this.pictureBox1);
+            this.pnl_logout.Location = new System.Drawing.Point(1363, 4);
+            this.pnl_logout.Name = "pnl_logout";
+            this.pnl_logout.Size = new System.Drawing.Size(174, 34);
+            this.pnl_logout.TabIndex = 31;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(42, 8);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(156, 19);
+            this.label8.TabIndex = 26;
+            this.label8.Text = "bezleendeptraibodoi";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::GUI_quanlyspa.Properties.Resources.user_kids_avatar_user_profile_icon_149314;
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(33, 26);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 25;
+            this.pictureBox1.TabStop = false;
+            // 
+            // elipse_pnl_logout
+            // 
+            this.elipse_pnl_logout.ElipseRadius = 30;
+            this.elipse_pnl_logout.TargetControl = this.pnl_logout;
+            // 
+            // bunifuDatepicker1
+            // 
+            this.bunifuDatepicker1.BackColor = System.Drawing.Color.SeaGreen;
+            this.bunifuDatepicker1.BorderRadius = 0;
+            this.bunifuDatepicker1.ForeColor = System.Drawing.Color.White;
+            this.bunifuDatepicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.bunifuDatepicker1.FormatCustom = null;
+            this.bunifuDatepicker1.Location = new System.Drawing.Point(42, 22);
+            this.bunifuDatepicker1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.bunifuDatepicker1.Name = "bunifuDatepicker1";
+            this.bunifuDatepicker1.Size = new System.Drawing.Size(243, 30);
+            this.bunifuDatepicker1.TabIndex = 27;
+            this.bunifuDatepicker1.Value = new System.DateTime(2021, 11, 10, 11, 1, 8, 551);
+            this.bunifuDatepicker1.onValueChanged += new System.EventHandler(this.bunifuDatepicker1_onValueChanged);
+            // 
+            // btn_luu
+            // 
+            this.btn_luu.ActiveBorderThickness = 1;
+            this.btn_luu.ActiveCornerRadius = 20;
+            this.btn_luu.ActiveFillColor = System.Drawing.Color.SeaGreen;
+            this.btn_luu.ActiveForecolor = System.Drawing.Color.White;
+            this.btn_luu.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.btn_luu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
+            this.btn_luu.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_luu.BackgroundImage")));
+            this.btn_luu.ButtonText = "Lưu";
+            this.btn_luu.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_luu.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_luu.ForeColor = System.Drawing.Color.White;
+            this.btn_luu.IdleBorderThickness = 1;
+            this.btn_luu.IdleCornerRadius = 20;
+            this.btn_luu.IdleFillColor = System.Drawing.Color.SeaGreen;
+            this.btn_luu.IdleForecolor = System.Drawing.Color.White;
+            this.btn_luu.IdleLineColor = System.Drawing.Color.SeaGreen;
+            this.btn_luu.Location = new System.Drawing.Point(1141, 223);
+            this.btn_luu.Margin = new System.Windows.Forms.Padding(6);
+            this.btn_luu.Name = "btn_luu";
+            this.btn_luu.Size = new System.Drawing.Size(98, 49);
+            this.btn_luu.TabIndex = 28;
+            this.btn_luu.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form_Khach_hang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(179)))), ((int)(((byte)(25)))));
-            this.BackgroundImage = global::GUI_quanlyspa.Properties.Resources.background;
+            this.BackgroundImage = global::GUI_quanlyspa.Properties.Resources.Background_green;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1600, 900);
             this.Controls.Add(this.pnl_logout);
@@ -839,7 +881,6 @@ namespace GUI_quanlyspa
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox pictureBox1;
         private Bunifu.Framework.UI.BunifuElipse elipse_pnl_logout;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel2;
         private System.Windows.Forms.TextBox textBox2;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel1;
@@ -858,5 +899,7 @@ namespace GUI_quanlyspa
         private System.Windows.Forms.DataGridViewTextBoxColumn DOITUONG;
         private System.Windows.Forms.DataGridViewTextBoxColumn SDT;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel6;
+        private Bunifu.Framework.UI.BunifuDatepicker bunifuDatepicker1;
+        private Bunifu.Framework.UI.BunifuThinButton2 btn_luu;
     }
 }

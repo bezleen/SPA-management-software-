@@ -33,5 +33,9 @@ namespace DAL_quanlyspa
         {
             return con._select("SELECT * FROM MYPHAM "+str);
         }
+        public void _updatesl(string str, int sltk)
+        {
+            con._insert_update_delete("UPDATE MYPHAM SET SOLUONGTONKHO = '" + sltk + "' "+str);
+        }
     }
 }

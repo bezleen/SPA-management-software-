@@ -7,17 +7,15 @@ namespace quanlyspa_DTO
     public class DTO_CTDT
     {
         private string _MABS;
-        private string _MAKH;
         private string _MALT;
-        private string _TIENTRINH;
-        private string _PHANTRAMDT;
-        private string _DATHANHTOAN;
+        private string _SOHD;
+        private string _SOLUONG;
+        private string _THANHTIENLT;
 
         public string MABS { get => _MABS; set => _MABS = value; }
-        public string MAKH { get => _MAKH; set => _MAKH = value; }
         public string MALT { get => _MALT; set => _MALT = value; }
-        public string TIENTRINH { get => _TIENTRINH; set => _TIENTRINH = value; }
-        public string PHANTRAMDT { get => _PHANTRAMDT; set => _PHANTRAMDT = value; }
-        public string DATHANHTOAN { get => _DATHANHTOAN; set => _DATHANHTOAN = value; }
+        public string SOHD { get => _SOHD; set => _SOHD = value; }
+        public string SOLUONG { get => _SOLUONG; set => _SOLUONG = value; }
+        public string THANHTIENLT { get => _THANHTIENLT; set => _THANHTIENLT = value; }
     }
 }

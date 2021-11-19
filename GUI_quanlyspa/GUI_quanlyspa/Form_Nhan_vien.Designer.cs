@@ -31,8 +31,8 @@ namespace GUI_quanlyspa
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Nhan_vien));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnl_Nhanvien = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -48,7 +48,6 @@ namespace GUI_quanlyspa
             this.btn_sua = new Bunifu.Framework.UI.BunifuThinButton2();
             this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btn_them = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.bunifuCustomLabel5 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel4 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel3 = new Bunifu.Framework.UI.BunifuCustomLabel();
@@ -98,6 +97,7 @@ namespace GUI_quanlyspa
             this.label8 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.elipse_pnl_logout = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.bunifuDatepicker1 = new Bunifu.Framework.UI.BunifuDatepicker();
             this.pnl_Nhanvien.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.pnl_Thietbi.SuspendLayout();
@@ -126,6 +126,7 @@ namespace GUI_quanlyspa
             this.pnl_Nhanvien.BackColor = System.Drawing.Color.YellowGreen;
             this.pnl_Nhanvien.Controls.Add(this.label2);
             this.pnl_Nhanvien.Controls.Add(this.pictureBox3);
+            this.pnl_Nhanvien.ForeColor = System.Drawing.Color.White;
             this.pnl_Nhanvien.Location = new System.Drawing.Point(20, 293);
             this.pnl_Nhanvien.Name = "pnl_Nhanvien";
             this.pnl_Nhanvien.Size = new System.Drawing.Size(197, 53);
@@ -194,9 +195,10 @@ namespace GUI_quanlyspa
             // 
             // pnl_Thietbi
             // 
-            this.pnl_Thietbi.BackColor = System.Drawing.Color.Orange;
+            this.pnl_Thietbi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(93)))), ((int)(((byte)(71)))));
             this.pnl_Thietbi.Controls.Add(this.label6);
             this.pnl_Thietbi.Controls.Add(this.pictureBox7);
+            this.pnl_Thietbi.ForeColor = System.Drawing.Color.White;
             this.pnl_Thietbi.Location = new System.Drawing.Point(20, 613);
             this.pnl_Thietbi.Name = "pnl_Thietbi";
             this.pnl_Thietbi.Size = new System.Drawing.Size(197, 53);
@@ -229,11 +231,11 @@ namespace GUI_quanlyspa
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
+            this.panel9.Controls.Add(this.bunifuDatepicker1);
             this.panel9.Controls.Add(this.btn_xoa);
             this.panel9.Controls.Add(this.btn_sua);
             this.panel9.Controls.Add(this.bunifuThinButton21);
             this.panel9.Controls.Add(this.btn_them);
-            this.panel9.Controls.Add(this.dateTimePicker1);
             this.panel9.Controls.Add(this.bunifuCustomLabel5);
             this.panel9.Controls.Add(this.bunifuCustomLabel4);
             this.panel9.Controls.Add(this.bunifuCustomLabel3);
@@ -350,14 +352,6 @@ namespace GUI_quanlyspa
             this.btn_them.TabIndex = 22;
             this.btn_them.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(36, 34);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(271, 24);
-            this.dateTimePicker1.TabIndex = 17;
-            // 
             // bunifuCustomLabel5
             // 
             this.bunifuCustomLabel5.AutoSize = true;
@@ -449,9 +443,10 @@ namespace GUI_quanlyspa
             // 
             // pnl_Mypham
             // 
-            this.pnl_Mypham.BackColor = System.Drawing.Color.Orange;
+            this.pnl_Mypham.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(93)))), ((int)(((byte)(71)))));
             this.pnl_Mypham.Controls.Add(this.label3);
             this.pnl_Mypham.Controls.Add(this.pictureBox4);
+            this.pnl_Mypham.ForeColor = System.Drawing.Color.White;
             this.pnl_Mypham.Location = new System.Drawing.Point(20, 372);
             this.pnl_Mypham.Name = "pnl_Mypham";
             this.pnl_Mypham.Size = new System.Drawing.Size(197, 53);
@@ -483,9 +478,10 @@ namespace GUI_quanlyspa
             // 
             // pnl_Lieutrinh
             // 
-            this.pnl_Lieutrinh.BackColor = System.Drawing.Color.Orange;
+            this.pnl_Lieutrinh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(93)))), ((int)(((byte)(71)))));
             this.pnl_Lieutrinh.Controls.Add(this.label4);
             this.pnl_Lieutrinh.Controls.Add(this.pictureBox5);
+            this.pnl_Lieutrinh.ForeColor = System.Drawing.Color.White;
             this.pnl_Lieutrinh.Location = new System.Drawing.Point(20, 455);
             this.pnl_Lieutrinh.Name = "pnl_Lieutrinh";
             this.pnl_Lieutrinh.Size = new System.Drawing.Size(197, 53);
@@ -503,9 +499,10 @@ namespace GUI_quanlyspa
             // 
             // pnl_Khachhang
             // 
-            this.pnl_Khachhang.BackColor = System.Drawing.Color.Orange;
+            this.pnl_Khachhang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(93)))), ((int)(((byte)(71)))));
             this.pnl_Khachhang.Controls.Add(this.label5);
             this.pnl_Khachhang.Controls.Add(this.pictureBox6);
+            this.pnl_Khachhang.ForeColor = System.Drawing.Color.White;
             this.pnl_Khachhang.Location = new System.Drawing.Point(20, 534);
             this.pnl_Khachhang.Name = "pnl_Khachhang";
             this.pnl_Khachhang.Size = new System.Drawing.Size(197, 53);
@@ -526,7 +523,7 @@ namespace GUI_quanlyspa
             // 
             // pnl_Hoadon
             // 
-            this.pnl_Hoadon.BackColor = System.Drawing.Color.Orange;
+            this.pnl_Hoadon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(93)))), ((int)(((byte)(71)))));
             this.pnl_Hoadon.Controls.Add(this.label7);
             this.pnl_Hoadon.Controls.Add(this.pictureBox8);
             this.pnl_Hoadon.Location = new System.Drawing.Point(20, 694);
@@ -579,9 +576,10 @@ namespace GUI_quanlyspa
             // 
             // pnl_Home
             // 
-            this.pnl_Home.BackColor = System.Drawing.Color.Orange;
+            this.pnl_Home.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(93)))), ((int)(((byte)(71)))));
             this.pnl_Home.Controls.Add(this.label1);
             this.pnl_Home.Controls.Add(this.pictureBox2);
+            this.pnl_Home.ForeColor = System.Drawing.Color.White;
             this.pnl_Home.Location = new System.Drawing.Point(20, 211);
             this.pnl_Home.Name = "pnl_Home";
             this.pnl_Home.Size = new System.Drawing.Size(197, 53);
@@ -619,7 +617,7 @@ namespace GUI_quanlyspa
             // 
             // pnl_workplace
             // 
-            this.pnl_workplace.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(148)))));
+            this.pnl_workplace.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(211)))), ((int)(((byte)(124)))));
             this.pnl_workplace.Controls.Add(this.banglt);
             this.pnl_workplace.Controls.Add(this.bunifuCustomLabel6);
             this.pnl_workplace.Controls.Add(this.panel9);
@@ -630,21 +628,21 @@ namespace GUI_quanlyspa
             // 
             // banglt
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.banglt.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.banglt.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle9;
             this.banglt.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.banglt.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
             this.banglt.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.banglt.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
             this.banglt.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.banglt.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.banglt.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
             this.banglt.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.banglt.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.MANV,
@@ -767,7 +765,7 @@ namespace GUI_quanlyspa
             // 
             // picBox_iconExit
             // 
-            this.picBox_iconExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.picBox_iconExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(211)))), ((int)(((byte)(18)))));
             this.picBox_iconExit.Image = global::GUI_quanlyspa.Properties.Resources.delete;
             this.picBox_iconExit.Location = new System.Drawing.Point(1564, 12);
             this.picBox_iconExit.Name = "picBox_iconExit";
@@ -779,6 +777,7 @@ namespace GUI_quanlyspa
             // 
             // pnl_logout
             // 
+            this.pnl_logout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(211)))), ((int)(((byte)(124)))));
             this.pnl_logout.Controls.Add(this.label8);
             this.pnl_logout.Controls.Add(this.pictureBox1);
             this.pnl_logout.Location = new System.Drawing.Point(1363, 4);
@@ -810,12 +809,26 @@ namespace GUI_quanlyspa
             this.elipse_pnl_logout.ElipseRadius = 30;
             this.elipse_pnl_logout.TargetControl = this.pnl_logout;
             // 
+            // bunifuDatepicker1
+            // 
+            this.bunifuDatepicker1.BackColor = System.Drawing.Color.SeaGreen;
+            this.bunifuDatepicker1.BorderRadius = 0;
+            this.bunifuDatepicker1.ForeColor = System.Drawing.Color.White;
+            this.bunifuDatepicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.bunifuDatepicker1.FormatCustom = null;
+            this.bunifuDatepicker1.Location = new System.Drawing.Point(29, 23);
+            this.bunifuDatepicker1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.bunifuDatepicker1.Name = "bunifuDatepicker1";
+            this.bunifuDatepicker1.Size = new System.Drawing.Size(165, 28);
+            this.bunifuDatepicker1.TabIndex = 26;
+            this.bunifuDatepicker1.Value = new System.DateTime(2021, 11, 10, 11, 32, 58, 602);
+            // 
             // Form_Nhan_vien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(179)))), ((int)(((byte)(25)))));
-            this.BackgroundImage = global::GUI_quanlyspa.Properties.Resources.background;
+            this.BackgroundImage = global::GUI_quanlyspa.Properties.Resources.Background_green;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1600, 900);
             this.Controls.Add(this.pnl_logout);
@@ -921,7 +934,6 @@ namespace GUI_quanlyspa
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox pictureBox1;
         private Bunifu.Framework.UI.BunifuElipse elipse_pnl_logout;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private Bunifu.Framework.UI.BunifuThinButton2 btn_them;
         private Bunifu.Framework.UI.BunifuThinButton2 btn_sua;
         private Bunifu.Framework.UI.BunifuThinButton2 btn_xoa;
@@ -937,5 +949,6 @@ namespace GUI_quanlyspa
         private System.Windows.Forms.DataGridViewTextBoxColumn HESOLUONG;
         private System.Windows.Forms.DataGridViewTextBoxColumn NGAYBATDAU;
         private System.Windows.Forms.DataGridViewTextBoxColumn NGAYKETTHUC;
+        private Bunifu.Framework.UI.BunifuDatepicker bunifuDatepicker1;
     }
 }

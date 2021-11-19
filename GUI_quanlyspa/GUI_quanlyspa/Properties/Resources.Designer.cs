@@ -153,6 +153,16 @@ namespace GUI_quanlyspa.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_date_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-date-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_female_user_30 {
             get {
                 object obj = ResourceManager.GetObject("icons8-female-user-30", resourceCulture);

@@ -48,17 +48,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Form_Hoa_don.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form_HOADON.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_HOADON.Designer.cs">
-      <DependentUpon>Form_HOADON.cs</DependentUpon>
+    <Compile Include="Form_Hoa_don.Designer.cs">
+      <DependentUpon>Form_Hoa_don.cs</DependentUpon>
     </Compile>
     <Compile Include="Form_Home.cs">
       <SubType>Form</SubType>
@@ -104,11 +98,8 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_HOADON.resx">
-      <DependentUpon>Form_HOADON.cs</DependentUpon>
+    <EmbeddedResource Include="Form_Hoa_don.resx">
+      <DependentUpon>Form_Hoa_don.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Home.resx">
       <DependentUpon>Form_Home.cs</DependentUpon>
@@ -226,6 +217,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Background_green.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-date-64.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -22,9 +22,9 @@ namespace BUS_quanlyspa
             sql._updateData(val);
         }
         // ham delete
-        public void _deleteData(DTO_CTHD val)
+        public void _deleteData(string str)
         {
-            sql._deleteData(val);
+            sql._deleteData(str);
         }
         // ham select
         public DataTable _selectData(string str)

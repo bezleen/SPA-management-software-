@@ -31,5 +31,9 @@ namespace BUS_quanlyspa
         {
             return sql._selectData(str);
         }
+        public void _updatesl(string str, int sltk)
+        {
+            sql._updatesl(str,sltk);
+        }
     }
 }

@@ -15,6 +15,7 @@ namespace GUI_quanlyspa
     {
         BUS_LieuTrinh bus = new BUS_LieuTrinh();
         DTO_LieuTrinh dto = new DTO_LieuTrinh();
+        BUS_CTDT bus_ctdt = new BUS_CTDT();
         public Form_Lieu_trinh()
         {
             InitializeComponent();
@@ -252,6 +253,26 @@ namespace GUI_quanlyspa
             obj.Show();
             this.Hide();
         }
+        private void pnl_Hoadon_MouseClick(object sender, MouseEventArgs e)
+        {
+            Form_Hoa_don obj = new Form_Hoa_don();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void label7_MouseClick(object sender, MouseEventArgs e)
+        {
+            Form_Hoa_don obj = new Form_Hoa_don();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void pictureBox8_MouseClick(object sender, MouseEventArgs e)
+        {
+            Form_Hoa_don obj = new Form_Hoa_don();
+            obj.Show();
+            this.Hide();
+        }
         //ket thuc
         //code chuc nang
         bool themDL;
@@ -318,9 +339,18 @@ namespace GUI_quanlyspa
                     MessageBox.Show("Vui lòng chọn dữ liệu cần xóa");
                     return;
                 }
-                dto.MALT = txtbox_Malt.Text;
-                bus._deleteData(dto);
-                MessageBox.Show("Đã xóa thành công");
+                DataTable dt_ctdt = new DataTable();
+                dt_ctdt = bus_ctdt._selectData("WHERE MALT='" + txtbox_Malt.Text + "'");
+                if(dt_ctdt.Rows.Count!=0)
+                {
+                    MessageBox.Show("Không thể xóa do liệu trình đã được áp dụng.");
+                }
+                else
+                {
+                    dto.MALT = txtbox_Malt.Text;
+                    bus._deleteData(dto);
+                    MessageBox.Show("Đã xóa thành công");     
+                }
                 set_null();
                 taobang("");
             }
@@ -398,6 +428,8 @@ namespace GUI_quanlyspa
             }
 
         }
+
+       
         //
 
     }

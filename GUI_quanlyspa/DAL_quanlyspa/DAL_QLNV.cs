@@ -31,7 +31,7 @@ namespace DAL_quanlyspa
         // ham select
         public DataTable _selectData(string str)
         {
-            return con._select("SELECT * FORM QLNV " + str);
+            return con._select("SELECT * FROM QLNV " + str);
         }
     }
 }

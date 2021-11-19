@@ -15,17 +15,17 @@ namespace DAL_quanlyspa
         // ham insert
         public void _insertData(DTO_CTDT val)
         {
-            con._insert_update_delete(@"INSERT INTO CTDT (MABS, MAKH, MALT, TIENTRINH, PHANTRAMDT, DATHANHTOAN) VALUES ('"+val.MABS+"','"+val.MAKH+"','"+val.MALT+"','"+val.TIENTRINH+"','"+val.PHANTRAMDT+"','"+val.DATHANHTOAN+"')");
+            con._insert_update_delete(@"INSERT INTO CTDT (MABS, MALT, SOHD, SOLUONG, THANHTIENLT) VALUES ('"+val.MABS+"','"+val.MALT+"','"+val.SOHD+"','"+val.SOLUONG+"','"+val.THANHTIENLT+"')");
         }
         // ham update
         public void _updateData(DTO_CTDT val)
         {
-            con._insert_update_delete(@"UPDATE CTDT SET TIENTRINH ='" + val.TIENTRINH + "', PHANTRAMDT ='" + val.PHANTRAMDT + "', DATHANHTOAN ='" + val.DATHANHTOAN + "' WHERE MALT='" + val.MALT+"'");
+            con._insert_update_delete(@"UPDATE CTDT SET SOLUONG ='" + val.SOLUONG + "', THANHTIENLT ='" + val.THANHTIENLT + "'");
         }
         // ham delete
-        public void _deleteData(DTO_CTDT val)
+        public void _deleteData(string str)
         {
-            con._insert_update_delete(@"DELETE FROM CTDT WHERE MALT='" + val.MALT + "'");
+            con._insert_update_delete("DELETE FROM CTDT " + str);
         }
         // ham select
         public DataTable _selectData(string str)

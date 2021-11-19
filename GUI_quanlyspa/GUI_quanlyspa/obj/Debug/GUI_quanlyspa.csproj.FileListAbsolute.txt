@@ -11,7 +11,6 @@ D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanl
 D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.csproj.CopyComplete
 D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.exe
 D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.pdb
-D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form1.resources
 D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\Bunifu_UI_v1.52.dll
 D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Home.resources
 D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Lieu_trinh.resources
@@ -67,4 +66,4 @@ E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\DAL_quanlyspa.d
 E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\BUS_quanlyspa.pdb
 E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\DTO_quanlyspa.pdb
 E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\DAL_quanlyspa.pdb
-D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_HOADON.resources
+D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Hoa_don.resources
