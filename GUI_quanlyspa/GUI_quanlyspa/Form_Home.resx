@@ -144,6 +144,81 @@
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>25</value>
   </metadata>
+  <metadata name="col_thietbi.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="col_giatb.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="col_mamp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="col_tienmp.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="col_nv_chi.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="col_luongnv.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="bunifuThinButton21.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAIYAAAAxCAYAAAAfttFcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAI6SURBVHhe7dzNS1RRHMbx/qIge7GxIYiiZYsWDYmNNkUg
+        tYlWLYyKIDIcnGuERRYo9ga2KYIysKBNSIEQISRBgSAUGC3a/vK5F61xntw757v4rOYwszhf7pwzzDlb
+        ln4vB7AeYcAiDFiEAYswYBEGrA3D+Pbrezycm46Tj6/E4XvnonzjRGy9XsEmpfnTPFYfXIjx989j4eei
+        nXf5bxhP59/GnpFa7G702g/BJjZYic5GNUpZX9ydfWbnvyUMVdQ/dTW6suP+TdFWSllvVCbOx6cfX5s6
+        aApDUewf7Y9tQ932TdCujsSBlXmfW1rwYehJQRTp0vqjJQytKfj6SNuu4WoMvh7/G4Z2H1pousFIizqY
+        XZwvwtDWRatUNxBp6Rg6GhenbxdhaF+rLYwbiPQcvHW6CGPfzVN2ANKkp0Yexo76MTsA6crDcC8gbYQB
+        izBgEQYswoBFGLAIAxZhwCIMWIQBizBgEQYswoBFGLAIAxZhwMrD0D923ItIVx4GZ1KxXh6GjqjpNJIb
+        gPToP8B5GPU3k7G93mMHIT1nnlwrwtCZxa6szw5CWnQCfurjTBGGXH51JzqHOXSUso56d9QeXWo+u6pj
+        iofGznLwKGF7VzYhq5eprIUhOrNYHmGHkqJyVouXn9+ttdAUhsx8+ZDfkbGTxWgS9BuWnhT/RiEtYYi+
+        VgZejLIgbXO6Rqvn/oC9i8uGsUoVaetSahBIO9GRVF24p4v33LzLhmEgXYQBizBgEQYswoCxHH8A8M7G
+        Qn+15iAAAAAASUVORK5CYII=
+</value>
+  </data>
+  <metadata name="col_mabs.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="col_thuong.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="col_luong.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="btn_xoa.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAIYAAAAxCAYAAAAfttFcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAI6SURBVHhe7dzNS1RRHMbx/qIge7GxIYiiZYsWDYmNNkUg
+        tYlWLYyKIDIcnGuERRYo9ga2KYIysKBNSIEQISRBgSAUGC3a/vK5F61xntw757v4rOYwszhf7pwzzDlb
+        ln4vB7AeYcAiDFiEAYswYBEGrA3D+Pbrezycm46Tj6/E4XvnonzjRGy9XsEmpfnTPFYfXIjx989j4eei
+        nXf5bxhP59/GnpFa7G702g/BJjZYic5GNUpZX9ydfWbnvyUMVdQ/dTW6suP+TdFWSllvVCbOx6cfX5s6
+        aApDUewf7Y9tQ932TdCujsSBlXmfW1rwYehJQRTp0vqjJQytKfj6SNuu4WoMvh7/G4Z2H1pousFIizqY
+        XZwvwtDWRatUNxBp6Rg6GhenbxdhaF+rLYwbiPQcvHW6CGPfzVN2ANKkp0Yexo76MTsA6crDcC8gbYQB
+        izBgEQYswoBFGLAIAxZhwCIMWIQBizBgEQYswoBFGLAIAxZhwMrD0D923ItIVx4GZ1KxXh6GjqjpNJIb
+        gPToP8B5GPU3k7G93mMHIT1nnlwrwtCZxa6szw5CWnQCfurjTBGGXH51JzqHOXSUso56d9QeXWo+u6pj
+        iofGznLwKGF7VzYhq5eprIUhOrNYHmGHkqJyVouXn9+ttdAUhsx8+ZDfkbGTxWgS9BuWnhT/RiEtYYi+
+        VgZejLIgbXO6Rqvn/oC9i8uGsUoVaetSahBIO9GRVF24p4v33LzLhmEgXYQBizBgEQYswoCxHH8A8M7G
+        Qn+15iAAAAAASUVORK5CYII=
+</value>
+  </data>
+  <metadata name="Col_mahd.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Col_tenkh.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Col_ngaytao.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Col_nv.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Col_thanhtien.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <metadata name="elipse_pnl_workplace.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>230, 86</value>
   </metadata>
@@ -152,5 +227,20 @@
   </metadata>
   <metadata name="elipse_pnl_logout.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>396, 86</value>
+  </metadata>
+  <metadata name="elipse_pnl_head.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>320, 9</value>
+  </metadata>
+  <metadata name="elipse_pnl_thu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>136, 5</value>
+  </metadata>
+  <metadata name="elipse_pnl_chi.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>724, 3</value>
+  </metadata>
+  <metadata name="elipse_pnl_tongtienthu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>464, 1</value>
+  </metadata>
+  <metadata name="elipse_pnl_tongtienchi.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>670, 86</value>
   </metadata>
 </root>

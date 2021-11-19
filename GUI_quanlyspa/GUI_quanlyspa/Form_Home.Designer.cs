@@ -30,6 +30,18 @@ namespace GUI_quanlyspa
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Home));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnl_Nhanvien = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -60,14 +72,26 @@ namespace GUI_quanlyspa
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.elipse_Form_Home = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.pnl_workplace = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.pnl_chi = new System.Windows.Forms.Panel();
+            this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.bunifuCustomDataGrid1 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.bunifuDatepicker2 = new Bunifu.Framework.UI.BunifuDatepicker();
+            this.pnl_thu = new System.Windows.Forms.Panel();
+            this.btn_xoa = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.banglt = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.Col_mahd = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Col_tenkh = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Col_ngaytao = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Col_nv = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Col_thanhtien = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pnl_head = new System.Windows.Forms.Panel();
             this.label13 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.elipse_pnl_workplace = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.elipse_picBox_LogoSpa = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.picBox_LogoSpa = new System.Windows.Forms.PictureBox();
@@ -76,6 +100,40 @@ namespace GUI_quanlyspa
             this.label8 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.elipse_pnl_logout = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.col_mabs = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.col_thuong = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.col_luong = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bunifuCustomDataGrid2 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.bunifuCustomDataGrid3 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.bunifuCustomDataGrid4 = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.col_thietbi = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.col_giatb = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.col_mamp = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.col_tienmp = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.col_nv_chi = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.col_luongnv = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.pnl_tongtienthu = new System.Windows.Forms.Panel();
+            this.bunifuCustomLabel10 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.lb_tongtien = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel8 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.pnl_tongtienchi = new System.Windows.Forms.Panel();
+            this.bunifuCustomLabel3 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel4 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel5 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuDatepicker1 = new Bunifu.Framework.UI.BunifuDatepicker();
+            this.bunifuCustomLabel6 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel7 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel9 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel11 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuCustomLabel12 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.elipse_pnl_head = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.elipse_pnl_thu = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.elipse_pnl_chi = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.elipse_pnl_tongtienthu = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.elipse_pnl_tongtienchi = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.pnl_Nhanvien.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.pnl_Thietbi.SuspendLayout();
@@ -91,12 +149,21 @@ namespace GUI_quanlyspa
             this.pnl_Home.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.pnl_workplace.SuspendLayout();
-            this.panel1.SuspendLayout();
+            this.pnl_chi.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid1)).BeginInit();
+            this.pnl_thu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.banglt)).BeginInit();
+            this.pnl_head.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_LogoSpa)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_iconExit)).BeginInit();
             this.pnl_logout.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid4)).BeginInit();
+            this.pnl_tongtienthu.SuspendLayout();
+            this.pnl_tongtienchi.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnl_Nhanvien
@@ -386,60 +453,285 @@ namespace GUI_quanlyspa
             // pnl_workplace
             // 
             this.pnl_workplace.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(211)))), ((int)(((byte)(124)))));
-            this.pnl_workplace.Controls.Add(this.panel1);
+            this.pnl_workplace.Controls.Add(this.bunifuCustomLabel2);
+            this.pnl_workplace.Controls.Add(this.bunifuCustomLabel1);
+            this.pnl_workplace.Controls.Add(this.pnl_chi);
+            this.pnl_workplace.Controls.Add(this.pnl_thu);
+            this.pnl_workplace.Controls.Add(this.pnl_head);
             this.pnl_workplace.Location = new System.Drawing.Point(267, 40);
             this.pnl_workplace.Name = "pnl_workplace";
             this.pnl_workplace.Size = new System.Drawing.Size(1293, 820);
             this.pnl_workplace.TabIndex = 19;
             // 
-            // panel1
+            // bunifuCustomLabel2
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
-            this.panel1.Controls.Add(this.label13);
-            this.panel1.Controls.Add(this.label12);
-            this.panel1.Controls.Add(this.label11);
-            this.panel1.Controls.Add(this.pictureBox9);
-            this.panel1.Controls.Add(this.label10);
-            this.panel1.Controls.Add(this.label9);
-            this.panel1.Controls.Add(this.progressBar1);
-            this.panel1.Location = new System.Drawing.Point(17, 16);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1262, 787);
-            this.panel1.TabIndex = 0;
+            this.bunifuCustomLabel2.AutoSize = true;
+            this.bunifuCustomLabel2.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel2.Location = new System.Drawing.Point(919, 186);
+            this.bunifuCustomLabel2.Name = "bunifuCustomLabel2";
+            this.bunifuCustomLabel2.Size = new System.Drawing.Size(107, 28);
+            this.bunifuCustomLabel2.TabIndex = 17;
+            this.bunifuCustomLabel2.Text = "Tổng chi";
+            // 
+            // bunifuCustomLabel1
+            // 
+            this.bunifuCustomLabel1.AutoSize = true;
+            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel1.Location = new System.Drawing.Point(285, 185);
+            this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(107, 28);
+            this.bunifuCustomLabel1.TabIndex = 16;
+            this.bunifuCustomLabel1.Text = "Tổng thu";
+            // 
+            // pnl_chi
+            // 
+            this.pnl_chi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
+            this.pnl_chi.Controls.Add(this.bunifuCustomLabel11);
+            this.pnl_chi.Controls.Add(this.bunifuCustomLabel9);
+            this.pnl_chi.Controls.Add(this.bunifuCustomLabel7);
+            this.pnl_chi.Controls.Add(this.bunifuCustomLabel6);
+            this.pnl_chi.Controls.Add(this.pnl_tongtienchi);
+            this.pnl_chi.Controls.Add(this.bunifuCustomDataGrid4);
+            this.pnl_chi.Controls.Add(this.bunifuCustomDataGrid3);
+            this.pnl_chi.Controls.Add(this.bunifuCustomDataGrid2);
+            this.pnl_chi.Controls.Add(this.bunifuThinButton21);
+            this.pnl_chi.Controls.Add(this.bunifuCustomDataGrid1);
+            this.pnl_chi.Controls.Add(this.bunifuDatepicker2);
+            this.pnl_chi.Location = new System.Drawing.Point(654, 219);
+            this.pnl_chi.Name = "pnl_chi";
+            this.pnl_chi.Size = new System.Drawing.Size(625, 575);
+            this.pnl_chi.TabIndex = 2;
+            // 
+            // bunifuThinButton21
+            // 
+            this.bunifuThinButton21.ActiveBorderThickness = 1;
+            this.bunifuThinButton21.ActiveCornerRadius = 20;
+            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.SeaGreen;
+            this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.bunifuThinButton21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
+            this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
+            this.bunifuThinButton21.ButtonText = "Tính";
+            this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.bunifuThinButton21.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuThinButton21.ForeColor = System.Drawing.Color.White;
+            this.bunifuThinButton21.IdleBorderThickness = 1;
+            this.bunifuThinButton21.IdleCornerRadius = 20;
+            this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.SeaGreen;
+            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.White;
+            this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.SeaGreen;
+            this.bunifuThinButton21.Location = new System.Drawing.Point(400, 12);
+            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.bunifuThinButton21.Name = "bunifuThinButton21";
+            this.bunifuThinButton21.Size = new System.Drawing.Size(134, 49);
+            this.bunifuThinButton21.TabIndex = 13;
+            this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // bunifuCustomDataGrid1
+            // 
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bunifuCustomDataGrid1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
+            this.bunifuCustomDataGrid1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.bunifuCustomDataGrid1.BackgroundColor = System.Drawing.Color.PaleGoldenrod;
+            this.bunifuCustomDataGrid1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.bunifuCustomDataGrid1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
+            this.bunifuCustomDataGrid1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bunifuCustomDataGrid1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            this.bunifuCustomDataGrid1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.bunifuCustomDataGrid1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.col_mabs,
+            this.col_thuong,
+            this.col_luong});
+            this.bunifuCustomDataGrid1.DoubleBuffered = true;
+            this.bunifuCustomDataGrid1.EnableHeadersVisualStyles = false;
+            this.bunifuCustomDataGrid1.GridColor = System.Drawing.SystemColors.ButtonShadow;
+            this.bunifuCustomDataGrid1.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            this.bunifuCustomDataGrid1.HeaderForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomDataGrid1.Location = new System.Drawing.Point(21, 116);
+            this.bunifuCustomDataGrid1.Name = "bunifuCustomDataGrid1";
+            this.bunifuCustomDataGrid1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.bunifuCustomDataGrid1.Size = new System.Drawing.Size(337, 173);
+            this.bunifuCustomDataGrid1.TabIndex = 3;
+            // 
+            // bunifuDatepicker2
+            // 
+            this.bunifuDatepicker2.BackColor = System.Drawing.Color.SeaGreen;
+            this.bunifuDatepicker2.BorderRadius = 0;
+            this.bunifuDatepicker2.ForeColor = System.Drawing.Color.White;
+            this.bunifuDatepicker2.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.bunifuDatepicker2.FormatCustom = null;
+            this.bunifuDatepicker2.Location = new System.Drawing.Point(21, 19);
+            this.bunifuDatepicker2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.bunifuDatepicker2.Name = "bunifuDatepicker2";
+            this.bunifuDatepicker2.Size = new System.Drawing.Size(303, 36);
+            this.bunifuDatepicker2.TabIndex = 0;
+            this.bunifuDatepicker2.Value = new System.DateTime(2021, 11, 19, 23, 24, 32, 295);
+            // 
+            // pnl_thu
+            // 
+            this.pnl_thu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
+            this.pnl_thu.Controls.Add(this.bunifuCustomLabel12);
+            this.pnl_thu.Controls.Add(this.bunifuDatepicker1);
+            this.pnl_thu.Controls.Add(this.pnl_tongtienthu);
+            this.pnl_thu.Controls.Add(this.btn_xoa);
+            this.pnl_thu.Controls.Add(this.banglt);
+            this.pnl_thu.Location = new System.Drawing.Point(17, 219);
+            this.pnl_thu.Name = "pnl_thu";
+            this.pnl_thu.Size = new System.Drawing.Size(625, 575);
+            this.pnl_thu.TabIndex = 1;
+            // 
+            // btn_xoa
+            // 
+            this.btn_xoa.ActiveBorderThickness = 1;
+            this.btn_xoa.ActiveCornerRadius = 20;
+            this.btn_xoa.ActiveFillColor = System.Drawing.Color.SeaGreen;
+            this.btn_xoa.ActiveForecolor = System.Drawing.Color.White;
+            this.btn_xoa.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.btn_xoa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
+            this.btn_xoa.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_xoa.BackgroundImage")));
+            this.btn_xoa.ButtonText = "Tính";
+            this.btn_xoa.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_xoa.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_xoa.ForeColor = System.Drawing.Color.White;
+            this.btn_xoa.IdleBorderThickness = 1;
+            this.btn_xoa.IdleCornerRadius = 20;
+            this.btn_xoa.IdleFillColor = System.Drawing.Color.SeaGreen;
+            this.btn_xoa.IdleForecolor = System.Drawing.Color.White;
+            this.btn_xoa.IdleLineColor = System.Drawing.Color.SeaGreen;
+            this.btn_xoa.Location = new System.Drawing.Point(400, 12);
+            this.btn_xoa.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btn_xoa.Name = "btn_xoa";
+            this.btn_xoa.Size = new System.Drawing.Size(134, 49);
+            this.btn_xoa.TabIndex = 13;
+            this.btn_xoa.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // banglt
+            // 
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.banglt.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle9;
+            this.banglt.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.banglt.BackgroundColor = System.Drawing.Color.PaleGoldenrod;
+            this.banglt.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.banglt.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
+            this.banglt.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.banglt.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
+            this.banglt.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.banglt.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Col_mahd,
+            this.Col_tenkh,
+            this.Col_ngaytao,
+            this.Col_nv,
+            this.Col_thanhtien});
+            this.banglt.DoubleBuffered = true;
+            this.banglt.EnableHeadersVisualStyles = false;
+            this.banglt.GridColor = System.Drawing.SystemColors.ButtonShadow;
+            this.banglt.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            this.banglt.HeaderForeColor = System.Drawing.Color.Black;
+            this.banglt.Location = new System.Drawing.Point(22, 116);
+            this.banglt.Name = "banglt";
+            this.banglt.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.banglt.Size = new System.Drawing.Size(575, 386);
+            this.banglt.TabIndex = 2;
+            // 
+            // Col_mahd
+            // 
+            this.Col_mahd.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Col_mahd.DataPropertyName = "SOHD";
+            this.Col_mahd.HeaderText = "Mã Hóa đơn";
+            this.Col_mahd.Name = "Col_mahd";
+            // 
+            // Col_tenkh
+            // 
+            this.Col_tenkh.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Col_tenkh.DataPropertyName = "MAKH";
+            this.Col_tenkh.HeaderText = "khách hàng";
+            this.Col_tenkh.Name = "Col_tenkh";
+            // 
+            // Col_ngaytao
+            // 
+            this.Col_ngaytao.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Col_ngaytao.DataPropertyName = "NGAYTAO";
+            this.Col_ngaytao.HeaderText = "Ngày tạo";
+            this.Col_ngaytao.Name = "Col_ngaytao";
+            // 
+            // Col_nv
+            // 
+            this.Col_nv.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Col_nv.DataPropertyName = "MANV";
+            this.Col_nv.HeaderText = "Nhân viên tạo";
+            this.Col_nv.Name = "Col_nv";
+            // 
+            // Col_thanhtien
+            // 
+            this.Col_thanhtien.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            this.Col_thanhtien.DefaultCellStyle = dataGridViewCellStyle11;
+            this.Col_thanhtien.HeaderText = "Thành tiền";
+            this.Col_thanhtien.Name = "Col_thanhtien";
+            // 
+            // pnl_head
+            // 
+            this.pnl_head.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
+            this.pnl_head.Controls.Add(this.label15);
+            this.pnl_head.Controls.Add(this.label14);
+            this.pnl_head.Controls.Add(this.label9);
+            this.pnl_head.Controls.Add(this.label13);
+            this.pnl_head.Controls.Add(this.label12);
+            this.pnl_head.Controls.Add(this.label11);
+            this.pnl_head.Controls.Add(this.pictureBox9);
+            this.pnl_head.Controls.Add(this.label10);
+            this.pnl_head.Location = new System.Drawing.Point(17, 16);
+            this.pnl_head.Name = "pnl_head";
+            this.pnl_head.Size = new System.Drawing.Size(1262, 167);
+            this.pnl_head.TabIndex = 0;
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(154, 251);
+            this.label13.Location = new System.Drawing.Point(144, 105);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(57, 16);
+            this.label13.Size = new System.Drawing.Size(60, 16);
             this.label13.TabIndex = 29;
-            this.label13.Text = "Năm sinh";
+            this.label13.Text = "Năm sinh:";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(154, 216);
+            this.label12.Location = new System.Drawing.Point(144, 68);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(45, 16);
+            this.label12.Size = new System.Drawing.Size(48, 16);
             this.label12.TabIndex = 28;
-            this.label12.Text = "Họ Tên";
+            this.label12.Text = "Họ Tên:";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(154, 182);
+            this.label11.Location = new System.Drawing.Point(144, 36);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(86, 16);
+            this.label11.Size = new System.Drawing.Size(89, 16);
             this.label11.TabIndex = 27;
-            this.label11.Text = "Mã Nhân Viên";
+            this.label11.Text = "Mã Nhân Viên:";
             // 
             // pictureBox9
             // 
             this.pictureBox9.Image = global::GUI_quanlyspa.Properties.Resources.user_kids_avatar_user_profile_icon_149314;
-            this.pictureBox9.Location = new System.Drawing.Point(50, 182);
+            this.pictureBox9.Location = new System.Drawing.Point(50, 36);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(63, 69);
+            this.pictureBox9.Size = new System.Drawing.Size(76, 85);
             this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox9.TabIndex = 26;
             this.pictureBox9.TabStop = false;
@@ -449,27 +741,11 @@ namespace GUI_quanlyspa
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Century Gothic", 72F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.SeaGreen;
-            this.label10.Location = new System.Drawing.Point(319, 28);
+            this.label10.Location = new System.Drawing.Point(519, 20);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(619, 118);
             this.label10.TabIndex = 2;
             this.label10.Text = "SPA BEZLEEN";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(47, 571);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(111, 16);
-            this.label9.TabIndex = 1;
-            this.label9.Text = "Chỉ tiêu của tháng";
-            // 
-            // progressBar1
-            // 
-            this.progressBar1.Location = new System.Drawing.Point(187, 571);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(1019, 23);
-            this.progressBar1.TabIndex = 0;
             // 
             // elipse_pnl_workplace
             // 
@@ -538,6 +814,369 @@ namespace GUI_quanlyspa
             this.elipse_pnl_logout.ElipseRadius = 30;
             this.elipse_pnl_logout.TargetControl = this.pnl_logout;
             // 
+            // col_mabs
+            // 
+            this.col_mabs.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.col_mabs.DataPropertyName = "MABS";
+            this.col_mabs.HeaderText = "Bác sĩ";
+            this.col_mabs.Name = "col_mabs";
+            // 
+            // col_thuong
+            // 
+            this.col_thuong.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.col_thuong.DataPropertyName = "TIENTHUONG";
+            this.col_thuong.HeaderText = "Tiền thưởng";
+            this.col_thuong.Name = "col_thuong";
+            // 
+            // col_luong
+            // 
+            this.col_luong.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.col_luong.DataPropertyName = "TONGTIEN";
+            this.col_luong.HeaderText = "Lương tổng";
+            this.col_luong.Name = "col_luong";
+            // 
+            // bunifuCustomDataGrid2
+            // 
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bunifuCustomDataGrid2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
+            this.bunifuCustomDataGrid2.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.bunifuCustomDataGrid2.BackgroundColor = System.Drawing.Color.PaleGoldenrod;
+            this.bunifuCustomDataGrid2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.bunifuCustomDataGrid2.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
+            this.bunifuCustomDataGrid2.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bunifuCustomDataGrid2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            this.bunifuCustomDataGrid2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.bunifuCustomDataGrid2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.col_nv_chi,
+            this.col_luongnv});
+            this.bunifuCustomDataGrid2.DoubleBuffered = true;
+            this.bunifuCustomDataGrid2.EnableHeadersVisualStyles = false;
+            this.bunifuCustomDataGrid2.GridColor = System.Drawing.SystemColors.ButtonShadow;
+            this.bunifuCustomDataGrid2.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            this.bunifuCustomDataGrid2.HeaderForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomDataGrid2.Location = new System.Drawing.Point(364, 116);
+            this.bunifuCustomDataGrid2.Name = "bunifuCustomDataGrid2";
+            this.bunifuCustomDataGrid2.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.bunifuCustomDataGrid2.Size = new System.Drawing.Size(243, 173);
+            this.bunifuCustomDataGrid2.TabIndex = 14;
+            // 
+            // bunifuCustomDataGrid3
+            // 
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bunifuCustomDataGrid3.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
+            this.bunifuCustomDataGrid3.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.bunifuCustomDataGrid3.BackgroundColor = System.Drawing.Color.PaleGoldenrod;
+            this.bunifuCustomDataGrid3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.bunifuCustomDataGrid3.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
+            this.bunifuCustomDataGrid3.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bunifuCustomDataGrid3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            this.bunifuCustomDataGrid3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.bunifuCustomDataGrid3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.col_mamp,
+            this.col_tienmp});
+            this.bunifuCustomDataGrid3.DoubleBuffered = true;
+            this.bunifuCustomDataGrid3.EnableHeadersVisualStyles = false;
+            this.bunifuCustomDataGrid3.GridColor = System.Drawing.SystemColors.ButtonShadow;
+            this.bunifuCustomDataGrid3.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            this.bunifuCustomDataGrid3.HeaderForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomDataGrid3.Location = new System.Drawing.Point(21, 329);
+            this.bunifuCustomDataGrid3.Name = "bunifuCustomDataGrid3";
+            this.bunifuCustomDataGrid3.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.bunifuCustomDataGrid3.Size = new System.Drawing.Size(295, 173);
+            this.bunifuCustomDataGrid3.TabIndex = 15;
+            // 
+            // bunifuCustomDataGrid4
+            // 
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bunifuCustomDataGrid4.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.bunifuCustomDataGrid4.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.bunifuCustomDataGrid4.BackgroundColor = System.Drawing.Color.PaleGoldenrod;
+            this.bunifuCustomDataGrid4.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.bunifuCustomDataGrid4.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
+            this.bunifuCustomDataGrid4.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bunifuCustomDataGrid4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.bunifuCustomDataGrid4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.bunifuCustomDataGrid4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.col_thietbi,
+            this.col_giatb});
+            this.bunifuCustomDataGrid4.DoubleBuffered = true;
+            this.bunifuCustomDataGrid4.EnableHeadersVisualStyles = false;
+            this.bunifuCustomDataGrid4.GridColor = System.Drawing.SystemColors.ButtonShadow;
+            this.bunifuCustomDataGrid4.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            this.bunifuCustomDataGrid4.HeaderForeColor = System.Drawing.Color.Black;
+            this.bunifuCustomDataGrid4.Location = new System.Drawing.Point(322, 329);
+            this.bunifuCustomDataGrid4.Name = "bunifuCustomDataGrid4";
+            this.bunifuCustomDataGrid4.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.bunifuCustomDataGrid4.Size = new System.Drawing.Size(285, 173);
+            this.bunifuCustomDataGrid4.TabIndex = 16;
+            // 
+            // col_thietbi
+            // 
+            this.col_thietbi.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.col_thietbi.DataPropertyName = "MATB";
+            this.col_thietbi.HeaderText = "Thiết bị";
+            this.col_thietbi.Name = "col_thietbi";
+            // 
+            // col_giatb
+            // 
+            this.col_giatb.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.col_giatb.DataPropertyName = "THANHTIENDH";
+            this.col_giatb.HeaderText = "Thành tiền";
+            this.col_giatb.Name = "col_giatb";
+            // 
+            // col_mamp
+            // 
+            this.col_mamp.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.col_mamp.DataPropertyName = "MAMP";
+            this.col_mamp.HeaderText = "Mỹ phẩm";
+            this.col_mamp.Name = "col_mamp";
+            // 
+            // col_tienmp
+            // 
+            this.col_tienmp.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.col_tienmp.DataPropertyName = "THANHTIENDH";
+            this.col_tienmp.HeaderText = "Thành tiền";
+            this.col_tienmp.Name = "col_tienmp";
+            // 
+            // col_nv_chi
+            // 
+            this.col_nv_chi.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.col_nv_chi.DataPropertyName = "MANV";
+            this.col_nv_chi.HeaderText = "Nhân viên";
+            this.col_nv_chi.Name = "col_nv_chi";
+            // 
+            // col_luongnv
+            // 
+            this.col_luongnv.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.col_luongnv.DataPropertyName = "TONGTIEN";
+            this.col_luongnv.HeaderText = "Lương tổng";
+            this.col_luongnv.Name = "col_luongnv";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(239, 36);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(41, 16);
+            this.label9.TabIndex = 30;
+            this.label9.Text = "manv";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(198, 68);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(40, 16);
+            this.label14.TabIndex = 31;
+            this.label14.Text = "hoten";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(210, 105);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(53, 16);
+            this.label15.TabIndex = 32;
+            this.label15.Text = "namsinh";
+            // 
+            // pnl_tongtienthu
+            // 
+            this.pnl_tongtienthu.BackColor = System.Drawing.Color.SeaGreen;
+            this.pnl_tongtienthu.Controls.Add(this.bunifuCustomLabel10);
+            this.pnl_tongtienthu.Controls.Add(this.lb_tongtien);
+            this.pnl_tongtienthu.Controls.Add(this.bunifuCustomLabel8);
+            this.pnl_tongtienthu.Location = new System.Drawing.Point(329, 518);
+            this.pnl_tongtienthu.Name = "pnl_tongtienthu";
+            this.pnl_tongtienthu.Size = new System.Drawing.Size(268, 40);
+            this.pnl_tongtienthu.TabIndex = 18;
+            // 
+            // bunifuCustomLabel10
+            // 
+            this.bunifuCustomLabel10.AutoSize = true;
+            this.bunifuCustomLabel10.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel10.ForeColor = System.Drawing.Color.Transparent;
+            this.bunifuCustomLabel10.Location = new System.Drawing.Point(195, 10);
+            this.bunifuCustomLabel10.Name = "bunifuCustomLabel10";
+            this.bunifuCustomLabel10.Size = new System.Drawing.Size(51, 19);
+            this.bunifuCustomLabel10.TabIndex = 27;
+            this.bunifuCustomLabel10.Text = "đồng";
+            // 
+            // lb_tongtien
+            // 
+            this.lb_tongtien.AutoSize = true;
+            this.lb_tongtien.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_tongtien.ForeColor = System.Drawing.Color.White;
+            this.lb_tongtien.Location = new System.Drawing.Point(68, 10);
+            this.lb_tongtien.Name = "lb_tongtien";
+            this.lb_tongtien.Size = new System.Drawing.Size(22, 19);
+            this.lb_tongtien.TabIndex = 26;
+            this.lb_tongtien.Text = "0 ";
+            // 
+            // bunifuCustomLabel8
+            // 
+            this.bunifuCustomLabel8.AutoSize = true;
+            this.bunifuCustomLabel8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel8.ForeColor = System.Drawing.Color.White;
+            this.bunifuCustomLabel8.Location = new System.Drawing.Point(18, 10);
+            this.bunifuCustomLabel8.Name = "bunifuCustomLabel8";
+            this.bunifuCustomLabel8.Size = new System.Drawing.Size(44, 19);
+            this.bunifuCustomLabel8.TabIndex = 25;
+            this.bunifuCustomLabel8.Text = "Thu: ";
+            // 
+            // pnl_tongtienchi
+            // 
+            this.pnl_tongtienchi.BackColor = System.Drawing.Color.SeaGreen;
+            this.pnl_tongtienchi.Controls.Add(this.bunifuCustomLabel3);
+            this.pnl_tongtienchi.Controls.Add(this.bunifuCustomLabel4);
+            this.pnl_tongtienchi.Controls.Add(this.bunifuCustomLabel5);
+            this.pnl_tongtienchi.Location = new System.Drawing.Point(339, 518);
+            this.pnl_tongtienchi.Name = "pnl_tongtienchi";
+            this.pnl_tongtienchi.Size = new System.Drawing.Size(268, 40);
+            this.pnl_tongtienchi.TabIndex = 19;
+            // 
+            // bunifuCustomLabel3
+            // 
+            this.bunifuCustomLabel3.AutoSize = true;
+            this.bunifuCustomLabel3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel3.ForeColor = System.Drawing.Color.Transparent;
+            this.bunifuCustomLabel3.Location = new System.Drawing.Point(195, 10);
+            this.bunifuCustomLabel3.Name = "bunifuCustomLabel3";
+            this.bunifuCustomLabel3.Size = new System.Drawing.Size(51, 19);
+            this.bunifuCustomLabel3.TabIndex = 27;
+            this.bunifuCustomLabel3.Text = "đồng";
+            // 
+            // bunifuCustomLabel4
+            // 
+            this.bunifuCustomLabel4.AutoSize = true;
+            this.bunifuCustomLabel4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel4.ForeColor = System.Drawing.Color.White;
+            this.bunifuCustomLabel4.Location = new System.Drawing.Point(68, 10);
+            this.bunifuCustomLabel4.Name = "bunifuCustomLabel4";
+            this.bunifuCustomLabel4.Size = new System.Drawing.Size(22, 19);
+            this.bunifuCustomLabel4.TabIndex = 26;
+            this.bunifuCustomLabel4.Text = "0 ";
+            // 
+            // bunifuCustomLabel5
+            // 
+            this.bunifuCustomLabel5.AutoSize = true;
+            this.bunifuCustomLabel5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel5.ForeColor = System.Drawing.Color.White;
+            this.bunifuCustomLabel5.Location = new System.Drawing.Point(18, 10);
+            this.bunifuCustomLabel5.Name = "bunifuCustomLabel5";
+            this.bunifuCustomLabel5.Size = new System.Drawing.Size(43, 19);
+            this.bunifuCustomLabel5.TabIndex = 25;
+            this.bunifuCustomLabel5.Text = "Chi: ";
+            // 
+            // bunifuDatepicker1
+            // 
+            this.bunifuDatepicker1.BackColor = System.Drawing.Color.SeaGreen;
+            this.bunifuDatepicker1.BorderRadius = 0;
+            this.bunifuDatepicker1.ForeColor = System.Drawing.Color.White;
+            this.bunifuDatepicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.bunifuDatepicker1.FormatCustom = null;
+            this.bunifuDatepicker1.Location = new System.Drawing.Point(22, 19);
+            this.bunifuDatepicker1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.bunifuDatepicker1.Name = "bunifuDatepicker1";
+            this.bunifuDatepicker1.Size = new System.Drawing.Size(303, 36);
+            this.bunifuDatepicker1.TabIndex = 19;
+            this.bunifuDatepicker1.Value = new System.DateTime(2021, 11, 20, 0, 26, 28, 908);
+            // 
+            // bunifuCustomLabel6
+            // 
+            this.bunifuCustomLabel6.AutoSize = true;
+            this.bunifuCustomLabel6.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel6.Location = new System.Drawing.Point(16, 85);
+            this.bunifuCustomLabel6.Name = "bunifuCustomLabel6";
+            this.bunifuCustomLabel6.Size = new System.Drawing.Size(123, 23);
+            this.bunifuCustomLabel6.TabIndex = 20;
+            this.bunifuCustomLabel6.Text = "Lương bác sĩ";
+            // 
+            // bunifuCustomLabel7
+            // 
+            this.bunifuCustomLabel7.AutoSize = true;
+            this.bunifuCustomLabel7.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel7.Location = new System.Drawing.Point(360, 85);
+            this.bunifuCustomLabel7.Name = "bunifuCustomLabel7";
+            this.bunifuCustomLabel7.Size = new System.Drawing.Size(157, 23);
+            this.bunifuCustomLabel7.TabIndex = 21;
+            this.bunifuCustomLabel7.Text = "Lương nhân viên";
+            // 
+            // bunifuCustomLabel9
+            // 
+            this.bunifuCustomLabel9.AutoSize = true;
+            this.bunifuCustomLabel9.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel9.Location = new System.Drawing.Point(17, 302);
+            this.bunifuCustomLabel9.Name = "bunifuCustomLabel9";
+            this.bunifuCustomLabel9.Size = new System.Drawing.Size(147, 23);
+            this.bunifuCustomLabel9.TabIndex = 22;
+            this.bunifuCustomLabel9.Text = "Nhập mỹ phẩm";
+            // 
+            // bunifuCustomLabel11
+            // 
+            this.bunifuCustomLabel11.AutoSize = true;
+            this.bunifuCustomLabel11.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel11.Location = new System.Drawing.Point(318, 302);
+            this.bunifuCustomLabel11.Name = "bunifuCustomLabel11";
+            this.bunifuCustomLabel11.Size = new System.Drawing.Size(124, 23);
+            this.bunifuCustomLabel11.TabIndex = 23;
+            this.bunifuCustomLabel11.Text = "Nhập thiết bị";
+            // 
+            // bunifuCustomLabel12
+            // 
+            this.bunifuCustomLabel12.AutoSize = true;
+            this.bunifuCustomLabel12.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel12.Location = new System.Drawing.Point(18, 85);
+            this.bunifuCustomLabel12.Name = "bunifuCustomLabel12";
+            this.bunifuCustomLabel12.Size = new System.Drawing.Size(87, 23);
+            this.bunifuCustomLabel12.TabIndex = 23;
+            this.bunifuCustomLabel12.Text = "Hóa đơn";
+            // 
+            // elipse_pnl_head
+            // 
+            this.elipse_pnl_head.ElipseRadius = 25;
+            this.elipse_pnl_head.TargetControl = this.pnl_head;
+            // 
+            // elipse_pnl_thu
+            // 
+            this.elipse_pnl_thu.ElipseRadius = 25;
+            this.elipse_pnl_thu.TargetControl = this.pnl_thu;
+            // 
+            // elipse_pnl_chi
+            // 
+            this.elipse_pnl_chi.ElipseRadius = 25;
+            this.elipse_pnl_chi.TargetControl = this.pnl_chi;
+            // 
+            // elipse_pnl_tongtienthu
+            // 
+            this.elipse_pnl_tongtienthu.ElipseRadius = 20;
+            this.elipse_pnl_tongtienthu.TargetControl = this.pnl_tongtienthu;
+            // 
+            // elipse_pnl_tongtienchi
+            // 
+            this.elipse_pnl_tongtienchi.ElipseRadius = 20;
+            this.elipse_pnl_tongtienchi.TargetControl = this.pnl_tongtienchi;
+            // 
             // Form_Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -585,14 +1224,28 @@ namespace GUI_quanlyspa
             this.pnl_Home.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.pnl_workplace.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.pnl_workplace.PerformLayout();
+            this.pnl_chi.ResumeLayout(false);
+            this.pnl_chi.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid1)).EndInit();
+            this.pnl_thu.ResumeLayout(false);
+            this.pnl_thu.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.banglt)).EndInit();
+            this.pnl_head.ResumeLayout(false);
+            this.pnl_head.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_LogoSpa)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_iconExit)).EndInit();
             this.pnl_logout.ResumeLayout(false);
             this.pnl_logout.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bunifuCustomDataGrid4)).EndInit();
+            this.pnl_tongtienthu.ResumeLayout(false);
+            this.pnl_tongtienthu.PerformLayout();
+            this.pnl_tongtienchi.ResumeLayout(false);
+            this.pnl_tongtienchi.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -637,13 +1290,59 @@ namespace GUI_quanlyspa
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.PictureBox pictureBox1;
         private Bunifu.Framework.UI.BunifuElipse elipse_pnl_logout;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pnl_head;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.Panel pnl_chi;
+        private Bunifu.Framework.UI.BunifuDatepicker bunifuDatepicker2;
+        private System.Windows.Forms.Panel pnl_thu;
+        private Bunifu.Framework.UI.BunifuCustomDataGrid bunifuCustomDataGrid1;
+        private Bunifu.Framework.UI.BunifuCustomDataGrid banglt;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel2;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel1;
+        private Bunifu.Framework.UI.BunifuThinButton2 btn_xoa;
+        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Col_mahd;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Col_tenkh;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Col_ngaytao;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Col_nv;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Col_thanhtien;
+        private Bunifu.Framework.UI.BunifuCustomDataGrid bunifuCustomDataGrid4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn col_thietbi;
+        private System.Windows.Forms.DataGridViewTextBoxColumn col_giatb;
+        private Bunifu.Framework.UI.BunifuCustomDataGrid bunifuCustomDataGrid3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn col_mamp;
+        private System.Windows.Forms.DataGridViewTextBoxColumn col_tienmp;
+        private Bunifu.Framework.UI.BunifuCustomDataGrid bunifuCustomDataGrid2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn col_nv_chi;
+        private System.Windows.Forms.DataGridViewTextBoxColumn col_luongnv;
+        private System.Windows.Forms.DataGridViewTextBoxColumn col_mabs;
+        private System.Windows.Forms.DataGridViewTextBoxColumn col_thuong;
+        private System.Windows.Forms.DataGridViewTextBoxColumn col_luong;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Panel pnl_tongtienchi;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel3;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel4;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel5;
+        private Bunifu.Framework.UI.BunifuDatepicker bunifuDatepicker1;
+        private System.Windows.Forms.Panel pnl_tongtienthu;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel10;
+        private Bunifu.Framework.UI.BunifuCustomLabel lb_tongtien;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel8;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel11;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel9;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel7;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel6;
+        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel12;
+        private Bunifu.Framework.UI.BunifuElipse elipse_pnl_head;
+        private Bunifu.Framework.UI.BunifuElipse elipse_pnl_thu;
+        private Bunifu.Framework.UI.BunifuElipse elipse_pnl_chi;
+        private Bunifu.Framework.UI.BunifuElipse elipse_pnl_tongtienthu;
+        private Bunifu.Framework.UI.BunifuElipse elipse_pnl_tongtienchi;
     }
 }
