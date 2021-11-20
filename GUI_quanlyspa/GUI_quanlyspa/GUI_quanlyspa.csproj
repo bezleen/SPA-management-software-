@@ -221,5 +221,14 @@
   <ItemGroup>
     <None Include="Resources\icons8-date-64.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4729654.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\500_F_410384074_vjRPB5dKmLcxBdBgCImPKKNhXtV0x5Sj.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\500_F_91409194_fIhYBpGAlQyjEnaXgfzWNiqDDVtICyUh.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

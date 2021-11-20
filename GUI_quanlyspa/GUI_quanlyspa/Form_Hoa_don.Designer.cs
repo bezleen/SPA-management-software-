@@ -48,7 +48,7 @@ namespace GUI_quanlyspa
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.elipse_pnl_logout = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.pnl_logout = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
+            this.lb_dangxuat = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
@@ -197,21 +197,23 @@ namespace GUI_quanlyspa
             // pnl_logout
             // 
             this.pnl_logout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(211)))), ((int)(((byte)(124)))));
-            this.pnl_logout.Controls.Add(this.label8);
+            this.pnl_logout.Controls.Add(this.lb_dangxuat);
             this.pnl_logout.Controls.Add(this.pictureBox1);
             this.pnl_logout.Location = new System.Drawing.Point(1363, 4);
             this.pnl_logout.Name = "pnl_logout";
             this.pnl_logout.Size = new System.Drawing.Size(174, 34);
             this.pnl_logout.TabIndex = 42;
+            this.pnl_logout.Click += new System.EventHandler(this.pnl_logout_Click);
             // 
-            // label8
+            // lb_dangxuat
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(42, 8);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(123, 16);
-            this.label8.TabIndex = 26;
-            this.label8.Text = "bezleendeptraibodoi";
+            this.lb_dangxuat.AutoSize = true;
+            this.lb_dangxuat.Location = new System.Drawing.Point(42, 8);
+            this.lb_dangxuat.Name = "lb_dangxuat";
+            this.lb_dangxuat.Size = new System.Drawing.Size(123, 16);
+            this.lb_dangxuat.TabIndex = 26;
+            this.lb_dangxuat.Text = "bezleendeptraibodoi";
+            this.lb_dangxuat.Click += new System.EventHandler(this.lb_dangxuat_Click);
             // 
             // pictureBox1
             // 
@@ -222,6 +224,7 @@ namespace GUI_quanlyspa
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 25;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox6
             // 
@@ -1413,7 +1416,7 @@ namespace GUI_quanlyspa
         private System.Windows.Forms.PictureBox pictureBox4;
         private Bunifu.Framework.UI.BunifuElipse elipse_pnl_logout;
         private System.Windows.Forms.Panel pnl_logout;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label lb_dangxuat;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox8;

@@ -16,6 +16,7 @@ namespace GUI_quanlyspa
         BUS_LieuTrinh bus = new BUS_LieuTrinh();
         DTO_LieuTrinh dto = new DTO_LieuTrinh();
         BUS_CTDT bus_ctdt = new BUS_CTDT();
+        BUS_QLNV bus_qlnv = new BUS_QLNV();
         public Form_Lieu_trinh()
         {
             InitializeComponent();
@@ -311,6 +312,12 @@ namespace GUI_quanlyspa
         }
         private void Form_Lieu_trinh_Load(object sender, EventArgs e)
         {
+            //hienthi lb dang xuat
+            string manv = "NV1";//thay ma vn o day
+            DataTable dt_lbnv = new DataTable();
+            dt_lbnv = bus_qlnv._selectData("WHERE MANV='" + manv + "'");
+            lb_dangxuat.Text = dt_lbnv.Rows[0]["HOTEN"].ToString();
+            //default
             disable_box();
             taobang("");
         }
@@ -429,9 +436,38 @@ namespace GUI_quanlyspa
 
         }
 
-       
-        //
+        private void pnl_logout_Click(object sender, EventArgs e)
+        {
+            DialogResult result_dx = MessageBox.Show("Đăng xuất?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk);
+            if (result_dx == DialogResult.Yes)
+            {
+                Form_Login obj = new Form_Login();
+                obj.Show();
+                this.Hide();
+            }
+        }
 
+        private void lb_dangxuat_Click(object sender, EventArgs e)
+        {
+            DialogResult result_dx = MessageBox.Show("Đăng xuất?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk);
+            if (result_dx == DialogResult.Yes)
+            {
+                Form_Login obj = new Form_Login();
+                obj.Show();
+                this.Hide();
+            }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            DialogResult result_dx = MessageBox.Show("Đăng xuất?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk);
+            if (result_dx == DialogResult.Yes)
+            {
+                Form_Login obj = new Form_Login();
+                obj.Show();
+                this.Hide();
+            }
+        }
     }
-    // còn thieu: pnl logout, chuyen tab
+
 }

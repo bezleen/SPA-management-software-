@@ -30,7 +30,7 @@ namespace DAL_quanlyspa
         // ham select
         public DataTable _selectData(string str)
         {
-            return con._select("SELECT * FROM NHAPMP" + str);
+            return con._select("SELECT * FROM NHAPMP " + str);
         }
     }
 }

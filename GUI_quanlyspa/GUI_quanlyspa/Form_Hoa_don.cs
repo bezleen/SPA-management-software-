@@ -306,6 +306,11 @@ namespace GUI_quanlyspa
         //code chuc nang
         private void Form_Hoa_don_Load(object sender, EventArgs e)
         {
+            //hienthi lb dang xuat
+            string manv = "NV1";//thay ma vn o day
+            DataTable dt_lbnv = new DataTable();
+            dt_lbnv = bus_qlnv._selectData("WHERE MANV='" + manv + "'");
+            lb_dangxuat.Text = dt_lbnv.Rows[0]["HOTEN"].ToString();
             //null date
             lb_date.Text = "";
             //an 6 thuoc tinh
@@ -933,6 +938,41 @@ namespace GUI_quanlyspa
                 comboBox_mahd1.DisplayMember = "SOHD";
                 comboBox_mahd1.ValueMember = "SOHD";
                 comboBox_mahd1.Text = null;
+            }
+        }
+        //code dang xuat
+
+
+        private void lb_dangxuat_Click(object sender, EventArgs e)
+        {
+            DialogResult result_dx = MessageBox.Show("Đăng xuất?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk);
+            if (result_dx == DialogResult.Yes)
+            {
+                Form_Login obj = new Form_Login();
+                obj.Show();
+                this.Hide();
+            }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            DialogResult result_dx = MessageBox.Show("Đăng xuất?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk);
+            if (result_dx == DialogResult.Yes)
+            {
+                Form_Login obj = new Form_Login();
+                obj.Show();
+                this.Hide();
+            }
+        }
+
+        private void pnl_logout_Click(object sender, EventArgs e)
+        {
+            DialogResult result_dx = MessageBox.Show("Đăng xuất?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk);
+            if (result_dx == DialogResult.Yes)
+            {
+                Form_Login obj = new Form_Login();
+                obj.Show();
+                this.Hide();
             }
         }
     }

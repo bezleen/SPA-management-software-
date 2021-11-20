@@ -31,8 +31,8 @@ namespace GUI_quanlyspa
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Lieu_trinh));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnl_Nhanvien = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -88,7 +88,7 @@ namespace GUI_quanlyspa
             this.picBox_LogoSpa = new System.Windows.Forms.PictureBox();
             this.picBox_iconExit = new System.Windows.Forms.PictureBox();
             this.pnl_logout = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
+            this.lb_dangxuat = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.elipse_pnl_logout = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.elipse_pnl_input = new Bunifu.Framework.UI.BunifuElipse(this.components);
@@ -642,21 +642,21 @@ namespace GUI_quanlyspa
             // 
             // banglt
             // 
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.banglt.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.banglt.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
             this.banglt.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.banglt.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
             this.banglt.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.banglt.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
             this.banglt.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.banglt.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.banglt.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.banglt.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.banglt.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -739,21 +739,23 @@ namespace GUI_quanlyspa
             // pnl_logout
             // 
             this.pnl_logout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(211)))), ((int)(((byte)(124)))));
-            this.pnl_logout.Controls.Add(this.label8);
+            this.pnl_logout.Controls.Add(this.lb_dangxuat);
             this.pnl_logout.Controls.Add(this.pictureBox1);
             this.pnl_logout.Location = new System.Drawing.Point(1363, 4);
             this.pnl_logout.Name = "pnl_logout";
             this.pnl_logout.Size = new System.Drawing.Size(174, 34);
             this.pnl_logout.TabIndex = 31;
+            this.pnl_logout.Click += new System.EventHandler(this.pnl_logout_Click);
             // 
-            // label8
+            // lb_dangxuat
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(42, 8);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(123, 16);
-            this.label8.TabIndex = 26;
-            this.label8.Text = "bezleendeptraibodoi";
+            this.lb_dangxuat.AutoSize = true;
+            this.lb_dangxuat.Location = new System.Drawing.Point(42, 8);
+            this.lb_dangxuat.Name = "lb_dangxuat";
+            this.lb_dangxuat.Size = new System.Drawing.Size(123, 16);
+            this.lb_dangxuat.TabIndex = 26;
+            this.lb_dangxuat.Text = "bezleendeptraibodoi";
+            this.lb_dangxuat.Click += new System.EventHandler(this.lb_dangxuat_Click);
             // 
             // pictureBox1
             // 
@@ -764,6 +766,7 @@ namespace GUI_quanlyspa
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 25;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // elipse_pnl_logout
             // 
@@ -880,7 +883,7 @@ namespace GUI_quanlyspa
         private Bunifu.Framework.UI.BunifuElipse elipse_pnl_workplace;
         private Bunifu.Framework.UI.BunifuElipse elipse_picBox_LogoSpa;
         private System.Windows.Forms.Panel pnl_logout;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label lb_dangxuat;
         private System.Windows.Forms.PictureBox pictureBox1;
         private Bunifu.Framework.UI.BunifuElipse elipse_pnl_logout;
         private Bunifu.Framework.UI.BunifuThinButton2 btn_them;

@@ -73,6 +73,36 @@ namespace GUI_quanlyspa.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _4729654 {
+            get {
+                object obj = ResourceManager.GetObject("4729654", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _500_F_410384074_vjRPB5dKmLcxBdBgCImPKKNhXtV0x5Sj {
+            get {
+                object obj = ResourceManager.GetObject("500_F_410384074_vjRPB5dKmLcxBdBgCImPKKNhXtV0x5Sj", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _500_F_91409194_fIhYBpGAlQyjEnaXgfzWNiqDDVtICyUh {
+            get {
+                object obj = ResourceManager.GetObject("500_F_91409194_fIhYBpGAlQyjEnaXgfzWNiqDDVtICyUh", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap admin_key {
             get {
                 object obj = ResourceManager.GetObject("admin_key", resourceCulture);
