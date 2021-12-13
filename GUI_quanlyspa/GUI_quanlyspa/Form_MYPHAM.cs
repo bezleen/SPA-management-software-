@@ -259,7 +259,7 @@ namespace GUI_quanlyspa
                 return;
             }
         }
-
+        //code nut reset 
         private void lb_rs_Click(object sender, EventArgs e)
         {
             disable_box();
@@ -335,6 +335,20 @@ namespace GUI_quanlyspa
 
         }
 
+        private void Form_MYPHAM_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnl_workplace_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pnl_Lieutrinh_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
 

@@ -30,8 +30,8 @@ namespace GUI_quanlyspa
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_MYPHAM));
             this.elipse_pnl_Mypham = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.pnl_Mypham = new System.Windows.Forms.Panel();
@@ -129,7 +129,7 @@ namespace GUI_quanlyspa
             // 
             // pnl_Mypham
             // 
-            this.pnl_Mypham.BackColor = System.Drawing.Color.YellowGreen;
+            this.pnl_Mypham.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(211)))), ((int)(((byte)(124)))));
             this.pnl_Mypham.Controls.Add(this.label3);
             this.pnl_Mypham.Controls.Add(this.pictureBox4);
             this.pnl_Mypham.Location = new System.Drawing.Point(16, 390);
@@ -159,7 +159,7 @@ namespace GUI_quanlyspa
             // 
             // pnl_Khachhang
             // 
-            this.pnl_Khachhang.BackColor = System.Drawing.Color.Orange;
+            this.pnl_Khachhang.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(93)))), ((int)(((byte)(71)))));
             this.pnl_Khachhang.Controls.Add(this.label5);
             this.pnl_Khachhang.Controls.Add(this.pictureBox6);
             this.pnl_Khachhang.Location = new System.Drawing.Point(16, 552);
@@ -194,13 +194,14 @@ namespace GUI_quanlyspa
             // 
             // pnl_Lieutrinh
             // 
-            this.pnl_Lieutrinh.BackColor = System.Drawing.Color.Orange;
+            this.pnl_Lieutrinh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(93)))), ((int)(((byte)(71)))));
             this.pnl_Lieutrinh.Controls.Add(this.label4);
             this.pnl_Lieutrinh.Controls.Add(this.pictureBox5);
             this.pnl_Lieutrinh.Location = new System.Drawing.Point(16, 473);
             this.pnl_Lieutrinh.Name = "pnl_Lieutrinh";
             this.pnl_Lieutrinh.Size = new System.Drawing.Size(197, 53);
             this.pnl_Lieutrinh.TabIndex = 40;
+            this.pnl_Lieutrinh.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_Lieutrinh_Paint);
             // 
             // label4
             // 
@@ -229,7 +230,7 @@ namespace GUI_quanlyspa
             // 
             // pnl_Hoadon
             // 
-            this.pnl_Hoadon.BackColor = System.Drawing.Color.Orange;
+            this.pnl_Hoadon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(93)))), ((int)(((byte)(71)))));
             this.pnl_Hoadon.Controls.Add(this.label7);
             this.pnl_Hoadon.Controls.Add(this.pictureBox8);
             this.pnl_Hoadon.Location = new System.Drawing.Point(16, 712);
@@ -264,7 +265,7 @@ namespace GUI_quanlyspa
             // 
             // pnl_Nhanvien
             // 
-            this.pnl_Nhanvien.BackColor = System.Drawing.Color.Orange;
+            this.pnl_Nhanvien.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(93)))), ((int)(((byte)(71)))));
             this.pnl_Nhanvien.Controls.Add(this.label2);
             this.pnl_Nhanvien.Controls.Add(this.pictureBox3);
             this.pnl_Nhanvien.Location = new System.Drawing.Point(16, 311);
@@ -299,7 +300,7 @@ namespace GUI_quanlyspa
             // 
             // pnl_Home
             // 
-            this.pnl_Home.BackColor = System.Drawing.Color.Orange;
+            this.pnl_Home.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(93)))), ((int)(((byte)(71)))));
             this.pnl_Home.Controls.Add(this.label1);
             this.pnl_Home.Controls.Add(this.pictureBox2);
             this.pnl_Home.Location = new System.Drawing.Point(16, 229);
@@ -344,7 +345,7 @@ namespace GUI_quanlyspa
             // 
             // pnl_workplace
             // 
-            this.pnl_workplace.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(148)))));
+            this.pnl_workplace.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(211)))), ((int)(((byte)(124)))));
             this.pnl_workplace.Controls.Add(this.bunifuCustomLabel1);
             this.pnl_workplace.Controls.Add(this.bangmp);
             this.pnl_workplace.Controls.Add(this.panel1);
@@ -352,6 +353,7 @@ namespace GUI_quanlyspa
             this.pnl_workplace.Name = "pnl_workplace";
             this.pnl_workplace.Size = new System.Drawing.Size(1293, 820);
             this.pnl_workplace.TabIndex = 33;
+            this.pnl_workplace.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_workplace_Paint);
             // 
             // bunifuCustomLabel1
             // 
@@ -365,21 +367,21 @@ namespace GUI_quanlyspa
             // 
             // bangmp
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bangmp.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bangmp.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle13;
             this.bangmp.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.bangmp.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
             this.bangmp.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.bangmp.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
             this.bangmp.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bangmp.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bangmp.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle14;
             this.bangmp.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.bangmp.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -741,7 +743,7 @@ namespace GUI_quanlyspa
             // 
             // pnl_Thietbi
             // 
-            this.pnl_Thietbi.BackColor = System.Drawing.Color.Orange;
+            this.pnl_Thietbi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(14)))), ((int)(((byte)(93)))), ((int)(((byte)(71)))));
             this.pnl_Thietbi.Controls.Add(this.label6);
             this.pnl_Thietbi.Controls.Add(this.pictureBox7);
             this.pnl_Thietbi.Location = new System.Drawing.Point(16, 631);
@@ -794,7 +796,7 @@ namespace GUI_quanlyspa
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::GUI_quanlyspa.Properties.Resources.background;
+            this.BackgroundImage = global::GUI_quanlyspa.Properties.Resources.Background_green;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1600, 900);
             this.Controls.Add(this.pnl_Khachhang);
@@ -811,6 +813,7 @@ namespace GUI_quanlyspa
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form_MYPHAM";
             this.Text = "Form_MYPHAM";
+            this.Load += new System.EventHandler(this.Form_MYPHAM_Load_1);
             this.pnl_Mypham.ResumeLayout(false);
             this.pnl_Mypham.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
