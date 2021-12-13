@@ -33,9 +33,15 @@ namespace DAL_quanlyspa
         {
             return con._select("SELECT * FROM MYPHAM "+str);
         }
+<<<<<<< HEAD
         public string matutang_mypham(string str)
         {
             return con.matutang_mypham("SELECT * FROM MYPHAM " + str);
+=======
+        public void _updatesl(string str, int sltk)
+        {
+            con._insert_update_delete("UPDATE MYPHAM SET SOLUONGTONKHO = '" + sltk + "' "+str);
+>>>>>>> 55ead4833e31a184c2e59ea8e88f7ee8057b427b
         }
     }
 }

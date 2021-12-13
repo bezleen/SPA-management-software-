@@ -4,3 +4,9 @@ D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\DTO_quanl
 D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\DTO_quanlyspa\obj\Debug\DTO_quanlyspa.dll
 D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\DTO_quanlyspa\obj\Debug\DTO_quanlyspa.pdb
 D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\DTO_quanlyspa\obj\Debug\DTO_quanlyspa.csproj.AssemblyReference.cache
+E:\Spa Management Software\GUI_quanlyspa\DTO_quanlyspa\bin\Debug\DTO_quanlyspa.dll
+E:\Spa Management Software\GUI_quanlyspa\DTO_quanlyspa\bin\Debug\DTO_quanlyspa.pdb
+E:\Spa Management Software\GUI_quanlyspa\DTO_quanlyspa\obj\Debug\DTO_quanlyspa.csproj.AssemblyReference.cache
+E:\Spa Management Software\GUI_quanlyspa\DTO_quanlyspa\obj\Debug\DTO_quanlyspa.csproj.CoreCompileInputs.cache
+E:\Spa Management Software\GUI_quanlyspa\DTO_quanlyspa\obj\Debug\DTO_quanlyspa.dll
+E:\Spa Management Software\GUI_quanlyspa\DTO_quanlyspa\obj\Debug\DTO_quanlyspa.pdb

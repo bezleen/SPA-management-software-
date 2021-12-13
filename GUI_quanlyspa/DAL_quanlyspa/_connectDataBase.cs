@@ -88,11 +88,21 @@ namespace DAL_quanlyspa
         {
             DataTable dt = new DataTable();
             dt = _select(str);
-            int k = dt.Rows.Count+1;
-            string mlt = "LT";
-            mlt = mlt + k.ToString();
+
+            string mlt;
+            if (dt.Rows.Count == 0)
+                mlt = "LT1";
+            else
+            {
+                string malt = dt.Rows[dt.Rows.Count - 1][0].ToString();
+                malt = malt.Substring(2);
+                int so = int.Parse(malt) + 1;
+                mlt = "LT";
+                mlt = mlt + so.ToString();
+            }
             return mlt;
         }
+<<<<<<< HEAD
 
         public string matutang_mypham(string str)
         {
@@ -102,6 +112,42 @@ namespace DAL_quanlyspa
             string mmp = "MP";
             mmp = mmp + k.ToString();
             return mmp;
+=======
+        public string matutang_thietbi(string str)
+        {
+            DataTable dt = new DataTable();
+            dt = _select(str);
+            string mtb;
+            if (dt.Rows.Count == 0)
+                mtb = "TB1";
+            else
+            {
+                string matb = dt.Rows[dt.Rows.Count - 1][0].ToString();
+                matb = matb.Substring(2);
+                int so = int.Parse(matb) + 1;
+                mtb = "TB";
+                mtb = mtb + so.ToString();
+            }
+            return mtb;
+        }
+        public string matutang_hoadon(string str)
+        {
+            DataTable dt = new DataTable();
+            dt = _select(str);
+            string mhd;
+            if (dt.Rows.Count == 0)
+                mhd = "HD1";
+            else
+            {
+                string mahd = dt.Rows[dt.Rows.Count-1][0].ToString();
+                mahd = mahd.Substring(2);
+                int so = int.Parse(mahd) + 1;
+                mhd = "HD";
+                mhd = mhd + so.ToString();
+            }
+            
+            return mhd;
+>>>>>>> 55ead4833e31a184c2e59ea8e88f7ee8057b427b
         }
     }
 }

@@ -23,14 +23,18 @@ namespace BUS_quanlyspa
             sql._updateData(val);
         }
         // ham delete
-        public void _deleteData(DTO_HOADON val)
+        public void _deleteData(string str)
         {
-            sql._deleteData(val);
+            sql._deleteData(str);
         }
         // ham select
         public DataTable _selectData(string str)
         {
             return sql._selectData(str);
+        }
+        public string matutang_hoadon(string str)
+        {
+            return sql.matutang_hoadon(str);
         }
     }
 }

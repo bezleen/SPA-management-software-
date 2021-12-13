@@ -151,6 +151,41 @@ namespace GUI_quanlyspa
             obj.Show();
             this.Hide();
         }
+
+        private void bunifuCustomLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuCustomLabel3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuCustomLabel5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuFlatButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuCustomDataGrid1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void banglt_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void panel9_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
         //ket thuc
 
     }

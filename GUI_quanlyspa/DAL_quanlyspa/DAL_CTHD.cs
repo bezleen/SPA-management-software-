@@ -15,7 +15,7 @@ namespace DAL_quanlyspa
         // ham insert
         public void _insertData(DTO_CTHD val)
         {
-            con._insert_update_delete(@"INSERT INTO CTHD (SOHD, MAMP, SOLUONG) VALUES (N'" + val.SOHD + "',N'" + val.MAMP + "',N'"+ val.SOLUONG +"')");
+            con._insert_update_delete(@"INSERT INTO CTHD (SOHD, MAMP,THANHTIENMP, SOLUONG) VALUES (N'" + val.SOHD + "',N'" + val.MAMP + "','"+val.THANHTIENMP+"',N'"+ val.SOLUONG +"')");
         }
         // ham update
         public void _updateData(DTO_CTHD val)
@@ -23,14 +23,14 @@ namespace DAL_quanlyspa
             con._insert_update_delete(@"UPDATE CTHD SET SOLUONG = N'" + val.SOLUONG + "' WHERE SOHD= N'" + val.SOHD + "'");
         }
         // ham delete
-        public void _deleteData(DTO_CTHD val)
+        public void _deleteData(string str)
         {
-            con._insert_update_delete(@"DELETE FROM CTHD WHERE SOHD= N'" + val.SOHD + "'");
+            con._insert_update_delete("DELETE FROM CTHD " + str);
         }
         // ham select
         public DataTable _selectData(string str)
         {
-            return con._select("SELECT * FROM CTHD" + str);
+            return con._select("SELECT * FROM CTHD " + str);
         }
     }
 }

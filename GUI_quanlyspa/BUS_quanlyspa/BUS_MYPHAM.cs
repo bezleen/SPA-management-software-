@@ -31,9 +31,15 @@ namespace BUS_quanlyspa
         {
             return sql._selectData(str);
         }
+<<<<<<< HEAD
         public string matutang_mypham(string str)
         {
             return sql.matutang_mypham(str);
+=======
+        public void _updatesl(string str, int sltk)
+        {
+            sql._updatesl(str,sltk);
+>>>>>>> 55ead4833e31a184c2e59ea8e88f7ee8057b427b
         }
     }
 }

@@ -11,7 +11,6 @@ D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanl
 D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.csproj.CopyComplete
 D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.exe
 D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.pdb
-D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form1.resources
 D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\Bunifu_UI_v1.52.dll
 D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Home.resources
 D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Lieu_trinh.resources
@@ -45,4 +44,30 @@ E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.csproj.CoreComp
 E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.csproj.CopyComplete
 E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.exe
 E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.pdb
+<<<<<<< HEAD
 E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_HOADON.resources
+=======
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.csproj.AssemblyReference.cache
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form1.resources
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Home.resources
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Khach_hang.resources
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Lieu_trinh.resources
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_MYPHAM.resources
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Nhan_vien.resources
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Login.resources
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Thiet_Bi.resources
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Properties.Resources.resources
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.csproj.GenerateResource.cache
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.csproj.CoreCompileInputs.cache
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.exe
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.pdb
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\GUI_quanlyspa.exe
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\GUI_quanlyspa.pdb
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\BUS_quanlyspa.dll
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\DTO_quanlyspa.dll
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\DAL_quanlyspa.dll
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\BUS_quanlyspa.pdb
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\DTO_quanlyspa.pdb
+E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\DAL_quanlyspa.pdb
+D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Hoa_don.resources
+>>>>>>> 55ead4833e31a184c2e59ea8e88f7ee8057b427b
