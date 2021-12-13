@@ -33,5 +33,9 @@ namespace DAL_quanlyspa
         {
             return con._select("SELECT * FROM MYPHAM "+str);
         }
+        public string matutang_mypham(string str)
+        {
+            return con.matutang_mypham("SELECT * FROM MYPHAM " + str);
+        }
     }
 }

@@ -30,8 +30,8 @@ namespace GUI_quanlyspa
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_MYPHAM));
             this.elipse_pnl_Mypham = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.pnl_Mypham = new System.Windows.Forms.Panel();
@@ -61,7 +61,7 @@ namespace GUI_quanlyspa
             this.elipse_pnl_workplace = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.pnl_workplace = new System.Windows.Forms.Panel();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.banglt = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.bangmp = new Bunifu.Framework.UI.BunifuCustomDataGrid();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -69,24 +69,24 @@ namespace GUI_quanlyspa
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.txtbox_Malt = new System.Windows.Forms.TextBox();
-            this.txtbox_giatien = new System.Windows.Forms.TextBox();
-            this.txtbox_tg = new System.Windows.Forms.TextBox();
-            this.txtbox_tenlt = new System.Windows.Forms.TextBox();
+            this.txtbox_chungloai = new System.Windows.Forms.TextBox();
+            this.lb_chungloai = new System.Windows.Forms.Label();
+            this.txtbox_giaban = new System.Windows.Forms.TextBox();
+            this.txtbox_Mamp = new System.Windows.Forms.TextBox();
+            this.txtbox_sltk = new System.Windows.Forms.TextBox();
+            this.txtbox_hamluong = new System.Windows.Forms.TextBox();
+            this.txtbox_tenmp = new System.Windows.Forms.TextBox();
             this.lb_rs = new System.Windows.Forms.Label();
             this.btn_them = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btn_luu = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btn_xoa = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btn_sua = new Bunifu.Framework.UI.BunifuThinButton2();
             this.label14 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.lb_giaban = new System.Windows.Forms.Label();
+            this.lb_SLTK = new System.Windows.Forms.Label();
+            this.lb_hamluong = new System.Windows.Forms.Label();
+            this.lb_TenMP = new System.Windows.Forms.Label();
+            this.lb_Mamp = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.elipse_picBox_LogoSpa = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.picBox_LogoSpa = new System.Windows.Forms.PictureBox();
@@ -112,7 +112,7 @@ namespace GUI_quanlyspa
             this.pnl_Home.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.pnl_workplace.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.banglt)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bangmp)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_LogoSpa)).BeginInit();
             this.pnl_logout.SuspendLayout();
@@ -201,7 +201,6 @@ namespace GUI_quanlyspa
             this.pnl_Lieutrinh.Name = "pnl_Lieutrinh";
             this.pnl_Lieutrinh.Size = new System.Drawing.Size(197, 53);
             this.pnl_Lieutrinh.TabIndex = 40;
-            this.pnl_Lieutrinh.Paint += new System.Windows.Forms.PaintEventHandler(this.pnl_Lieutrinh_Paint);
             // 
             // label4
             // 
@@ -347,7 +346,7 @@ namespace GUI_quanlyspa
             // 
             this.pnl_workplace.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(148)))));
             this.pnl_workplace.Controls.Add(this.bunifuCustomLabel1);
-            this.pnl_workplace.Controls.Add(this.banglt);
+            this.pnl_workplace.Controls.Add(this.bangmp);
             this.pnl_workplace.Controls.Add(this.panel1);
             this.pnl_workplace.Location = new System.Drawing.Point(263, 58);
             this.pnl_workplace.Name = "pnl_workplace";
@@ -363,44 +362,42 @@ namespace GUI_quanlyspa
             this.bunifuCustomLabel1.Size = new System.Drawing.Size(251, 28);
             this.bunifuCustomLabel1.TabIndex = 17;
             this.bunifuCustomLabel1.Text = "Danh sách mỹ phẩm";
-            this.bunifuCustomLabel1.Click += new System.EventHandler(this.bunifuCustomLabel1_Click);
             // 
-            // banglt
+            // bangmp
             // 
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.banglt.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
-            this.banglt.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.banglt.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
-            this.banglt.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.banglt.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
-            this.banglt.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.banglt.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
-            this.banglt.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.banglt.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bangmp.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.bangmp.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.bangmp.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
+            this.bangmp.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.bangmp.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
+            this.bangmp.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bangmp.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.bangmp.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.bangmp.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2,
             this.Column6,
             this.Column3,
             this.Column4,
             this.Column5});
-            this.banglt.DoubleBuffered = true;
-            this.banglt.EnableHeadersVisualStyles = false;
-            this.banglt.GridColor = System.Drawing.SystemColors.ButtonShadow;
-            this.banglt.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
-            this.banglt.HeaderForeColor = System.Drawing.Color.Black;
-            this.banglt.Location = new System.Drawing.Point(15, 453);
-            this.banglt.Name = "banglt";
-            this.banglt.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.banglt.Size = new System.Drawing.Size(1255, 337);
-            this.banglt.TabIndex = 16;
-            this.banglt.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.banglt_CellContentClick);
+            this.bangmp.DoubleBuffered = true;
+            this.bangmp.EnableHeadersVisualStyles = false;
+            this.bangmp.GridColor = System.Drawing.SystemColors.ButtonShadow;
+            this.bangmp.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            this.bangmp.HeaderForeColor = System.Drawing.Color.Black;
+            this.bangmp.Location = new System.Drawing.Point(15, 453);
+            this.bangmp.Name = "bangmp";
+            this.bangmp.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.bangmp.Size = new System.Drawing.Size(1255, 337);
+            this.bangmp.TabIndex = 16;
             // 
             // Column1
             // 
@@ -445,84 +442,82 @@ namespace GUI_quanlyspa
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.label15);
-            this.panel1.Controls.Add(this.textBox1);
-            this.panel1.Controls.Add(this.txtbox_Malt);
-            this.panel1.Controls.Add(this.txtbox_giatien);
-            this.panel1.Controls.Add(this.txtbox_tg);
-            this.panel1.Controls.Add(this.txtbox_tenlt);
+            this.panel1.Controls.Add(this.txtbox_chungloai);
+            this.panel1.Controls.Add(this.lb_chungloai);
+            this.panel1.Controls.Add(this.txtbox_giaban);
+            this.panel1.Controls.Add(this.txtbox_Mamp);
+            this.panel1.Controls.Add(this.txtbox_sltk);
+            this.panel1.Controls.Add(this.txtbox_hamluong);
+            this.panel1.Controls.Add(this.txtbox_tenmp);
             this.panel1.Controls.Add(this.lb_rs);
             this.panel1.Controls.Add(this.btn_them);
             this.panel1.Controls.Add(this.btn_luu);
             this.panel1.Controls.Add(this.btn_xoa);
             this.panel1.Controls.Add(this.btn_sua);
             this.panel1.Controls.Add(this.label14);
-            this.panel1.Controls.Add(this.label13);
-            this.panel1.Controls.Add(this.label12);
-            this.panel1.Controls.Add(this.label11);
-            this.panel1.Controls.Add(this.label10);
-            this.panel1.Controls.Add(this.label9);
+            this.panel1.Controls.Add(this.lb_giaban);
+            this.panel1.Controls.Add(this.lb_SLTK);
+            this.panel1.Controls.Add(this.lb_hamluong);
+            this.panel1.Controls.Add(this.lb_TenMP);
+            this.panel1.Controls.Add(this.lb_Mamp);
             this.panel1.Controls.Add(this.dateTimePicker1);
             this.panel1.Location = new System.Drawing.Point(15, 20);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1255, 365);
             this.panel1.TabIndex = 0;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // textBox2
+            // txtbox_chungloai
             // 
-            this.textBox2.Location = new System.Drawing.Point(853, 106);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(196, 20);
-            this.textBox2.TabIndex = 29;
+            this.txtbox_chungloai.Location = new System.Drawing.Point(853, 106);
+            this.txtbox_chungloai.Name = "txtbox_chungloai";
+            this.txtbox_chungloai.Size = new System.Drawing.Size(196, 20);
+            this.txtbox_chungloai.TabIndex = 29;
             // 
-            // label15
+            // lb_chungloai
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
-            this.label15.Location = new System.Drawing.Point(890, 55);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(127, 25);
-            this.label15.TabIndex = 28;
-            this.label15.Text = "Chủng Loại";
+            this.lb_chungloai.AutoSize = true;
+            this.lb_chungloai.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
+            this.lb_chungloai.Location = new System.Drawing.Point(890, 55);
+            this.lb_chungloai.Name = "lb_chungloai";
+            this.lb_chungloai.Size = new System.Drawing.Size(127, 25);
+            this.lb_chungloai.TabIndex = 28;
+            this.lb_chungloai.Text = "Chủng Loại";
             // 
-            // textBox1
+            // txtbox_giaban
             // 
-            this.textBox1.Location = new System.Drawing.Point(853, 230);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(196, 20);
-            this.textBox1.TabIndex = 27;
+            this.txtbox_giaban.Location = new System.Drawing.Point(853, 230);
+            this.txtbox_giaban.Name = "txtbox_giaban";
+            this.txtbox_giaban.Size = new System.Drawing.Size(196, 20);
+            this.txtbox_giaban.TabIndex = 27;
             // 
-            // txtbox_Malt
+            // txtbox_Mamp
             // 
-            this.txtbox_Malt.Enabled = false;
-            this.txtbox_Malt.Location = new System.Drawing.Point(172, 115);
-            this.txtbox_Malt.Name = "txtbox_Malt";
-            this.txtbox_Malt.Size = new System.Drawing.Size(196, 20);
-            this.txtbox_Malt.TabIndex = 26;
+            this.txtbox_Mamp.Enabled = false;
+            this.txtbox_Mamp.Location = new System.Drawing.Point(172, 115);
+            this.txtbox_Mamp.Name = "txtbox_Mamp";
+            this.txtbox_Mamp.Size = new System.Drawing.Size(196, 20);
+            this.txtbox_Mamp.TabIndex = 26;
             // 
-            // txtbox_giatien
+            // txtbox_sltk
             // 
-            this.txtbox_giatien.Location = new System.Drawing.Point(514, 230);
-            this.txtbox_giatien.Name = "txtbox_giatien";
-            this.txtbox_giatien.Size = new System.Drawing.Size(196, 20);
-            this.txtbox_giatien.TabIndex = 25;
+            this.txtbox_sltk.Location = new System.Drawing.Point(514, 230);
+            this.txtbox_sltk.Name = "txtbox_sltk";
+            this.txtbox_sltk.Size = new System.Drawing.Size(196, 20);
+            this.txtbox_sltk.TabIndex = 25;
             // 
-            // txtbox_tg
+            // txtbox_hamluong
             // 
-            this.txtbox_tg.Location = new System.Drawing.Point(172, 223);
-            this.txtbox_tg.Name = "txtbox_tg";
-            this.txtbox_tg.Size = new System.Drawing.Size(196, 20);
-            this.txtbox_tg.TabIndex = 24;
-            this.txtbox_tg.TextChanged += new System.EventHandler(this.txtbox_tg_TextChanged);
+            this.txtbox_hamluong.Location = new System.Drawing.Point(172, 223);
+            this.txtbox_hamluong.Name = "txtbox_hamluong";
+            this.txtbox_hamluong.Size = new System.Drawing.Size(196, 20);
+            this.txtbox_hamluong.TabIndex = 24;
             // 
-            // txtbox_tenlt
+            // txtbox_tenmp
             // 
-            this.txtbox_tenlt.Location = new System.Drawing.Point(514, 106);
-            this.txtbox_tenlt.Name = "txtbox_tenlt";
-            this.txtbox_tenlt.Size = new System.Drawing.Size(196, 20);
-            this.txtbox_tenlt.TabIndex = 23;
+            this.txtbox_tenmp.Location = new System.Drawing.Point(514, 106);
+            this.txtbox_tenmp.Name = "txtbox_tenmp";
+            this.txtbox_tenmp.Size = new System.Drawing.Size(196, 20);
+            this.txtbox_tenmp.TabIndex = 23;
             // 
             // lb_rs
             // 
@@ -558,6 +553,7 @@ namespace GUI_quanlyspa
             this.btn_them.Size = new System.Drawing.Size(134, 49);
             this.btn_them.TabIndex = 21;
             this.btn_them.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btn_them.Click += new System.EventHandler(this.btn_them_Click);
             // 
             // btn_luu
             // 
@@ -642,59 +638,55 @@ namespace GUI_quanlyspa
             this.label14.Size = new System.Drawing.Size(0, 13);
             this.label14.TabIndex = 17;
             // 
-            // label13
+            // lb_giaban
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
-            this.label13.Location = new System.Drawing.Point(904, 179);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(94, 25);
-            this.label13.TabIndex = 7;
-            this.label13.Text = "Gía Bán";
-            this.label13.Click += new System.EventHandler(this.label13_Click);
+            this.lb_giaban.AutoSize = true;
+            this.lb_giaban.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
+            this.lb_giaban.Location = new System.Drawing.Point(904, 179);
+            this.lb_giaban.Name = "lb_giaban";
+            this.lb_giaban.Size = new System.Drawing.Size(94, 25);
+            this.lb_giaban.TabIndex = 7;
+            this.lb_giaban.Text = "Gía Bán";
             // 
-            // label12
+            // lb_SLTK
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
-            this.label12.Location = new System.Drawing.Point(520, 179);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(190, 25);
-            this.label12.TabIndex = 6;
-            this.label12.Text = "Số Lượng Tồn Kho";
+            this.lb_SLTK.AutoSize = true;
+            this.lb_SLTK.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
+            this.lb_SLTK.Location = new System.Drawing.Point(520, 179);
+            this.lb_SLTK.Name = "lb_SLTK";
+            this.lb_SLTK.Size = new System.Drawing.Size(190, 25);
+            this.lb_SLTK.TabIndex = 6;
+            this.lb_SLTK.Text = "Số Lượng Tồn Kho";
             // 
-            // label11
+            // lb_hamluong
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
-            this.label11.Location = new System.Drawing.Point(198, 172);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(128, 25);
-            this.label11.TabIndex = 5;
-            this.label11.Text = "Hàm Lượng";
-            this.label11.Click += new System.EventHandler(this.label11_Click);
+            this.lb_hamluong.AutoSize = true;
+            this.lb_hamluong.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
+            this.lb_hamluong.Location = new System.Drawing.Point(198, 172);
+            this.lb_hamluong.Name = "lb_hamluong";
+            this.lb_hamluong.Size = new System.Drawing.Size(128, 25);
+            this.lb_hamluong.TabIndex = 5;
+            this.lb_hamluong.Text = "Hàm Lượng";
             // 
-            // label10
+            // lb_TenMP
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
-            this.label10.Location = new System.Drawing.Point(539, 55);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(148, 25);
-            this.label10.TabIndex = 4;
-            this.label10.Text = "Tên Mỹ Phẩm";
-            this.label10.Click += new System.EventHandler(this.label10_Click);
+            this.lb_TenMP.AutoSize = true;
+            this.lb_TenMP.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
+            this.lb_TenMP.Location = new System.Drawing.Point(539, 55);
+            this.lb_TenMP.Name = "lb_TenMP";
+            this.lb_TenMP.Size = new System.Drawing.Size(148, 25);
+            this.lb_TenMP.TabIndex = 4;
+            this.lb_TenMP.Text = "Tên Mỹ Phẩm";
             // 
-            // label9
+            // lb_Mamp
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
-            this.label9.Location = new System.Drawing.Point(198, 64);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(146, 25);
-            this.label9.TabIndex = 3;
-            this.label9.Text = "Mã Mỹ Phẩm";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
+            this.lb_Mamp.AutoSize = true;
+            this.lb_Mamp.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
+            this.lb_Mamp.Location = new System.Drawing.Point(198, 64);
+            this.lb_Mamp.Name = "lb_Mamp";
+            this.lb_Mamp.Size = new System.Drawing.Size(146, 25);
+            this.lb_Mamp.TabIndex = 3;
+            this.lb_Mamp.Text = "Mã Mỹ Phẩm";
             // 
             // dateTimePicker1
             // 
@@ -702,7 +694,6 @@ namespace GUI_quanlyspa
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(204, 20);
             this.dateTimePicker1.TabIndex = 2;
-            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // elipse_picBox_LogoSpa
             // 
@@ -737,7 +728,6 @@ namespace GUI_quanlyspa
             this.label8.Size = new System.Drawing.Size(102, 13);
             this.label8.TabIndex = 26;
             this.label8.Text = "bezleendeptraibodoi";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // pictureBox1
             // 
@@ -821,7 +811,6 @@ namespace GUI_quanlyspa
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form_MYPHAM";
             this.Text = "Form_MYPHAM";
-            this.Load += new System.EventHandler(this.Form_MYPHAM_Load);
             this.pnl_Mypham.ResumeLayout(false);
             this.pnl_Mypham.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -842,7 +831,7 @@ namespace GUI_quanlyspa
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.pnl_workplace.ResumeLayout(false);
             this.pnl_workplace.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.banglt)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bangmp)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_LogoSpa)).EndInit();
@@ -899,26 +888,26 @@ namespace GUI_quanlyspa
         private Bunifu.Framework.UI.BunifuElipse elipse_pnl_Thietbi;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label lb_Mamp;
+        private System.Windows.Forms.Label lb_giaban;
+        private System.Windows.Forms.Label lb_SLTK;
+        private System.Windows.Forms.Label lb_hamluong;
+        private System.Windows.Forms.Label lb_TenMP;
         private System.Windows.Forms.Label label14;
         private Bunifu.Framework.UI.BunifuThinButton2 btn_them;
         private Bunifu.Framework.UI.BunifuThinButton2 btn_luu;
         private Bunifu.Framework.UI.BunifuThinButton2 btn_xoa;
         private Bunifu.Framework.UI.BunifuThinButton2 btn_sua;
         private System.Windows.Forms.Label lb_rs;
-        private System.Windows.Forms.TextBox txtbox_Malt;
-        private System.Windows.Forms.TextBox txtbox_giatien;
-        private System.Windows.Forms.TextBox txtbox_tg;
-        private System.Windows.Forms.TextBox txtbox_tenlt;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtbox_Mamp;
+        private System.Windows.Forms.TextBox txtbox_sltk;
+        private System.Windows.Forms.TextBox txtbox_hamluong;
+        private System.Windows.Forms.TextBox txtbox_tenmp;
+        private System.Windows.Forms.TextBox txtbox_giaban;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel1;
-        private Bunifu.Framework.UI.BunifuCustomDataGrid banglt;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label15;
+        private Bunifu.Framework.UI.BunifuCustomDataGrid bangmp;
+        private System.Windows.Forms.TextBox txtbox_chungloai;
+        private System.Windows.Forms.Label lb_chungloai;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;

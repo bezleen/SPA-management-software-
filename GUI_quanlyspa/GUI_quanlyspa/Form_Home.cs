@@ -168,6 +168,12 @@ namespace GUI_quanlyspa
             obj.Show();
             this.Hide();
         }
+        private void pnl_mypham_MouseClick(object sender, MouseEventArgs e)
+        {
+            Form_MYPHAM obj = new Form_MYPHAM();
+            obj.Show();
+            this.Hide();
+        }
         //ket thuc
     }
 }

@@ -330,6 +330,21 @@ namespace GUI_quanlyspa
         {
 
         }
+
+        private void lb_TenLT_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtbox_tenlt_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtbox_tg_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
     // còn thieu: pnl logout, chuyen tab
 }

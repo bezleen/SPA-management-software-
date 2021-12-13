@@ -45,3 +45,4 @@ E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.csproj.CoreComp
 E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.csproj.CopyComplete
 E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.exe
 E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.pdb
+E:\quanlySPA\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_HOADON.resources

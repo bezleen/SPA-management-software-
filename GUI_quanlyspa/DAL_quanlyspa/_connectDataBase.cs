@@ -93,5 +93,15 @@ namespace DAL_quanlyspa
             mlt = mlt + k.ToString();
             return mlt;
         }
+
+        public string matutang_mypham(string str)
+        {
+            DataTable dt = new DataTable();
+            dt = _select(str);
+            int k = dt.Rows.Count + 1;
+            string mmp = "MP";
+            mmp = mmp + k.ToString();
+            return mmp;
+        }
     }
 }
