@@ -9,29 +9,21 @@ namespace quanlyspa_DTO
         private string _MANV;
         private string _HOTEN;
         private string _GIOITINH;
-        private string _NHIEMVU;
-        private string _QUEQUAN;
-        private string _DIACHI;
         private string _SDT;
-        private string _HESOLUONG;
         private string _NBDHD;
         private string _NKTHD;
         private string _PASS;
-        private string _ISADMIN;
+        private string _LUONG;
 
 
 
         public string MANV { get => _MANV; set => _MANV = value; }
         public string HOTEN { get => _HOTEN; set => _HOTEN = value; }
         public string GIOITINH { get => _GIOITINH; set => _GIOITINH = value; }
-        public string NHIEMVU { get => _NHIEMVU; set => _NHIEMVU = value; }
-        public string QUEQUAN { get => _QUEQUAN; set => _QUEQUAN = value; }
-        public string DIACHI { get => _DIACHI; set => _DIACHI = value; }
         public string SDT { get => _SDT; set => _SDT = value; }
-        public string HESOLUONG { get => _HESOLUONG; set => _HESOLUONG = value; }
         public string NBDHD { get => _NBDHD; set => _NBDHD = value; }
         public string NKTHD { get => _NKTHD; set => _NKTHD = value; }
         public string PASS { get => _PASS; set => _PASS = value; }
-        public string ISADMIN { get => _ISADMIN; set => _ISADMIN = value; }
+        public string LUONG { get => _LUONG; set => _LUONG = value; }
     }
 }

@@ -25,7 +25,6 @@ namespace GUI_quanlyspa
         BUS_LuongBS bus_lbs = new BUS_LuongBS();
         BUS_LuongNV bus_lnv = new BUS_LuongNV();
         BUS_NhapMP bus_nmp = new BUS_NhapMP();
-        BUS_NhapTB bus_ntb = new BUS_NhapTB();
         BUS_QLNV bus_nv = new BUS_QLNV();
         //code nut exit 
         private void picBox_iconExit_MouseClick(object sender, MouseEventArgs e)
@@ -314,7 +313,6 @@ namespace GUI_quanlyspa
             bang_luongbs.Rows.Clear();
             bang_luongnv.Rows.Clear();
             bang_nhapmp.Rows.Clear();
-            bang_nhaptb.Rows.Clear();
             int chi = 0;
             //bang luong bs
             DataTable dt_lbs = new DataTable();
@@ -369,24 +367,7 @@ namespace GUI_quanlyspa
                     bang_nhapmp.Rows.Add(cell_0, cell_1);
                     chi = chi + int.Parse(cell_1);
                 }
-            }
-            //bang nhap thiet bi
-            DataTable dt_ntb = new DataTable();
-            dt_ntb = bus_ntb._selectData("WHERE NGAYNHAP='" + date_picker_chi.Value.ToShortDateString() + "'");
-            if (dt_ntb.Rows.Count == 0)
-            {
-                MessageBox.Show("Không có dữ liệu nhập thiết bị.");
-            }
-            else
-            {
-                for (int i = 0; i < dt_ntb.Rows.Count; i++)
-                {
-                    string cell_0 = dt_ntb.Rows[i]["MATB"].ToString();
-                    string cell_1 = dt_ntb.Rows[i]["THANHTIENDH"].ToString();
-                    bang_nhaptb.Rows.Add(cell_0, cell_1);
-                    chi = chi + int.Parse(cell_1);
-                }
-            }
+            }         
             //tinh tong chi
             lb_tongtienchi.Text = chi.ToString();
         }

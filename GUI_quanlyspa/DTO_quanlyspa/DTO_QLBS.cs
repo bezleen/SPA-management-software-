@@ -9,10 +9,6 @@ namespace quanlyspa_DTO
         private string _MABS;
         private string _HOTEN;
         private string _GIOITINH;
-        private string _CHUCVU;
-        private string _CHUYENMON;
-        private string _QUEQUAN;
-        private string _DIACHI;
         private string _SDT;
         private string _LUONG;
         private string _NBDHD;
@@ -21,10 +17,6 @@ namespace quanlyspa_DTO
         public string MABS { get => _MABS; set => _MABS = value; }
         public string HOTEN { get => _HOTEN; set => _HOTEN = value; }
         public string GIOITINH { get => _GIOITINH; set => _GIOITINH = value; }
-        public string CHUCVU { get => _CHUCVU; set => _CHUCVU = value; }
-        public string CHUYENMON { get => _CHUYENMON; set => _CHUYENMON = value; }
-        public string QUEQUAN { get => _QUEQUAN; set => _QUEQUAN = value; }
-        public string DIACHI { get => _DIACHI; set => _DIACHI = value; }
         public string SDT { get => _SDT; set => _SDT = value; }
         public string LUONG { get => _LUONG; set => _LUONG = value; }
         public string NBDHD { get => _NBDHD; set => _NBDHD = value; }

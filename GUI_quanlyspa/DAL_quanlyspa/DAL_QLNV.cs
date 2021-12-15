@@ -16,12 +16,12 @@ namespace DAL_quanlyspa
         // ham insert
         public void _insertData(DTO_QLNV val)
         {
-            con._insert_update_delete(@"INSERT INTO QLNV (MANV, HOTEN, GIOITINH, NHIEMVU, QUEQUAN, DIACHI, SDT, HESOLUONG, NBDHD, NKTHD) VALUES (N'" + val.MANV + "',N'" + val.HOTEN + "',N'" + val.GIOITINH + "',N'" + val.NHIEMVU + "',N'" + val.QUEQUAN + "',N'" + val.DIACHI + "',N'" + val.SDT + "',N'" + val.HESOLUONG + "',N'" + val.NBDHD + "',N'" + val.NKTHD +  "', '"+val.PASS+"', '"+val.ISADMIN+"')");
+            con._insert_update_delete(@"INSERT INTO QLNV (MANV, HOTEN, GIOITINH, SDT, NBDHD, NKTHD,LUONG) VALUES (N'" + val.MANV + "',N'" + val.HOTEN + "',N'" + val.GIOITINH + "',N'" + val.SDT + "',N'" + val.NBDHD + "',N'" + val.NKTHD +  "', '"+val.PASS+"', '"+val.LUONG+"')");
         }
         // ham update
         public void _updateData(DTO_QLNV val)
         {
-            con._insert_update_delete(@"UPDATE  QLNV SET MANV =N'" +val.MANV + "', HOTEN =N'" + val.HOTEN + "', GIOITINH =N'" + val.GIOITINH + "', NHIEMVU =N'" + val.NHIEMVU + "', DIACHI =N'" + val.DIACHI + "', QUEQUAN = N '" + val.QUEQUAN + "', SDT = N '" + val.SDT + "', HESOLUONG = N '" + val.HESOLUONG + "', NBDHD = N '" + val.NBDHD + "', NKTHD = N '" + val.NKTHD + "', PASS = '" + val.PASS + "', ISADMIN= '" + val.ISADMIN + "' WHERE MANV = N'" + val.MANV+"'");
+            con._insert_update_delete(@"UPDATE  QLNV SET  HOTEN =N'" + val.HOTEN + "', GIOITINH =N'" + val.GIOITINH + "', SDT = N '" + val.SDT + "', NBDHD = N '" + val.NBDHD + "', NKTHD = N '" + val.NKTHD + "', PASS = '" + val.PASS + "', LUONG= '" + val.LUONG + "' WHERE MANV = N'" + val.MANV+"'");
         }
         // ham delete
         public void _deleteData(DTO_QLNV val)

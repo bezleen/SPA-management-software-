@@ -13,8 +13,7 @@ namespace GUI_quanlyspa
 {
     public partial class Form_Thiet_Bi : Form
     {
-        BUS_NhapTB bus = new BUS_NhapTB();
-        DTO_NhapTB dto = new DTO_NhapTB();
+
         public Form_Thiet_Bi()
         {
             InitializeComponent();
@@ -184,7 +183,7 @@ namespace GUI_quanlyspa
         }
         void taobang(string str)
         {
-            table_thietbi.DataSource = bus._selectData(str);
+            //table_thietbi.DataSource = bus._selectData(str);
         }
         void disable_box()
         {
@@ -224,7 +223,7 @@ namespace GUI_quanlyspa
         {
             enable_box();
             set_null();
-            tb_mathietbi.Text = bus.matutang_thietbi("");
+            //tb_mathietbi.Text = bus.matutang_thietbi("");
             themDL = true;
         }
         private void btn_sua_Click(object sender, EventArgs e)
@@ -243,8 +242,8 @@ namespace GUI_quanlyspa
                     MessageBox.Show("Vui lòng chọn dữ liệu cần xóa");
                     return;
                 }
-                dto.MATB = tb_mathietbi.Text;
-                bus._deleteData(dto);
+                //dto.MATB = tb_mathietbi.Text;
+                //bus._deleteData(dto);
                 MessageBox.Show("Đã xóa thành công");
                 set_null();
                 taobang("");
@@ -312,23 +311,23 @@ namespace GUI_quanlyspa
             }
             try
             {
-                dto.MATB = tb_mathietbi.Text;
-                dto.MANCC = tb_mancc.Text;
-                dto.NGAYNHAP = tb_ngaynhap.Text;
-                dto.NSX = tb_nsx.Text;
-                dto.SLNHAP = tb_slnhap.Text;
-                dto.DVT = tb_dvt.Text;
-                dto.THANHTIENDH = tb_thanhtien.Text;
-                if (themDL == true)
-                {
-                    bus._insertData(dto);
-                    MessageBox.Show("Thêm mới thành công");
-                }
-                else if (themDL == false)
-                {
-                    bus._updateData(dto);
-                    MessageBox.Show("Sửa thành công");
-                }
+                //dto.MATB = tb_mathietbi.Text;
+                //dto.MANCC = tb_mancc.Text;
+                //dto.NGAYNHAP = tb_ngaynhap.Text;
+                //dto.NSX = tb_nsx.Text;
+                //dto.SLNHAP = tb_slnhap.Text;
+                //dto.DVT = tb_dvt.Text;
+                //dto.THANHTIENDH = tb_thanhtien.Text;
+                //if (themDL == true)
+                //{
+                //    bus._insertData(dto);
+                //    MessageBox.Show("Thêm mới thành công");
+                //}
+                //else if (themDL == false)
+                //{
+                //    bus._updateData(dto);
+                //    MessageBox.Show("Sửa thành công");
+                //}
                 set_null();
                 disable_box();
                 taobang("");
@@ -372,6 +371,11 @@ namespace GUI_quanlyspa
         }
 
         private void bunifuCustomLabel4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_luu_Click_1(object sender, EventArgs e)
         {
 
         }

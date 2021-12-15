@@ -170,69 +170,175 @@ namespace GUI_quanlyspa
             this.Hide();
         }
         //ket thuc
+
         //code chuc nang
-        
-        private void Form_MYPHAM_Load(object sender, EventArgs e)
+        bool themDL;
+        void set_null()
+        {
+            txtbox_chungloai.Text = "";
+            txtbox_giaban.Text = "";
+            txtbox_hamluong.Text = "";
+            txtbox_Mamp.Text = "";
+            txtbox_sltk.Text = "";
+            txtbox_tenmp.Text = "";
+
+        }
+        void Taobang(string str)
+        {
+            bangmp.DataSource = bus._selectData(str);
+        }
+
+        void disable_box()
+        {
+            txtbox_sltk.Enabled = false;
+            txtbox_tenmp.Enabled = false;
+            txtbox_hamluong.Enabled = false;
+            txtbox_giaban.Enabled = false;
+            txtbox_chungloai.Enabled = false;
+
+            btn_luu.Hide();
+            btn_them.Show();
+            btn_sua.Show();
+            btn_xoa.Show();
+
+        }
+
+        void enable_box()
+        {
+            txtbox_sltk.Enabled = true;
+            txtbox_tenmp.Enabled = true;
+            txtbox_hamluong.Enabled = true;
+            txtbox_giaban.Enabled = true;
+            txtbox_chungloai.Enabled = true;
+
+            btn_luu.Show();
+            btn_them.Hide();
+            btn_sua.Hide();
+            btn_xoa.Hide();
+        }
+
+        private void Form_Mypham_Load(object sender, EventArgs e)
+        {
+            disable_box();
+            Taobang("");
+        }
+
+        private void btn_them_Click(object sender, EventArgs e)
+        {
+            enable_box();
+            set_null();
+            txtbox_Mamp.Text = bus.matutang_mypham("");
+            themDL = true;
+        }
+        private void btn_sua_Click(object sender, EventArgs e)
+        {
+            enable_box();
+            set_null();
+
+            themDL = false;
+        }
+
+        private void btn_xoa_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (txtbox_Mamp.Text == "")
+                {
+                    MessageBox.Show("Vui lòng chọn dữ liệu cần xóa");
+                    return;
+                }
+                dto.MAMP = txtbox_Mamp.Text;
+                bus._deleteData(dto);
+                MessageBox.Show("Đã xóa thành công");
+                set_null();
+                Taobang("");
+            }
+            catch
+            {
+                MessageBox.Show("Lỗi");
+                return;
+            }
+        }
+        //code nut reset 
+        private void lb_rs_Click(object sender, EventArgs e)
+        {
+            disable_box();
+            set_null();
+        }
+        private void banglt_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            try
+            {
+                txtbox_Mamp.Text = bangmp.Rows[e.RowIndex].Cells[0].Value.ToString();
+                txtbox_tenmp.Text = bangmp.Rows[e.RowIndex].Cells[1].Value.ToString();
+                txtbox_chungloai.Text = bangmp.Rows[e.RowIndex].Cells[2].Value.ToString();
+                txtbox_hamluong.Text = bangmp.Rows[e.RowIndex].Cells[3].Value.ToString();
+                txtbox_sltk.Text = bangmp.Rows[e.RowIndex].Cells[4].Value.ToString();
+                txtbox_giaban.Text = bangmp.Rows[e.RowIndex].Cells[5].Value.ToString();
+            }
+            catch
+            {
+                MessageBox.Show("Lỗi");
+                return;
+            }
+        }
+        private void btn_luu_Click(object sender, EventArgs e)
+        {
+            int i = 0;
+            if (txtbox_tenmp.Text == "" || txtbox_chungloai.Text == "" || txtbox_hamluong.Text == "" || txtbox_sltk.Text == "" || txtbox_giaban.Text == "")
+            {
+                MessageBox.Show("Vui lòng nhập đầy đủ thông tin");
+                return;
+            }
+            else if (int.TryParse(txtbox_chungloai.Text, out i) == false)
+            {
+                MessageBox.Show("Vui lòng nhập lại chủng loại");
+                return;
+            }
+            else if (int.TryParse(txtbox_hamluong.Text, out i) == false)
+            {
+                MessageBox.Show("Hàm lượng phải là số");
+                return;
+            }
+            else if (int.TryParse(txtbox_giaban.Text, out i) == false)
+            {
+                MessageBox.Show("Gía bán phải là số");
+                return;
+            }
+
+            try
+            {
+                dto.MAMP = txtbox_Mamp.Text;
+                dto.TENMP = txtbox_Mamp.Text;
+                dto.GIABAN = txtbox_giaban.Text;
+                if (themDL == true)
+                {
+                    bus._insertData(dto);
+                    MessageBox.Show("Thêm mới thành công");
+                }
+                else if (themDL == false)
+                {
+                    bus._updateData(dto);
+                    MessageBox.Show("Sửa thành công");
+                }
+                set_null();
+                disable_box();
+                Taobang("");
+            }
+            catch
+            {
+                MessageBox.Show("Lỗi");
+                return;
+            }
+
+        }
+
+        private void Form_MYPHAM_Load_1(object sender, EventArgs e)
         {
 
         }
 
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void chart1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label9_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label13_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label11_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox5_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtbox_tg_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bunifuCustomLabel1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void banglt_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void pnl_workplace_Paint(object sender, PaintEventArgs e)
         {
 
         }
@@ -243,3 +349,4 @@ namespace GUI_quanlyspa
         }
     }
 }
+

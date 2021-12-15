@@ -30,18 +30,16 @@ namespace GUI_quanlyspa
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Home));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle41 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle42 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle43 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle44 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnl_Nhanvien = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -77,7 +75,6 @@ namespace GUI_quanlyspa
             this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.pnl_chi = new System.Windows.Forms.Panel();
-            this.bunifuCustomLabel11 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel9 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel7 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel6 = new Bunifu.Framework.UI.BunifuCustomLabel();
@@ -85,9 +82,6 @@ namespace GUI_quanlyspa
             this.bunifuCustomLabel3 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.lb_tongtienchi = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel5 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bang_nhaptb = new Bunifu.Framework.UI.BunifuCustomDataGrid();
-            this.col_thietbi = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.col_giatb = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bang_nhapmp = new Bunifu.Framework.UI.BunifuCustomDataGrid();
             this.col_mamp = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.col_tienmp = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -156,7 +150,6 @@ namespace GUI_quanlyspa
             ((System.ComponentModel.ISupportInitialize)(this.pic_head1)).BeginInit();
             this.pnl_chi.SuspendLayout();
             this.pnl_tongtienchi.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bang_nhaptb)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bang_nhapmp)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bang_luongnv)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bang_luongbs)).BeginInit();
@@ -528,12 +521,10 @@ namespace GUI_quanlyspa
             // pnl_chi
             // 
             this.pnl_chi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
-            this.pnl_chi.Controls.Add(this.bunifuCustomLabel11);
             this.pnl_chi.Controls.Add(this.bunifuCustomLabel9);
             this.pnl_chi.Controls.Add(this.bunifuCustomLabel7);
             this.pnl_chi.Controls.Add(this.bunifuCustomLabel6);
             this.pnl_chi.Controls.Add(this.pnl_tongtienchi);
-            this.pnl_chi.Controls.Add(this.bang_nhaptb);
             this.pnl_chi.Controls.Add(this.bang_nhapmp);
             this.pnl_chi.Controls.Add(this.bang_luongnv);
             this.pnl_chi.Controls.Add(this.btn_tinhchi);
@@ -543,16 +534,6 @@ namespace GUI_quanlyspa
             this.pnl_chi.Name = "pnl_chi";
             this.pnl_chi.Size = new System.Drawing.Size(625, 575);
             this.pnl_chi.TabIndex = 2;
-            // 
-            // bunifuCustomLabel11
-            // 
-            this.bunifuCustomLabel11.AutoSize = true;
-            this.bunifuCustomLabel11.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel11.Location = new System.Drawing.Point(318, 302);
-            this.bunifuCustomLabel11.Name = "bunifuCustomLabel11";
-            this.bunifuCustomLabel11.Size = new System.Drawing.Size(124, 23);
-            this.bunifuCustomLabel11.TabIndex = 23;
-            this.bunifuCustomLabel11.Text = "Nhập thiết bị";
             // 
             // bunifuCustomLabel9
             // 
@@ -568,7 +549,7 @@ namespace GUI_quanlyspa
             // 
             this.bunifuCustomLabel7.AutoSize = true;
             this.bunifuCustomLabel7.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel7.Location = new System.Drawing.Point(360, 85);
+            this.bunifuCustomLabel7.Location = new System.Drawing.Point(327, 302);
             this.bunifuCustomLabel7.Name = "bunifuCustomLabel7";
             this.bunifuCustomLabel7.Size = new System.Drawing.Size(157, 23);
             this.bunifuCustomLabel7.TabIndex = 21;
@@ -628,71 +609,23 @@ namespace GUI_quanlyspa
             this.bunifuCustomLabel5.TabIndex = 25;
             this.bunifuCustomLabel5.Text = "Chi: ";
             // 
-            // bang_nhaptb
-            // 
-            dataGridViewCellStyle34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bang_nhaptb.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle34;
-            this.bang_nhaptb.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.bang_nhaptb.BackgroundColor = System.Drawing.Color.PaleGoldenrod;
-            this.bang_nhaptb.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.bang_nhaptb.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
-            this.bang_nhaptb.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle35.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle35.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle35.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle35.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle35.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bang_nhaptb.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle35;
-            this.bang_nhaptb.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.bang_nhaptb.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.col_thietbi,
-            this.col_giatb});
-            this.bang_nhaptb.DoubleBuffered = true;
-            this.bang_nhaptb.EnableHeadersVisualStyles = false;
-            this.bang_nhaptb.GridColor = System.Drawing.SystemColors.ButtonShadow;
-            this.bang_nhaptb.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
-            this.bang_nhaptb.HeaderForeColor = System.Drawing.Color.Black;
-            this.bang_nhaptb.Location = new System.Drawing.Point(322, 329);
-            this.bang_nhaptb.Name = "bang_nhaptb";
-            this.bang_nhaptb.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.bang_nhaptb.Size = new System.Drawing.Size(285, 173);
-            this.bang_nhaptb.TabIndex = 16;
-            // 
-            // col_thietbi
-            // 
-            this.col_thietbi.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.col_thietbi.DataPropertyName = "MATB";
-            this.col_thietbi.HeaderText = "Thiết bị";
-            this.col_thietbi.Name = "col_thietbi";
-            this.col_thietbi.ReadOnly = true;
-            // 
-            // col_giatb
-            // 
-            this.col_giatb.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.col_giatb.DataPropertyName = "THANHTIENDH";
-            this.col_giatb.HeaderText = "Thành tiền";
-            this.col_giatb.Name = "col_giatb";
-            this.col_giatb.ReadOnly = true;
-            // 
             // bang_nhapmp
             // 
-            dataGridViewCellStyle36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bang_nhapmp.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle36;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bang_nhapmp.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.bang_nhapmp.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.bang_nhapmp.BackgroundColor = System.Drawing.Color.PaleGoldenrod;
             this.bang_nhapmp.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.bang_nhapmp.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
             this.bang_nhapmp.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle37.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle37.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle37.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle37.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle37.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle37.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bang_nhapmp.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle37;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bang_nhapmp.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.bang_nhapmp.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.bang_nhapmp.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.col_mamp,
@@ -705,7 +638,7 @@ namespace GUI_quanlyspa
             this.bang_nhapmp.Location = new System.Drawing.Point(21, 329);
             this.bang_nhapmp.Name = "bang_nhapmp";
             this.bang_nhapmp.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.bang_nhapmp.Size = new System.Drawing.Size(295, 173);
+            this.bang_nhapmp.Size = new System.Drawing.Size(287, 173);
             this.bang_nhapmp.TabIndex = 15;
             // 
             // col_mamp
@@ -726,21 +659,21 @@ namespace GUI_quanlyspa
             // 
             // bang_luongnv
             // 
-            dataGridViewCellStyle38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bang_luongnv.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle38;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bang_luongnv.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
             this.bang_luongnv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.bang_luongnv.BackgroundColor = System.Drawing.Color.PaleGoldenrod;
             this.bang_luongnv.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.bang_luongnv.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
             this.bang_luongnv.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle39.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle39.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle39.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle39.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle39.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bang_luongnv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle39;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bang_luongnv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.bang_luongnv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.bang_luongnv.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.col_nv_chi,
@@ -750,10 +683,10 @@ namespace GUI_quanlyspa
             this.bang_luongnv.GridColor = System.Drawing.SystemColors.ButtonShadow;
             this.bang_luongnv.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
             this.bang_luongnv.HeaderForeColor = System.Drawing.Color.Black;
-            this.bang_luongnv.Location = new System.Drawing.Point(364, 116);
+            this.bang_luongnv.Location = new System.Drawing.Point(331, 329);
             this.bang_luongnv.Name = "bang_luongnv";
             this.bang_luongnv.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.bang_luongnv.Size = new System.Drawing.Size(243, 173);
+            this.bang_luongnv.Size = new System.Drawing.Size(276, 173);
             this.bang_luongnv.TabIndex = 14;
             // 
             // col_nv_chi
@@ -800,21 +733,21 @@ namespace GUI_quanlyspa
             // 
             // bang_luongbs
             // 
-            dataGridViewCellStyle40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bang_luongbs.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle40;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bang_luongbs.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
             this.bang_luongbs.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.bang_luongbs.BackgroundColor = System.Drawing.Color.PaleGoldenrod;
             this.bang_luongbs.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.bang_luongbs.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
             this.bang_luongbs.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle41.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle41.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle41.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle41.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle41.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle41.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bang_luongbs.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle41;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bang_luongbs.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.bang_luongbs.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.bang_luongbs.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.col_mabs,
@@ -828,7 +761,7 @@ namespace GUI_quanlyspa
             this.bang_luongbs.Location = new System.Drawing.Point(21, 116);
             this.bang_luongbs.Name = "bang_luongbs";
             this.bang_luongbs.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.bang_luongbs.Size = new System.Drawing.Size(337, 173);
+            this.bang_luongbs.Size = new System.Drawing.Size(586, 173);
             this.bang_luongbs.TabIndex = 3;
             // 
             // col_mabs
@@ -978,21 +911,21 @@ namespace GUI_quanlyspa
             // 
             // banghd
             // 
-            dataGridViewCellStyle42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.banghd.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle42;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.banghd.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
             this.banghd.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.banghd.BackgroundColor = System.Drawing.Color.PaleGoldenrod;
             this.banghd.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.banghd.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
             this.banghd.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle43.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle43.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle43.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle43.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle43.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle43.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.banghd.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle43;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.banghd.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.banghd.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.banghd.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Col_mahd,
@@ -1046,8 +979,8 @@ namespace GUI_quanlyspa
             // Col_thanhtien
             // 
             this.Col_thanhtien.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            dataGridViewCellStyle44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
-            this.Col_thanhtien.DefaultCellStyle = dataGridViewCellStyle44;
+            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            this.Col_thanhtien.DefaultCellStyle = dataGridViewCellStyle9;
             this.Col_thanhtien.HeaderText = "Thành tiền";
             this.Col_thanhtien.Name = "Col_thanhtien";
             this.Col_thanhtien.ReadOnly = true;
@@ -1297,7 +1230,6 @@ namespace GUI_quanlyspa
             this.pnl_chi.PerformLayout();
             this.pnl_tongtienchi.ResumeLayout(false);
             this.pnl_tongtienchi.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.bang_nhaptb)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bang_nhapmp)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bang_luongnv)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bang_luongbs)).EndInit();
@@ -1372,7 +1304,6 @@ namespace GUI_quanlyspa
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel1;
         private Bunifu.Framework.UI.BunifuThinButton2 btn_tinhthu;
         private Bunifu.Framework.UI.BunifuThinButton2 btn_tinhchi;
-        private Bunifu.Framework.UI.BunifuCustomDataGrid bang_nhaptb;
         private Bunifu.Framework.UI.BunifuCustomDataGrid bang_nhapmp;
         private Bunifu.Framework.UI.BunifuCustomDataGrid bang_luongnv;
         private System.Windows.Forms.Label lb_sdt;
@@ -1387,7 +1318,6 @@ namespace GUI_quanlyspa
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel10;
         private Bunifu.Framework.UI.BunifuCustomLabel lb_tongtienthu;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel8;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel11;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel9;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel7;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel6;
@@ -1397,8 +1327,6 @@ namespace GUI_quanlyspa
         private Bunifu.Framework.UI.BunifuElipse elipse_pnl_chi;
         private Bunifu.Framework.UI.BunifuElipse elipse_pnl_tongtienthu;
         private Bunifu.Framework.UI.BunifuElipse elipse_pnl_tongtienchi;
-        private System.Windows.Forms.DataGridViewTextBoxColumn col_thietbi;
-        private System.Windows.Forms.DataGridViewTextBoxColumn col_giatb;
         private System.Windows.Forms.DataGridViewTextBoxColumn col_mamp;
         private System.Windows.Forms.DataGridViewTextBoxColumn col_tienmp;
         private System.Windows.Forms.DataGridViewTextBoxColumn col_nv_chi;

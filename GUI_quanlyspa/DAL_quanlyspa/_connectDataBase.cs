@@ -119,6 +119,25 @@ namespace DAL_quanlyspa
             }
             return mtb;
         }
+        public string matutang_mypham(string str)
+        {
+            DataTable dt = new DataTable();
+            dt = _select(str);
+            string mmp;
+            if (dt.Rows.Count == 0)
+                mmp = "MP1";
+            else
+            {
+                string mamp = dt.Rows[dt.Rows.Count - 1][0].ToString();
+                mamp = mamp.Substring(2);
+                int so = int.Parse(mamp) + 1;
+                mmp = "MP";
+                mmp = mmp + so.ToString();
+            }
+
+            return mmp;
+        }
+        
         public string matutang_hoadon(string str)
         {
             DataTable dt = new DataTable();

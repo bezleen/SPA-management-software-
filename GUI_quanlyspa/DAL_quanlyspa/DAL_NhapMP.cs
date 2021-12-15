@@ -15,12 +15,12 @@ namespace DAL_quanlyspa
         // ham insert
         public void _insertData(DTO_NhapMP val)
         {
-            con._insert_update_delete(@"INSERT INTO NHAPMP (MAMP, MANCC, NGAYGIAO, DONGIA, NGAYNHAP, SLNHAP, THANHTIENDH, MADH, DVT, MANV) VALUES (N'" + val.MAMP + "',N'" + val.MANCC + "',N'" + val.NGAYGIAO + "',N'" + val.DONGIA + "',N'" + val.NGAYNHAP + "',N'" + val.SLNHAP + "',N'" + val.THANHTIENDH + "',N'" + val.MADH + "',N'" + val.DVT + "',N'" + val.MANV + "')");
+            con._insert_update_delete(@"INSERT INTO NHAPMP (MANMP,MAMP,DONGIA, NGAYNHAP, SLNHAP, THANHTIENDH, MANV) VALUES (N'" + val.MANMP + ",N'" + val.MAMP + "',N'" + val.DONGIA + "',N'" + val.NGAYNHAP + "',N'" + val.SLNHAP + "',N'" + val.THANHTIENDH + "',N'" + val.MANV + "')");
         }
         // ham update
         public void _updateData(DTO_NhapMP val)
         {
-            con._insert_update_delete(@"UPDATE NHAPMP SET MANCC = N'" + val.MANCC + "', NGAYGIAO = N'" + val.NGAYGIAO + "', DONGIA = N'" + val.DONGIA + "', NGAYNHAP = N'" + val.NGAYNHAP + "', SLNHAP = N'" + val.SLNHAP + "', THANHTIENDH = N'" + val.THANHTIENDH + "', MADH = N'" + val.MADH + "', DVT = N'" + val.DVT + "', MANV = N'" + val.MANV + "' WHERE MAMP = N'" + val.MAMP + "'");
+            con._insert_update_delete(@"UPDATE NHAPMP SET  DONGIA = N'" + val.DONGIA + "', NGAYNHAP = N'" + val.NGAYNHAP + "', SLNHAP = N'" + val.SLNHAP + "', THANHTIENDH = N'" + val.THANHTIENDH + "', MANV = N'" + val.MANV + "' WHERE MAMP = N'" + val.MAMP + "'");
         }
         // ham delete
         public void _deleteData(DTO_NhapMP val)

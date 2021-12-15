@@ -49,9 +49,7 @@
     <Compile Include="DTO_LuongNV.cs" />
     <Compile Include="DTO_MYPHAM.cs" />
     <Compile Include="DTO_NhapMP.cs" />
-    <Compile Include="DTO_NhapTB.cs" />
     <Compile Include="DTO_QLBS.cs" />
-    <Compile Include="DTO_QLNCC.cs" />
     <Compile Include="DTO_QLNV.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

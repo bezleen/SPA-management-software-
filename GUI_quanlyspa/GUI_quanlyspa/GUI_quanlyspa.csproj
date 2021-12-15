@@ -70,7 +70,7 @@
     <Compile Include="Form_Khach_hang.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_Khach_hang.designer.cs">
+    <Compile Include="Form_Khach_hang.Designer.cs">
       <DependentUpon>Form_Khach_hang.cs</DependentUpon>
     </Compile>
     <Compile Include="Form_Lieu_trinh.cs">
@@ -78,6 +78,12 @@
     </Compile>
     <Compile Include="Form_Lieu_trinh.Designer.cs">
       <DependentUpon>Form_Lieu_trinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Login.Designer.cs">
+      <DependentUpon>Form_Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Form_MYPHAM.cs">
       <SubType>Form</SubType>
@@ -88,14 +94,8 @@
     <Compile Include="Form_Nhan_vien.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_Nhan_vien.designer.cs">
+    <Compile Include="Form_Nhan_vien.Designer.cs">
       <DependentUpon>Form_Nhan_vien.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form_Login.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_Login.Designer.cs">
-      <DependentUpon>Form_Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Form_Thiet_Bi.cs">
       <SubType>Form</SubType>
@@ -117,14 +117,14 @@
     <EmbeddedResource Include="Form_Lieu_trinh.resx">
       <DependentUpon>Form_Lieu_trinh.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form_Login.resx">
+      <DependentUpon>Form_Login.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_MYPHAM.resx">
       <DependentUpon>Form_MYPHAM.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Nhan_vien.resx">
       <DependentUpon>Form_Nhan_vien.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_Login.resx">
-      <DependentUpon>Form_Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Thiet_Bi.resx">
       <DependentUpon>Form_Thiet_Bi.cs</DependentUpon>

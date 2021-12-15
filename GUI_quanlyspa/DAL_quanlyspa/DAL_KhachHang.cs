@@ -15,12 +15,12 @@ namespace DAL_quanlyspa
         // ham insert
         public void _insertData(DTO_KhachHang val)
         {
-            con._insert_update_delete(@"INSERT INTO KHACHHANG (MAKH, HOTEN, GIOITINH, NAMSINH, TUOI, QUEQUAN, QUOCTICH, DOITUONG, DIENTHOAI) VALUES ('"+val.MAKH+"',N'"+val.HOTEN+"','"+val.GIOITINH+"','"+val.NAMSINH+"','"+val.TUOI+"',N'"+val.QUEQUAN+"',N'"+val.QUOCTICH+"',N'"+val.DOITUONG+"','"+val.DIENTHOAI+"')");
+            con._insert_update_delete(@"INSERT INTO KHACHHANG (MAKH, HOTEN, GIOITINH, NAMSINH, DIENTHOAI) VALUES ('"+val.MAKH+"',N'"+val.HOTEN+"','"+val.GIOITINH+"','"+val.NAMSINH+"','"+val.DIENTHOAI+"')");
         }
         // ham update
         public void _updateData(DTO_KhachHang val)
         {
-            con._insert_update_delete(@"UPDATE KHACHHANG SET HOTEN =N'"+val.HOTEN+"', GIOITINH ='"+val.GIOITINH+ "', NAMSINH ='" + val.NAMSINH + "', TUOI ='" + val.TUOI + "', QUEQUAN =N'" + val.QUEQUAN + "', QUOCTICH =N'" + val.QUOCTICH + "', DOITUONG =N'" + val.DOITUONG + "', DIENTHOAI ='" + val.DIENTHOAI + "' WHERE MAKH='" + val.MAKH+"'");
+            con._insert_update_delete(@"UPDATE KHACHHANG SET HOTEN =N'"+val.HOTEN+"', GIOITINH ='"+val.GIOITINH+ "', NAMSINH ='" + val.NAMSINH + "', DIENTHOAI ='" + val.DIENTHOAI + "' WHERE MAKH='" + val.MAKH+"'");
         }
         // ham delete
         public void _deleteData(DTO_KhachHang val)
