@@ -8,9 +8,10 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>GUI_quanlyspa</RootNamespace>
     <AssemblyName>GUI_quanlyspa</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -21,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -30,6 +32,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
@@ -85,6 +88,12 @@
     <Compile Include="Form_Login.Designer.cs">
       <DependentUpon>Form_Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_MYPHAM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_MYPHAM.Designer.cs">
+      <DependentUpon>Form_MYPHAM.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_Nhan_vien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,6 +139,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -227,6 +237,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\500_F_91409194_fIhYBpGAlQyjEnaXgfzWNiqDDVtICyUh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-lock-60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftside_panel1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_logo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-user-641.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-lock-601.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_button1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
