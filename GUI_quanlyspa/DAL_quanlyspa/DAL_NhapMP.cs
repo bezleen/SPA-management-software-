@@ -15,7 +15,7 @@ namespace DAL_quanlyspa
         // ham insert
         public void _insertData(DTO_NhapMP val)
         {
-            con._insert_update_delete(@"INSERT INTO NHAPMP (MANMP,MAMP,DONGIA, NGAYNHAP, SLNHAP, THANHTIENDH, MANV) VALUES (N'" + val.MANMP + ",N'" + val.MAMP + "',N'" + val.DONGIA + "',N'" + val.NGAYNHAP + "',N'" + val.SLNHAP + "',N'" + val.THANHTIENDH + "',N'" + val.MANV + "')");
+            con._insert_update_delete(@"INSERT INTO NHAPMP (MANMP,MAMP,DONGIA, NGAYNHAP, SLNHAP, THANHTIENDH, MANV) VALUES (N'" + val.MANMP + "',N'" + val.MAMP + "',N'" + val.DONGIA + "',N'" + val.NGAYNHAP + "',N'" + val.SLNHAP + "',N'" + val.THANHTIENDH + "',N'" + val.MANV + "')");
         }
         // ham update
         public void _updateData(DTO_NhapMP val)
@@ -31,6 +31,11 @@ namespace DAL_quanlyspa
         public DataTable _selectData(string str)
         {
             return con._select("SELECT * FROM NHAPMP " + str);
+        }
+        //ma tu tang
+        public string matutang_nhapmypham(string str)
+        {
+            return con.matutang_nhapmypham("SELECT * FROM NHAPMP " + str);
         }
     }
 }

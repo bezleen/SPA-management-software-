@@ -123,6 +123,9 @@
     <EmbeddedResource Include="Form_Login.resx">
       <DependentUpon>Form_Login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form_MYPHAM.resx">
+      <DependentUpon>Form_MYPHAM.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form_Nhan_vien.resx">
       <DependentUpon>Form_Nhan_vien.cs</DependentUpon>
     </EmbeddedResource>

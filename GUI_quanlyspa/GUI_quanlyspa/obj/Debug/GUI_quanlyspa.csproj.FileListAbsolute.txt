@@ -103,3 +103,4 @@ E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.c
 E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Hoa_don.resources
 E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.csproj.CopyComplete
 D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\GUI_quanlyspa.exe.config
+D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_MYPHAM.resources

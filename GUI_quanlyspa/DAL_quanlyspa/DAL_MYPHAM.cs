@@ -16,7 +16,7 @@ namespace DAL_quanlyspa
         // ham insert
         public void _insertData(DTO_MYPHAM val)
         {
-            con._insert_update_delete(@"SELECT  MAMP, TENMP, SOLUONGTONKHO, GIABAN ) VALUES (N'" + val.MAMP + "',N'" + val.TENMP + "',N'" + val.SOLUONGTONKHO + "',N'" + val.GIABAN + "')");
+            con._insert_update_delete(@"INSERT INTO MYPHAM  (MAMP, TENMP, SOLUONGTONKHO, GIABAN ) VALUES (N'" + val.MAMP + "',N'" + val.TENMP + "',N'" + val.SOLUONGTONKHO + "',N'" + val.GIABAN + "')");
         }
         // ham update
         public void _updateData(DTO_MYPHAM val)

@@ -468,6 +468,8 @@ namespace GUI_quanlyspa
                 this.Hide();
             }
         }
+
+
     }
 
 }
