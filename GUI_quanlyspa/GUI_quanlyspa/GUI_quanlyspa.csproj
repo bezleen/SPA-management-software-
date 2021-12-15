@@ -85,12 +85,6 @@
     <Compile Include="Form_Login.Designer.cs">
       <DependentUpon>Form_Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_MYPHAM.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form_MYPHAM.Designer.cs">
-      <DependentUpon>Form_MYPHAM.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form_Nhan_vien.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,9 +113,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Login.resx">
       <DependentUpon>Form_Login.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form_MYPHAM.resx">
-      <DependentUpon>Form_MYPHAM.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Nhan_vien.resx">
       <DependentUpon>Form_Nhan_vien.cs</DependentUpon>
