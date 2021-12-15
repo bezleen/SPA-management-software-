@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>GUI_quanlyspa</RootNamespace>
     <AssemblyName>GUI_quanlyspa</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <TargetFrameworkProfile />
@@ -264,6 +264,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\login_button1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show_pw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hide_pw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hide_pw2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -30,20 +30,19 @@ namespace GUI_quanlyspa
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Login));
             this.label4 = new System.Windows.Forms.Label();
             this.remember_cb = new Bunifu.Framework.UI.BunifuCheckbox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.exit_lb = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.password_tb = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.login_button = new System.Windows.Forms.Button();
-            this.password_tb = new Bunifu.Framework.UI.BunifuTextbox();
-            this.user_tb = new Bunifu.Framework.UI.BunifuTextbox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.exit_lb = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.user_tb = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -56,10 +55,9 @@ namespace GUI_quanlyspa
             this.label4.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(493, 213);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(84, 32);
+            this.label4.Size = new System.Drawing.Size(83, 32);
             this.label4.TabIndex = 3;
             this.label4.Text = "Login";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // remember_cb
             // 
@@ -67,6 +65,7 @@ namespace GUI_quanlyspa
             this.remember_cb.ChechedOffColor = System.Drawing.Color.FromArgb(((int)(((byte)(132)))), ((int)(((byte)(135)))), ((int)(((byte)(140)))));
             this.remember_cb.Checked = true;
             this.remember_cb.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(145)))), ((int)(((byte)(50)))));
+            this.remember_cb.Cursor = System.Windows.Forms.Cursors.Hand;
             this.remember_cb.ForeColor = System.Drawing.Color.White;
             this.remember_cb.Location = new System.Drawing.Point(435, 361);
             this.remember_cb.Name = "remember_cb";
@@ -85,52 +84,60 @@ namespace GUI_quanlyspa
             this.textBox3.Size = new System.Drawing.Size(110, 24);
             this.textBox3.TabIndex = 10;
             this.textBox3.Text = "Remember Me";
-            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // bunifuElipse1
             // 
             this.bunifuElipse1.ElipseRadius = 16;
             this.bunifuElipse1.TargetControl = this;
             // 
+            // exit_lb
+            // 
+            this.exit_lb.AutoSize = true;
+            this.exit_lb.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.exit_lb.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.exit_lb.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(145)))), ((int)(((byte)(50)))));
+            this.exit_lb.Location = new System.Drawing.Point(772, 5);
+            this.exit_lb.Name = "exit_lb";
+            this.exit_lb.Size = new System.Drawing.Size(24, 22);
+            this.exit_lb.TabIndex = 17;
+            this.exit_lb.Text = "X";
+            this.exit_lb.Click += new System.EventHandler(this.exit_lb_Click);
+            // 
+            // password_tb
+            // 
+            this.password_tb.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.password_tb.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.password_tb.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.password_tb.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.password_tb.HintForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.password_tb.HintText = "Type Your Password";
+            this.password_tb.isPassword = true;
+            this.password_tb.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(234)))), ((int)(((byte)(102)))));
+            this.password_tb.LineIdleColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(145)))), ((int)(((byte)(50)))));
+            this.password_tb.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(234)))), ((int)(((byte)(102)))));
+            this.password_tb.LineThickness = 4;
+            this.password_tb.Location = new System.Drawing.Point(413, 313);
+            this.password_tb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.password_tb.Name = "password_tb";
+            this.password_tb.Size = new System.Drawing.Size(250, 40);
+            this.password_tb.TabIndex = 19;
+            this.password_tb.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.password_tb.OnValueChanged += new System.EventHandler(this.password_tb_OnValueChanged);
+            // 
             // login_button
             // 
             this.login_button.BackColor = System.Drawing.Color.Transparent;
             this.login_button.BackgroundImage = global::GUI_quanlyspa.Properties.Resources.login_button;
             this.login_button.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.login_button.Cursor = System.Windows.Forms.Cursors.Hand;
             this.login_button.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.login_button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.login_button.Location = new System.Drawing.Point(475, 403);
+            this.login_button.Location = new System.Drawing.Point(488, 402);
             this.login_button.Name = "login_button";
-            this.login_button.Size = new System.Drawing.Size(120, 40);
+            this.login_button.Size = new System.Drawing.Size(101, 41);
             this.login_button.TabIndex = 16;
             this.login_button.UseVisualStyleBackColor = false;
             this.login_button.Click += new System.EventHandler(this.login_button_Click);
-            // 
-            // password_tb
-            // 
-            this.password_tb.BackColor = System.Drawing.SystemColors.Window;
-            this.password_tb.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("password_tb.BackgroundImage")));
-            this.password_tb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.password_tb.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(145)))), ((int)(((byte)(50)))));
-            this.password_tb.Icon = ((System.Drawing.Image)(resources.GetObject("password_tb.Icon")));
-            this.password_tb.Location = new System.Drawing.Point(413, 313);
-            this.password_tb.Name = "password_tb";
-            this.password_tb.Size = new System.Drawing.Size(250, 42);
-            this.password_tb.TabIndex = 15;
-            this.password_tb.text = "";
-            // 
-            // user_tb
-            // 
-            this.user_tb.BackColor = System.Drawing.SystemColors.Window;
-            this.user_tb.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("user_tb.BackgroundImage")));
-            this.user_tb.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.user_tb.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(145)))), ((int)(((byte)(50)))));
-            this.user_tb.Icon = ((System.Drawing.Image)(resources.GetObject("user_tb.Icon")));
-            this.user_tb.Location = new System.Drawing.Point(413, 258);
-            this.user_tb.Name = "user_tb";
-            this.user_tb.Size = new System.Drawing.Size(250, 42);
-            this.user_tb.TabIndex = 14;
-            this.user_tb.text = "";
             // 
             // pictureBox2
             // 
@@ -172,7 +179,7 @@ namespace GUI_quanlyspa
             this.label2.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(71, 98);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(128, 32);
+            this.label2.Size = new System.Drawing.Size(127, 32);
             this.label2.TabIndex = 2;
             this.label2.Text = "Software";
             // 
@@ -183,21 +190,29 @@ namespace GUI_quanlyspa
             this.label1.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(10, 66);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(250, 32);
+            this.label1.Size = new System.Drawing.Size(249, 32);
             this.label1.TabIndex = 1;
             this.label1.Text = "Spa Management";
             // 
-            // exit_lb
+            // user_tb
             // 
-            this.exit_lb.AutoSize = true;
-            this.exit_lb.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.exit_lb.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(145)))), ((int)(((byte)(50)))));
-            this.exit_lb.Location = new System.Drawing.Point(772, 5);
-            this.exit_lb.Name = "exit_lb";
-            this.exit_lb.Size = new System.Drawing.Size(24, 22);
-            this.exit_lb.TabIndex = 17;
-            this.exit_lb.Text = "X";
-            this.exit_lb.Click += new System.EventHandler(this.exit_lb_Click);
+            this.user_tb.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.user_tb.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.user_tb.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.user_tb.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.user_tb.HintForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.user_tb.HintText = "Username";
+            this.user_tb.isPassword = false;
+            this.user_tb.LineFocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(234)))), ((int)(((byte)(102)))));
+            this.user_tb.LineIdleColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(145)))), ((int)(((byte)(50)))));
+            this.user_tb.LineMouseHoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(164)))), ((int)(((byte)(234)))), ((int)(((byte)(102)))));
+            this.user_tb.LineThickness = 4;
+            this.user_tb.Location = new System.Drawing.Point(413, 259);
+            this.user_tb.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.user_tb.Name = "user_tb";
+            this.user_tb.Size = new System.Drawing.Size(250, 44);
+            this.user_tb.TabIndex = 18;
+            this.user_tb.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // Form_Login
             // 
@@ -205,10 +220,10 @@ namespace GUI_quanlyspa
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(800, 540);
-            this.Controls.Add(this.exit_lb);
-            this.Controls.Add(this.login_button);
             this.Controls.Add(this.password_tb);
             this.Controls.Add(this.user_tb);
+            this.Controls.Add(this.exit_lb);
+            this.Controls.Add(this.login_button);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.remember_cb);
             this.Controls.Add(this.label4);
@@ -238,9 +253,9 @@ namespace GUI_quanlyspa
         private Bunifu.Framework.UI.BunifuCheckbox remember_cb;
         private System.Windows.Forms.TextBox textBox3;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
-        private Bunifu.Framework.UI.BunifuTextbox password_tb;
-        private Bunifu.Framework.UI.BunifuTextbox user_tb;
         private System.Windows.Forms.Button login_button;
         private Bunifu.Framework.UI.BunifuCustomLabel exit_lb;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox password_tb;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox user_tb;
     }
 }
