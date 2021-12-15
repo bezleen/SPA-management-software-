@@ -86,4 +86,3 @@ D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanl
 D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
 D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\stdole.dll
 D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
-D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.ReportHD.resources

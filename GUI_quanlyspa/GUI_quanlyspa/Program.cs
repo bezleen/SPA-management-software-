@@ -15,7 +15,7 @@ namespace GUI_quanlyspa
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ReportHD());
+            Application.Run(new Form_Home());
         }
     }
 }
