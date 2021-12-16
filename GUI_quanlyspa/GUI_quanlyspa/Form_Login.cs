@@ -16,21 +16,11 @@ namespace GUI_quanlyspa
         {
             InitializeComponent();
         }
-
-        private void label4_Click(object sender, EventArgs e)
+        private void password_tb_OnValueChanged(object sender, EventArgs e)
         {
-
+            password_tb.isPassword = true;
         }
 
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bunifuTextbox1_OnTextChange(object sender, EventArgs e)
-        {
-
-        }
         //code dang nhap qua SQL
         private void login_button_Click(object sender, EventArgs e)
         {
@@ -38,15 +28,15 @@ namespace GUI_quanlyspa
             try
             {
                 conn.Open();
-                string tk = user_tb.text;
-                string mk = password_tb.text;
+                string tk = user_tb.Text;
+                string mk = password_tb.Text;
                 string sql = "select *from QLNV where MANV='" + tk + "' and PASS='" + mk + "'";
                 SqlCommand cmd = new SqlCommand(sql, conn);
                 SqlDataReader dta = cmd.ExecuteReader();
                 if (dta.Read() == true)
                 {
                     //MessageBox.Show("Đăng nhập thành công");
-                    Form_Home home = new Form_Home();
+                    Form_Home home = new Form_Home(user_tb.Text);
                     home.Show();
                     this.Hide();
                 }
@@ -63,8 +53,8 @@ namespace GUI_quanlyspa
 
             if (remember_cb.Checked == true)
             {
-                Properties.Settings.Default.Username = user_tb.text;
-                Properties.Settings.Default.Password = password_tb.text;
+                Properties.Settings.Default.Username = user_tb.Text;
+                Properties.Settings.Default.Password = password_tb.Text;
                 Properties.Settings.Default.Save();
             }
 
@@ -79,16 +69,16 @@ namespace GUI_quanlyspa
         //code nut clear
         private void clear_lb_Click(object sender, EventArgs e)
         {
-            user_tb.text = "";
-            password_tb.text = "";
+            user_tb.Text = "";
+            password_tb.Text = "";
         }
         //load form
         private void Form_Login_Load(object sender, EventArgs e)
         {
             if (Properties.Settings.Default.Username != String.Empty)
             {
-                Properties.Settings.Default.Username = user_tb.text;
-                Properties.Settings.Default.Password = password_tb.text;
+                Properties.Settings.Default.Username = user_tb.Text;
+                Properties.Settings.Default.Password = password_tb.Text;
             }
         }
         //code nut exit
@@ -98,7 +88,6 @@ namespace GUI_quanlyspa
             if (resu_lt == DialogResult.Yes)
                 Application.Exit();
         }
-
 
     }
 }

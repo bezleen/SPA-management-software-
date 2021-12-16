@@ -30,8 +30,8 @@ namespace GUI_quanlyspa
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle87 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle88 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_MYPHAM));
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.elipse_pnl_logout = new Bunifu.Framework.UI.BunifuElipse(this.components);
@@ -64,9 +64,27 @@ namespace GUI_quanlyspa
             this.elipse_Form_Lieu_trinh = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bangmp = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.Col_mamp = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Col_tenmp = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Col_sltk = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Col_giaban = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.elipse_pnl_workplace = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.pnl_workplace = new System.Windows.Forms.Panel();
             this.pnl_input = new System.Windows.Forms.Panel();
+            this.txtBox_mamp2 = new System.Windows.Forms.TextBox();
+            this.txtBox_mamp1 = new System.Windows.Forms.TextBox();
+            this.txtbox_thanhtien = new System.Windows.Forms.TextBox();
+            this.txtBox_giaban = new System.Windows.Forms.TextBox();
+            this.bunifuCustomLabel7 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.txtBox_tenmp2 = new System.Windows.Forms.TextBox();
+            this.lb_tmp2 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.lb_mmp2 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.lb_tmp1 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.comboBox_tenmp1 = new System.Windows.Forms.ComboBox();
+            this.lb_mmp1 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.btn_moi = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.btn_cu = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.comboBox_manv = new System.Windows.Forms.ComboBox();
             this.date_picker_ngaynhap = new Bunifu.Framework.UI.BunifuDatepicker();
             this.txtBox_soluong = new System.Windows.Forms.TextBox();
             this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
@@ -79,31 +97,13 @@ namespace GUI_quanlyspa
             this.lb_TenLT = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.txtbox_dongia = new System.Windows.Forms.TextBox();
             this.elipse_picBox_LogoSpa = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.picBox_LogoSpa = new System.Windows.Forms.PictureBox();
             this.elipse_pnl_input = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.picBox_iconExit = new System.Windows.Forms.PictureBox();
             this.elipse_pnl_Thietbi = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.pnl_Thietbi = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.comboBox_manv = new System.Windows.Forms.ComboBox();
-            this.btn_cu = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.btn_moi = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.lb_mmp1 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.comboBox_tenmp1 = new System.Windows.Forms.ComboBox();
-            this.lb_tmp1 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.lb_mmp2 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.lb_tmp2 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.txtBox_tenmp2 = new System.Windows.Forms.TextBox();
-            this.bunifuCustomLabel7 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.txtBox_giaban = new System.Windows.Forms.TextBox();
-            this.Col_mamp = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Col_tenmp = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Col_sltk = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Col_giaban = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.txtbox_thanhtien = new System.Windows.Forms.TextBox();
-            this.txtBox_mamp1 = new System.Windows.Forms.TextBox();
-            this.txtBox_mamp2 = new System.Windows.Forms.TextBox();
+            this.picBox_LogoSpa = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.pnl_logout.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -121,10 +121,10 @@ namespace GUI_quanlyspa
             ((System.ComponentModel.ISupportInitialize)(this.bangmp)).BeginInit();
             this.pnl_workplace.SuspendLayout();
             this.pnl_input.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBox_LogoSpa)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_iconExit)).BeginInit();
             this.pnl_Thietbi.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox_LogoSpa)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox4
@@ -151,6 +151,7 @@ namespace GUI_quanlyspa
             this.pnl_logout.Name = "pnl_logout";
             this.pnl_logout.Size = new System.Drawing.Size(174, 34);
             this.pnl_logout.TabIndex = 42;
+            this.pnl_logout.Click += new System.EventHandler(this.pnl_logout_Click);
             // 
             // lb_dangxuat
             // 
@@ -160,6 +161,7 @@ namespace GUI_quanlyspa
             this.lb_dangxuat.Size = new System.Drawing.Size(123, 16);
             this.lb_dangxuat.TabIndex = 26;
             this.lb_dangxuat.Text = "bezleendeptraibodoi";
+            this.lb_dangxuat.Click += new System.EventHandler(this.lb_dangxuat_Click);
             // 
             // pictureBox1
             // 
@@ -170,6 +172,7 @@ namespace GUI_quanlyspa
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 25;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox6
             // 
@@ -180,6 +183,8 @@ namespace GUI_quanlyspa
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 0;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
+            this.pictureBox6.MouseHover += new System.EventHandler(this.pictureBox6_MouseHover);
             // 
             // pictureBox8
             // 
@@ -190,6 +195,8 @@ namespace GUI_quanlyspa
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox8.TabIndex = 0;
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
+            this.pictureBox8.MouseHover += new System.EventHandler(this.pictureBox8_MouseHover);
             // 
             // elipse_pnl_Mypham
             // 
@@ -231,6 +238,9 @@ namespace GUI_quanlyspa
             this.pnl_Lieutrinh.Name = "pnl_Lieutrinh";
             this.pnl_Lieutrinh.Size = new System.Drawing.Size(197, 53);
             this.pnl_Lieutrinh.TabIndex = 39;
+            this.pnl_Lieutrinh.Click += new System.EventHandler(this.pnl_Lieutrinh_Click);
+            this.pnl_Lieutrinh.MouseLeave += new System.EventHandler(this.pnl_Lieutrinh_MouseLeave);
+            this.pnl_Lieutrinh.MouseHover += new System.EventHandler(this.pnl_Lieutrinh_MouseHover);
             // 
             // label4
             // 
@@ -242,6 +252,8 @@ namespace GUI_quanlyspa
             this.label4.Size = new System.Drawing.Size(102, 25);
             this.label4.TabIndex = 1;
             this.label4.Text = "Liệu trình";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.label4.MouseHover += new System.EventHandler(this.label4_MouseHover);
             // 
             // pictureBox5
             // 
@@ -252,6 +264,8 @@ namespace GUI_quanlyspa
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 0;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
+            this.pictureBox5.MouseHover += new System.EventHandler(this.pictureBox5_MouseHover);
             // 
             // elipse_pnl_Khachhang
             // 
@@ -267,6 +281,9 @@ namespace GUI_quanlyspa
             this.pnl_Khachhang.Name = "pnl_Khachhang";
             this.pnl_Khachhang.Size = new System.Drawing.Size(197, 53);
             this.pnl_Khachhang.TabIndex = 40;
+            this.pnl_Khachhang.Click += new System.EventHandler(this.pnl_Khachhang_Click);
+            this.pnl_Khachhang.MouseLeave += new System.EventHandler(this.pnl_Khachhang_MouseLeave);
+            this.pnl_Khachhang.MouseHover += new System.EventHandler(this.pnl_Khachhang_MouseHover);
             // 
             // label5
             // 
@@ -278,6 +295,8 @@ namespace GUI_quanlyspa
             this.label5.Size = new System.Drawing.Size(138, 25);
             this.label5.TabIndex = 1;
             this.label5.Text = "Khách hàng";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.label5.MouseHover += new System.EventHandler(this.label5_MouseHover);
             // 
             // elipse_pnl_Hoadon
             // 
@@ -293,6 +312,9 @@ namespace GUI_quanlyspa
             this.pnl_Hoadon.Name = "pnl_Hoadon";
             this.pnl_Hoadon.Size = new System.Drawing.Size(197, 53);
             this.pnl_Hoadon.TabIndex = 35;
+            this.pnl_Hoadon.Click += new System.EventHandler(this.pnl_Hoadon_Click);
+            this.pnl_Hoadon.MouseLeave += new System.EventHandler(this.pnl_Hoadon_MouseLeave);
+            this.pnl_Hoadon.MouseHover += new System.EventHandler(this.pnl_Hoadon_MouseHover);
             // 
             // label7
             // 
@@ -304,6 +326,8 @@ namespace GUI_quanlyspa
             this.label7.Size = new System.Drawing.Size(99, 25);
             this.label7.TabIndex = 1;
             this.label7.Text = "Hóa đơn";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
+            this.label7.MouseHover += new System.EventHandler(this.label7_MouseHover);
             // 
             // elipse_pnl_Malieutrinh
             // 
@@ -319,6 +343,9 @@ namespace GUI_quanlyspa
             this.pnl_Nhanvien.Name = "pnl_Nhanvien";
             this.pnl_Nhanvien.Size = new System.Drawing.Size(197, 53);
             this.pnl_Nhanvien.TabIndex = 37;
+            this.pnl_Nhanvien.Click += new System.EventHandler(this.pnl_Nhanvien_Click);
+            this.pnl_Nhanvien.MouseLeave += new System.EventHandler(this.pnl_Nhanvien_MouseLeave);
+            this.pnl_Nhanvien.MouseHover += new System.EventHandler(this.pnl_Nhanvien_MouseHover);
             // 
             // label2
             // 
@@ -330,6 +357,8 @@ namespace GUI_quanlyspa
             this.label2.Size = new System.Drawing.Size(117, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "Nhân viên";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            this.label2.MouseHover += new System.EventHandler(this.label2_MouseHover);
             // 
             // pictureBox3
             // 
@@ -340,6 +369,8 @@ namespace GUI_quanlyspa
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
+            this.pictureBox3.MouseHover += new System.EventHandler(this.pictureBox3_MouseHover);
             // 
             // elipse_pnl_Home
             // 
@@ -355,6 +386,9 @@ namespace GUI_quanlyspa
             this.pnl_Home.Name = "pnl_Home";
             this.pnl_Home.Size = new System.Drawing.Size(197, 53);
             this.pnl_Home.TabIndex = 34;
+            this.pnl_Home.Click += new System.EventHandler(this.pnl_Home_Click);
+            this.pnl_Home.MouseLeave += new System.EventHandler(this.pnl_Home_MouseLeave);
+            this.pnl_Home.MouseHover += new System.EventHandler(this.pnl_Home_MouseHover);
             // 
             // label1
             // 
@@ -366,6 +400,8 @@ namespace GUI_quanlyspa
             this.label1.Size = new System.Drawing.Size(72, 25);
             this.label1.TabIndex = 1;
             this.label1.Text = "Home";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.label1.MouseHover += new System.EventHandler(this.label1_MouseHover);
             // 
             // pictureBox2
             // 
@@ -376,6 +412,8 @@ namespace GUI_quanlyspa
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.pictureBox2.MouseHover += new System.EventHandler(this.pictureBox2_MouseHover);
             // 
             // elipse_Form_Lieu_trinh
             // 
@@ -394,21 +432,21 @@ namespace GUI_quanlyspa
             // 
             // bangmp
             // 
-            dataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.bangmp.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle87.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bangmp.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle87;
             this.bangmp.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.bangmp.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
             this.bangmp.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.bangmp.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
             this.bangmp.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.bangmp.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle14;
+            dataGridViewCellStyle88.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle88.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle88.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle88.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle88.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle88.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle88.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bangmp.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle88;
             this.bangmp.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.bangmp.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Col_mamp,
@@ -426,6 +464,38 @@ namespace GUI_quanlyspa
             this.bangmp.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.bangmp.Size = new System.Drawing.Size(1255, 493);
             this.bangmp.TabIndex = 1;
+            // 
+            // Col_mamp
+            // 
+            this.Col_mamp.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Col_mamp.DataPropertyName = "MAMP";
+            this.Col_mamp.HeaderText = "Mã mỹ phẩm";
+            this.Col_mamp.Name = "Col_mamp";
+            this.Col_mamp.ReadOnly = true;
+            // 
+            // Col_tenmp
+            // 
+            this.Col_tenmp.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Col_tenmp.DataPropertyName = "TENMP";
+            this.Col_tenmp.HeaderText = "Tên mỹ phẩm";
+            this.Col_tenmp.Name = "Col_tenmp";
+            this.Col_tenmp.ReadOnly = true;
+            // 
+            // Col_sltk
+            // 
+            this.Col_sltk.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Col_sltk.DataPropertyName = "SOLUONGTONKHO";
+            this.Col_sltk.HeaderText = "Số lượng tồn kho";
+            this.Col_sltk.Name = "Col_sltk";
+            this.Col_sltk.ReadOnly = true;
+            // 
+            // Col_giaban
+            // 
+            this.Col_giaban.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Col_giaban.DataPropertyName = "GIABAN";
+            this.Col_giaban.HeaderText = "Giá bán";
+            this.Col_giaban.Name = "Col_giaban";
+            this.Col_giaban.ReadOnly = true;
             // 
             // elipse_pnl_workplace
             // 
@@ -476,6 +546,167 @@ namespace GUI_quanlyspa
             this.pnl_input.Size = new System.Drawing.Size(1255, 224);
             this.pnl_input.TabIndex = 0;
             // 
+            // txtBox_mamp2
+            // 
+            this.txtBox_mamp2.Enabled = false;
+            this.txtBox_mamp2.Location = new System.Drawing.Point(408, 176);
+            this.txtBox_mamp2.Name = "txtBox_mamp2";
+            this.txtBox_mamp2.ReadOnly = true;
+            this.txtBox_mamp2.Size = new System.Drawing.Size(115, 21);
+            this.txtBox_mamp2.TabIndex = 41;
+            // 
+            // txtBox_mamp1
+            // 
+            this.txtBox_mamp1.Enabled = false;
+            this.txtBox_mamp1.Location = new System.Drawing.Point(408, 110);
+            this.txtBox_mamp1.Name = "txtBox_mamp1";
+            this.txtBox_mamp1.ReadOnly = true;
+            this.txtBox_mamp1.Size = new System.Drawing.Size(115, 21);
+            this.txtBox_mamp1.TabIndex = 40;
+            // 
+            // txtbox_thanhtien
+            // 
+            this.txtbox_thanhtien.Enabled = false;
+            this.txtbox_thanhtien.Location = new System.Drawing.Point(679, 44);
+            this.txtbox_thanhtien.Name = "txtbox_thanhtien";
+            this.txtbox_thanhtien.ReadOnly = true;
+            this.txtbox_thanhtien.Size = new System.Drawing.Size(115, 21);
+            this.txtbox_thanhtien.TabIndex = 39;
+            // 
+            // txtBox_giaban
+            // 
+            this.txtBox_giaban.Location = new System.Drawing.Point(862, 44);
+            this.txtBox_giaban.Name = "txtBox_giaban";
+            this.txtBox_giaban.Size = new System.Drawing.Size(115, 21);
+            this.txtBox_giaban.TabIndex = 38;
+            this.txtBox_giaban.TextChanged += new System.EventHandler(this.txtBox_giaban_TextChanged);
+            // 
+            // bunifuCustomLabel7
+            // 
+            this.bunifuCustomLabel7.AutoSize = true;
+            this.bunifuCustomLabel7.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel7.Location = new System.Drawing.Point(869, 13);
+            this.bunifuCustomLabel7.Name = "bunifuCustomLabel7";
+            this.bunifuCustomLabel7.Size = new System.Drawing.Size(96, 25);
+            this.bunifuCustomLabel7.TabIndex = 37;
+            this.bunifuCustomLabel7.Text = "Giá bán";
+            // 
+            // txtBox_tenmp2
+            // 
+            this.txtBox_tenmp2.Location = new System.Drawing.Point(555, 176);
+            this.txtBox_tenmp2.Name = "txtBox_tenmp2";
+            this.txtBox_tenmp2.Size = new System.Drawing.Size(223, 21);
+            this.txtBox_tenmp2.TabIndex = 36;
+            // 
+            // lb_tmp2
+            // 
+            this.lb_tmp2.AutoSize = true;
+            this.lb_tmp2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_tmp2.Location = new System.Drawing.Point(587, 148);
+            this.lb_tmp2.Name = "lb_tmp2";
+            this.lb_tmp2.Size = new System.Drawing.Size(148, 25);
+            this.lb_tmp2.TabIndex = 34;
+            this.lb_tmp2.Text = "Tên Mỹ Phẩm";
+            // 
+            // lb_mmp2
+            // 
+            this.lb_mmp2.AutoSize = true;
+            this.lb_mmp2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_mmp2.Location = new System.Drawing.Point(393, 148);
+            this.lb_mmp2.Name = "lb_mmp2";
+            this.lb_mmp2.Size = new System.Drawing.Size(146, 25);
+            this.lb_mmp2.TabIndex = 33;
+            this.lb_mmp2.Text = "Mã Mỹ Phẩm";
+            // 
+            // lb_tmp1
+            // 
+            this.lb_tmp1.AutoSize = true;
+            this.lb_tmp1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_tmp1.Location = new System.Drawing.Point(587, 82);
+            this.lb_tmp1.Name = "lb_tmp1";
+            this.lb_tmp1.Size = new System.Drawing.Size(148, 25);
+            this.lb_tmp1.TabIndex = 32;
+            this.lb_tmp1.Text = "Tên Mỹ Phẩm";
+            // 
+            // comboBox_tenmp1
+            // 
+            this.comboBox_tenmp1.FormattingEnabled = true;
+            this.comboBox_tenmp1.Location = new System.Drawing.Point(555, 107);
+            this.comboBox_tenmp1.Name = "comboBox_tenmp1";
+            this.comboBox_tenmp1.Size = new System.Drawing.Size(223, 24);
+            this.comboBox_tenmp1.TabIndex = 31;
+            this.comboBox_tenmp1.SelectionChangeCommitted += new System.EventHandler(this.comboBox_tenmp1_SelectionChangeCommitted);
+            // 
+            // lb_mmp1
+            // 
+            this.lb_mmp1.AutoSize = true;
+            this.lb_mmp1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_mmp1.Location = new System.Drawing.Point(393, 82);
+            this.lb_mmp1.Name = "lb_mmp1";
+            this.lb_mmp1.Size = new System.Drawing.Size(146, 25);
+            this.lb_mmp1.TabIndex = 30;
+            this.lb_mmp1.Text = "Mã Mỹ Phẩm";
+            // 
+            // btn_moi
+            // 
+            this.btn_moi.ActiveBorderThickness = 1;
+            this.btn_moi.ActiveCornerRadius = 20;
+            this.btn_moi.ActiveFillColor = System.Drawing.Color.SeaGreen;
+            this.btn_moi.ActiveForecolor = System.Drawing.Color.White;
+            this.btn_moi.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.btn_moi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
+            this.btn_moi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_moi.BackgroundImage")));
+            this.btn_moi.ButtonText = "Thêm mỹ phẩm mới";
+            this.btn_moi.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_moi.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_moi.ForeColor = System.Drawing.Color.White;
+            this.btn_moi.IdleBorderThickness = 1;
+            this.btn_moi.IdleCornerRadius = 20;
+            this.btn_moi.IdleFillColor = System.Drawing.Color.SeaGreen;
+            this.btn_moi.IdleForecolor = System.Drawing.Color.White;
+            this.btn_moi.IdleLineColor = System.Drawing.Color.SeaGreen;
+            this.btn_moi.Location = new System.Drawing.Point(47, 151);
+            this.btn_moi.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btn_moi.Name = "btn_moi";
+            this.btn_moi.Size = new System.Drawing.Size(304, 49);
+            this.btn_moi.TabIndex = 28;
+            this.btn_moi.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btn_moi.Click += new System.EventHandler(this.btn_moi_Click);
+            // 
+            // btn_cu
+            // 
+            this.btn_cu.ActiveBorderThickness = 1;
+            this.btn_cu.ActiveCornerRadius = 20;
+            this.btn_cu.ActiveFillColor = System.Drawing.Color.SeaGreen;
+            this.btn_cu.ActiveForecolor = System.Drawing.Color.White;
+            this.btn_cu.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.btn_cu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
+            this.btn_cu.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_cu.BackgroundImage")));
+            this.btn_cu.ButtonText = "Thêm mỹ phẩm đã tồn tại";
+            this.btn_cu.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_cu.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_cu.ForeColor = System.Drawing.Color.White;
+            this.btn_cu.IdleBorderThickness = 1;
+            this.btn_cu.IdleCornerRadius = 20;
+            this.btn_cu.IdleFillColor = System.Drawing.Color.SeaGreen;
+            this.btn_cu.IdleForecolor = System.Drawing.Color.White;
+            this.btn_cu.IdleLineColor = System.Drawing.Color.SeaGreen;
+            this.btn_cu.Location = new System.Drawing.Point(47, 90);
+            this.btn_cu.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btn_cu.Name = "btn_cu";
+            this.btn_cu.Size = new System.Drawing.Size(304, 49);
+            this.btn_cu.TabIndex = 27;
+            this.btn_cu.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btn_cu.Click += new System.EventHandler(this.btn_cu_Click);
+            // 
+            // comboBox_manv
+            // 
+            this.comboBox_manv.FormattingEnabled = true;
+            this.comboBox_manv.Location = new System.Drawing.Point(1053, 41);
+            this.comboBox_manv.Name = "comboBox_manv";
+            this.comboBox_manv.Size = new System.Drawing.Size(116, 24);
+            this.comboBox_manv.TabIndex = 26;
+            // 
             // date_picker_ngaynhap
             // 
             this.date_picker_ngaynhap.BackColor = System.Drawing.Color.SeaGreen;
@@ -502,7 +733,7 @@ namespace GUI_quanlyspa
             // 
             this.bunifuCustomLabel2.AutoSize = true;
             this.bunifuCustomLabel2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel2.Location = new System.Drawing.Point(516, 16);
+            this.bunifuCustomLabel2.Location = new System.Drawing.Point(529, 16);
             this.bunifuCustomLabel2.Name = "bunifuCustomLabel2";
             this.bunifuCustomLabel2.Size = new System.Drawing.Size(98, 25);
             this.bunifuCustomLabel2.TabIndex = 19;
@@ -568,7 +799,7 @@ namespace GUI_quanlyspa
             // 
             this.lb_giatien.AutoSize = true;
             this.lb_giatien.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_giatien.Location = new System.Drawing.Point(674, 16);
+            this.lb_giatien.Location = new System.Drawing.Point(677, 16);
             this.lb_giatien.Name = "lb_giatien";
             this.lb_giatien.Size = new System.Drawing.Size(117, 25);
             this.lb_giatien.TabIndex = 9;
@@ -607,17 +838,6 @@ namespace GUI_quanlyspa
             this.elipse_picBox_LogoSpa.ElipseRadius = 120;
             this.elipse_picBox_LogoSpa.TargetControl = this.picBox_LogoSpa;
             // 
-            // picBox_LogoSpa
-            // 
-            this.picBox_LogoSpa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
-            this.picBox_LogoSpa.Image = global::GUI_quanlyspa.Properties.Resources.Logo;
-            this.picBox_LogoSpa.Location = new System.Drawing.Point(20, 20);
-            this.picBox_LogoSpa.Name = "picBox_LogoSpa";
-            this.picBox_LogoSpa.Size = new System.Drawing.Size(120, 120);
-            this.picBox_LogoSpa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picBox_LogoSpa.TabIndex = 33;
-            this.picBox_LogoSpa.TabStop = false;
-            // 
             // elipse_pnl_input
             // 
             this.elipse_pnl_input.ElipseRadius = 15;
@@ -649,6 +869,9 @@ namespace GUI_quanlyspa
             this.pnl_Thietbi.Name = "pnl_Thietbi";
             this.pnl_Thietbi.Size = new System.Drawing.Size(197, 53);
             this.pnl_Thietbi.TabIndex = 41;
+            this.pnl_Thietbi.Click += new System.EventHandler(this.pnl_Thietbi_Click);
+            this.pnl_Thietbi.MouseLeave += new System.EventHandler(this.pnl_Thietbi_MouseLeave);
+            this.pnl_Thietbi.MouseHover += new System.EventHandler(this.pnl_Thietbi_MouseHover);
             // 
             // label6
             // 
@@ -660,6 +883,8 @@ namespace GUI_quanlyspa
             this.label6.Size = new System.Drawing.Size(84, 25);
             this.label6.TabIndex = 1;
             this.label6.Text = "Thiết bị";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            this.label6.MouseHover += new System.EventHandler(this.label6_MouseHover);
             // 
             // pictureBox7
             // 
@@ -670,199 +895,20 @@ namespace GUI_quanlyspa
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox7.TabIndex = 0;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
+            this.pictureBox7.MouseHover += new System.EventHandler(this.pictureBox7_MouseHover);
             // 
-            // comboBox_manv
+            // picBox_LogoSpa
             // 
-            this.comboBox_manv.FormattingEnabled = true;
-            this.comboBox_manv.Location = new System.Drawing.Point(1053, 41);
-            this.comboBox_manv.Name = "comboBox_manv";
-            this.comboBox_manv.Size = new System.Drawing.Size(116, 24);
-            this.comboBox_manv.TabIndex = 26;
-            // 
-            // btn_cu
-            // 
-            this.btn_cu.ActiveBorderThickness = 1;
-            this.btn_cu.ActiveCornerRadius = 20;
-            this.btn_cu.ActiveFillColor = System.Drawing.Color.SeaGreen;
-            this.btn_cu.ActiveForecolor = System.Drawing.Color.White;
-            this.btn_cu.ActiveLineColor = System.Drawing.Color.SeaGreen;
-            this.btn_cu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
-            this.btn_cu.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_cu.BackgroundImage")));
-            this.btn_cu.ButtonText = "Thêm mỹ phẩm đã tồn tại";
-            this.btn_cu.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_cu.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_cu.ForeColor = System.Drawing.Color.White;
-            this.btn_cu.IdleBorderThickness = 1;
-            this.btn_cu.IdleCornerRadius = 20;
-            this.btn_cu.IdleFillColor = System.Drawing.Color.SeaGreen;
-            this.btn_cu.IdleForecolor = System.Drawing.Color.White;
-            this.btn_cu.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.btn_cu.Location = new System.Drawing.Point(47, 90);
-            this.btn_cu.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.btn_cu.Name = "btn_cu";
-            this.btn_cu.Size = new System.Drawing.Size(304, 49);
-            this.btn_cu.TabIndex = 27;
-            this.btn_cu.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btn_cu.Click += new System.EventHandler(this.btn_cu_Click);
-            // 
-            // btn_moi
-            // 
-            this.btn_moi.ActiveBorderThickness = 1;
-            this.btn_moi.ActiveCornerRadius = 20;
-            this.btn_moi.ActiveFillColor = System.Drawing.Color.SeaGreen;
-            this.btn_moi.ActiveForecolor = System.Drawing.Color.White;
-            this.btn_moi.ActiveLineColor = System.Drawing.Color.SeaGreen;
-            this.btn_moi.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
-            this.btn_moi.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_moi.BackgroundImage")));
-            this.btn_moi.ButtonText = "Thêm mỹ phẩm mới";
-            this.btn_moi.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_moi.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_moi.ForeColor = System.Drawing.Color.White;
-            this.btn_moi.IdleBorderThickness = 1;
-            this.btn_moi.IdleCornerRadius = 20;
-            this.btn_moi.IdleFillColor = System.Drawing.Color.SeaGreen;
-            this.btn_moi.IdleForecolor = System.Drawing.Color.White;
-            this.btn_moi.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.btn_moi.Location = new System.Drawing.Point(47, 151);
-            this.btn_moi.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.btn_moi.Name = "btn_moi";
-            this.btn_moi.Size = new System.Drawing.Size(304, 49);
-            this.btn_moi.TabIndex = 28;
-            this.btn_moi.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.btn_moi.Click += new System.EventHandler(this.btn_moi_Click);
-            // 
-            // lb_mmp1
-            // 
-            this.lb_mmp1.AutoSize = true;
-            this.lb_mmp1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_mmp1.Location = new System.Drawing.Point(393, 82);
-            this.lb_mmp1.Name = "lb_mmp1";
-            this.lb_mmp1.Size = new System.Drawing.Size(146, 25);
-            this.lb_mmp1.TabIndex = 30;
-            this.lb_mmp1.Text = "Mã Mỹ Phẩm";
-            // 
-            // comboBox_tenmp1
-            // 
-            this.comboBox_tenmp1.FormattingEnabled = true;
-            this.comboBox_tenmp1.Location = new System.Drawing.Point(555, 107);
-            this.comboBox_tenmp1.Name = "comboBox_tenmp1";
-            this.comboBox_tenmp1.Size = new System.Drawing.Size(223, 24);
-            this.comboBox_tenmp1.TabIndex = 31;
-            this.comboBox_tenmp1.SelectionChangeCommitted += new System.EventHandler(this.comboBox_tenmp1_SelectionChangeCommitted);
-            // 
-            // lb_tmp1
-            // 
-            this.lb_tmp1.AutoSize = true;
-            this.lb_tmp1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_tmp1.Location = new System.Drawing.Point(587, 82);
-            this.lb_tmp1.Name = "lb_tmp1";
-            this.lb_tmp1.Size = new System.Drawing.Size(148, 25);
-            this.lb_tmp1.TabIndex = 32;
-            this.lb_tmp1.Text = "Tên Mỹ Phẩm";
-            // 
-            // lb_mmp2
-            // 
-            this.lb_mmp2.AutoSize = true;
-            this.lb_mmp2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_mmp2.Location = new System.Drawing.Point(393, 148);
-            this.lb_mmp2.Name = "lb_mmp2";
-            this.lb_mmp2.Size = new System.Drawing.Size(146, 25);
-            this.lb_mmp2.TabIndex = 33;
-            this.lb_mmp2.Text = "Mã Mỹ Phẩm";
-            // 
-            // lb_tmp2
-            // 
-            this.lb_tmp2.AutoSize = true;
-            this.lb_tmp2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_tmp2.Location = new System.Drawing.Point(587, 148);
-            this.lb_tmp2.Name = "lb_tmp2";
-            this.lb_tmp2.Size = new System.Drawing.Size(148, 25);
-            this.lb_tmp2.TabIndex = 34;
-            this.lb_tmp2.Text = "Tên Mỹ Phẩm";
-            // 
-            // txtBox_tenmp2
-            // 
-            this.txtBox_tenmp2.Location = new System.Drawing.Point(555, 176);
-            this.txtBox_tenmp2.Name = "txtBox_tenmp2";
-            this.txtBox_tenmp2.Size = new System.Drawing.Size(223, 21);
-            this.txtBox_tenmp2.TabIndex = 36;
-            // 
-            // bunifuCustomLabel7
-            // 
-            this.bunifuCustomLabel7.AutoSize = true;
-            this.bunifuCustomLabel7.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuCustomLabel7.Location = new System.Drawing.Point(869, 13);
-            this.bunifuCustomLabel7.Name = "bunifuCustomLabel7";
-            this.bunifuCustomLabel7.Size = new System.Drawing.Size(96, 25);
-            this.bunifuCustomLabel7.TabIndex = 37;
-            this.bunifuCustomLabel7.Text = "Giá bán";
-            // 
-            // txtBox_giaban
-            // 
-            this.txtBox_giaban.Location = new System.Drawing.Point(862, 44);
-            this.txtBox_giaban.Name = "txtBox_giaban";
-            this.txtBox_giaban.Size = new System.Drawing.Size(115, 21);
-            this.txtBox_giaban.TabIndex = 38;
-            this.txtBox_giaban.TextChanged += new System.EventHandler(this.txtBox_giaban_TextChanged);
-            // 
-            // Col_mamp
-            // 
-            this.Col_mamp.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Col_mamp.DataPropertyName = "MAMP";
-            this.Col_mamp.HeaderText = "Mã mỹ phẩm";
-            this.Col_mamp.Name = "Col_mamp";
-            this.Col_mamp.ReadOnly = true;
-            // 
-            // Col_tenmp
-            // 
-            this.Col_tenmp.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Col_tenmp.DataPropertyName = "TENMP";
-            this.Col_tenmp.HeaderText = "Tên mỹ phẩm";
-            this.Col_tenmp.Name = "Col_tenmp";
-            this.Col_tenmp.ReadOnly = true;
-            // 
-            // Col_sltk
-            // 
-            this.Col_sltk.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Col_sltk.DataPropertyName = "SOLUONGTONKHO";
-            this.Col_sltk.HeaderText = "Số lượng tồn kho";
-            this.Col_sltk.Name = "Col_sltk";
-            this.Col_sltk.ReadOnly = true;
-            // 
-            // Col_giaban
-            // 
-            this.Col_giaban.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Col_giaban.DataPropertyName = "GIABAN";
-            this.Col_giaban.HeaderText = "Giá bán";
-            this.Col_giaban.Name = "Col_giaban";
-            this.Col_giaban.ReadOnly = true;
-            // 
-            // txtbox_thanhtien
-            // 
-            this.txtbox_thanhtien.Enabled = false;
-            this.txtbox_thanhtien.Location = new System.Drawing.Point(679, 44);
-            this.txtbox_thanhtien.Name = "txtbox_thanhtien";
-            this.txtbox_thanhtien.ReadOnly = true;
-            this.txtbox_thanhtien.Size = new System.Drawing.Size(115, 21);
-            this.txtbox_thanhtien.TabIndex = 39;
-            // 
-            // txtBox_mamp1
-            // 
-            this.txtBox_mamp1.Enabled = false;
-            this.txtBox_mamp1.Location = new System.Drawing.Point(408, 110);
-            this.txtBox_mamp1.Name = "txtBox_mamp1";
-            this.txtBox_mamp1.ReadOnly = true;
-            this.txtBox_mamp1.Size = new System.Drawing.Size(115, 21);
-            this.txtBox_mamp1.TabIndex = 40;
-            // 
-            // txtBox_mamp2
-            // 
-            this.txtBox_mamp2.Enabled = false;
-            this.txtBox_mamp2.Location = new System.Drawing.Point(408, 176);
-            this.txtBox_mamp2.Name = "txtBox_mamp2";
-            this.txtBox_mamp2.ReadOnly = true;
-            this.txtBox_mamp2.Size = new System.Drawing.Size(115, 21);
-            this.txtBox_mamp2.TabIndex = 41;
+            this.picBox_LogoSpa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            this.picBox_LogoSpa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.picBox_LogoSpa.Image = global::GUI_quanlyspa.Properties.Resources.lotus;
+            this.picBox_LogoSpa.Location = new System.Drawing.Point(20, 20);
+            this.picBox_LogoSpa.Name = "picBox_LogoSpa";
+            this.picBox_LogoSpa.Size = new System.Drawing.Size(120, 120);
+            this.picBox_LogoSpa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBox_LogoSpa.TabIndex = 34;
+            this.picBox_LogoSpa.TabStop = false;
             // 
             // Form_MYPHAM
             // 
@@ -871,11 +917,11 @@ namespace GUI_quanlyspa
             this.BackgroundImage = global::GUI_quanlyspa.Properties.Resources.Background_green;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1600, 900);
+            this.Controls.Add(this.picBox_LogoSpa);
             this.Controls.Add(this.pnl_logout);
             this.Controls.Add(this.pnl_Nhanvien);
             this.Controls.Add(this.pnl_Khachhang);
             this.Controls.Add(this.picBox_iconExit);
-            this.Controls.Add(this.picBox_LogoSpa);
             this.Controls.Add(this.pnl_Thietbi);
             this.Controls.Add(this.pnl_workplace);
             this.Controls.Add(this.pnl_Home);
@@ -915,11 +961,11 @@ namespace GUI_quanlyspa
             this.pnl_workplace.PerformLayout();
             this.pnl_input.ResumeLayout(false);
             this.pnl_input.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.picBox_LogoSpa)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_iconExit)).EndInit();
             this.pnl_Thietbi.ResumeLayout(false);
             this.pnl_Thietbi.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox_LogoSpa)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -956,7 +1002,6 @@ namespace GUI_quanlyspa
         private System.Windows.Forms.PictureBox pictureBox2;
         private Bunifu.Framework.UI.BunifuElipse elipse_Form_Lieu_trinh;
         private System.Windows.Forms.PictureBox picBox_iconExit;
-        private System.Windows.Forms.PictureBox picBox_LogoSpa;
         private System.Windows.Forms.Panel pnl_Thietbi;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox pictureBox7;
@@ -997,5 +1042,6 @@ namespace GUI_quanlyspa
         private System.Windows.Forms.TextBox txtBox_mamp2;
         private System.Windows.Forms.TextBox txtBox_mamp1;
         private System.Windows.Forms.TextBox txtbox_thanhtien;
+        private System.Windows.Forms.PictureBox picBox_LogoSpa;
     }
 }

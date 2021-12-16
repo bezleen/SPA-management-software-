@@ -21,6 +21,12 @@ namespace GUI_quanlyspa
         {
             InitializeComponent();
         }
+        //constructor
+        string manv_ = "";
+        public Form_Lieu_trinh(string Message) : this()
+        {
+            manv_ = Message;
+        }
         //code nut exit 
         private void picBox_iconExit_MouseClick(object sender, MouseEventArgs e)
         {
@@ -153,21 +159,21 @@ namespace GUI_quanlyspa
         //code chuyen tab cho cac module
         private void pnl_Home_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_Home obj = new Form_Home();
+            Form_Home obj = new Form_Home(manv_);
             obj.Show();
             this.Hide(); 
         }
 
         private void pictureBox2_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_Home obj = new Form_Home();
+            Form_Home obj = new Form_Home(manv_);
             obj.Show();
             this.Hide();
         }
 
         private void label1_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_Home obj = new Form_Home();
+            Form_Home obj = new Form_Home(manv_);
             obj.Show();
             this.Hide();
         }
@@ -194,21 +200,21 @@ namespace GUI_quanlyspa
 
         private void pnl_Mypham_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_MYPHAM obj = new Form_MYPHAM();
+            Form_MYPHAM obj = new Form_MYPHAM(manv_);
             obj.Show();
             this.Hide();
         }
 
         private void label3_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_MYPHAM obj = new Form_MYPHAM();
+            Form_MYPHAM obj = new Form_MYPHAM(manv_);
             obj.Show();
             this.Hide();
         }
 
         private void pictureBox4_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_MYPHAM obj = new Form_MYPHAM();
+            Form_MYPHAM obj = new Form_MYPHAM(manv_);
             obj.Show();
             this.Hide();
         }
@@ -256,21 +262,21 @@ namespace GUI_quanlyspa
         }
         private void pnl_Hoadon_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_Hoa_don obj = new Form_Hoa_don();
+            Form_Hoa_don obj = new Form_Hoa_don(manv_);
             obj.Show();
             this.Hide();
         }
 
         private void label7_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_Hoa_don obj = new Form_Hoa_don();
+            Form_Hoa_don obj = new Form_Hoa_don(manv_);
             obj.Show();
             this.Hide();
         }
 
         private void pictureBox8_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_Hoa_don obj = new Form_Hoa_don();
+            Form_Hoa_don obj = new Form_Hoa_don(manv_);
             obj.Show();
             this.Hide();
         }
@@ -313,7 +319,7 @@ namespace GUI_quanlyspa
         private void Form_Lieu_trinh_Load(object sender, EventArgs e)
         {
             //hienthi lb dang xuat
-            string manv = "NV1";//thay ma vn o day
+            string manv = manv_;//thay ma vn o day
             DataTable dt_lbnv = new DataTable();
             dt_lbnv = bus_qlnv._selectData("WHERE MANV='" + manv + "'");
             lb_dangxuat.Text = dt_lbnv.Rows[0]["HOTEN"].ToString();

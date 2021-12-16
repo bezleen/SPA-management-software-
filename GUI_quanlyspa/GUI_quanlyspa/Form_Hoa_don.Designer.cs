@@ -138,7 +138,6 @@ namespace GUI_quanlyspa
             this.lb_rs = new System.Windows.Forms.Label();
             this.btn_luu = new Bunifu.Framework.UI.BunifuThinButton2();
             this.elipse_picBox_LogoSpa = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.picBox_LogoSpa = new System.Windows.Forms.PictureBox();
             this.elipse_pnl_input = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.picBox_iconExit = new System.Windows.Forms.PictureBox();
             this.elipse_pnl_Thietbi = new Bunifu.Framework.UI.BunifuElipse(this.components);
@@ -148,6 +147,7 @@ namespace GUI_quanlyspa
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.elipse_pnl_tongtien = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.picBox_LogoSpa = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.pnl_logout.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -171,10 +171,10 @@ namespace GUI_quanlyspa
             this.pnl_input.SuspendLayout();
             this.pnl_date.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBox_LogoSpa)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_iconExit)).BeginInit();
             this.pnl_Thietbi.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox_LogoSpa)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox4
@@ -1262,17 +1262,6 @@ namespace GUI_quanlyspa
             this.elipse_picBox_LogoSpa.ElipseRadius = 120;
             this.elipse_picBox_LogoSpa.TargetControl = this.picBox_LogoSpa;
             // 
-            // picBox_LogoSpa
-            // 
-            this.picBox_LogoSpa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
-            this.picBox_LogoSpa.Image = global::GUI_quanlyspa.Properties.Resources.Logo;
-            this.picBox_LogoSpa.Location = new System.Drawing.Point(20, 20);
-            this.picBox_LogoSpa.Name = "picBox_LogoSpa";
-            this.picBox_LogoSpa.Size = new System.Drawing.Size(120, 120);
-            this.picBox_LogoSpa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picBox_LogoSpa.TabIndex = 33;
-            this.picBox_LogoSpa.TabStop = false;
-            // 
             // elipse_pnl_input
             // 
             this.elipse_pnl_input.ElipseRadius = 15;
@@ -1343,6 +1332,18 @@ namespace GUI_quanlyspa
             this.bunifuElipse1.ElipseRadius = 25;
             this.bunifuElipse1.TargetControl = this.pnl_date;
             // 
+            // picBox_LogoSpa
+            // 
+            this.picBox_LogoSpa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            this.picBox_LogoSpa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.picBox_LogoSpa.Image = global::GUI_quanlyspa.Properties.Resources.lotus;
+            this.picBox_LogoSpa.Location = new System.Drawing.Point(20, 20);
+            this.picBox_LogoSpa.Name = "picBox_LogoSpa";
+            this.picBox_LogoSpa.Size = new System.Drawing.Size(120, 120);
+            this.picBox_LogoSpa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBox_LogoSpa.TabIndex = 34;
+            this.picBox_LogoSpa.TabStop = false;
+            // 
             // Form_Hoa_don
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -1350,11 +1351,11 @@ namespace GUI_quanlyspa
             this.BackgroundImage = global::GUI_quanlyspa.Properties.Resources.Background_green;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1600, 900);
+            this.Controls.Add(this.picBox_LogoSpa);
             this.Controls.Add(this.pnl_logout);
             this.Controls.Add(this.pnl_Nhanvien);
             this.Controls.Add(this.pnl_Khachhang);
             this.Controls.Add(this.picBox_iconExit);
-            this.Controls.Add(this.picBox_LogoSpa);
             this.Controls.Add(this.pnl_Thietbi);
             this.Controls.Add(this.pnl_workplace);
             this.Controls.Add(this.pnl_Home);
@@ -1402,11 +1403,11 @@ namespace GUI_quanlyspa
             this.pnl_date.ResumeLayout(false);
             this.pnl_date.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBox_LogoSpa)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_iconExit)).EndInit();
             this.pnl_Thietbi.ResumeLayout(false);
             this.pnl_Thietbi.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox_LogoSpa)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1443,7 +1444,6 @@ namespace GUI_quanlyspa
         private System.Windows.Forms.PictureBox pictureBox2;
         private Bunifu.Framework.UI.BunifuElipse elipse_Form_Lieu_trinh;
         private System.Windows.Forms.PictureBox picBox_iconExit;
-        private System.Windows.Forms.PictureBox picBox_LogoSpa;
         private System.Windows.Forms.Panel pnl_Thietbi;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox pictureBox7;
@@ -1516,5 +1516,6 @@ namespace GUI_quanlyspa
         private System.Windows.Forms.DataGridViewTextBoxColumn Col_tonkho;
         private System.Windows.Forms.DataGridViewTextBoxColumn Col_dongia;
         private System.Windows.Forms.DataGridViewTextBoxColumn Col_thanhtien;
+        private System.Windows.Forms.PictureBox picBox_LogoSpa;
     }
 }

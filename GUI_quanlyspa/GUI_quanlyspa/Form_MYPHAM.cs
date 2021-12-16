@@ -18,6 +18,12 @@ namespace GUI_quanlyspa
         {
             InitializeComponent();
         }
+        //contructor
+        string manv_ = "";
+        public Form_MYPHAM(string Message) : this()
+        {
+            manv_ = Message;
+        }
 
         BUS_MYPHAM bus_mp = new BUS_MYPHAM();
         BUS_NhapMP bus_nmp = new BUS_NhapMP();
@@ -79,7 +85,7 @@ namespace GUI_quanlyspa
         private void Form_MYPHAM_Load(object sender, EventArgs e)
         {
             //hienthi lb dang xuat
-            string manv = "NV1";//thay ma vn o day
+            string manv = manv_;//thay ma vn o day
             DataTable dt_lbnv = new DataTable();
             dt_lbnv = bus_qlnv._selectData("WHERE MANV='" + manv + "'");
             lb_dangxuat.Text = dt_lbnv.Rows[0]["HOTEN"].ToString();
@@ -424,6 +430,285 @@ namespace GUI_quanlyspa
                 }
             }
             
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            DialogResult result_dx = MessageBox.Show("Đăng xuất?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk);
+            if (result_dx == DialogResult.Yes)
+            {
+                Form_Login obj = new Form_Login();
+                obj.Show();
+                this.Hide();
+            }
+        }
+
+        private void lb_dangxuat_Click(object sender, EventArgs e)
+        {
+            DialogResult result_dx = MessageBox.Show("Đăng xuất?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk);
+            if (result_dx == DialogResult.Yes)
+            {
+                Form_Login obj = new Form_Login();
+                obj.Show();
+                this.Hide();
+            }
+        }
+
+        private void pnl_logout_Click(object sender, EventArgs e)
+        {
+            DialogResult result_dx = MessageBox.Show("Đăng xuất?", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Asterisk);
+            if (result_dx == DialogResult.Yes)
+            {
+                Form_Login obj = new Form_Login();
+                obj.Show();
+                this.Hide();
+            }
+        }
+        //code chuyển tab
+        private void pnl_Home_Click(object sender, EventArgs e)
+        {
+            Form_Home obj = new Form_Home(manv_);
+            obj.Show();
+            this.Hide();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Form_Home obj = new Form_Home(manv_);
+            obj.Show();
+            this.Hide();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            Form_Home obj = new Form_Home(manv_);
+            obj.Show();
+            this.Hide();
+        }
+
+        private void pnl_Nhanvien_Click(object sender, EventArgs e)
+        {
+            Form_Nhan_vien obj = new Form_Nhan_vien();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            Form_Nhan_vien obj = new Form_Nhan_vien();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            Form_Nhan_vien obj = new Form_Nhan_vien();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void pnl_Lieutrinh_Click(object sender, EventArgs e)
+        {
+            Form_Lieu_trinh obj = new Form_Lieu_trinh(manv_);
+            obj.Show();
+            this.Hide();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            Form_Lieu_trinh obj = new Form_Lieu_trinh(manv_);
+            obj.Show();
+            this.Hide();
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+            Form_Lieu_trinh obj = new Form_Lieu_trinh(manv_);
+            obj.Show();
+            this.Hide();
+        }
+
+        private void pnl_Khachhang_Click(object sender, EventArgs e)
+        {
+            Form_Khach_hang obj = new Form_Khach_hang();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            Form_Khach_hang obj = new Form_Khach_hang();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            Form_Khach_hang obj = new Form_Khach_hang();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void pnl_Thietbi_Click(object sender, EventArgs e)
+        {
+            Form_Thiet_Bi obj = new Form_Thiet_Bi();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            Form_Thiet_Bi obj = new Form_Thiet_Bi();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            Form_Thiet_Bi obj = new Form_Thiet_Bi();
+            obj.Show();
+            this.Hide();
+        }
+
+        private void pnl_Hoadon_Click(object sender, EventArgs e)
+        {
+            Form_Hoa_don obj = new Form_Hoa_don(manv_);
+            obj.Show();
+            this.Hide();
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            Form_Hoa_don obj = new Form_Hoa_don(manv_);
+            obj.Show();
+            this.Hide();
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            Form_Hoa_don obj = new Form_Hoa_don(manv_);
+            obj.Show();
+            this.Hide();
+        }
+        //code hover
+        private void pnl_Home_MouseHover(object sender, EventArgs e)
+        {
+            pnl_Home.BackColor = Color.FromArgb(147, 211, 124);
+        }
+
+        private void label1_MouseHover(object sender, EventArgs e)
+        {
+            pnl_Home.BackColor = Color.FromArgb(147, 211, 124);
+        }
+
+        private void pictureBox2_MouseHover(object sender, EventArgs e)
+        {
+            pnl_Home.BackColor = Color.FromArgb(147, 211, 124);
+        }
+
+        private void pnl_Home_MouseLeave(object sender, EventArgs e)
+        {
+            pnl_Home.BackColor = Color.FromArgb(14, 93, 71);
+        }
+        //
+        private void pnl_Nhanvien_MouseHover(object sender, EventArgs e)
+        {
+            pnl_Nhanvien.BackColor = Color.FromArgb(147, 211, 124);
+        }
+
+        private void label2_MouseHover(object sender, EventArgs e)
+        {
+            pnl_Nhanvien.BackColor = Color.FromArgb(147, 211, 124);
+        }
+
+        private void pictureBox3_MouseHover(object sender, EventArgs e)
+        {
+            pnl_Nhanvien.BackColor = Color.FromArgb(147, 211, 124);
+        }
+
+        private void pnl_Nhanvien_MouseLeave(object sender, EventArgs e)
+        {
+            pnl_Nhanvien.BackColor = Color.FromArgb(14, 93, 71);
+        }
+
+        private void pnl_Lieutrinh_MouseHover(object sender, EventArgs e)
+        {
+            pnl_Lieutrinh.BackColor = Color.FromArgb(147, 211, 124);
+        }
+
+        private void label4_MouseHover(object sender, EventArgs e)
+        {
+            pnl_Lieutrinh.BackColor = Color.FromArgb(147, 211, 124);
+        }
+
+        private void pictureBox5_MouseHover(object sender, EventArgs e)
+        {
+            pnl_Lieutrinh.BackColor = Color.FromArgb(147, 211, 124);
+        }
+
+        private void pnl_Lieutrinh_MouseLeave(object sender, EventArgs e)
+        {
+            pnl_Lieutrinh.BackColor = Color.FromArgb(14, 93, 71);
+        }
+
+        private void pnl_Khachhang_MouseHover(object sender, EventArgs e)
+        {
+            pnl_Khachhang.BackColor = Color.FromArgb(147, 211, 124);
+        }
+
+        private void label5_MouseHover(object sender, EventArgs e)
+        {
+            pnl_Khachhang.BackColor = Color.FromArgb(147, 211, 124);
+        }
+
+        private void pictureBox6_MouseHover(object sender, EventArgs e)
+        {
+            pnl_Khachhang.BackColor = Color.FromArgb(147, 211, 124);
+        }
+
+        private void pnl_Khachhang_MouseLeave(object sender, EventArgs e)
+        {
+            pnl_Khachhang.BackColor = Color.FromArgb(14, 93, 71);
+        }
+
+        private void pnl_Thietbi_MouseHover(object sender, EventArgs e)
+        {
+            pnl_Thietbi.BackColor = Color.FromArgb(147, 211, 124);
+        }
+
+        private void label6_MouseHover(object sender, EventArgs e)
+        {
+            pnl_Thietbi.BackColor = Color.FromArgb(147, 211, 124);
+        }
+
+        private void pictureBox7_MouseHover(object sender, EventArgs e)
+        {
+            pnl_Thietbi.BackColor = Color.FromArgb(147, 211, 124);
+        }
+
+        private void pnl_Thietbi_MouseLeave(object sender, EventArgs e)
+        {
+            pnl_Thietbi.BackColor = Color.FromArgb(14, 93, 71);
+        }
+
+        private void pnl_Hoadon_MouseHover(object sender, EventArgs e)
+        {
+            pnl_Hoadon.BackColor = Color.FromArgb(147, 211, 124);
+        }
+
+        private void label7_MouseHover(object sender, EventArgs e)
+        {
+            pnl_Hoadon.BackColor = Color.FromArgb(147, 211, 124);
+        }
+
+        private void pictureBox8_MouseHover(object sender, EventArgs e)
+        {
+            pnl_Hoadon.BackColor = Color.FromArgb(147, 211, 124);
+        }
+
+        private void pnl_Hoadon_MouseLeave(object sender, EventArgs e)
+        {
+            pnl_Hoadon.BackColor = Color.FromArgb(14, 93, 71);
         }
     }
 }

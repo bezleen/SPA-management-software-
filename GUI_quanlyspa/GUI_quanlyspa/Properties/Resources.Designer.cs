@@ -153,6 +153,26 @@ namespace GUI_quanlyspa.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap hide_pw {
+            get {
+                object obj = ResourceManager.GetObject("hide_pw", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hide_pw2 {
+            get {
+                object obj = ResourceManager.GetObject("hide_pw2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap house_black_silhouette_without_door {
             get {
                 object obj = ResourceManager.GetObject("house-black-silhouette-without-door", resourceCulture);
@@ -356,6 +376,16 @@ namespace GUI_quanlyspa.Properties {
         internal static System.Drawing.Bitmap rsz_11080865 {
             get {
                 object obj = ResourceManager.GetObject("rsz_11080865", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap show_pw {
+            get {
+                object obj = ResourceManager.GetObject("show_pw", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

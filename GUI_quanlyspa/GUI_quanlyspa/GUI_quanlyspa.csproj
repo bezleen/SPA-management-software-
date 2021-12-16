@@ -268,5 +268,14 @@
   <ItemGroup>
     <None Include="Resources\login_button1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\show_pw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hide_pw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hide_pw2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

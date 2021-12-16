@@ -17,6 +17,13 @@ namespace GUI_quanlyspa
         {
             InitializeComponent();
         }
+        //contructor
+        string manv_ = "";
+        public Form_Hoa_don(string Message) : this()
+        {
+            manv_ = Message;
+        }
+
         BUS_HOADON bus_hd = new BUS_HOADON();
         BUS_CTHD bus_cthd = new BUS_CTHD();
         BUS_QLNV bus_qlnv = new BUS_QLNV();
@@ -34,21 +41,21 @@ namespace GUI_quanlyspa
 
         private void pnl_Home_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_Home obj = new Form_Home();
+            Form_Home obj = new Form_Home(manv_);
             obj.Show();
             this.Hide();
         }
 
         private void label1_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_Home obj = new Form_Home();
+            Form_Home obj = new Form_Home(manv_);
             obj.Show();
             this.Hide();
         }
 
         private void pictureBox2_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_Home obj = new Form_Home();
+            Form_Home obj = new Form_Home(manv_);
             obj.Show();
             this.Hide();
         }
@@ -76,42 +83,42 @@ namespace GUI_quanlyspa
 
         private void pnl_Mypham_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_MYPHAM obj = new Form_MYPHAM();
+            Form_MYPHAM obj = new Form_MYPHAM(manv_);
             obj.Show();
             this.Hide();
         }
 
         private void label3_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_MYPHAM obj = new Form_MYPHAM();
+            Form_MYPHAM obj = new Form_MYPHAM(manv_);
             obj.Show();
             this.Hide();
         }
 
         private void pictureBox4_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_MYPHAM obj = new Form_MYPHAM();
+            Form_MYPHAM obj = new Form_MYPHAM(manv_);
             obj.Show();
             this.Hide();
         }
 
         private void pnl_Lieutrinh_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_Lieu_trinh obj = new Form_Lieu_trinh();
+            Form_Lieu_trinh obj = new Form_Lieu_trinh(manv_);
             obj.Show();
             this.Hide();
         }
 
         private void label4_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_Lieu_trinh obj = new Form_Lieu_trinh();
+            Form_Lieu_trinh obj = new Form_Lieu_trinh(manv_);
             obj.Show();
             this.Hide();
         }
 
         private void pictureBox5_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_Lieu_trinh obj = new Form_Lieu_trinh();
+            Form_Lieu_trinh obj = new Form_Lieu_trinh(manv_);
             obj.Show();
             this.Hide();
         }
@@ -307,7 +314,7 @@ namespace GUI_quanlyspa
         private void Form_Hoa_don_Load(object sender, EventArgs e)
         {
             //hienthi lb dang xuat
-            string manv = "NV1";//thay ma vn o day
+            string manv = manv_;//thay ma vn o day
             DataTable dt_lbnv = new DataTable();
             dt_lbnv = bus_qlnv._selectData("WHERE MANV='" + manv + "'");
             lb_dangxuat.Text = dt_lbnv.Rows[0]["HOTEN"].ToString();
