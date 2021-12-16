@@ -43,6 +43,7 @@ namespace GUI_quanlyspa
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.user_tb = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -214,6 +215,13 @@ namespace GUI_quanlyspa
             this.user_tb.TabIndex = 18;
             this.user_tb.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
+            // bunifuDragControl1
+            // 
+            this.bunifuDragControl1.Fixed = true;
+            this.bunifuDragControl1.Horizontal = true;
+            this.bunifuDragControl1.TargetControl = this;
+            this.bunifuDragControl1.Vertical = true;
+            // 
             // Form_Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -257,5 +265,6 @@ namespace GUI_quanlyspa
         private Bunifu.Framework.UI.BunifuCustomLabel exit_lb;
         private Bunifu.Framework.UI.BunifuMaterialTextbox password_tb;
         private Bunifu.Framework.UI.BunifuMaterialTextbox user_tb;
+        private Bunifu.Framework.UI.BunifuDragControl bunifuDragControl1;
     }
 }
