@@ -24,7 +24,7 @@ namespace GUI_quanlyspa
         //code dang nhap qua SQL
         private void login_button_Click(object sender, EventArgs e)
         {
-            SqlConnection conn = new SqlConnection(@"Data Source = LAPTOP-A60R360U; Initial Catalog = QuanlySpa; Integrated Security = SSPI; ");
+            SqlConnection conn = new SqlConnection(@"Data Source=LAPTOP-A60R360U;Initial Catalog=QuanlySpa;Integrated Security=True;");
             try
             {
                 conn.Open();
@@ -36,9 +36,10 @@ namespace GUI_quanlyspa
                 if (dta.Read() == true)
                 {
                     //MessageBox.Show("Đăng nhập thành công");
-                    Form_Home home = new Form_Home(user_tb.Text);
-                    home.Show();
+                    Form_Home home_ = new Form_Home(user_tb.Text);
                     this.Hide();
+                    home_.Show();
+                    //this.Hide();
                 }
                 else
                 {
@@ -46,7 +47,7 @@ namespace GUI_quanlyspa
                 }
 
             }
-            catch (Exception ex)
+            catch /*(Exception ex)*/
             {
                 MessageBox.Show("Lỗi kết nối");
             }

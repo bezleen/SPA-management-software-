@@ -81,8 +81,6 @@ D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanl
 D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Hoa_don.resources
 D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Lieu_trinh.resources
 D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Khach_hang.resources
-D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Nhan_vien.resources
-D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Thiet_Bi.resources
 E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\GUI_quanlyspa.exe.config
 E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\ShockwaveFlashObjects.dll
 E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
@@ -103,3 +101,5 @@ E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.F
 E:\Spa Management Software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.csproj.CopyComplete
 D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\bin\Debug\GUI_quanlyspa.exe.config
 D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_MYPHAM.resources
+D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Nhan_vien.resources
+D:\PROJECT\Project Visual Studio\SPA-management-software\GUI_quanlyspa\GUI_quanlyspa\obj\Debug\GUI_quanlyspa.Form_Thiet_Bi.resources

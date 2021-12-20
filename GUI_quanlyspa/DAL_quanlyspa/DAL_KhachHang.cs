@@ -32,5 +32,9 @@ namespace DAL_quanlyspa
         {
             return con._select("SELECT * FROM KHACHHANG "+str);
         }
+        public string matutang_kh(string str)
+        {
+            return con.matutang_kh("SELECT * FROM KHACHHANG " + str);
+        }
     }
 }

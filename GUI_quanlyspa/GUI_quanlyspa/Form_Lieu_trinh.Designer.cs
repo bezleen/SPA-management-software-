@@ -31,8 +31,8 @@ namespace GUI_quanlyspa
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Lieu_trinh));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnl_Nhanvien = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -85,13 +85,13 @@ namespace GUI_quanlyspa
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.elipse_pnl_workplace = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.elipse_picBox_LogoSpa = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.picBox_LogoSpa = new System.Windows.Forms.PictureBox();
             this.picBox_iconExit = new System.Windows.Forms.PictureBox();
             this.pnl_logout = new System.Windows.Forms.Panel();
             this.lb_dangxuat = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.elipse_pnl_logout = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.elipse_pnl_input = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.picBox_LogoSpa = new System.Windows.Forms.PictureBox();
             this.pnl_Nhanvien.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.pnl_Thietbi.SuspendLayout();
@@ -109,10 +109,10 @@ namespace GUI_quanlyspa
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.pnl_workplace.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.banglt)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox_LogoSpa)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_iconExit)).BeginInit();
             this.pnl_logout.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBox_LogoSpa)).BeginInit();
             this.SuspendLayout();
             // 
             // pnl_Nhanvien
@@ -215,15 +215,15 @@ namespace GUI_quanlyspa
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(53, 14);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(84, 25);
+            this.label6.Size = new System.Drawing.Size(71, 25);
             this.label6.TabIndex = 1;
-            this.label6.Text = "Thiết bị";
+            this.label6.Text = "Bác sĩ";
             this.label6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.label6_MouseClick);
             this.label6.MouseHover += new System.EventHandler(this.label6_MouseHover);
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Image = global::GUI_quanlyspa.Properties.Resources.icons8_beauty_120;
+            this.pictureBox7.Image = global::GUI_quanlyspa.Properties.Resources.doctor;
             this.pictureBox7.Location = new System.Drawing.Point(9, 3);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(38, 39);
@@ -642,21 +642,21 @@ namespace GUI_quanlyspa
             // 
             // banglt
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.banglt.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.banglt.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
             this.banglt.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.banglt.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
             this.banglt.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.banglt.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
             this.banglt.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.banglt.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.banglt.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.banglt.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.banglt.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -713,6 +713,18 @@ namespace GUI_quanlyspa
             this.elipse_picBox_LogoSpa.ElipseRadius = 120;
             this.elipse_picBox_LogoSpa.TargetControl = this.picBox_LogoSpa;
             // 
+            // picBox_LogoSpa
+            // 
+            this.picBox_LogoSpa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            this.picBox_LogoSpa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.picBox_LogoSpa.Image = global::GUI_quanlyspa.Properties.Resources.lotus;
+            this.picBox_LogoSpa.Location = new System.Drawing.Point(20, 20);
+            this.picBox_LogoSpa.Name = "picBox_LogoSpa";
+            this.picBox_LogoSpa.Size = new System.Drawing.Size(120, 120);
+            this.picBox_LogoSpa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBox_LogoSpa.TabIndex = 34;
+            this.picBox_LogoSpa.TabStop = false;
+            // 
             // picBox_iconExit
             // 
             this.picBox_iconExit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(211)))), ((int)(((byte)(18)))));
@@ -767,18 +779,6 @@ namespace GUI_quanlyspa
             this.elipse_pnl_input.ElipseRadius = 15;
             this.elipse_pnl_input.TargetControl = this.pnl_input;
             // 
-            // picBox_LogoSpa
-            // 
-            this.picBox_LogoSpa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
-            this.picBox_LogoSpa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.picBox_LogoSpa.Image = global::GUI_quanlyspa.Properties.Resources.lotus;
-            this.picBox_LogoSpa.Location = new System.Drawing.Point(20, 20);
-            this.picBox_LogoSpa.Name = "picBox_LogoSpa";
-            this.picBox_LogoSpa.Size = new System.Drawing.Size(120, 120);
-            this.picBox_LogoSpa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picBox_LogoSpa.TabIndex = 34;
-            this.picBox_LogoSpa.TabStop = false;
-            // 
             // Form_Lieu_trinh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -800,6 +800,7 @@ namespace GUI_quanlyspa
             this.Controls.Add(this.pnl_Home);
             this.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form_Lieu_trinh";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -831,11 +832,11 @@ namespace GUI_quanlyspa
             this.pnl_workplace.ResumeLayout(false);
             this.pnl_workplace.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.banglt)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox_LogoSpa)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_iconExit)).EndInit();
             this.pnl_logout.ResumeLayout(false);
             this.pnl_logout.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBox_LogoSpa)).EndInit();
             this.ResumeLayout(false);
 
         }

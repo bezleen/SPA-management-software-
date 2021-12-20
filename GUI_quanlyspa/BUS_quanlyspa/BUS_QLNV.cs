@@ -32,5 +32,9 @@ namespace BUS_quanlyspa
         {
             return sql._selectData(str);
         }
+        public string matutang_nv(string str)
+        {
+            return sql.matutang_nv(str);
+        }
     }
 }

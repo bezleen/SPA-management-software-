@@ -138,6 +138,7 @@ namespace GUI_quanlyspa
             this.lb_rs = new System.Windows.Forms.Label();
             this.btn_luu = new Bunifu.Framework.UI.BunifuThinButton2();
             this.elipse_picBox_LogoSpa = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.picBox_LogoSpa = new System.Windows.Forms.PictureBox();
             this.elipse_pnl_input = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.picBox_iconExit = new System.Windows.Forms.PictureBox();
             this.elipse_pnl_Thietbi = new Bunifu.Framework.UI.BunifuElipse(this.components);
@@ -147,7 +148,6 @@ namespace GUI_quanlyspa
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.elipse_pnl_tongtien = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.picBox_LogoSpa = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.pnl_logout.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -171,10 +171,10 @@ namespace GUI_quanlyspa
             this.pnl_input.SuspendLayout();
             this.pnl_date.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox_LogoSpa)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_iconExit)).BeginInit();
             this.pnl_Thietbi.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBox_LogoSpa)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox4
@@ -1262,6 +1262,18 @@ namespace GUI_quanlyspa
             this.elipse_picBox_LogoSpa.ElipseRadius = 120;
             this.elipse_picBox_LogoSpa.TargetControl = this.picBox_LogoSpa;
             // 
+            // picBox_LogoSpa
+            // 
+            this.picBox_LogoSpa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            this.picBox_LogoSpa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.picBox_LogoSpa.Image = global::GUI_quanlyspa.Properties.Resources.lotus;
+            this.picBox_LogoSpa.Location = new System.Drawing.Point(20, 20);
+            this.picBox_LogoSpa.Name = "picBox_LogoSpa";
+            this.picBox_LogoSpa.Size = new System.Drawing.Size(120, 120);
+            this.picBox_LogoSpa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picBox_LogoSpa.TabIndex = 34;
+            this.picBox_LogoSpa.TabStop = false;
+            // 
             // elipse_pnl_input
             // 
             this.elipse_pnl_input.ElipseRadius = 15;
@@ -1304,15 +1316,15 @@ namespace GUI_quanlyspa
             this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(53, 14);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(84, 25);
+            this.label6.Size = new System.Drawing.Size(71, 25);
             this.label6.TabIndex = 1;
-            this.label6.Text = "Thiết bị";
+            this.label6.Text = "Bác sĩ";
             this.label6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.label6_MouseClick);
             this.label6.MouseHover += new System.EventHandler(this.label6_MouseHover);
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Image = global::GUI_quanlyspa.Properties.Resources.icons8_beauty_120;
+            this.pictureBox7.Image = global::GUI_quanlyspa.Properties.Resources.doctor;
             this.pictureBox7.Location = new System.Drawing.Point(9, 3);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(38, 39);
@@ -1331,18 +1343,6 @@ namespace GUI_quanlyspa
             // 
             this.bunifuElipse1.ElipseRadius = 25;
             this.bunifuElipse1.TargetControl = this.pnl_date;
-            // 
-            // picBox_LogoSpa
-            // 
-            this.picBox_LogoSpa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
-            this.picBox_LogoSpa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.picBox_LogoSpa.Image = global::GUI_quanlyspa.Properties.Resources.lotus;
-            this.picBox_LogoSpa.Location = new System.Drawing.Point(20, 20);
-            this.picBox_LogoSpa.Name = "picBox_LogoSpa";
-            this.picBox_LogoSpa.Size = new System.Drawing.Size(120, 120);
-            this.picBox_LogoSpa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picBox_LogoSpa.TabIndex = 34;
-            this.picBox_LogoSpa.TabStop = false;
             // 
             // Form_Hoa_don
             // 
@@ -1364,6 +1364,7 @@ namespace GUI_quanlyspa
             this.Controls.Add(this.pnl_Lieutrinh);
             this.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form_Hoa_don";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -1403,11 +1404,11 @@ namespace GUI_quanlyspa
             this.pnl_date.ResumeLayout(false);
             this.pnl_date.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBox_LogoSpa)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_iconExit)).EndInit();
             this.pnl_Thietbi.ResumeLayout(false);
             this.pnl_Thietbi.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBox_LogoSpa)).EndInit();
             this.ResumeLayout(false);
 
         }

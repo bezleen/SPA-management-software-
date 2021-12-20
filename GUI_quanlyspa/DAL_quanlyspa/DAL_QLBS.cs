@@ -33,6 +33,10 @@ namespace DAL_quanlyspa
         {
             return con._select("SELECT * FROM QLBS " + str);
         }
+        public string matutang_bs(string str)
+        {
+            return con.matutang_bs("SELECT * FROM QLBS " + str);
+        }
 
     }
 }

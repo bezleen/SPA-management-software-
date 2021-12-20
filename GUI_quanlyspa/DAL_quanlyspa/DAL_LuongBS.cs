@@ -15,7 +15,7 @@ namespace DAL_quanlyspa
         // ham insert
         public void _insertData(DTO_LuongBS val)
         {
-            con._insert_update_delete(@"INSERT INTO LUONGBS(MABS, MATT, NGAYTT, TONGTIEN) VALUES (N'"+val.MABS+ "',N'" + val.MATT + "',N'" + val.NGAYTT + "',N'" + val.TONGTIEN + "')");
+            con._insert_update_delete(@"INSERT INTO LUONGBS(MABS, MATT, NGAYTT,TIENTHUONG, TONGTIEN) VALUES (N'"+val.MABS+ "',N'" + val.MATT + "',N'" + val.NGAYTT + "','"+val.TIENTHUONG+"',N'" + val.TONGTIEN + "')");
         }
         // ham update
         public void _updateData(DTO_LuongBS val)
@@ -31,6 +31,10 @@ namespace DAL_quanlyspa
         public DataTable _selectData(string str)
         {
             return con._select("SELECT * FROM LUONGBS " + str);
+        }
+        public string matutang_lbs(string str)
+        {
+            return con.matutang_lbs("SELECT * FROM LUONGBS " + str);
         }
     }
 }

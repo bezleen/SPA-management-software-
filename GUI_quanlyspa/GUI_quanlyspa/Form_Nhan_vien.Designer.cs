@@ -31,8 +31,8 @@ namespace GUI_quanlyspa
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Nhan_vien));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.pnl_Nhanvien = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -44,20 +44,32 @@ namespace GUI_quanlyspa
             this.label6 = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.panel9 = new System.Windows.Forms.Panel();
+            this.btn_tinhluong = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.cb_tinhluong = new System.Windows.Forms.ComboBox();
+            this.lb6 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.tb_luong = new System.Windows.Forms.TextBox();
+            this.lb10 = new System.Windows.Forms.Label();
+            this.lb9 = new System.Windows.Forms.Label();
+            this.date_picker_nkt = new Bunifu.Framework.UI.BunifuDatepicker();
+            this.date_picker_nbd = new Bunifu.Framework.UI.BunifuDatepicker();
+            this.cb_gioitinh = new System.Windows.Forms.ComboBox();
+            this.tb_sdt = new System.Windows.Forms.TextBox();
+            this.btn_tl = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.lb4 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.tb_pass = new System.Windows.Forms.TextBox();
+            this.lb5 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.btn_luu = new Bunifu.Framework.UI.BunifuThinButton2();
+            this.lb_rs = new System.Windows.Forms.Label();
             this.btn_xoa = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btn_sua = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuThinButton21 = new Bunifu.Framework.UI.BunifuThinButton2();
             this.btn_them = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.bunifuCustomLabel5 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel4 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel3 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.lb8 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.lb7 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.lb3 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.lb2 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.lb1 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.tb_manv = new System.Windows.Forms.TextBox();
+            this.tb_hovaten = new System.Windows.Forms.TextBox();
             this.pnl_Mypham = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -78,26 +90,25 @@ namespace GUI_quanlyspa
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.elipse_Form_Lieu_trinh = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.pnl_workplace = new System.Windows.Forms.Panel();
-            this.banglt = new Bunifu.Framework.UI.BunifuCustomDataGrid();
-            this.MANV = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HOTEN = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.GIOITINH = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.QUEQUAN = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.DIACHI = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.SĐT = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.HESOLUONG = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NGAYBATDAU = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NGAYKETTHUC = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bangnv = new Bunifu.Framework.UI.BunifuCustomDataGrid();
+            this.manv = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.hoten = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.gioitinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sdt = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nbd = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nkt = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.mk = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.luong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bunifuCustomLabel6 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.elipse_pnl_workplace = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.elipse_picBox_LogoSpa = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.picBox_LogoSpa = new System.Windows.Forms.PictureBox();
             this.picBox_iconExit = new System.Windows.Forms.PictureBox();
             this.pnl_logout = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
+            this.lb_dangxuat = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.elipse_pnl_logout = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.bunifuDatepicker1 = new Bunifu.Framework.UI.BunifuDatepicker();
+            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
             this.pnl_Nhanvien.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.pnl_Thietbi.SuspendLayout();
@@ -114,7 +125,7 @@ namespace GUI_quanlyspa
             this.pnl_Home.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.pnl_workplace.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.banglt)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bangnv)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_LogoSpa)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_iconExit)).BeginInit();
             this.pnl_logout.SuspendLayout();
@@ -123,7 +134,7 @@ namespace GUI_quanlyspa
             // 
             // pnl_Nhanvien
             // 
-            this.pnl_Nhanvien.BackColor = System.Drawing.Color.YellowGreen;
+            this.pnl_Nhanvien.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(211)))), ((int)(((byte)(124)))));
             this.pnl_Nhanvien.Controls.Add(this.label2);
             this.pnl_Nhanvien.Controls.Add(this.pictureBox3);
             this.pnl_Nhanvien.ForeColor = System.Drawing.Color.White;
@@ -131,8 +142,6 @@ namespace GUI_quanlyspa
             this.pnl_Nhanvien.Name = "pnl_Nhanvien";
             this.pnl_Nhanvien.Size = new System.Drawing.Size(197, 53);
             this.pnl_Nhanvien.TabIndex = 26;
-            this.pnl_Nhanvien.MouseLeave += new System.EventHandler(this.pnl_Nhanvien_MouseLeave);
-            this.pnl_Nhanvien.MouseHover += new System.EventHandler(this.pnl_Nhanvien_MouseHover);
             // 
             // label2
             // 
@@ -140,10 +149,9 @@ namespace GUI_quanlyspa
             this.label2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(53, 14);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(147, 32);
+            this.label2.Size = new System.Drawing.Size(117, 25);
             this.label2.TabIndex = 1;
             this.label2.Text = "Nhân viên";
-            this.label2.MouseHover += new System.EventHandler(this.label2_MouseHover);
             // 
             // pictureBox3
             // 
@@ -154,7 +162,6 @@ namespace GUI_quanlyspa
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
-            this.pictureBox3.MouseHover += new System.EventHandler(this.pictureBox3_MouseHover);
             // 
             // label4
             // 
@@ -162,9 +169,11 @@ namespace GUI_quanlyspa
             this.label4.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(53, 14);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(128, 32);
+            this.label4.Size = new System.Drawing.Size(102, 25);
             this.label4.TabIndex = 1;
             this.label4.Text = "Liệu trình";
+            this.label4.Click += new System.EventHandler(this.label4_Click_1);
+            this.label4.MouseHover += new System.EventHandler(this.label4_MouseHover);
             // 
             // label5
             // 
@@ -172,20 +181,23 @@ namespace GUI_quanlyspa
             this.label5.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(53, 14);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(175, 32);
+            this.label5.Size = new System.Drawing.Size(138, 25);
             this.label5.TabIndex = 1;
             this.label5.Text = "Khách hàng";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             this.label5.MouseHover += new System.EventHandler(this.label5_MouseHover);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
             this.label7.Location = new System.Drawing.Point(53, 14);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(126, 32);
+            this.label7.Size = new System.Drawing.Size(99, 25);
             this.label7.TabIndex = 1;
             this.label7.Text = "Hóa đơn";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             this.label7.MouseHover += new System.EventHandler(this.label7_MouseHover);
             // 
             // elipse_pnl_Thietbi
@@ -203,6 +215,7 @@ namespace GUI_quanlyspa
             this.pnl_Thietbi.Name = "pnl_Thietbi";
             this.pnl_Thietbi.Size = new System.Drawing.Size(197, 53);
             this.pnl_Thietbi.TabIndex = 30;
+            this.pnl_Thietbi.Click += new System.EventHandler(this.pnl_Thietbi_Click);
             this.pnl_Thietbi.MouseLeave += new System.EventHandler(this.pnl_Thietbi_MouseLeave);
             this.pnl_Thietbi.MouseHover += new System.EventHandler(this.pnl_Thietbi_MouseHover);
             // 
@@ -212,45 +225,264 @@ namespace GUI_quanlyspa
             this.label6.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(53, 14);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(105, 32);
+            this.label6.Size = new System.Drawing.Size(71, 25);
             this.label6.TabIndex = 1;
-            this.label6.Text = "Thiết bị";
+            this.label6.Text = "Bác sĩ";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             this.label6.MouseHover += new System.EventHandler(this.label6_MouseHover);
             // 
             // pictureBox7
             // 
-            this.pictureBox7.Image = global::GUI_quanlyspa.Properties.Resources.icons8_beauty_120;
+            this.pictureBox7.Image = global::GUI_quanlyspa.Properties.Resources.doctor;
             this.pictureBox7.Location = new System.Drawing.Point(9, 3);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(38, 39);
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox7.TabIndex = 0;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             this.pictureBox7.MouseHover += new System.EventHandler(this.pictureBox7_MouseHover);
             // 
             // panel9
             // 
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
-            this.panel9.Controls.Add(this.bunifuDatepicker1);
+            this.panel9.Controls.Add(this.btn_tinhluong);
+            this.panel9.Controls.Add(this.cb_tinhluong);
+            this.panel9.Controls.Add(this.lb6);
+            this.panel9.Controls.Add(this.tb_luong);
+            this.panel9.Controls.Add(this.lb10);
+            this.panel9.Controls.Add(this.lb9);
+            this.panel9.Controls.Add(this.date_picker_nkt);
+            this.panel9.Controls.Add(this.date_picker_nbd);
+            this.panel9.Controls.Add(this.cb_gioitinh);
+            this.panel9.Controls.Add(this.tb_sdt);
+            this.panel9.Controls.Add(this.btn_tl);
+            this.panel9.Controls.Add(this.lb4);
+            this.panel9.Controls.Add(this.tb_pass);
+            this.panel9.Controls.Add(this.lb5);
+            this.panel9.Controls.Add(this.btn_luu);
+            this.panel9.Controls.Add(this.lb_rs);
             this.panel9.Controls.Add(this.btn_xoa);
             this.panel9.Controls.Add(this.btn_sua);
-            this.panel9.Controls.Add(this.bunifuThinButton21);
             this.panel9.Controls.Add(this.btn_them);
-            this.panel9.Controls.Add(this.bunifuCustomLabel5);
-            this.panel9.Controls.Add(this.bunifuCustomLabel4);
-            this.panel9.Controls.Add(this.bunifuCustomLabel3);
-            this.panel9.Controls.Add(this.bunifuCustomLabel2);
-            this.panel9.Controls.Add(this.bunifuCustomLabel1);
-            this.panel9.Controls.Add(this.comboBox1);
-            this.panel9.Controls.Add(this.textBox4);
-            this.panel9.Controls.Add(this.textBox3);
-            this.panel9.Controls.Add(this.textBox2);
-            this.panel9.Controls.Add(this.textBox1);
+            this.panel9.Controls.Add(this.lb8);
+            this.panel9.Controls.Add(this.lb7);
+            this.panel9.Controls.Add(this.lb3);
+            this.panel9.Controls.Add(this.lb2);
+            this.panel9.Controls.Add(this.lb1);
+            this.panel9.Controls.Add(this.tb_manv);
+            this.panel9.Controls.Add(this.tb_hovaten);
             this.panel9.Location = new System.Drawing.Point(15, 20);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(1255, 297);
             this.panel9.TabIndex = 0;
-            this.panel9.Paint += new System.Windows.Forms.PaintEventHandler(this.panel9_Paint);
+            // 
+            // btn_tinhluong
+            // 
+            this.btn_tinhluong.ActiveBorderThickness = 1;
+            this.btn_tinhluong.ActiveCornerRadius = 20;
+            this.btn_tinhluong.ActiveFillColor = System.Drawing.Color.SeaGreen;
+            this.btn_tinhluong.ActiveForecolor = System.Drawing.Color.White;
+            this.btn_tinhluong.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.btn_tinhluong.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
+            this.btn_tinhluong.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_tinhluong.BackgroundImage")));
+            this.btn_tinhluong.ButtonText = "Tính lương";
+            this.btn_tinhluong.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_tinhluong.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_tinhluong.ForeColor = System.Drawing.Color.White;
+            this.btn_tinhluong.IdleBorderThickness = 1;
+            this.btn_tinhluong.IdleCornerRadius = 20;
+            this.btn_tinhluong.IdleFillColor = System.Drawing.Color.SeaGreen;
+            this.btn_tinhluong.IdleForecolor = System.Drawing.Color.White;
+            this.btn_tinhluong.IdleLineColor = System.Drawing.Color.SeaGreen;
+            this.btn_tinhluong.Location = new System.Drawing.Point(295, 213);
+            this.btn_tinhluong.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btn_tinhluong.Name = "btn_tinhluong";
+            this.btn_tinhluong.Size = new System.Drawing.Size(134, 49);
+            this.btn_tinhluong.TabIndex = 50;
+            this.btn_tinhluong.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btn_tinhluong.Click += new System.EventHandler(this.btn_tinhluong_Click);
+            // 
+            // cb_tinhluong
+            // 
+            this.cb_tinhluong.FormattingEnabled = true;
+            this.cb_tinhluong.Location = new System.Drawing.Point(194, 224);
+            this.cb_tinhluong.Name = "cb_tinhluong";
+            this.cb_tinhluong.Size = new System.Drawing.Size(92, 24);
+            this.cb_tinhluong.TabIndex = 49;
+            // 
+            // lb6
+            // 
+            this.lb6.AutoSize = true;
+            this.lb6.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
+            this.lb6.Location = new System.Drawing.Point(1076, 49);
+            this.lb6.Name = "lb6";
+            this.lb6.Size = new System.Drawing.Size(74, 25);
+            this.lb6.TabIndex = 48;
+            this.lb6.Text = "Lương";
+            // 
+            // tb_luong
+            // 
+            this.tb_luong.Location = new System.Drawing.Point(1060, 77);
+            this.tb_luong.Name = "tb_luong";
+            this.tb_luong.Size = new System.Drawing.Size(144, 21);
+            this.tb_luong.TabIndex = 47;
+            // 
+            // lb10
+            // 
+            this.lb10.AutoSize = true;
+            this.lb10.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb10.Location = new System.Drawing.Point(590, 90);
+            this.lb10.Name = "lb10";
+            this.lb10.Size = new System.Drawing.Size(38, 16);
+            this.lb10.TabIndex = 46;
+            this.lb10.Text = "nữ : 0";
+            // 
+            // lb9
+            // 
+            this.lb9.AutoSize = true;
+            this.lb9.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb9.Location = new System.Drawing.Point(590, 74);
+            this.lb9.Name = "lb9";
+            this.lb9.Size = new System.Drawing.Size(52, 16);
+            this.lb9.TabIndex = 45;
+            this.lb9.Text = "nam : 1";
+            // 
+            // date_picker_nkt
+            // 
+            this.date_picker_nkt.BackColor = System.Drawing.Color.SeaGreen;
+            this.date_picker_nkt.BorderRadius = 0;
+            this.date_picker_nkt.ForeColor = System.Drawing.Color.White;
+            this.date_picker_nkt.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.date_picker_nkt.FormatCustom = null;
+            this.date_picker_nkt.Location = new System.Drawing.Point(310, 151);
+            this.date_picker_nkt.Margin = new System.Windows.Forms.Padding(3, 6, 3, 6);
+            this.date_picker_nkt.Name = "date_picker_nkt";
+            this.date_picker_nkt.Size = new System.Drawing.Size(240, 43);
+            this.date_picker_nkt.TabIndex = 43;
+            this.date_picker_nkt.Value = new System.DateTime(2021, 11, 20, 0, 26, 28, 908);
+            // 
+            // date_picker_nbd
+            // 
+            this.date_picker_nbd.BackColor = System.Drawing.Color.SeaGreen;
+            this.date_picker_nbd.BorderRadius = 0;
+            this.date_picker_nbd.ForeColor = System.Drawing.Color.White;
+            this.date_picker_nbd.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.date_picker_nbd.FormatCustom = null;
+            this.date_picker_nbd.Location = new System.Drawing.Point(46, 151);
+            this.date_picker_nbd.Margin = new System.Windows.Forms.Padding(3, 5, 3, 5);
+            this.date_picker_nbd.Name = "date_picker_nbd";
+            this.date_picker_nbd.Size = new System.Drawing.Size(240, 44);
+            this.date_picker_nbd.TabIndex = 42;
+            this.date_picker_nbd.Value = new System.DateTime(2021, 11, 20, 0, 26, 28, 908);
+            // 
+            // cb_gioitinh
+            // 
+            this.cb_gioitinh.FormattingEnabled = true;
+            this.cb_gioitinh.Items.AddRange(new object[] {
+            "0",
+            "1"});
+            this.cb_gioitinh.Location = new System.Drawing.Point(492, 74);
+            this.cb_gioitinh.Name = "cb_gioitinh";
+            this.cb_gioitinh.Size = new System.Drawing.Size(92, 24);
+            this.cb_gioitinh.TabIndex = 41;
+            // 
+            // tb_sdt
+            // 
+            this.tb_sdt.Location = new System.Drawing.Point(671, 77);
+            this.tb_sdt.Name = "tb_sdt";
+            this.tb_sdt.Size = new System.Drawing.Size(152, 21);
+            this.tb_sdt.TabIndex = 34;
+            // 
+            // btn_tl
+            // 
+            this.btn_tl.ActiveBorderThickness = 1;
+            this.btn_tl.ActiveCornerRadius = 20;
+            this.btn_tl.ActiveFillColor = System.Drawing.Color.SeaGreen;
+            this.btn_tl.ActiveForecolor = System.Drawing.Color.White;
+            this.btn_tl.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.btn_tl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
+            this.btn_tl.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_tl.BackgroundImage")));
+            this.btn_tl.ButtonText = "LƯƠNG";
+            this.btn_tl.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_tl.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_tl.ForeColor = System.Drawing.Color.White;
+            this.btn_tl.IdleBorderThickness = 1;
+            this.btn_tl.IdleCornerRadius = 20;
+            this.btn_tl.IdleFillColor = System.Drawing.Color.SeaGreen;
+            this.btn_tl.IdleForecolor = System.Drawing.Color.White;
+            this.btn_tl.IdleLineColor = System.Drawing.Color.SeaGreen;
+            this.btn_tl.Location = new System.Drawing.Point(46, 213);
+            this.btn_tl.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btn_tl.Name = "btn_tl";
+            this.btn_tl.Size = new System.Drawing.Size(134, 49);
+            this.btn_tl.TabIndex = 33;
+            this.btn_tl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btn_tl.Click += new System.EventHandler(this.btn_tl_Click);
+            // 
+            // lb4
+            // 
+            this.lb4.AutoSize = true;
+            this.lb4.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
+            this.lb4.Location = new System.Drawing.Point(719, 49);
+            this.lb4.Name = "lb4";
+            this.lb4.Size = new System.Drawing.Size(48, 25);
+            this.lb4.TabIndex = 32;
+            this.lb4.Text = "SĐT";
+            // 
+            // tb_pass
+            // 
+            this.tb_pass.Location = new System.Drawing.Point(869, 77);
+            this.tb_pass.Name = "tb_pass";
+            this.tb_pass.Size = new System.Drawing.Size(144, 21);
+            this.tb_pass.TabIndex = 31;
+            // 
+            // lb5
+            // 
+            this.lb5.AutoSize = true;
+            this.lb5.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
+            this.lb5.Location = new System.Drawing.Point(887, 49);
+            this.lb5.Name = "lb5";
+            this.lb5.Size = new System.Drawing.Size(107, 25);
+            this.lb5.TabIndex = 30;
+            this.lb5.Text = "Mật khẩu";
+            // 
+            // btn_luu
+            // 
+            this.btn_luu.ActiveBorderThickness = 1;
+            this.btn_luu.ActiveCornerRadius = 20;
+            this.btn_luu.ActiveFillColor = System.Drawing.Color.SeaGreen;
+            this.btn_luu.ActiveForecolor = System.Drawing.Color.White;
+            this.btn_luu.ActiveLineColor = System.Drawing.Color.SeaGreen;
+            this.btn_luu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
+            this.btn_luu.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_luu.BackgroundImage")));
+            this.btn_luu.ButtonText = "Lưu";
+            this.btn_luu.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_luu.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_luu.ForeColor = System.Drawing.Color.White;
+            this.btn_luu.IdleBorderThickness = 1;
+            this.btn_luu.IdleCornerRadius = 20;
+            this.btn_luu.IdleFillColor = System.Drawing.Color.SeaGreen;
+            this.btn_luu.IdleForecolor = System.Drawing.Color.White;
+            this.btn_luu.IdleLineColor = System.Drawing.Color.SeaGreen;
+            this.btn_luu.Location = new System.Drawing.Point(1102, 224);
+            this.btn_luu.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btn_luu.Name = "btn_luu";
+            this.btn_luu.Size = new System.Drawing.Size(70, 49);
+            this.btn_luu.TabIndex = 28;
+            this.btn_luu.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btn_luu.Click += new System.EventHandler(this.btn_luu_Click_1);
+            // 
+            // lb_rs
+            // 
+            this.lb_rs.AutoSize = true;
+            this.lb_rs.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_rs.Location = new System.Drawing.Point(1193, 268);
+            this.lb_rs.Name = "lb_rs";
+            this.lb_rs.Size = new System.Drawing.Size(41, 16);
+            this.lb_rs.TabIndex = 27;
+            this.lb_rs.Text = "Reset";
+            this.lb_rs.Click += new System.EventHandler(this.lb_rs_Click_1);
             // 
             // btn_xoa
             // 
@@ -273,9 +505,10 @@ namespace GUI_quanlyspa
             this.btn_xoa.Location = new System.Drawing.Point(771, 213);
             this.btn_xoa.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.btn_xoa.Name = "btn_xoa";
-            this.btn_xoa.Size = new System.Drawing.Size(179, 60);
+            this.btn_xoa.Size = new System.Drawing.Size(149, 60);
             this.btn_xoa.TabIndex = 24;
             this.btn_xoa.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btn_xoa.Click += new System.EventHandler(this.btn_xoa_Click_1);
             // 
             // btn_sua
             // 
@@ -298,34 +531,10 @@ namespace GUI_quanlyspa
             this.btn_sua.Location = new System.Drawing.Point(966, 213);
             this.btn_sua.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.btn_sua.Name = "btn_sua";
-            this.btn_sua.Size = new System.Drawing.Size(179, 60);
+            this.btn_sua.Size = new System.Drawing.Size(122, 60);
             this.btn_sua.TabIndex = 23;
             this.btn_sua.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // bunifuThinButton21
-            // 
-            this.bunifuThinButton21.ActiveBorderThickness = 1;
-            this.bunifuThinButton21.ActiveCornerRadius = 20;
-            this.bunifuThinButton21.ActiveFillColor = System.Drawing.Color.Aqua;
-            this.bunifuThinButton21.ActiveForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.MediumTurquoise;
-            this.bunifuThinButton21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
-            this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
-            this.bunifuThinButton21.ButtonText = "In";
-            this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.bunifuThinButton21.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuThinButton21.ForeColor = System.Drawing.Color.White;
-            this.bunifuThinButton21.IdleBorderThickness = 1;
-            this.bunifuThinButton21.IdleCornerRadius = 20;
-            this.bunifuThinButton21.IdleFillColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.IdleForecolor = System.Drawing.Color.White;
-            this.bunifuThinButton21.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.bunifuThinButton21.Location = new System.Drawing.Point(1175, 213);
-            this.bunifuThinButton21.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.bunifuThinButton21.Name = "bunifuThinButton21";
-            this.bunifuThinButton21.Size = new System.Drawing.Size(60, 60);
-            this.bunifuThinButton21.TabIndex = 25;
-            this.bunifuThinButton21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btn_sua.Click += new System.EventHandler(this.btn_sua_Click_1);
             // 
             // btn_them
             // 
@@ -348,98 +557,76 @@ namespace GUI_quanlyspa
             this.btn_them.Location = new System.Drawing.Point(579, 213);
             this.btn_them.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.btn_them.Name = "btn_them";
-            this.btn_them.Size = new System.Drawing.Size(179, 60);
+            this.btn_them.Size = new System.Drawing.Size(153, 60);
             this.btn_them.TabIndex = 22;
             this.btn_them.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btn_them.Click += new System.EventHandler(this.btn_them_Click_1);
             // 
-            // bunifuCustomLabel5
+            // lb8
             // 
-            this.bunifuCustomLabel5.AutoSize = true;
-            this.bunifuCustomLabel5.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
-            this.bunifuCustomLabel5.Location = new System.Drawing.Point(288, 165);
-            this.bunifuCustomLabel5.Name = "bunifuCustomLabel5";
-            this.bunifuCustomLabel5.Size = new System.Drawing.Size(200, 32);
-            this.bunifuCustomLabel5.TabIndex = 11;
-            this.bunifuCustomLabel5.Text = "Ngày kết thúc";
-            this.bunifuCustomLabel5.Click += new System.EventHandler(this.bunifuCustomLabel5_Click);
+            this.lb8.AutoSize = true;
+            this.lb8.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
+            this.lb8.Location = new System.Drawing.Point(317, 123);
+            this.lb8.Name = "lb8";
+            this.lb8.Size = new System.Drawing.Size(156, 25);
+            this.lb8.TabIndex = 11;
+            this.lb8.Text = "Ngày kết thúc";
             // 
-            // bunifuCustomLabel4
+            // lb7
             // 
-            this.bunifuCustomLabel4.AutoSize = true;
-            this.bunifuCustomLabel4.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
-            this.bunifuCustomLabel4.Location = new System.Drawing.Point(293, 80);
-            this.bunifuCustomLabel4.Name = "bunifuCustomLabel4";
-            this.bunifuCustomLabel4.Size = new System.Drawing.Size(195, 32);
-            this.bunifuCustomLabel4.TabIndex = 10;
-            this.bunifuCustomLabel4.Text = "Ngày bắt đầu";
+            this.lb7.AutoSize = true;
+            this.lb7.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
+            this.lb7.Location = new System.Drawing.Point(47, 123);
+            this.lb7.Name = "lb7";
+            this.lb7.Size = new System.Drawing.Size(153, 25);
+            this.lb7.TabIndex = 10;
+            this.lb7.Text = "Ngày bắt đầu";
             // 
-            // bunifuCustomLabel3
+            // lb3
             // 
-            this.bunifuCustomLabel3.AutoSize = true;
-            this.bunifuCustomLabel3.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
-            this.bunifuCustomLabel3.Location = new System.Drawing.Point(809, 72);
-            this.bunifuCustomLabel3.Name = "bunifuCustomLabel3";
-            this.bunifuCustomLabel3.Size = new System.Drawing.Size(141, 32);
-            this.bunifuCustomLabel3.TabIndex = 9;
-            this.bunifuCustomLabel3.Text = "Nhiệm Vụ";
-            this.bunifuCustomLabel3.Click += new System.EventHandler(this.bunifuCustomLabel3_Click);
+            this.lb3.AutoSize = true;
+            this.lb3.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
+            this.lb3.Location = new System.Drawing.Point(487, 46);
+            this.lb3.Name = "lb3";
+            this.lb3.Size = new System.Drawing.Size(99, 25);
+            this.lb3.TabIndex = 9;
+            this.lb3.Text = "Giới Tính";
             // 
-            // bunifuCustomLabel2
+            // lb2
             // 
-            this.bunifuCustomLabel2.AutoSize = true;
-            this.bunifuCustomLabel2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
-            this.bunifuCustomLabel2.Location = new System.Drawing.Point(71, 72);
-            this.bunifuCustomLabel2.Name = "bunifuCustomLabel2";
-            this.bunifuCustomLabel2.Size = new System.Drawing.Size(146, 32);
-            this.bunifuCustomLabel2.TabIndex = 8;
-            this.bunifuCustomLabel2.Text = "Họ Và Tên";
+            this.lb2.AutoSize = true;
+            this.lb2.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
+            this.lb2.Location = new System.Drawing.Point(285, 46);
+            this.lb2.Name = "lb2";
+            this.lb2.Size = new System.Drawing.Size(112, 25);
+            this.lb2.TabIndex = 8;
+            this.lb2.Text = "Họ và Tên";
             // 
-            // bunifuCustomLabel1
+            // lb1
             // 
-            this.bunifuCustomLabel1.AutoSize = true;
-            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
-            this.bunifuCustomLabel1.Location = new System.Drawing.Point(40, 158);
-            this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-            this.bunifuCustomLabel1.Size = new System.Drawing.Size(201, 32);
-            this.bunifuCustomLabel1.TabIndex = 15;
-            this.bunifuCustomLabel1.Text = "Mã Nhân Viên";
-            this.bunifuCustomLabel1.Click += new System.EventHandler(this.bunifuCustomLabel1_Click);
+            this.lb1.AutoSize = true;
+            this.lb1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold);
+            this.lb1.Location = new System.Drawing.Point(41, 46);
+            this.lb1.Name = "lb1";
+            this.lb1.Size = new System.Drawing.Size(159, 25);
+            this.lb1.TabIndex = 15;
+            this.lb1.Text = "Mã Nhân Viên";
             // 
-            // comboBox1
+            // tb_manv
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(1005, 77);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 27);
-            this.comboBox1.TabIndex = 5;
+            this.tb_manv.Enabled = false;
+            this.tb_manv.Location = new System.Drawing.Point(46, 77);
+            this.tb_manv.Name = "tb_manv";
+            this.tb_manv.ReadOnly = true;
+            this.tb_manv.Size = new System.Drawing.Size(146, 21);
+            this.tb_manv.TabIndex = 2;
             // 
-            // textBox4
+            // tb_hovaten
             // 
-            this.textBox4.Location = new System.Drawing.Point(292, 213);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(196, 24);
-            this.textBox4.TabIndex = 3;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(46, 213);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(196, 24);
-            this.textBox3.TabIndex = 2;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(46, 114);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(196, 24);
-            this.textBox2.TabIndex = 1;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(292, 114);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(196, 24);
-            this.textBox1.TabIndex = 0;
+            this.tb_hovaten.Location = new System.Drawing.Point(221, 77);
+            this.tb_hovaten.Name = "tb_hovaten";
+            this.tb_hovaten.Size = new System.Drawing.Size(234, 21);
+            this.tb_hovaten.TabIndex = 1;
             // 
             // pnl_Mypham
             // 
@@ -451,6 +638,7 @@ namespace GUI_quanlyspa
             this.pnl_Mypham.Name = "pnl_Mypham";
             this.pnl_Mypham.Size = new System.Drawing.Size(197, 53);
             this.pnl_Mypham.TabIndex = 27;
+            this.pnl_Mypham.Click += new System.EventHandler(this.pnl_Mypham_Click);
             this.pnl_Mypham.MouseLeave += new System.EventHandler(this.pnl_Mypham_MouseLeave);
             this.pnl_Mypham.MouseHover += new System.EventHandler(this.pnl_Mypham_MouseHover);
             // 
@@ -460,9 +648,10 @@ namespace GUI_quanlyspa
             this.label3.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(53, 14);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(137, 32);
+            this.label3.Size = new System.Drawing.Size(109, 25);
             this.label3.TabIndex = 1;
             this.label3.Text = "Mỹ phẩm";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             this.label3.MouseHover += new System.EventHandler(this.label3_MouseHover);
             // 
             // pictureBox4
@@ -474,6 +663,7 @@ namespace GUI_quanlyspa
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             this.pictureBox4.MouseHover += new System.EventHandler(this.pictureBox4_MouseHover);
             // 
             // pnl_Lieutrinh
@@ -486,6 +676,9 @@ namespace GUI_quanlyspa
             this.pnl_Lieutrinh.Name = "pnl_Lieutrinh";
             this.pnl_Lieutrinh.Size = new System.Drawing.Size(197, 53);
             this.pnl_Lieutrinh.TabIndex = 28;
+            this.pnl_Lieutrinh.Click += new System.EventHandler(this.pnl_Lieutrinh_Click);
+            this.pnl_Lieutrinh.MouseLeave += new System.EventHandler(this.pnl_Lieutrinh_MouseLeave);
+            this.pnl_Lieutrinh.MouseHover += new System.EventHandler(this.pnl_Lieutrinh_MouseHover);
             // 
             // pictureBox5
             // 
@@ -496,6 +689,8 @@ namespace GUI_quanlyspa
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 0;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click_1);
+            this.pictureBox5.MouseHover += new System.EventHandler(this.pictureBox5_MouseHover);
             // 
             // pnl_Khachhang
             // 
@@ -507,6 +702,7 @@ namespace GUI_quanlyspa
             this.pnl_Khachhang.Name = "pnl_Khachhang";
             this.pnl_Khachhang.Size = new System.Drawing.Size(197, 53);
             this.pnl_Khachhang.TabIndex = 29;
+            this.pnl_Khachhang.Click += new System.EventHandler(this.pnl_Khachhang_Click);
             this.pnl_Khachhang.MouseLeave += new System.EventHandler(this.pnl_Khachhang_MouseLeave);
             this.pnl_Khachhang.MouseHover += new System.EventHandler(this.pnl_Khachhang_MouseHover);
             // 
@@ -519,6 +715,7 @@ namespace GUI_quanlyspa
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 0;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             this.pictureBox6.MouseHover += new System.EventHandler(this.pictureBox6_MouseHover);
             // 
             // pnl_Hoadon
@@ -530,6 +727,7 @@ namespace GUI_quanlyspa
             this.pnl_Hoadon.Name = "pnl_Hoadon";
             this.pnl_Hoadon.Size = new System.Drawing.Size(197, 53);
             this.pnl_Hoadon.TabIndex = 22;
+            this.pnl_Hoadon.Click += new System.EventHandler(this.pnl_Hoadon_Click);
             this.pnl_Hoadon.MouseLeave += new System.EventHandler(this.pnl_Hoadon_MouseLeave);
             this.pnl_Hoadon.MouseHover += new System.EventHandler(this.pnl_Hoadon_MouseHover);
             // 
@@ -542,6 +740,7 @@ namespace GUI_quanlyspa
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox8.TabIndex = 0;
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
             this.pictureBox8.MouseHover += new System.EventHandler(this.pictureBox8_MouseHover);
             // 
             // elipse_pnl_Mypham
@@ -594,7 +793,7 @@ namespace GUI_quanlyspa
             this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(53, 17);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(92, 32);
+            this.label1.Size = new System.Drawing.Size(72, 25);
             this.label1.TabIndex = 1;
             this.label1.Text = "Home";
             this.label1.MouseHover += new System.EventHandler(this.label1_MouseHover);
@@ -618,7 +817,7 @@ namespace GUI_quanlyspa
             // pnl_workplace
             // 
             this.pnl_workplace.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(211)))), ((int)(((byte)(124)))));
-            this.pnl_workplace.Controls.Add(this.banglt);
+            this.pnl_workplace.Controls.Add(this.bangnv);
             this.pnl_workplace.Controls.Add(this.bunifuCustomLabel6);
             this.pnl_workplace.Controls.Add(this.panel9);
             this.pnl_workplace.Location = new System.Drawing.Point(267, 40);
@@ -626,110 +825,102 @@ namespace GUI_quanlyspa
             this.pnl_workplace.Size = new System.Drawing.Size(1293, 820);
             this.pnl_workplace.TabIndex = 19;
             // 
-            // banglt
+            // bangnv
             // 
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.banglt.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle9;
-            this.banglt.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.banglt.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
-            this.banglt.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.banglt.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
-            this.banglt.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.banglt.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
-            this.banglt.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.banglt.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.MANV,
-            this.HOTEN,
-            this.GIOITINH,
-            this.QUEQUAN,
-            this.DIACHI,
-            this.SĐT,
-            this.HESOLUONG,
-            this.NGAYBATDAU,
-            this.NGAYKETTHUC});
-            this.banglt.DoubleBuffered = true;
-            this.banglt.EnableHeadersVisualStyles = false;
-            this.banglt.GridColor = System.Drawing.SystemColors.ButtonShadow;
-            this.banglt.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
-            this.banglt.HeaderForeColor = System.Drawing.Color.Black;
-            this.banglt.Location = new System.Drawing.Point(15, 402);
-            this.banglt.Margin = new System.Windows.Forms.Padding(4);
-            this.banglt.Name = "banglt";
-            this.banglt.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.banglt.RowHeadersWidth = 51;
-            this.banglt.Size = new System.Drawing.Size(1255, 372);
-            this.banglt.TabIndex = 27;
-            this.banglt.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.banglt_CellContentClick);
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.bangnv.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.bangnv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.bangnv.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(246)))), ((int)(((byte)(239)))));
+            this.bangnv.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.bangnv.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
+            this.bangnv.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.bangnv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.bangnv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.bangnv.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.manv,
+            this.hoten,
+            this.gioitinh,
+            this.sdt,
+            this.nbd,
+            this.nkt,
+            this.mk,
+            this.luong});
+            this.bangnv.DoubleBuffered = true;
+            this.bangnv.EnableHeadersVisualStyles = false;
+            this.bangnv.GridColor = System.Drawing.SystemColors.ButtonShadow;
+            this.bangnv.HeaderBgColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
+            this.bangnv.HeaderForeColor = System.Drawing.Color.Black;
+            this.bangnv.Location = new System.Drawing.Point(15, 402);
+            this.bangnv.Margin = new System.Windows.Forms.Padding(4);
+            this.bangnv.Name = "bangnv";
+            this.bangnv.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.bangnv.RowHeadersWidth = 51;
+            this.bangnv.Size = new System.Drawing.Size(1255, 394);
+            this.bangnv.TabIndex = 27;
+            this.bangnv.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.bangnv_CellClick);
             // 
-            // MANV
+            // manv
             // 
-            this.MANV.DataPropertyName = "MANV";
-            this.MANV.HeaderText = "MANV";
-            this.MANV.MinimumWidth = 6;
-            this.MANV.Name = "MANV";
+            this.manv.DataPropertyName = "MANV";
+            this.manv.HeaderText = "Mã nhân viên";
+            this.manv.Name = "manv";
+            this.manv.ReadOnly = true;
             // 
-            // HOTEN
+            // hoten
             // 
-            this.HOTEN.DataPropertyName = "HOTEN";
-            this.HOTEN.HeaderText = "HOTEN";
-            this.HOTEN.MinimumWidth = 6;
-            this.HOTEN.Name = "HOTEN";
+            this.hoten.DataPropertyName = "HOTEN";
+            this.hoten.HeaderText = "Họ tên";
+            this.hoten.Name = "hoten";
+            this.hoten.ReadOnly = true;
             // 
-            // GIOITINH
+            // gioitinh
             // 
-            this.GIOITINH.DataPropertyName = "GIOITINH";
-            this.GIOITINH.HeaderText = "GIOITINH";
-            this.GIOITINH.MinimumWidth = 6;
-            this.GIOITINH.Name = "GIOITINH";
+            this.gioitinh.DataPropertyName = "GIOITINH";
+            this.gioitinh.HeaderText = "Giới tính";
+            this.gioitinh.Name = "gioitinh";
+            this.gioitinh.ReadOnly = true;
             // 
-            // QUEQUAN
+            // sdt
             // 
-            this.QUEQUAN.DataPropertyName = "QUEQUAN";
-            this.QUEQUAN.HeaderText = "QUEQUAN";
-            this.QUEQUAN.MinimumWidth = 6;
-            this.QUEQUAN.Name = "QUEQUAN";
+            this.sdt.DataPropertyName = "SDT";
+            this.sdt.HeaderText = "Số điện thoại";
+            this.sdt.Name = "sdt";
+            this.sdt.ReadOnly = true;
             // 
-            // DIACHI
+            // nbd
             // 
-            this.DIACHI.DataPropertyName = "DIACHI";
-            this.DIACHI.HeaderText = "DIACHI";
-            this.DIACHI.MinimumWidth = 6;
-            this.DIACHI.Name = "DIACHI";
+            this.nbd.DataPropertyName = "NBDHD";
+            this.nbd.HeaderText = "Ngày bắt đầu";
+            this.nbd.Name = "nbd";
+            this.nbd.ReadOnly = true;
             // 
-            // SĐT
+            // nkt
             // 
-            this.SĐT.DataPropertyName = "SDT";
-            this.SĐT.HeaderText = "SDT";
-            this.SĐT.MinimumWidth = 6;
-            this.SĐT.Name = "SĐT";
+            this.nkt.DataPropertyName = "NKTHD";
+            this.nkt.HeaderText = "Ngày kết thúc";
+            this.nkt.Name = "nkt";
+            this.nkt.ReadOnly = true;
             // 
-            // HESOLUONG
+            // mk
             // 
-            this.HESOLUONG.DataPropertyName = "HESOLUONG";
-            this.HESOLUONG.HeaderText = "HESOLUONG";
-            this.HESOLUONG.MinimumWidth = 6;
-            this.HESOLUONG.Name = "HESOLUONG";
+            this.mk.DataPropertyName = "PASS";
+            this.mk.HeaderText = "Mật khẩu";
+            this.mk.Name = "mk";
+            this.mk.ReadOnly = true;
             // 
-            // NGAYBATDAU
+            // luong
             // 
-            this.NGAYBATDAU.DataPropertyName = "NBDHD";
-            this.NGAYBATDAU.HeaderText = "NGAYBATDAU";
-            this.NGAYBATDAU.MinimumWidth = 6;
-            this.NGAYBATDAU.Name = "NGAYBATDAU";
-            // 
-            // NGAYKETTHUC
-            // 
-            this.NGAYKETTHUC.DataPropertyName = "NKTHD";
-            this.NGAYKETTHUC.HeaderText = "NGAYKETTHUC";
-            this.NGAYKETTHUC.MinimumWidth = 6;
-            this.NGAYKETTHUC.Name = "NGAYKETTHUC";
+            this.luong.DataPropertyName = "LUONG";
+            this.luong.HeaderText = "Lương";
+            this.luong.Name = "luong";
+            this.luong.ReadOnly = true;
             // 
             // bunifuCustomLabel6
             // 
@@ -738,7 +929,7 @@ namespace GUI_quanlyspa
             this.bunifuCustomLabel6.Location = new System.Drawing.Point(511, 341);
             this.bunifuCustomLabel6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.bunifuCustomLabel6.Name = "bunifuCustomLabel6";
-            this.bunifuCustomLabel6.Size = new System.Drawing.Size(310, 37);
+            this.bunifuCustomLabel6.Size = new System.Drawing.Size(246, 28);
             this.bunifuCustomLabel6.TabIndex = 26;
             this.bunifuCustomLabel6.Text = "Thông Tin Nhân Viên";
             // 
@@ -755,12 +946,13 @@ namespace GUI_quanlyspa
             // picBox_LogoSpa
             // 
             this.picBox_LogoSpa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(184)))), ((int)(((byte)(223)))), ((int)(((byte)(216)))));
-            this.picBox_LogoSpa.Image = global::GUI_quanlyspa.Properties.Resources.Logo;
+            this.picBox_LogoSpa.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.picBox_LogoSpa.Image = global::GUI_quanlyspa.Properties.Resources.lotus;
             this.picBox_LogoSpa.Location = new System.Drawing.Point(20, 20);
             this.picBox_LogoSpa.Name = "picBox_LogoSpa";
             this.picBox_LogoSpa.Size = new System.Drawing.Size(120, 120);
             this.picBox_LogoSpa.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picBox_LogoSpa.TabIndex = 20;
+            this.picBox_LogoSpa.TabIndex = 35;
             this.picBox_LogoSpa.TabStop = false;
             // 
             // picBox_iconExit
@@ -778,21 +970,23 @@ namespace GUI_quanlyspa
             // pnl_logout
             // 
             this.pnl_logout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(147)))), ((int)(((byte)(211)))), ((int)(((byte)(124)))));
-            this.pnl_logout.Controls.Add(this.label8);
+            this.pnl_logout.Controls.Add(this.lb_dangxuat);
             this.pnl_logout.Controls.Add(this.pictureBox1);
             this.pnl_logout.Location = new System.Drawing.Point(1363, 4);
             this.pnl_logout.Name = "pnl_logout";
             this.pnl_logout.Size = new System.Drawing.Size(174, 34);
             this.pnl_logout.TabIndex = 31;
+            this.pnl_logout.Click += new System.EventHandler(this.pnl_logout_Click_1);
             // 
-            // label8
+            // lb_dangxuat
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(42, 8);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(156, 19);
-            this.label8.TabIndex = 26;
-            this.label8.Text = "bezleendeptraibodoi";
+            this.lb_dangxuat.AutoSize = true;
+            this.lb_dangxuat.Location = new System.Drawing.Point(42, 8);
+            this.lb_dangxuat.Name = "lb_dangxuat";
+            this.lb_dangxuat.Size = new System.Drawing.Size(123, 16);
+            this.lb_dangxuat.TabIndex = 26;
+            this.lb_dangxuat.Text = "bezleendeptraibodoi";
+            this.lb_dangxuat.Click += new System.EventHandler(this.lb_dangxuat_Click_1);
             // 
             // pictureBox1
             // 
@@ -803,34 +997,27 @@ namespace GUI_quanlyspa
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 25;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
             // 
             // elipse_pnl_logout
             // 
             this.elipse_pnl_logout.ElipseRadius = 30;
             this.elipse_pnl_logout.TargetControl = this.pnl_logout;
             // 
-            // bunifuDatepicker1
+            // bunifuElipse1
             // 
-            this.bunifuDatepicker1.BackColor = System.Drawing.Color.SeaGreen;
-            this.bunifuDatepicker1.BorderRadius = 0;
-            this.bunifuDatepicker1.ForeColor = System.Drawing.Color.White;
-            this.bunifuDatepicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.bunifuDatepicker1.FormatCustom = null;
-            this.bunifuDatepicker1.Location = new System.Drawing.Point(29, 23);
-            this.bunifuDatepicker1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.bunifuDatepicker1.Name = "bunifuDatepicker1";
-            this.bunifuDatepicker1.Size = new System.Drawing.Size(165, 28);
-            this.bunifuDatepicker1.TabIndex = 26;
-            this.bunifuDatepicker1.Value = new System.DateTime(2021, 11, 10, 11, 32, 58, 602);
+            this.bunifuElipse1.ElipseRadius = 20;
+            this.bunifuElipse1.TargetControl = this.panel9;
             // 
             // Form_Nhan_vien
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 19F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(179)))), ((int)(((byte)(25)))));
+            this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::GUI_quanlyspa.Properties.Resources.Background_green;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1600, 900);
+            this.Controls.Add(this.picBox_LogoSpa);
             this.Controls.Add(this.pnl_logout);
             this.Controls.Add(this.pnl_Nhanvien);
             this.Controls.Add(this.pnl_Thietbi);
@@ -841,13 +1028,14 @@ namespace GUI_quanlyspa
             this.Controls.Add(this.picBox_iconExit);
             this.Controls.Add(this.pnl_workplace);
             this.Controls.Add(this.pnl_Home);
-            this.Controls.Add(this.picBox_LogoSpa);
             this.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form_Nhan_vien";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form_Lieu_trinh";
+            this.Load += new System.EventHandler(this.Form_Nhan_vien_Load);
             this.pnl_Nhanvien.ResumeLayout(false);
             this.pnl_Nhanvien.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -873,7 +1061,7 @@ namespace GUI_quanlyspa
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.pnl_workplace.ResumeLayout(false);
             this.pnl_workplace.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.banglt)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bangnv)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_LogoSpa)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBox_iconExit)).EndInit();
             this.pnl_logout.ResumeLayout(false);
@@ -896,16 +1084,13 @@ namespace GUI_quanlyspa
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Panel panel9;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel5;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel4;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel3;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel2;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private Bunifu.Framework.UI.BunifuCustomLabel lb8;
+        private Bunifu.Framework.UI.BunifuCustomLabel lb7;
+        private Bunifu.Framework.UI.BunifuCustomLabel lb3;
+        private Bunifu.Framework.UI.BunifuCustomLabel lb2;
+        private Bunifu.Framework.UI.BunifuCustomLabel lb1;
+        private System.Windows.Forms.TextBox tb_manv;
+        private System.Windows.Forms.TextBox tb_hovaten;
         private System.Windows.Forms.Panel pnl_Mypham;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox4;
@@ -927,28 +1112,42 @@ namespace GUI_quanlyspa
         private System.Windows.Forms.PictureBox pictureBox2;
         private Bunifu.Framework.UI.BunifuElipse elipse_Form_Lieu_trinh;
         private System.Windows.Forms.Panel pnl_workplace;
-        private System.Windows.Forms.PictureBox picBox_LogoSpa;
         private Bunifu.Framework.UI.BunifuElipse elipse_pnl_workplace;
         private Bunifu.Framework.UI.BunifuElipse elipse_picBox_LogoSpa;
         private System.Windows.Forms.Panel pnl_logout;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label lb_dangxuat;
         private System.Windows.Forms.PictureBox pictureBox1;
         private Bunifu.Framework.UI.BunifuElipse elipse_pnl_logout;
         private Bunifu.Framework.UI.BunifuThinButton2 btn_them;
         private Bunifu.Framework.UI.BunifuThinButton2 btn_sua;
         private Bunifu.Framework.UI.BunifuThinButton2 btn_xoa;
-        private Bunifu.Framework.UI.BunifuThinButton2 bunifuThinButton21;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel6;
-        private Bunifu.Framework.UI.BunifuCustomDataGrid banglt;
-        private System.Windows.Forms.DataGridViewTextBoxColumn MANV;
-        private System.Windows.Forms.DataGridViewTextBoxColumn HOTEN;
-        private System.Windows.Forms.DataGridViewTextBoxColumn GIOITINH;
-        private System.Windows.Forms.DataGridViewTextBoxColumn QUEQUAN;
-        private System.Windows.Forms.DataGridViewTextBoxColumn DIACHI;
-        private System.Windows.Forms.DataGridViewTextBoxColumn SĐT;
-        private System.Windows.Forms.DataGridViewTextBoxColumn HESOLUONG;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NGAYBATDAU;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NGAYKETTHUC;
-        private Bunifu.Framework.UI.BunifuDatepicker bunifuDatepicker1;
+        private Bunifu.Framework.UI.BunifuCustomDataGrid bangnv;
+        private System.Windows.Forms.Label lb_rs;
+        private Bunifu.Framework.UI.BunifuThinButton2 btn_luu;
+        private System.Windows.Forms.TextBox tb_pass;
+        private Bunifu.Framework.UI.BunifuCustomLabel lb5;
+        private Bunifu.Framework.UI.BunifuCustomLabel lb4;
+        private Bunifu.Framework.UI.BunifuThinButton2 btn_tl;
+        private System.Windows.Forms.TextBox tb_sdt;
+        private System.Windows.Forms.ComboBox cb_gioitinh;
+        private Bunifu.Framework.UI.BunifuDatepicker date_picker_nkt;
+        private Bunifu.Framework.UI.BunifuDatepicker date_picker_nbd;
+        private System.Windows.Forms.Label lb9;
+        private Bunifu.Framework.UI.BunifuCustomLabel lb6;
+        private System.Windows.Forms.TextBox tb_luong;
+        private System.Windows.Forms.Label lb10;
+        private System.Windows.Forms.DataGridViewTextBoxColumn manv;
+        private System.Windows.Forms.DataGridViewTextBoxColumn hoten;
+        private System.Windows.Forms.DataGridViewTextBoxColumn gioitinh;
+        private System.Windows.Forms.DataGridViewTextBoxColumn sdt;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nbd;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nkt;
+        private System.Windows.Forms.DataGridViewTextBoxColumn mk;
+        private System.Windows.Forms.DataGridViewTextBoxColumn luong;
+        private Bunifu.Framework.UI.BunifuThinButton2 btn_tinhluong;
+        private System.Windows.Forms.ComboBox cb_tinhluong;
+        private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
+        private System.Windows.Forms.PictureBox picBox_LogoSpa;
     }
 }

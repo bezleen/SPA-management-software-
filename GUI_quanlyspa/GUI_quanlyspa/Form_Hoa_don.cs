@@ -62,21 +62,21 @@ namespace GUI_quanlyspa
 
         private void pnl_Nhanvien_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_Nhan_vien obj = new Form_Nhan_vien();
+            Form_Nhan_vien obj = new Form_Nhan_vien(manv_);
             obj.Show();
             this.Hide();
         }
 
         private void label2_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_Nhan_vien obj = new Form_Nhan_vien();
+            Form_Nhan_vien obj = new Form_Nhan_vien(manv_);
             obj.Show();
             this.Hide();
         }
 
         private void pictureBox3_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_Nhan_vien obj = new Form_Nhan_vien();
+            Form_Nhan_vien obj = new Form_Nhan_vien(manv_);
             obj.Show();
             this.Hide();
         }
@@ -125,42 +125,42 @@ namespace GUI_quanlyspa
 
         private void pnl_Khachhang_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_Khach_hang obj = new Form_Khach_hang();
+            Form_Khach_hang obj = new Form_Khach_hang(manv_);
             obj.Show();
             this.Hide();
         }
 
         private void label5_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_Khach_hang obj = new Form_Khach_hang();
+            Form_Khach_hang obj = new Form_Khach_hang(manv_);
             obj.Show();
             this.Hide();
         }
 
         private void pictureBox6_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_Khach_hang obj = new Form_Khach_hang();
+            Form_Khach_hang obj = new Form_Khach_hang(manv_);
             obj.Show();
             this.Hide();
         }
 
         private void pnl_Thietbi_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_Thiet_Bi obj = new Form_Thiet_Bi();
+            Form_Thiet_Bi obj = new Form_Thiet_Bi(manv_);
             obj.Show();
             this.Hide();
         }
 
         private void label6_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_Thiet_Bi obj = new Form_Thiet_Bi();
+            Form_Thiet_Bi obj = new Form_Thiet_Bi(manv_);
             obj.Show();
             this.Hide();
         }
 
         private void pictureBox7_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_Thiet_Bi obj = new Form_Thiet_Bi();
+            Form_Thiet_Bi obj = new Form_Thiet_Bi(manv_);
             obj.Show();
             this.Hide();
         }
@@ -882,7 +882,7 @@ namespace GUI_quanlyspa
                 //lay du lieu bang QLNV
                 DataTable dt_qlnv = new DataTable();
                 dt_qlnv = bus_qlnv._selectData("WHERE MANV= '" + comboBox_manv.Text + "' ");
-                txt_box_tennv.Text = dt_kh.Rows[0]["HOTEN"].ToString();
+                txt_box_tennv.Text = dt_qlnv.Rows[0]["HOTEN"].ToString();
                 // fill danh sach my pham
                 //CTHD
                 DataTable dt_cthd = new DataTable();
@@ -982,5 +982,7 @@ namespace GUI_quanlyspa
                 this.Hide();
             }
         }
+
+
     }
 }

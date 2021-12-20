@@ -15,7 +15,7 @@ namespace DAL_quanlyspa
         public void _KetnoiDB()  // mo ket noi toi database
         {
             if (_connectDataBase._connect == null)
-                _connectDataBase._connect = new SqlConnection("Data Source=LAPTOP-A60R360U;Initial Catalog=QuanlySpa;Integrated Security=SSPI;"); //đoi lai cho phu hop
+                _connectDataBase._connect = new SqlConnection(@"Data Source=LAPTOP-A60R360U;Initial Catalog=QuanlySpa;Integrated Security=True;"); //đoi lai cho phu hop
             if (_connectDataBase._connect.State != ConnectionState.Open)
                 _connectDataBase._connect.Open();
         }
@@ -154,7 +154,6 @@ namespace DAL_quanlyspa
             }
             return mmp;
         }
-
         public string matutang_hoadon(string str)
         {
             DataTable dt = new DataTable();
@@ -172,6 +171,91 @@ namespace DAL_quanlyspa
             }
             
             return mhd;
+        }
+        public string matutang_kh(string str)
+        {
+            DataTable dt = new DataTable();
+            dt = _select(str);
+            string mkh;
+            if (dt.Rows.Count == 0)
+                mkh = "KH1";
+            else
+            {
+                string makh = dt.Rows[dt.Rows.Count - 1][0].ToString();
+                makh = makh.Substring(2);
+                int so = int.Parse(makh) + 1;
+                mkh = "KH";
+                mkh = mkh + so.ToString();
+            }
+            return mkh;
+        }
+        public string matutang_nv(string str)
+        {
+            DataTable dt = new DataTable();
+            dt = _select(str);
+            string mnv;
+            if (dt.Rows.Count == 0)
+                mnv = "NV1";
+            else
+            {
+                string manv = dt.Rows[dt.Rows.Count - 1][0].ToString();
+                manv = manv.Substring(2);
+                int so = int.Parse(manv) + 1;
+                mnv = "NV";
+                mnv = mnv + so.ToString();
+            }
+            return mnv;
+        }
+        public string matutang_bs(string str)
+        {
+            DataTable dt = new DataTable();
+            dt = _select(str);
+            string mbs;
+            if (dt.Rows.Count == 0)
+                mbs = "BS1";
+            else
+            {
+                string mabs = dt.Rows[dt.Rows.Count - 1][0].ToString();
+                mabs = mabs.Substring(2);
+                int so = int.Parse(mabs) + 1;
+                mbs = "BS";
+                mbs = mbs + so.ToString();
+            }
+            return mbs;
+        }
+        public string matutang_lnv(string str)
+        {
+            DataTable dt = new DataTable();
+            dt = _select(str);
+            string mbs;
+            if (dt.Rows.Count == 0)
+                mbs = "LNV1";
+            else
+            {
+                string mabs = dt.Rows[dt.Rows.Count - 1][0].ToString();
+                mabs = mabs.Substring(3);
+                int so = int.Parse(mabs) + 1;
+                mbs = "LNV";
+                mbs = mbs + so.ToString();
+            }
+            return mbs;
+        }
+        public string matutang_lbs(string str)
+        {
+            DataTable dt = new DataTable();
+            dt = _select(str);
+            string mbs;
+            if (dt.Rows.Count == 0)
+                mbs = "LBS1";
+            else
+            {
+                string mabs = dt.Rows[dt.Rows.Count - 1][0].ToString();
+                mabs = mabs.Substring(3);
+                int so = int.Parse(mabs) + 1;
+                mbs = "LBS";
+                mbs = mbs + so.ToString();
+            }
+            return mbs;
         }
     }
 }

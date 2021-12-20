@@ -16,12 +16,12 @@ namespace DAL_quanlyspa
         // ham insert
         public void _insertData(DTO_QLNV val)
         {
-            con._insert_update_delete(@"INSERT INTO QLNV (MANV, HOTEN, GIOITINH, SDT, NBDHD, NKTHD,LUONG) VALUES (N'" + val.MANV + "',N'" + val.HOTEN + "',N'" + val.GIOITINH + "',N'" + val.SDT + "',N'" + val.NBDHD + "',N'" + val.NKTHD +  "', '"+val.PASS+"', '"+val.LUONG+"')");
+            con._insert_update_delete(@"INSERT INTO QLNV (MANV, HOTEN, GIOITINH, SDT, NBDHD, NKTHD,PASS,LUONG) VALUES (N'" + val.MANV + "',N'" + val.HOTEN + "',N'" + val.GIOITINH + "','" + val.SDT + "',N'" + val.NBDHD + "',N'" + val.NKTHD +  "', '"+val.PASS+"', '"+val.LUONG+"')");
         }
         // ham update
         public void _updateData(DTO_QLNV val)
         {
-            con._insert_update_delete(@"UPDATE  QLNV SET  HOTEN =N'" + val.HOTEN + "', GIOITINH =N'" + val.GIOITINH + "', SDT = N '" + val.SDT + "', NBDHD = N '" + val.NBDHD + "', NKTHD = N '" + val.NKTHD + "', PASS = '" + val.PASS + "', LUONG= '" + val.LUONG + "' WHERE MANV = N'" + val.MANV+"'");
+            con._insert_update_delete(@"UPDATE  QLNV SET  HOTEN =N'" + val.HOTEN + "', GIOITINH ='" + val.GIOITINH + "', SDT = '" + val.SDT + "', NBDHD =  '" + val.NBDHD + "', NKTHD =  '" + val.NKTHD + "', PASS = '" + val.PASS + "', LUONG= '" + val.LUONG + "' WHERE MANV = N'" + val.MANV+"'");
         }
         // ham delete
         public void _deleteData(DTO_QLNV val)
@@ -32,6 +32,10 @@ namespace DAL_quanlyspa
         public DataTable _selectData(string str)
         {
             return con._select("SELECT * FROM QLNV " + str);
+        }
+        public string matutang_nv(string str)
+        {
+            return con.matutang_nv("SELECT * FROM QLNV " + str);
         }
     }
 }

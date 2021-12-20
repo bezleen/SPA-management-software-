@@ -30,6 +30,7 @@ namespace GUI_quanlyspa
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Login));
             this.label4 = new System.Windows.Forms.Label();
             this.remember_cb = new Bunifu.Framework.UI.BunifuCheckbox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -55,7 +56,7 @@ namespace GUI_quanlyspa
             this.label4.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(493, 213);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(83, 32);
+            this.label4.Size = new System.Drawing.Size(84, 32);
             this.label4.TabIndex = 3;
             this.label4.Text = "Login";
             // 
@@ -179,7 +180,7 @@ namespace GUI_quanlyspa
             this.label2.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(71, 98);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(127, 32);
+            this.label2.Size = new System.Drawing.Size(128, 32);
             this.label2.TabIndex = 2;
             this.label2.Text = "Software";
             // 
@@ -190,7 +191,7 @@ namespace GUI_quanlyspa
             this.label1.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(10, 66);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(249, 32);
+            this.label1.Size = new System.Drawing.Size(250, 32);
             this.label1.TabIndex = 1;
             this.label1.Text = "Spa Management";
             // 
@@ -230,6 +231,7 @@ namespace GUI_quanlyspa
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form_Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";

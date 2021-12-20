@@ -185,21 +185,21 @@ namespace GUI_quanlyspa
         }
         private void pnl_Nhanvien_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_Nhan_vien obj = new Form_Nhan_vien();
+            Form_Nhan_vien obj = new Form_Nhan_vien(manv_);
             obj.Show();
             this.Hide();
         }
 
         private void label2_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_Nhan_vien obj = new Form_Nhan_vien();
+            Form_Nhan_vien obj = new Form_Nhan_vien(manv_);
             obj.Show();
             this.Hide();
         }
 
         private void pictureBox3_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_Nhan_vien obj = new Form_Nhan_vien();
+            Form_Nhan_vien obj = new Form_Nhan_vien(manv_);
             obj.Show();
             this.Hide();
         }
@@ -227,42 +227,42 @@ namespace GUI_quanlyspa
 
         private void pnl_Khachhang_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_Khach_hang obj = new Form_Khach_hang();
+            Form_Khach_hang obj = new Form_Khach_hang(manv_);
             obj.Show();
             this.Hide();
         }
 
         private void label5_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_Khach_hang obj = new Form_Khach_hang();
+            Form_Khach_hang obj = new Form_Khach_hang(manv_);
             obj.Show();
             this.Hide();
         }
 
         private void pictureBox6_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_Khach_hang obj = new Form_Khach_hang();
+            Form_Khach_hang obj = new Form_Khach_hang(manv_);
             obj.Show();
             this.Hide();
         }
 
         private void pnl_Thietbi_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_Thiet_Bi obj = new Form_Thiet_Bi();
+            Form_Thiet_Bi obj = new Form_Thiet_Bi(manv_);
             obj.Show();
             this.Hide();
         }
 
         private void label6_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_Thiet_Bi obj = new Form_Thiet_Bi();
+            Form_Thiet_Bi obj = new Form_Thiet_Bi(manv_);
             obj.Show();
             this.Hide();
         }
 
         private void pictureBox7_MouseClick(object sender, MouseEventArgs e)
         {
-            Form_Thiet_Bi obj = new Form_Thiet_Bi();
+            Form_Thiet_Bi obj = new Form_Thiet_Bi(manv_);
             obj.Show();
             this.Hide();
         }
