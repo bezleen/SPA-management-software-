@@ -232,7 +232,7 @@ namespace DAL_quanlyspa
                 mbs = "LNV1";
             else
             {
-                string mabs = dt.Rows[dt.Rows.Count - 1][0].ToString();
+                string mabs = dt.Rows[dt.Rows.Count - 1][1].ToString();
                 mabs = mabs.Substring(3);
                 int so = int.Parse(mabs) + 1;
                 mbs = "LNV";
@@ -249,7 +249,7 @@ namespace DAL_quanlyspa
                 mbs = "LBS1";
             else
             {
-                string mabs = dt.Rows[dt.Rows.Count - 1][0].ToString();
+                string mabs = dt.Rows[dt.Rows.Count - 1][1].ToString();
                 mabs = mabs.Substring(3);
                 int so = int.Parse(mabs) + 1;
                 mbs = "LBS";
